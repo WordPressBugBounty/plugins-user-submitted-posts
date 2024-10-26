@@ -9,9 +9,9 @@ Author URI: https://plugin-planet.com/
 Donate link: https://monzillamedia.com/donate.html
 Contributors: specialk
 Requires at least: 4.6
-Tested up to: 6.6
-Stable tag: 20240703
-Version:    20240703
+Tested up to: 6.7
+Stable tag: 20241026
+Version:    20241026
 Requires PHP: 5.6.20
 Text Domain: usp
 Domain Path: /languages
@@ -822,13 +822,15 @@ Links, tweets and likes also appreciated. Thanks! :)
 If you like USP, please take a moment to [give a 5-star rating](https://wordpress.org/support/plugin/user-submitted-posts/reviews/?rate=5#new-post). It helps to keep development and support going strong. Thank you!
 
 
-**20240703**
+**20241026**
 
-* Fixes bug with `dismiss_notice_link`
+* Replaces deprecated function `get_page_by_title()`
+* Adds new filter hook `usp_check_duplicates`
+* Adds "Show Support" panel to settings page
 * Updates plugin settings page
 * Updates all translation files
 * Updates default translation template
-* Tests on WordPress 6.6 (beta)
+* Tests on WordPress 6.7 (beta)
 
 
 Full changelog @ [https://plugin-planet.com/wp/changelog/user-submitted-posts.txt](https://plugin-planet.com/wp/changelog/user-submitted-posts.txt)

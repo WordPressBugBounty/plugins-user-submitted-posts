@@ -27,6 +27,30 @@ function usp_render_form() {
 			<div class="metabox-holder">
 				<div class="meta-box-sortables ui-sortable">
 					
+					<div id="mm-panel-alert"<?php echo $display_alert; ?> class="postbox">
+						<h2><?php esc_html_e('We need your support!', 'usp'); ?></h2>
+						<div class="toggle">
+							<div class="mm-panel-alert">
+								<p class="alert-intro">
+									<?php esc_html_e('Please', 'usp'); ?> <a target="_blank" rel="noopener noreferrer" href="https://monzillamedia.com/donate.html" title="<?php esc_attr_e('Make a donation via PayPal', 'usp'); ?>"><?php esc_html_e('make a donation', 'usp'); ?></a> <?php esc_html_e('and/or', 'usp'); ?> 
+									<a target="_blank" rel="noopener noreferrer" href="https://wordpress.org/support/plugin/user-submitted-posts/reviews/?rate=5#new-post" title="<?php esc_attr_e('Rate and review at the Plugin Directory', 'usp'); ?>">
+										<?php esc_html_e('give this plugin a 5-star rating', 'usp'); ?>&nbsp;&raquo;
+									</a>
+								</p>
+								<p>
+									<?php esc_html_e('Your generous support enables continued development of this free plugin. Thank you!', 'usp'); ?>
+								</p>
+								<div class="dismiss-alert">
+									<div class="dismiss-alert-wrap">
+										<input id="version_alert" name="usp_options[version_alert]" type="checkbox" value="1" <?php if (isset($usp_options['version_alert'])) checked('1', $usp_options['version_alert']); ?> />
+										<label for="version_alert"><?php esc_html_e('Check this box if you have shown support', 'usp') ?></label>
+										<input type="hidden" name="usp_options[usp_version]" value="<?php echo $version_previous; ?>" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
 					<div id="mm-panel-overview" class="postbox">
 						<h2><?php esc_html_e('Overview', 'usp'); ?></h2>
 						<div class="toggle<?php if (isset($_GET['settings-updated'])) echo ' default-hidden'; ?>">

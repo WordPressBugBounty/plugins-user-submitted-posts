@@ -4,79 +4,79 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: USP 20240703\n"
+"Project-Id-Version: USP 20241026\n"
 "Language: tr\n"
 
 #: library/plugin-settings.php:590
 msgid " approved posts"
-msgstr " onaylanmış gönderiler"
+msgstr "onaylanmış gönderiler"
 
-#: user-submitted-posts.php:1687
+#: user-submitted-posts.php:1701
 msgid " file"
 msgstr " dosya"
 
-#: user-submitted-posts.php:1684
+#: user-submitted-posts.php:1698
 msgid " file required"
-msgstr " dosya gerekli"
+msgstr "dosya gerekli"
 
-#: user-submitted-posts.php:1686
+#: user-submitted-posts.php:1700
 msgid " files"
-msgstr " Dosyalar"
+msgstr "dosyalar"
 
-#: user-submitted-posts.php:1683
+#: user-submitted-posts.php:1697
 msgid " files required"
-msgstr " gerekli dosyalar"
+msgstr "gerekli dosyalar"
 
 #: user-submitted-posts.php:123
 msgid " or higher, and has been deactivated! "
-msgstr " veya daha yüksek ve devre dışı bırakıldı! "
+msgstr "veya daha yüksek ve devre dışı bırakıldı! "
 
-#: user-submitted-posts.php:1689 user-submitted-posts.php:1690
-#: user-submitted-posts.php:1691 user-submitted-posts.php:1692
+#: user-submitted-posts.php:1703 user-submitted-posts.php:1704
+#: user-submitted-posts.php:1705 user-submitted-posts.php:1706
 msgid " pixels"
-msgstr " piksel"
+msgstr "pikseller"
 
-#: user-submitted-posts.php:1729 user-submitted-posts.php:1730
+#: user-submitted-posts.php:1743 user-submitted-posts.php:1744
 msgid " required"
 msgstr " gerekli"
 
-#: library/plugin-display.php:516
+#: library/plugin-display.php:540
 msgid "&ldquo;Add another image&rdquo; link"
-msgstr "&ldquo;Başka bir resim ekle&rdquo; bağlantı"
+msgstr "\"Başka bir resim ekle\" bağlantısı"
 
-#: library/plugin-display.php:37
+#: library/plugin-display.php:61
 msgid "&mdash; the ultimate solution for user-generated content."
-msgstr "&mdash; Kullanıcı tarafından oluşturulan içerik için nihai çözüm."
+msgstr "&mdash; kullanıcı tarafından oluşturulan içerik için nihai çözüm."
 
 #: library/plugin-settings.php:203
 msgid "(Provide your own form template &amp; styles)"
-msgstr "(Kendi form şablonunuzu ve stillerinizi sağlayın)"
+msgstr "(Kendi form şablonunuzu ve stillerini sağlayın)"
 
 #: library/plugin-settings.php:199
 msgid "(Provide your own styles)"
-msgstr "(Kendi stillerinizi sağlayın)"
+msgstr "(Kendi stillerinizi sunun)"
 
 #: library/plugin-settings.php:195
 msgid "(Recommended)"
 msgstr "(Tavsiye edilen)"
 
-#: library/plugin-display.php:107
+#: library/plugin-display.php:131
 msgid "..and upload them into a directory named"
-msgstr "..ve bunları adlı bir dizine yükleyin"
+msgstr "..ve bunları şu adlı dizine yükleyin:"
 
-#: library/plugin-display.php:750
+#: library/plugin-display.php:774
 msgid "Access Control"
-msgstr "Giriş kontrolu"
+msgstr "Erişim Kontrolü"
 
-#: library/plugin-display.php:449
+#: library/plugin-display.php:473
 msgid "Add a challenge question to help stop spam. Tip: make the question easy to answer for any human."
-msgstr "Spam'in durdurulmasına yardımcı olmak için bir meydan okuma sorusu ekleyin. İpucu: Soruyu herkesin cevaplamasını kolaylaştırın."
+msgstr "Spam'i durdurmaya yardımcı olmak için bir meydan okuma sorusu ekleyin. İpucu: Soruyu herhangi bir insanın cevaplayabileceği şekilde yapın."
 
 #: views/submission-form.php:147 views/submission-form-alt.php:162
 msgid "Add another image"
 msgstr "Başka bir resim ekle"
 
-#: library/plugin-display.php:267
+#: library/plugin-display.php:291
 msgid "Additional recipients for email alerts. Use commas to separate multiple addresses."
 msgstr "E-posta uyarıları için ek alıcılar. Birden fazla adresi ayırmak için virgül kullanın."
 
@@ -88,20 +88,24 @@ msgstr "Yönetici"
 #: library/plugin-settings.php:271 library/plugin-settings.php:295
 #: library/plugin-settings.php:319
 msgid "After post content"
-msgstr "İçerik gönderildikten sonra"
+msgstr "Gönderi içeriği sonrası"
 
-#: user-submitted-posts.php:1700
+#: user-submitted-posts.php:1714
 msgid "An error occurred. Please go back and try again."
-msgstr "Bir hata oluştu. Lütfen geri dönüp tekrar deneyin."
+msgstr "Bir hata oluştu. Lütfen geri dönün ve tekrar deneyin."
 
-#: library/plugin-display.php:339 library/plugin-display.php:727
-#: library/plugin-display.php:732
+#: library/plugin-settings.php:1219 library/plugin-display.php:363
+#: library/plugin-display.php:751 library/plugin-display.php:756
 msgid "and"
 msgstr "Ve"
 
 #: library/support-panel.php:61
 msgid "and is greatly appreciated."
-msgstr "ve büyük beğeni topluyor."
+msgstr "ve büyük takdir topluyor."
+
+#: library/plugin-display.php:35
+msgid "and/or"
+msgstr "ve/veya"
 
 #: views/submission-form.php:85 views/submission-form-alt.php:100
 msgid "Antispam Question"
@@ -109,201 +113,209 @@ msgstr "Antispam Sorusu"
 
 #: library/support-panel.php:63
 msgid "Any size donation helps me to continue developing this free plugin and other awesome WordPress resources."
-msgstr "Her boyutta bağış, bu ücretsiz eklentiyi ve diğer harika WordPress kaynaklarını geliştirmeye devam etmeme yardımcı oluyor."
+msgstr "Herhangi bir miktardaki bağış, bu ücretsiz eklentiyi ve diğer harika WordPress kaynaklarını geliştirmeye devam etmeme yardımcı olur."
 
-#: library/plugin-display.php:207
+#: library/plugin-settings.php:1221
+msgid "Apply code"
+msgstr "Kodu uygula"
+
+#: library/plugin-display.php:231
 msgid "Assigned Author"
 msgstr "Atanan Yazar"
 
-#: library/plugin-display.php:728 library/plugin-display.php:732
-msgid "attributes"
-msgstr "Öznitellikler"
+#: library/plugin-settings.php:1221
+msgid "at checkout. Sale ends 12/21/24."
+msgstr "ödeme sırasında. Satış 21/12/24'te sona eriyor."
 
-#: library/plugin-display.php:564
+#: library/plugin-display.php:752 library/plugin-display.php:756
+msgid "attributes"
+msgstr "nitelikler"
+
+#: library/plugin-display.php:588
 msgid "Automatically display images and more."
-msgstr "Görüntüleri ve daha fazlasını otomatik olarak görüntüleyin."
+msgstr "Resimleri ve daha fazlasını otomatik olarak görüntüleyin."
 
 #: library/plugin-settings.php:219 library/plugin-settings.php:243
 #: library/plugin-settings.php:267 library/plugin-settings.php:291
 #: library/plugin-settings.php:315
 msgid "Before post content"
-msgstr "İçerik yayınlamadan önce"
+msgstr "Gönderi öncesi içerik"
 
-#: library/support-panel.php:53
+#: library/support-panel.php:53 library/plugin-settings.php:1220
 msgid "books"
-msgstr "kitabın"
+msgstr "kitaplar"
 
-#: library/plugin-settings.php:1217
-msgid "Buy one get one FREE with code"
-msgstr "Bir alana bir tane ÜCRETSİZ kodla alın"
-
-#: library/plugin-display.php:809
+#: library/plugin-display.php:833
 msgid "by"
 msgstr "ile"
 
-#: library/plugin-display.php:128
+#: library/plugin-display.php:152
 msgid "By default, CSS &amp; JavaScript files are loaded on every page. To load only on specific page(s), enter the URL(s) here. Use commas to separate multiple URLs. Leave blank to load on all pages."
-msgstr "Varsayılan olarak CSS &amp; JavaScript dosyaları her sayfaya yüklenir. Yalnızca belirli sayfalara yüklemek için URL'leri buraya girin. Birden çok URL'yi ayırmak için virgül kullanın. Tüm sayfalara yüklemek için boş bırakın."
+msgstr "Varsayılan olarak, CSS ve JavaScript dosyaları her sayfaya yüklenir. Yalnızca belirli sayfalara yüklemek için URL'leri buraya girin. Birden fazla URL'yi ayırmak için virgül kullanın. Tüm sayfalara yüklemek için boş bırakın."
 
-#: library/plugin-display.php:406
+#: library/plugin-display.php:430
 msgid "By default, this displays an &ldquo;Agree to Terms&rdquo; checkbox. Customize as desired."
-msgstr "Varsayılan olarak bu, &ldquo;Şartları Kabul Ediyorum&rdquo; onay kutusu. İstediğiniz gibi özelleştirin."
+msgstr "Varsayılan olarak, bu bir &ldquo;Şartları Kabul Et&rdquo; onay kutusu görüntüler. İstediğiniz gibi özelleştirin."
 
-#: library/plugin-display.php:734
+#: library/plugin-display.php:758
 msgid "Can use"
-msgstr "Kullanabilirsiniz"
+msgstr "Kullanılabilir"
 
-#: library/plugin-display.php:462
+#: library/plugin-display.php:486
 msgid "Case-sensitivity"
-msgstr "Büyük küçük harf duyarlılığı"
+msgstr "Büyük/küçük harf duyarlılığı"
 
-#: library/plugin-display.php:308
+#: library/plugin-display.php:332
 msgid "Categories"
 msgstr "Kategoriler"
 
-#: library/plugin-display.php:303
+#: library/plugin-display.php:327
 msgid "Categories &amp; Tags"
 msgstr "Kategoriler ve Etiketler"
 
-#: library/plugin-display.php:339
+#: library/plugin-display.php:363
 msgid "category"
 msgstr "kategori"
 
-#: library/plugin-display.php:325
+#: library/plugin-display.php:349
 msgid "Category ID for Hidden Field"
 msgstr "Gizli Alan için Kategori Kimliği"
 
-#: library/plugin-settings.php:431 library/plugin-display.php:447
-#: library/plugin-display.php:452
+#: library/plugin-settings.php:431 library/plugin-display.php:471
+#: library/plugin-display.php:476
 msgid "Challenge Question"
-msgstr "Yarışma sorusu"
+msgstr "Zorlu Soru"
 
-#: library/plugin-display.php:457
+#: library/plugin-display.php:481
 msgid "Challenge Response"
-msgstr "Mücadele Yanıtı"
+msgstr "Meydan Okuma Yanıtı"
 
-#: library/plugin-display.php:295 library/plugin-display.php:368
-#: library/plugin-display.php:396 library/plugin-display.php:439
+#: library/plugin-display.php:319 library/plugin-display.php:392
+#: library/plugin-display.php:420 library/plugin-display.php:463
 msgid "check out"
 msgstr "Çıkış yapmak"
 
-#: library/plugin-display.php:735
+#: library/plugin-display.php:759
 msgid "Check out the source code inline notes for more info"
-msgstr "Daha fazla bilgi için kaynak kodu satır içi notlarına göz atın"
+msgstr "Daha fazla bilgi için kaynak kodu satır içi notlarına bakın"
+
+#: library/plugin-display.php:46
+msgid "Check this box if you have shown support"
+msgstr "Destek gösterdiyseniz bu kutuyu işaretleyin"
 
 #: library/shortcode-login.php:98
 msgid "Check your email for the password."
-msgstr "Şifre için e-postanızı kontrol edin."
+msgstr "Şifre için lütfen e-postanızı kontrol edin."
 
 #: library/shortcode-login.php:103
 msgid "Check your email to reset your password."
 msgstr "Şifrenizi sıfırlamak için e-postanızı kontrol edin."
 
-#: library/plugin-display.php:424
+#: library/plugin-display.php:448
 msgid "Checkbox Error"
 msgstr "Onay Kutusu Hatası"
 
-#: library/plugin-display.php:419
+#: library/plugin-display.php:443
 msgid "Checkbox Name"
 msgstr "Onay Kutusu Adı"
 
-#: library/plugin-display.php:429
+#: library/plugin-display.php:453
 msgid "Checkbox Text"
 msgstr "Onay Kutusu Metni"
 
-#: library/plugin-display.php:61
+#: library/plugin-display.php:85
 msgid "Choose fields to display on the front-end form."
 msgstr "Ön uç formunda görüntülenecek alanları seçin."
 
-#: library/plugin-display.php:487
+#: library/plugin-display.php:511
 msgid "Choose reCaptcha version"
 msgstr "reCaptcha sürümünü seçin"
 
-#: library/plugin-display.php:350
+#: library/plugin-display.php:374
 msgid "Configure Custom Field #1."
 msgstr "Özel Alan #1'i yapılandırın."
 
-#: library/plugin-display.php:378
+#: library/plugin-display.php:402
 msgid "Configure Custom Field #2."
 msgstr "Özel Alan #2'yi yapılandırın."
 
-#: library/plugin-display.php:252
+#: library/plugin-display.php:276
 msgid "Configure email notifications for new submitted posts."
-msgstr "Yeni gönderilen gönderiler için e-posta bildirimlerini yapılandırın."
+msgstr "Yeni gönderilen yazılar için e-posta bildirimlerini yapılandırın."
 
-#: library/plugin-display.php:94
+#: library/plugin-display.php:118
 msgid "Configure general settings. Note: the default settings work fine for most cases."
 msgstr "Genel ayarları yapılandırın. Not: Varsayılan ayarlar çoğu durumda iyi çalışır."
 
-#: library/plugin-display.php:495
+#: library/plugin-display.php:519
 msgid "Configure settings for image uploads."
-msgstr "Resim yüklemelerine ilişkin ayarları yapılandırın."
+msgstr "Resim yükleme ayarlarını yapılandırın."
 
-#: library/plugin-display.php:305
+#: library/plugin-display.php:329
 msgid "Configure settings for the Category and Tag fields."
-msgstr "Kategori ve Etiket alanlarına ilişkin ayarları yapılandırın."
+msgstr "Kategori ve Etiket alanları için ayarları yapılandırın."
 
-#: library/plugin-display.php:204
+#: library/plugin-display.php:228
 msgid "Configure user settings."
 msgstr "Kullanıcı ayarlarını yapılandırın."
 
 #: library/shortcode-login.php:180
 msgid "Congratulations, you&rsquo;re logged in."
-msgstr "Tebrikler, oturum açtınız."
+msgstr "Tebrikler, giriş yaptınız."
 
-#: user-submitted-posts.php:1717 user-submitted-posts.php:1718
+#: user-submitted-posts.php:1731 user-submitted-posts.php:1732
 msgid "Correct captcha required"
 msgstr "Doğru captcha gerekli"
 
-#: library/plugin-display.php:272
+#: library/plugin-display.php:296
 msgid "Custom address for the email &ldquo;From&rdquo; header (see plugin FAQs for info)."
-msgstr "E-postanın özel adresi &ldquo;Kimden&rdquo; başlık (bilgi için eklenti SSS'lerine bakın)."
+msgstr "E-postanın \"Kimden\" başlığı için özel adres (bilgi için eklenti SSS bölümüne bakın)."
 
-#: library/plugin-display.php:404
+#: library/plugin-display.php:428
 msgid "Custom Checkbox"
 msgstr "Özel Onay Kutusu"
 
-#: user-submitted-posts.php:1697
+#: user-submitted-posts.php:1711
 msgid "Custom checkbox required"
 msgstr "Özel onay kutusu gerekli"
 
-#: library/plugin-display.php:160
+#: library/plugin-display.php:184
 msgid "Custom Content"
-msgstr "Özel içerik"
+msgstr "Özel İçerik"
 
-#: user-submitted-posts.php:1694 library/core-functions.php:306
+#: user-submitted-posts.php:1708 library/core-functions.php:306
 #: library/plugin-settings.php:392 library/plugin-settings.php:930
-#: library/plugin-display.php:348
+#: library/plugin-display.php:372
 msgid "Custom Field 1"
 msgstr "Özel Alan 1"
 
-#: library/plugin-display.php:620
+#: library/plugin-display.php:644
 msgid "Custom Field 1 Display"
-msgstr "Özel Alan 1 Ekranı"
+msgstr "Özel Alan 1 Görüntüleme"
 
-#: library/plugin-display.php:627
+#: library/plugin-display.php:651
 msgid "Custom Field 1 Markup"
 msgstr "Özel Alan 1 İşaretlemesi"
 
-#: user-submitted-posts.php:1695 library/core-functions.php:255
+#: user-submitted-posts.php:1709 library/core-functions.php:255
 #: library/plugin-settings.php:397 library/plugin-settings.php:933
-#: library/plugin-display.php:376
+#: library/plugin-display.php:400
 msgid "Custom Field 2"
 msgstr "Özel Alan 2"
 
-#: library/plugin-display.php:633
+#: library/plugin-display.php:657
 msgid "Custom Field 2 Display"
-msgstr "Özel Alan 2 Ekranı"
+msgstr "Özel Alan 2 Görüntüleme"
 
-#: library/plugin-display.php:640
+#: library/plugin-display.php:664
 msgid "Custom Field 2 Markup"
 msgstr "Özel Alan 2 İşaretlemesi"
 
-#: library/plugin-display.php:358 library/plugin-display.php:386
+#: library/plugin-display.php:382 library/plugin-display.php:410
 msgid "Custom Field Label"
 msgstr "Özel Alan Etiketi"
 
-#: library/plugin-display.php:353 library/plugin-display.php:381
+#: library/plugin-display.php:377 library/plugin-display.php:405
 msgid "Custom Field Name"
 msgstr "Özel Alan Adı"
 
@@ -311,11 +323,11 @@ msgstr "Özel Alan Adı"
 msgid "Custom Form + Custom CSS"
 msgstr "Özel Form + Özel CSS"
 
-#: library/plugin-display.php:518
+#: library/plugin-display.php:542
 msgid "Custom markup for the &ldquo;Add another image&rdquo; link. Leave blank to use the default markup (recommended)."
-msgstr "&ldquo;Başka bir resim ekle&rdquo; için özel işaretleme bağlantı. Varsayılan işaretlemeyi kullanmak için boş bırakın (önerilir)."
+msgstr "&ldquo;Başka bir resim ekle&rdquo; bağlantısı için özel işaretleme. Varsayılan işaretlemeyi kullanmak için boş bırakın (önerilir)."
 
-#: library/plugin-display.php:503
+#: library/plugin-display.php:527
 msgid "Default Featured Image"
 msgstr "Varsayılan Öne Çıkan Resim"
 
@@ -323,120 +335,120 @@ msgstr "Varsayılan Öne Çıkan Resim"
 msgid "Disable"
 msgstr "Devre dışı bırakmak"
 
-#: library/plugin-display.php:177
+#: library/plugin-display.php:201
 msgid "Disable all required attributes on form fields (useful for troubleshooting error messages)"
-msgstr "Form alanlarındaki tüm gerekli öznitelikleri devre dışı bırakın (hata mesajlarını gidermek için kullanışlıdır)"
+msgstr "Form alanlarındaki tüm gerekli öznitelikleri devre dışı bırakın (hata mesajlarını gidermek için yararlıdır)"
 
-#: library/plugin-display.php:180
+#: library/plugin-display.php:204
 msgid "Disable IP Tracking"
-msgstr "IP Takibini Devre Dışı Bırak"
+msgstr "IP İzlemeyi Devre Dışı Bırak"
 
-#: library/plugin-display.php:234
+#: library/plugin-display.php:258
 msgid "Disable Replace Author"
-msgstr "Yazarı Değiştirmeyi Devre Dışı Bırak"
+msgstr "Yazarı Değiştir'i devre dışı bırak"
 
-#: library/plugin-display.php:175
+#: library/plugin-display.php:199
 msgid "Disable Required"
-msgstr "Devre Dışı Bırakma Gerekli"
+msgstr "Devre dışı bırakma gerekli"
 
 #: library/plugin-settings.php:373 library/plugin-settings.php:414
 #: library/plugin-settings.php:444 library/plugin-settings.php:474
 msgid "Disable this field"
 msgstr "Bu alanı devre dışı bırak"
 
-#: library/plugin-settings.php:1291
+#: library/plugin-settings.php:1293
 msgid "Dismiss"
 msgstr "Azletmek"
 
-#: library/plugin-display.php:332
+#: library/plugin-display.php:356
 msgid "Display a select/dropdown menu of existing tags (valid when Tag field is displayed on the form)"
-msgstr "Mevcut etiketlerin seçme/açılır menüsünü görüntüleyin (formda Etiket alanı görüntülendiğinde geçerlidir)"
+msgstr "Mevcut etiketlerin seç/açılır menüsünü görüntüle (Etiket alanı formda görüntülendiğinde geçerlidir)"
 
-#: library/plugin-display.php:409
+#: library/plugin-display.php:433
 msgid "Display Checkbox"
 msgstr "Onay Kutusunu Görüntüle"
 
-#: library/plugin-display.php:753
+#: library/plugin-display.php:777
 msgid "Display content only to users with a specific capability:"
-msgstr "İçeriği yalnızca belirli bir yeteneğe sahip kullanıcılara görüntüleyin:"
+msgstr "İçeriği yalnızca belirli bir yeteneğe sahip kullanıcılara göster:"
 
-#: library/plugin-display.php:755
+#: library/plugin-display.php:779
 msgid "Display content to logged-in users:"
-msgstr "İçeriği oturum açmış kullanıcılara görüntüleyin:"
+msgstr "İçeriği oturum açmış kullanıcılara göster:"
 
-#: library/plugin-display.php:757
+#: library/plugin-display.php:781
 msgid "Display content to visitors only:"
 msgstr "İçeriği yalnızca ziyaretçilere göster:"
 
-#: library/plugin-display.php:411
+#: library/plugin-display.php:435
 msgid "Display custom checkbox on the submission form"
 msgstr "Gönderim formunda özel onay kutusunu görüntüle"
 
-#: library/plugin-display.php:622
+#: library/plugin-display.php:646
 msgid "Display Custom Field 1:"
 msgstr "Özel Alan 1'i Görüntüle:"
 
-#: library/plugin-display.php:635
+#: library/plugin-display.php:659
 msgid "Display Custom Field 2:"
 msgstr "Özel Alan 2'yi Görüntüle:"
 
-#: library/plugin-display.php:711
+#: library/plugin-display.php:735
 msgid "Display image gallery"
 msgstr "Resim galerisini görüntüle"
 
-#: library/plugin-display.php:596
+#: library/plugin-display.php:620
 msgid "Display submitted author/name:"
-msgstr "Gönderilen yazarın/adın görüntülenmesi:"
+msgstr "Gönderilen yazar/adı görüntüle:"
 
-#: library/plugin-display.php:583
+#: library/plugin-display.php:607
 msgid "Display submitted email address:"
 msgstr "Gönderilen e-posta adresini görüntüle:"
 
-#: library/plugin-display.php:569
+#: library/plugin-display.php:593
 msgid "Display submitted images:"
-msgstr "Gönderilen görselleri göster:"
+msgstr "Gönderilen görselleri görüntüle:"
 
-#: library/plugin-display.php:609
+#: library/plugin-display.php:633
 msgid "Display submitted URL:"
 msgstr "Gönderilen URL'yi görüntüle:"
 
-#: library/plugin-display.php:665
+#: library/plugin-display.php:689
 msgid "Display the Form"
 msgstr "Formu Görüntüle"
 
-#: library/plugin-display.php:682
+#: library/plugin-display.php:706
 msgid "Display the login/register form"
-msgstr "Oturum açma/kayıt formunu görüntüle"
+msgstr "Giriş/kayıt formunu görüntüle"
 
-#: library/plugin-display.php:669
+#: library/plugin-display.php:693
 msgid "Display the submit-post form"
-msgstr "Gönder-gönder formunu görüntüle"
+msgstr "Gönderi gönderme formunu görüntüle"
 
-#: library/plugin-display.php:692
+#: library/plugin-display.php:716
 msgid "Display user-submitted posts"
 msgstr "Kullanıcı tarafından gönderilen gönderileri görüntüle"
 
-#: library/plugin-display.php:182
+#: library/plugin-display.php:206
 msgid "Do not collect or store any user IP address (useful for complying with privacy regulations)"
-msgstr "Hiçbir kullanıcının IP adresini toplamayın veya saklamayın (gizlilik düzenlemelerine uymak açısından faydalıdır)"
+msgstr "Hiçbir kullanıcının IP adresini toplamayın veya saklamayın (gizlilik düzenlemelerine uymak için yararlıdır)"
 
 #: library/plugin-settings.php:227 library/plugin-settings.php:251
 #: library/plugin-settings.php:275 library/plugin-settings.php:299
 #: library/plugin-settings.php:323
 msgid "Do not display"
-msgstr "Gösterme"
+msgstr "Görüntüleme"
 
-#: library/plugin-display.php:236
+#: library/plugin-display.php:260
 msgid "Do not replace post author with submitted user name"
-msgstr "Gönderinin yazarını gönderilen kullanıcı adıyla değiştirmeyin"
+msgstr "Gönderi yazarını gönderilen kullanıcı adıyla değiştirmeyin"
 
-#: library/plugin-display.php:41
+#: library/plugin-display.php:65
 msgid "Documentation"
-msgstr "Dokümantasyon"
+msgstr "Belgeleme"
 
 #: library/support-panel.php:51
 msgid "Donate via PayPal, credit card, or cryptocurrency"
-msgstr "PayPal, kredi kartı veya kripto para birimi aracılığıyla bağış yapın"
+msgstr "PayPal, kredi kartı veya kripto para birimi ile bağış yapın"
 
 #: library/support-panel.php:55
 msgid "donation"
@@ -446,45 +458,45 @@ msgstr "bağış"
 msgid "Draft"
 msgstr "Taslak"
 
-#: user-submitted-posts.php:1742
+#: user-submitted-posts.php:1756
 msgid "Duplicate post title. Please try again."
-msgstr "Yinelenen yazı başlığı. Lütfen tekrar deneyin."
+msgstr "Yinelenen gönderi başlığı. Lütfen tekrar deneyin."
 
 #: library/plugin-settings.php:918
 msgid "Email"
 msgstr "E-posta"
 
-#: library/plugin-display.php:270
+#: library/plugin-display.php:294
 msgid "Email &ldquo;From&rdquo; Address"
-msgstr "E-posta &ldquo;Kimden&rdquo; Adres"
+msgstr "E-posta &ldquo;Kimden&rdquo; Adresi"
 
-#: library/plugin-display.php:265
+#: library/plugin-display.php:289
 msgid "Email Address for Alerts"
 msgstr "Uyarılar için E-posta Adresi"
 
-#: library/plugin-display.php:283
+#: library/plugin-display.php:307
 msgid "Email Alert Message"
 msgstr "E-posta Uyarı Mesajı"
 
-#: library/plugin-display.php:276
+#: library/plugin-display.php:300
 msgid "Email Alert Subject"
 msgstr "E-posta Uyarı Konusu"
 
-#: library/plugin-display.php:250
+#: library/plugin-display.php:274
 msgid "Email Alerts"
 msgstr "E-posta Uyarıları"
 
-#: library/plugin-display.php:581
+#: library/plugin-display.php:605
 msgid "Email Display"
-msgstr "E-posta Gösterimi"
+msgstr "E-posta Görüntüleme"
 
-#: library/plugin-display.php:588
+#: library/plugin-display.php:612
 msgid "Email Markup"
 msgstr "E-posta İşaretlemesi"
 
-#: library/plugin-display.php:294
+#: library/plugin-display.php:318
 msgid "email-alert options"
-msgstr "e-posta uyarısı seçenekleri"
+msgstr "e-posta uyarı seçenekleri"
 
 #: library/plugin-settings.php:503
 msgid "Enable"
@@ -497,180 +509,184 @@ msgstr "Etkinleştir ve gerektir"
 
 #: library/plugin-settings.php:372 library/plugin-settings.php:413
 msgid "Enable but do not require"
-msgstr "Etkinleştir ama gerektirme"
+msgstr "Etkinleştir ancak gerektirme"
 
-#: library/plugin-display.php:260
+#: library/plugin-display.php:284
 msgid "Enable HTML Format"
-msgstr "HTML Formatını Etkinleştir"
+msgstr "HTML Biçimini Etkinleştir"
 
-#: library/plugin-display.php:262
+#: library/plugin-display.php:286
 msgid "Enable HTML format for email alert messages"
 msgstr "E-posta uyarı mesajları için HTML biçimini etkinleştirin"
 
-#: library/plugin-display.php:167
+#: library/plugin-display.php:191
 msgid "Enable RTE/Visual Editor for the Post Content field"
-msgstr "İçerik Gönderimi alanı için RTE/Görsel Düzenleyiciyi etkinleştirin"
+msgstr "Gönderi İçeriği alanı için RTE/Görsel Düzenleyiciyi Etkinleştir"
 
-#: library/plugin-display.php:185
+#: library/plugin-display.php:209
 msgid "Enable Shortcodes"
 msgstr "Kısa Kodları Etkinleştir"
 
-#: library/plugin-display.php:187
+#: library/plugin-display.php:211
 msgid "Enable shortcodes in widgets. By default, WordPress does not enable shortcodes in widgets. "
-msgstr "Widget'larda kısa kodları etkinleştirin. Varsayılan olarak WordPress, widget'larda kısa kodları etkinleştirmez. "
+msgstr "Widget'larda kısa kodları etkinleştir. Varsayılan olarak, WordPress widget'larda kısa kodları etkinleştirmez. "
 
-#: library/plugin-display.php:317
+#: library/plugin-display.php:341
 msgid "Enable users to select multiple categories"
-msgstr "Kullanıcıların birden fazla kategori seçmesine olanak tanıyın"
+msgstr "Kullanıcıların birden fazla kategoriyi seçmesini sağlayın"
 
-#: library/plugin-display.php:554
+#: library/plugin-display.php:578
 msgid "Enable users to upload other file types (like PDF, Word, Zip, videos, and more), check out"
-msgstr "Kullanıcıların diğer dosya türlerini (PDF, Word, Zip, videolar ve daha fazlası gibi) yüklemesine olanak tanıyın, göz atın"
+msgstr "Kullanıcıların diğer dosya türlerini (PDF, Word, Zip, videolar ve daha fazlası gibi) yüklemesine olanak sağlayın, kontrol edin"
 
 #. Description of the plugin
 #: 
 msgid "Enables your visitors to submit posts and images from anywhere on your site."
 msgstr "Ziyaretçilerinizin sitenizin herhangi bir yerinden yazı ve resim göndermesine olanak tanır."
 
-#: library/plugin-display.php:35
+#: library/plugin-display.php:59
 msgid "enables your visitors to submit posts and upload images from the front-end of your site. "
-msgstr "ziyaretçilerinizin sitenizin ön ucundan yazı göndermesine ve resim yüklemesine olanak tanır. "
+msgstr "Ziyaretçilerinizin sitenizin ön yüzünden yazı göndermesine ve resim yüklemesine olanak tanır. "
 
-#: library/plugin-display.php:459
+#: library/plugin-display.php:483
 msgid "Enter the *only* correct answer to the challenge question"
-msgstr "Yarışma sorusunun *tek* doğru cevabını girin"
+msgstr "Zorlu soruya *tek* doğru cevabı girin"
 
-#: library/plugin-display.php:507
+#: library/plugin-display.php:531
 msgid "Enter URL or click button to upload/choose an image (optional)"
-msgstr "Bir görseli yüklemek/seçmek için URL'yi girin veya düğmeye tıklayın (isteğe bağlı)"
+msgstr "URL girin veya resim yüklemek/seçmek için düğmeye tıklayın (isteğe bağlı)"
 
-#: library/plugin-display.php:481
+#: library/plugin-display.php:505
 msgid "Enter your Private Key"
 msgstr "Özel Anahtarınızı girin"
 
-#: library/plugin-display.php:476
+#: library/plugin-display.php:500
 msgid "Enter your Public Key"
 msgstr "Genel Anahtarınızı girin"
 
 #: library/shortcode-login.php:156
 msgid "Enter your username or email to reset your password."
-msgstr "Şifrenizi sıfırlamak için kullanıcı adınızı veya e-posta adresinizi girin."
+msgstr "Şifrenizi sıfırlamak için kullanıcı adınızı veya e-postanızı girin."
 
-#: library/plugin-display.php:155
+#: library/plugin-display.php:179
 msgid "Error Message"
-msgstr "Hata mesajı"
+msgstr "Hata Mesajı"
 
-#: library/plugin-display.php:157
+#: library/plugin-display.php:181
 msgid "Error message displayed if post submission fails (basic markup allowed)"
-msgstr "Gönderi gönderimi başarısız olursa görüntülenen hata mesajı (temel işaretlemeye izin verilir)"
+msgstr "Gönderim başarısız olursa hata mesajı görüntülenir (temel işaretlemeye izin verilir)"
 
-#: library/plugin-display.php:426
+#: library/plugin-display.php:450
 msgid "Error message displayed if user does not check the box"
-msgstr "Kullanıcı kutuyu işaretlemezse görüntülenen hata mesajı"
+msgstr "Kullanıcı kutuyu işaretlemezse hata mesajı görüntülenir"
 
-#: user-submitted-posts.php:1752
+#: user-submitted-posts.php:1766
 msgid "Error: "
 msgstr "Hata: "
 
-#: library/plugin-display.php:763
+#: library/plugin-display.php:787
 msgid "Example"
 msgstr "Örnek"
 
-#: library/plugin-display.php:498
-msgid "Featured Image"
-msgstr "Özellikli resim"
+#: library/plugin-settings.php:1216
+msgid "Fall Sale!"
+msgstr "Sonbahar İndirimi!"
 
-#: user-submitted-posts.php:1735
+#: library/plugin-display.php:522
+msgid "Featured Image"
+msgstr "Öne Çıkan Resim"
+
+#: user-submitted-posts.php:1749
 msgid "File not uploaded. Please check the file and try again."
 msgstr "Dosya yüklenmedi. Lütfen dosyayı kontrol edip tekrar deneyin."
 
-#: user-submitted-posts.php:1728
+#: user-submitted-posts.php:1742
 msgid "File type not allowed (please upload images only)"
 msgstr "Dosya türüne izin verilmiyor (lütfen yalnızca görselleri yükleyin)"
 
-#: library/plugin-display.php:366 library/plugin-display.php:394
-#: library/plugin-display.php:437
+#: library/plugin-display.php:390 library/plugin-display.php:418
+#: library/plugin-display.php:461
 msgid "For"
 msgstr "İçin"
 
-#: library/plugin-display.php:293 library/plugin-display.php:338
+#: library/plugin-display.php:317 library/plugin-display.php:362
 msgid "For more"
 msgstr "Daha fazlası için"
 
-#: library/plugin-display.php:36
+#: library/plugin-display.php:60
 msgid "For more features and unlimited forms, check out"
-msgstr "Daha fazla özellik ve sınırsız form için göz atın"
+msgstr "Daha fazla özellik ve sınırsız form için şuraya göz atın:"
 
-#: library/plugin-display.php:194 library/plugin-display.php:242
-#: library/plugin-display.php:649
+#: library/plugin-display.php:218 library/plugin-display.php:266
+#: library/plugin-display.php:673
 msgid "For more options and features, check out"
-msgstr "Daha fazla seçenek ve özellik için göz atın"
+msgstr "Daha fazla seçenek ve özellik için şuraya göz atın:"
 
-#: library/plugin-display.php:84
+#: library/plugin-display.php:108
 msgid "For unlimited fields, check out"
-msgstr "Sınırsız alanlar için göz atın"
+msgstr "Sınırsız alanlar için şuraya göz atın:"
 
 #: library/shortcode-login.php:90
 msgid "Forgot?"
 msgstr "Unutmuş olmak?"
 
-#: library/plugin-display.php:59
+#: library/plugin-display.php:83
 msgid "Form Fields"
 msgstr "Form Alanları"
 
-#: library/plugin-display.php:97
+#: library/plugin-display.php:121
 msgid "Form Style"
-msgstr "Form Stili"
+msgstr "Biçim Stili"
 
-#: library/plugin-display.php:562
+#: library/plugin-display.php:586
 msgid "Front-end Display"
 msgstr "Ön Uç Ekranı"
 
-#: library/plugin-display.php:115
+#: library/plugin-display.php:139
 msgid "FYI: here is a"
-msgstr "Bilginize: işte bir"
+msgstr "Bilginize: İşte bir"
 
-#: library/plugin-display.php:92
+#: library/plugin-display.php:116
 msgid "General Settings"
 msgstr "Genel Ayarlar"
 
-#: library/plugin-display.php:48
+#: library/plugin-display.php:72
 msgid "Get USP Pro"
 msgstr "USP Pro'yu edinin"
 
 #: library/plugin-settings.php:38
 msgid "Get USP Pro for unlimited forms!"
-msgstr "Sınırsız formlar için USP Pro'yu edinin!"
+msgstr "Sınırsız form için USP Pro'yu edinin!"
 
-#: library/plugin-settings.php:1219
-msgid "Get&nbsp;plugins&nbsp;&raquo;"
-msgstr "&nbsp;Eklentileri&nbsp;alın&raquo;"
-
-#: library/plugin-display.php:46
+#: library/plugin-display.php:70
 msgid "give it a 5-star rating"
-msgstr "ona 5 yıldız ver"
+msgstr "ona 5 yıldız verin"
+
+#: library/plugin-display.php:37
+msgid "give this plugin a 5-star rating"
+msgstr "bu eklentiye 5 yıldız verin"
 
 #: library/plugin-settings.php:66
 msgid "Give USP a 5-star rating at WordPress.org"
-msgstr "USP'ye WordPress.org'da 5 yıldız verin"
+msgstr "WordPress.org'da USP'ye 5 yıldızlı bir puan verin"
 
 #: library/plugin-settings.php:39
 msgid "Go Pro"
-msgstr "Profesyonelliğe Geçin"
+msgstr "Profesyonel Olun"
 
-#: library/plugin-settings.php:461 library/plugin-display.php:469
+#: library/plugin-settings.php:461 library/plugin-display.php:493
 msgid "Google reCaptcha"
-msgstr "Google reCaptcha'sı"
+msgstr "Google reCaptcha"
 
 #: library/shortcode-login.php:107
 msgid "Have an account?"
 msgstr "Hesabınız var mı?"
 
-#: library/plugin-display.php:698
+#: library/plugin-display.php:722
 msgid "Here are some examples showing how to configure this shortcode:"
-msgstr "Bu kısa kodun nasıl yapılandırılacağını gösteren bazı örnekler:"
+msgstr "Bu kısa kodun nasıl yapılandırılacağını gösteren bazı örnekler şunlardır:"
 
-#: library/plugin-display.php:320
+#: library/plugin-display.php:344
 msgid "Hidden/Default Category"
 msgstr "Gizli/Varsayılan Kategori"
 
@@ -700,98 +716,98 @@ msgstr "https://plugin-planet.com/"
 msgid "Human verification: leave this field empty."
 msgstr "İnsan doğrulaması: bu alanı boş bırakın."
 
-#: library/plugin-display.php:273
+#: library/plugin-display.php:297
 msgid "If multiple addresses are specified for the previous setting, include an equal number of addresses for this setting (in the same order)."
-msgstr "Önceki ayar için birden fazla adres belirtilmişse, bu ayar için eşit sayıda adresi (aynı sırada) ekleyin."
+msgstr "Önceki ayar için birden fazla adres belirtilmişse, bu ayar için eşit sayıda adresi (aynı sırayla) ekleyin."
 
-#: library/plugin-display.php:764
+#: library/plugin-display.php:788
 msgid "If the user is logged in, display the post-submit form; or if the user is not logged in, display the login form:"
-msgstr "Kullanıcı oturum açmışsa gönderim sonrası formunu görüntüleyin; veya kullanıcı oturum açmadıysa oturum açma formunu görüntüleyin:"
+msgstr "Kullanıcı oturum açmışsa, gönderim sonrası formunu görüntüle; veya kullanıcı oturum açmamışsa, oturum açma formunu görüntüle:"
 
-#: library/plugin-display.php:45
+#: library/plugin-display.php:69
 msgid "If you like this plugin, please"
 msgstr "Bu eklentiyi beğendiyseniz lütfen"
 
-#: library/plugin-display.php:567
+#: library/plugin-display.php:591
 msgid "Image Display"
-msgstr "Görüntü Ekranı"
+msgstr "Resim Görüntüleme"
 
-#: user-submitted-posts.php:1727
+#: user-submitted-posts.php:1741
 msgid "Image height exceeds maximum"
-msgstr "Resim yüksekliği maksimumu aşıyor"
+msgstr "Resim yüksekliği maksimum değeri aşıyor"
 
-#: library/plugin-display.php:574
+#: library/plugin-display.php:598
 msgid "Image Markup"
-msgstr "Resim İşaretleme"
+msgstr "Resim İşaretlemesi"
 
-#: library/plugin-settings.php:491 library/plugin-display.php:493
+#: library/plugin-settings.php:491 library/plugin-display.php:517
 msgid "Image Uploads"
 msgstr "Resim Yüklemeleri"
 
-#: user-submitted-posts.php:1725
+#: user-submitted-posts.php:1739
 msgid "Image width exceeds maximum"
 msgstr "Resim genişliği maksimumu aşıyor"
 
-#: library/plugin-display.php:727
+#: library/plugin-display.php:751
 msgid "in"
 msgstr "içinde"
 
-#: library/plugin-display.php:107
+#: library/plugin-display.php:131
 msgid "in your theme:"
 msgstr "temanızda:"
 
-#: library/plugin-display.php:121
+#: library/plugin-display.php:145
 msgid "Include JavaScript"
 msgstr "JavaScript'i dahil et"
 
-#: library/plugin-display.php:123
+#: library/plugin-display.php:147
 msgid "Include required JavaScript files (recommended)"
 msgstr "Gerekli JavaScript dosyalarını ekleyin (önerilir)"
 
 #: library/enqueue-scripts.php:152
 msgid "Incorrect response."
-msgstr "Yanlış yanıt."
+msgstr "Yanlış cevap."
 
-#: library/plugin-display.php:114
+#: library/plugin-display.php:138
 msgid "Installation Docs"
-msgstr "Kurulum Dokümanları"
+msgstr "Kurulum Belgeleri"
 
 #. Author of the plugin
 #: 
 msgid "Jeff Starr"
-msgstr "Jeff Starr"
+msgstr "Jeff Yıldız"
 
-#: library/plugin-display.php:810
+#: library/plugin-display.php:834
 msgid "Jeff Starr on Twitter"
-msgstr "Twitter'da Jeff Starr"
+msgstr "Jeff Starr Twitter'da"
 
-#: library/plugin-display.php:707 library/plugin-display.php:778
+#: library/plugin-display.php:731 library/plugin-display.php:802
 msgid "Learn&nbsp;more"
 msgstr "Daha fazlasını öğrenin"
 
-#: library/plugin-display.php:789
+#: library/plugin-display.php:813
 msgid "Leave this option disabled to remember your settings."
 msgstr "Ayarlarınızı hatırlamak için bu seçeneği devre dışı bırakın."
 
 #: library/plugin-settings.php:88
 msgid "Like this plugin? Give it a"
-msgstr "Bu eklentiyi beğendiniz mi? ona bir ver"
+msgstr "Bu eklentiyi beğendiniz mi? Bir şans verin"
 
-#: library/plugin-display.php:115
+#: library/plugin-display.php:139
 msgid "list of USP CSS selectors"
 msgstr "USP CSS seçicilerinin listesi"
 
-#: user-submitted-posts.php:1809
+#: user-submitted-posts.php:1823
 msgid "log in"
 msgstr "giriş yapmak"
 
 #: library/shortcode-login.php:108
 msgid "Log in or sign up! It&rsquo;s fast &amp; free!"
-msgstr "Giriş veya kayıt olun! Hızlıdır ve özgür!"
+msgstr "Giriş yapın veya kaydolun! Hızlı ve ücretsiz!"
 
 #: library/shortcode-login.php:182
 msgid "Log out"
-msgstr "Çıkış Yap"
+msgstr "Çıkış yap"
 
 #: library/shortcode-login.php:88 library/shortcode-login.php:127
 msgid "Login"
@@ -799,163 +815,171 @@ msgstr "Giriş yapmak"
 
 #: library/shortcode-login.php:155
 msgid "Lose something?"
-msgstr "Birşey kaybetmek?"
+msgstr "Bir şey mi kaybettiniz?"
+
+#: library/plugin-display.php:35
+msgid "make a donation"
+msgstr "bağış yapın"
+
+#: library/plugin-display.php:35
+msgid "Make a donation via PayPal"
+msgstr "PayPal ile bağış yapın"
 
 #: library/support-panel.php:107
 msgid "Make a donation&nbsp;&raquo;"
 msgstr "Bağış yapın&nbsp;&raquo;"
 
-#: library/plugin-display.php:464
+#: library/plugin-display.php:488
 msgid "Make the challenge response case-sensitive"
-msgstr "Sınama yanıtını büyük/küçük harfe duyarlı hale getirin"
+msgstr "Meydan okuma yanıtını büyük/küçük harfe duyarlı hale getirin"
 
-#: library/plugin-display.php:416
+#: library/plugin-display.php:440
 msgid "Make the custom checkbox required (uncheck to make optional)"
-msgstr "Özel onay kutusunu zorunlu hale getirin (isteğe bağlı yapmak için işareti kaldırın)"
+msgstr "Özel onay kutusunu zorunlu hale getirin (isteğe bağlı hale getirmek için işaretini kaldırın)"
 
-#: library/plugin-display.php:629
+#: library/plugin-display.php:653
 msgid "Markup for Custom Field 1. You may include any of the following variables:"
-msgstr "Özel Alan İşaretlemesi 1. Aşağıdaki değişkenlerden herhangi birini dahil edebilirsiniz:"
+msgstr "Özel Alan 1 için İşaretleme. Aşağıdaki değişkenlerden herhangi birini ekleyebilirsiniz:"
 
-#: library/plugin-display.php:642
+#: library/plugin-display.php:666
 msgid "Markup for Custom Field 2. You may include any of the following variables:"
 msgstr "Özel Alan 2 için İşaretleme. Aşağıdaki değişkenlerden herhangi birini ekleyebilirsiniz:"
 
-#: library/plugin-display.php:576
+#: library/plugin-display.php:600
 msgid "Markup for each submitted image. You may include any of the following variables:"
-msgstr "Gönderilen her resim için işaretleme. Aşağıdaki değişkenlerden herhangi birini dahil edebilirsiniz:"
+msgstr "Gönderilen her görüntü için işaretleme. Aşağıdaki değişkenlerden herhangi birini ekleyebilirsiniz:"
 
-#: library/plugin-display.php:603
+#: library/plugin-display.php:627
 msgid "Markup for submitted author/name. You may include"
-msgstr "Gönderilen yazar/ad için işaretleme. Dahil edebilirsiniz"
+msgstr "Gönderilen yazar/isim için işaretleme. Şunları ekleyebilirsiniz:"
 
-#: library/plugin-display.php:590
+#: library/plugin-display.php:614
 msgid "Markup for submitted email address. You may include any of the following variables:"
-msgstr "Gönderilen e-posta adresi için işaretleme. Aşağıdaki değişkenlerden herhangi birini dahil edebilirsiniz:"
+msgstr "Gönderilen e-posta adresi için işaretleme. Aşağıdaki değişkenlerden herhangi birini ekleyebilirsiniz:"
 
-#: library/plugin-display.php:616
+#: library/plugin-display.php:640
 msgid "Markup for submitted URL. You may include any of the following variables:"
-msgstr "Gönderilen URL için işaretleme. Aşağıdaki değişkenlerden herhangi birini dahil edebilirsiniz:"
+msgstr "Gönderilen URL için işaretleme. Aşağıdaki değişkenlerden herhangi birini ekleyebilirsiniz:"
 
-#: library/plugin-display.php:548
+#: library/plugin-display.php:572
 msgid "Maximum height (in pixels) for uploaded images"
 msgstr "Yüklenen görseller için maksimum yükseklik (piksel cinsinden)"
 
-#: library/plugin-display.php:546
+#: library/plugin-display.php:570
 msgid "Maximum image height"
 msgstr "Maksimum görüntü yüksekliği"
 
-#: library/plugin-display.php:541
+#: library/plugin-display.php:565
 msgid "Maximum image width"
 msgstr "Maksimum görüntü genişliği"
 
-#: library/plugin-display.php:526
+#: library/plugin-display.php:550
 msgid "Maximum number of images"
 msgstr "Maksimum resim sayısı"
 
-#: user-submitted-posts.php:1723
+#: user-submitted-posts.php:1737
 msgid "Maximum number of images exceeded "
 msgstr "Maksimum resim sayısı aşıldı "
 
-#: library/plugin-display.php:528
+#: library/plugin-display.php:552
 msgid "Maximum number of images for each submitted post"
 msgstr "Gönderilen her gönderi için maksimum resim sayısı"
 
-#: library/plugin-display.php:543
+#: library/plugin-display.php:567
 msgid "Maximum width (in pixels) for uploaded images"
 msgstr "Yüklenen görseller için maksimum genişlik (piksel cinsinden)"
 
-#: library/plugin-display.php:152
+#: library/plugin-display.php:176
 msgid "Message displayed after successful post submission (basic markup allowed)"
 msgstr "Başarılı gönderi gönderiminden sonra görüntülenen mesaj (temel işaretlemeye izin verilir)"
 
-#: library/plugin-display.php:513
+#: library/plugin-display.php:537
 msgid "Message displayed next to the file upload field (basic markup allowed)"
 msgstr "Dosya yükleme alanının yanında görüntülenen mesaj (temel işaretlemeye izin verilir)"
 
-#: library/plugin-display.php:285
+#: library/plugin-display.php:309
 msgid "Message for email alerts. Leave blank to use default message. You may include any of the following variables:"
-msgstr "E-posta uyarıları için mesaj. Varsayılan mesajı kullanmak için boş bırakın. Aşağıdaki değişkenlerden herhangi birini dahil edebilirsiniz:"
+msgstr "E-posta uyarıları için mesaj. Varsayılan mesajı kullanmak için boş bırakın. Aşağıdaki değişkenlerden herhangi birini ekleyebilirsiniz:"
 
-#: library/plugin-display.php:538
+#: library/plugin-display.php:562
 msgid "Minimum height (in pixels) for uploaded images"
 msgstr "Yüklenen görseller için minimum yükseklik (piksel cinsinden)"
 
-#: library/plugin-display.php:536
+#: library/plugin-display.php:560
 msgid "Minimum image height"
-msgstr "Minimum görüntü yüksekliği"
+msgstr "Minimum resim yüksekliği"
 
-#: user-submitted-posts.php:1726
+#: user-submitted-posts.php:1740
 msgid "Minimum image height not met"
-msgstr "Minimum resim yüksekliği karşılanmıyor"
+msgstr "Minimum görüntü yüksekliği karşılanmadı"
 
-#: library/plugin-display.php:531
+#: library/plugin-display.php:555
 msgid "Minimum image width"
-msgstr "Minimum görüntü genişliği"
+msgstr "Minimum resim genişliği"
 
-#: user-submitted-posts.php:1724
+#: user-submitted-posts.php:1738
 msgid "Minimum image width not met"
-msgstr "Minimum resim genişliği karşılanmıyor"
+msgstr "Minimum görüntü genişliği karşılanmadı"
 
-#: library/plugin-display.php:521
+#: library/plugin-display.php:545
 msgid "Minimum number of images"
 msgstr "Minimum resim sayısı"
 
-#: library/plugin-display.php:523
+#: library/plugin-display.php:547
 msgid "Minimum number of images for each submitted post"
 msgstr "Gönderilen her gönderi için minimum resim sayısı"
 
-#: user-submitted-posts.php:1722
+#: user-submitted-posts.php:1736
 msgid "Minimum number of images not met"
-msgstr "Karşılanmayan minimum resim sayısı"
+msgstr "Minimum görüntü sayısına ulaşılamadı"
 
-#: library/plugin-display.php:533
+#: library/plugin-display.php:557
 msgid "Minimum width (in pixels) for uploaded images"
-msgstr "Yüklenen resimler için minimum genişlik (piksel cinsinden)"
+msgstr "Yüklenen görseller için minimum genişlik (piksel cinsinden)"
 
-#: library/plugin-display.php:81 library/plugin-display.php:191
-#: library/plugin-display.php:239 library/plugin-display.php:290
-#: library/plugin-display.php:335 library/plugin-display.php:363
-#: library/plugin-display.php:391 library/plugin-display.php:434
-#: library/plugin-display.php:551 library/plugin-display.php:646
+#: library/plugin-display.php:105 library/plugin-display.php:215
+#: library/plugin-display.php:263 library/plugin-display.php:314
+#: library/plugin-display.php:359 library/plugin-display.php:387
+#: library/plugin-display.php:415 library/plugin-display.php:458
+#: library/plugin-display.php:575 library/plugin-display.php:670
 msgid "More Options"
-msgstr "Daha fazla seçenek"
+msgstr "Daha Fazla Seçenek"
 
-#: library/plugin-display.php:315
+#: library/plugin-display.php:339
 msgid "Multiple Categories"
 msgstr "Çoklu Kategoriler"
 
-#: library/plugin-display.php:594
+#: library/plugin-display.php:618
 msgid "Name Display"
-msgstr "İsim Ekranı"
+msgstr "İsim Görüntüleme"
 
-#: library/plugin-display.php:601
+#: library/plugin-display.php:625
 msgid "Name Markup"
-msgstr "Ad İşaretleme"
+msgstr "İsim İşaretlemesi"
 
-#: user-submitted-posts.php:1721
+#: user-submitted-posts.php:1735
 msgid "Non-empty value for hidden field"
 msgstr "Gizli alan için boş olmayan değer"
 
-#: library/plugin-display.php:747
+#: library/plugin-display.php:771
 msgid "Note that the url attribute accepts"
-msgstr "URL özelliğinin kabul ettiğini unutmayın"
+msgstr "URL niteliğinin kabul ettiğini unutmayın"
 
-#: library/plugin-display.php:723
+#: library/plugin-display.php:747
 msgid "Notes:"
 msgstr "Notlar:"
 
-#: library/plugin-display.php:811
+#: library/plugin-display.php:835
 msgid "Obsessive Web Design &amp; Development"
-msgstr "Takıntılı Web Tasarımı ve amp; Gelişim"
+msgstr "Takıntılı Web Tasarımı ve Geliştirme"
 
-#: library/plugin-display.php:162
+#: library/plugin-display.php:186
 msgid "Optional markup/text to include before the submission form (leave blank to disable)"
-msgstr "Gönderim formundan önce eklenecek isteğe bağlı işaretleme/metin (devre dışı bırakmak için boş bırakın)"
+msgstr "Gönderim formunun öncesine eklenecek isteğe bağlı işaretleme/metin (devre dışı bırakmak için boş bırakın)"
 
-#: library/plugin-display.php:340
+#: library/plugin-display.php:364
 msgid "options, check out"
-msgstr "seçenekler, kontrol et"
+msgstr "seçenekler, kontrol edin"
 
 #: library/support-panel.php:59
 msgid "or"
@@ -965,29 +989,25 @@ msgstr "veya"
 msgid "or by making a"
 msgstr "veya bir yaparak"
 
-#: library/plugin-settings.php:1218
-msgid "or take 30% off with code"
-msgstr "veya kodla %30 indirim kazanın"
-
-#: library/plugin-display.php:790
+#: library/plugin-display.php:814
 msgid "Or, to go ahead and restore the default plugin options: check the box, save your settings, and then deactivate/reactivate the plugin."
-msgstr "Veya devam edip varsayılan eklenti seçeneklerini geri yüklemek için: kutuyu işaretleyin, ayarlarınızı kaydedin ve ardından eklentiyi devre dışı bırakın/yeniden etkinleştirin."
+msgstr "Veya varsayılan eklenti seçeneklerini geri yüklemek için kutuyu işaretleyin, ayarlarınızı kaydedin ve ardından eklentiyi devre dışı bırakın/yeniden etkinleştirin."
 
-#: library/plugin-display.php:696
+#: library/plugin-display.php:720
 msgid "Or, use the template tag to display a list of submitted posts anywhere in your theme template:"
-msgstr "Veya gönderilen gönderilerin listesini tema şablonunuzun herhangi bir yerinde görüntülemek için şablon etiketini kullanın:"
+msgstr "Veya tema şablonunuzun herhangi bir yerinde gönderilen gönderilerin listesini görüntülemek için şablon etiketini kullanın:"
 
-#: library/plugin-display.php:715
+#: library/plugin-display.php:739
 msgid "Or, use the template tag to display an image gallery anywhere in your theme template:"
-msgstr "Veya tema şablonunuzun herhangi bir yerinde bir resim galerisi görüntülemek için şablon etiketini kullanın:"
+msgstr "Veya tema şablonunuzdaki herhangi bir yerde bir resim galerisi görüntülemek için şablon etiketini kullanın:"
 
-#: library/plugin-display.php:674 library/plugin-display.php:687
+#: library/plugin-display.php:698 library/plugin-display.php:711
 msgid "Or, use the template tag to display the form anywhere in your theme template:"
-msgstr "Veya formu tema şablonunuzun herhangi bir yerinde görüntülemek için şablon etiketini kullanın:"
+msgstr "Veya, tema şablonunuzdaki herhangi bir yerde formu görüntülemek için şablon etiketini kullanın:"
 
-#: library/plugin-display.php:31
+#: library/plugin-display.php:55
 msgid "Overview"
-msgstr "Genel Bakış"
+msgstr "Genel bakış"
 
 #: library/shortcode-login.php:118
 msgid "Password"
@@ -1001,52 +1021,52 @@ msgstr "Beklemede (varsayılan)"
 msgid "Perishable Press Books"
 msgstr "Bozulabilir Basın Kitapları"
 
-#: user-submitted-posts.php:1808
+#: user-submitted-posts.php:1822 library/plugin-display.php:35
 msgid "Please"
 msgstr "Lütfen"
 
-#: user-submitted-posts.php:1720
+#: user-submitted-posts.php:1734
 msgid "Please check your email and try again"
-msgstr "Lütfen e-postanızı kontrol edip tekrar deneyin"
+msgstr "Lütfen e-postanızı kontrol edin ve tekrar deneyin"
 
 #: views/submission-form.php:21 views/submission-form-alt.php:40
 msgid "Please complete the required fields."
-msgstr "Lütfen gerekli alanları doldurunuz."
+msgstr "Lütfen gerekli alanları doldurun."
 
 #: library/support-panel.php:105
 msgid "Please Donate"
-msgstr "Lütfen bağış yapın"
+msgstr "Lütfen Bağış Yapın"
 
 #: user-submitted-posts.php:124
 msgid "Please return to the"
-msgstr "Lütfen şuraya geri dönün:"
+msgstr "Lütfen geri dönün"
 
 #: views/submission-form.php:92 views/submission-form-alt.php:107
 msgid "Please select a category.."
-msgstr "Lütfen bir kategori seçin.."
+msgstr "Lütfen bir kategori seçin."
 
 #: views/submission-form.php:58 views/submission-form-alt.php:73
 msgid "Please select some tags.."
-msgstr "Lütfen birkaç etiket seçin.."
+msgstr "Lütfen birkaç etiket seçin."
 
 #: library/plugin-settings.php:883
 msgid "Please select your image(s) to upload."
-msgstr "Lütfen yüklenecek görsellerinizi seçin."
+msgstr "Lütfen yüklemek istediğiniz resmi/resimleri seçin."
 
 #: library/support-panel.php:58
 msgid "Please show support by purchasing one of my"
-msgstr "Lütfen benim ürünlerimden birini satın alarak desteğinizi gösterin."
+msgstr "Lütfen ürünlerimden birini satın alarak desteğinizi gösterin"
 
-#: library/plugin-settings.php:60 library/plugin-display.php:40
-#: library/plugin-display.php:809
+#: library/plugin-settings.php:60 library/plugin-display.php:64
+#: library/plugin-display.php:833
 msgid "Plugin Homepage"
 msgstr "Eklenti Ana Sayfası"
 
 #: library/support-panel.php:50
 msgid "Plugin Planet: Pro WordPress Plugins"
-msgstr "Eklenti Gezegeni: Profesyonel WordPress Eklentileri"
+msgstr "Plugin Planet: Pro WordPress Eklentileri"
 
-#: library/plugin-display.php:55
+#: library/plugin-display.php:79
 msgid "Plugin Settings"
 msgstr "Eklenti Ayarları"
 
@@ -1055,112 +1075,116 @@ msgid "plugins"
 msgstr "eklentiler"
 
 #: views/submission-form.php:90 views/submission-form-alt.php:105
-#: library/plugin-display.php:70
+#: library/plugin-display.php:94
 msgid "Post Category"
 msgstr "Gönderi Kategorisi"
 
-#: user-submitted-posts.php:1715
+#: user-submitted-posts.php:1729
 msgid "Post category required"
 msgstr "Gönderi kategorisi gerekli"
 
 #: views/submission-form.php:123 views/submission-form.php:124
 #: views/submission-form-alt.php:138 views/submission-form-alt.php:139
-#: library/plugin-display.php:71
+#: library/plugin-display.php:95
 msgid "Post Content"
-msgstr "Mesaj İçeriği"
+msgstr "İçerik Gönder"
 
-#: user-submitted-posts.php:1716
+#: user-submitted-posts.php:1730
 msgid "Post content required"
 msgstr "Gönderi içeriği gerekli"
 
-#: user-submitted-posts.php:1741
+#: user-submitted-posts.php:1755
 msgid "Post not created. Please contact the site administrator for help."
-msgstr "Gönderi oluşturulmadı. Lütfen yardım için site yöneticisiyle iletişime geçin."
+msgstr "Gönderi oluşturulamadı. Lütfen yardım için site yöneticisiyle iletişime geçin."
 
-#: library/plugin-display.php:138
+#: library/plugin-display.php:162
 msgid "Post Status"
 msgstr "Gönderi Durumu"
 
-#: library/plugin-display.php:141
+#: library/plugin-display.php:165
 msgid "Post Status for submitted posts"
-msgstr "Gönderilen gönderilerin Gönderi Durumu"
+msgstr "Gönderilen gönderiler için Gönderi Durumu"
 
 #: views/submission-form.php:56 views/submission-form.php:65
 #: views/submission-form.php:66 views/submission-form-alt.php:71
 #: views/submission-form-alt.php:80 views/submission-form-alt.php:81
-#: library/plugin-display.php:69
+#: library/plugin-display.php:93
 msgid "Post Tags"
 msgstr "Gönderi Etiketleri"
 
-#: user-submitted-posts.php:1714
+#: user-submitted-posts.php:1728
 msgid "Post tags required"
 msgstr "Gönderi etiketleri gerekli"
 
 #: views/submission-form.php:49 views/submission-form.php:50
 #: views/submission-form-alt.php:64 views/submission-form-alt.php:65
-#: library/plugin-display.php:68
+#: library/plugin-display.php:92
 msgid "Post Title"
-msgstr "Yazı başlığı"
+msgstr "Gönderi Başlığı"
 
-#: user-submitted-posts.php:1712
+#: user-submitted-posts.php:1726
 msgid "Post title required"
 msgstr "Gönderi başlığı gerekli"
 
-#: library/plugin-display.php:131
+#: library/plugin-display.php:155
 msgid "Post Type"
-msgstr "Yazı tipi"
+msgstr "Gönderi Türü"
 
-#: library/plugin-display.php:134
+#: library/plugin-display.php:158
 msgid "Post Type for submitted posts"
 msgstr "Gönderilen gönderiler için Gönderi Türü"
 
-#: library/plugin-display.php:479
+#: library/plugin-display.php:503
 msgid "Private Key"
-msgstr "Özel anahtar"
+msgstr "Özel Anahtar"
 
-#: library/plugin-settings.php:1216
-msgid "Pro Plugin Sale!"
-msgstr "Pro Eklenti İndirimi!"
+#: library/plugin-settings.php:1218
+msgid "Pro WordPress plugins"
+msgstr "Pro WordPress eklentileri"
 
 #: library/shortcode-login.php:184
 msgid "Profile"
 msgstr "Profil"
 
-#: library/plugin-display.php:474
+#: library/plugin-display.php:498
 msgid "Public Key"
-msgstr "Genel anahtar"
+msgstr "Genel Anahtar"
 
 #: library/plugin-settings.php:590
 msgid "Publish after "
-msgstr "Şu tarihten sonra yayınla: "
+msgstr "Yayınladıktan sonra "
 
 #: library/plugin-settings.php:589
 msgid "Publish after 1 approved post"
-msgstr "1 onaylanan gönderiden sonra yayınla"
+msgstr "1 onaylanmış gönderiden sonra yayınla"
 
 #: library/plugin-settings.php:588
 msgid "Publish immediately"
-msgstr "Hemen yayınlayın"
+msgstr "Hemen yayınla"
+
+#: library/plugin-display.php:36
+msgid "Rate and review at the Plugin Directory"
+msgstr "Eklenti Dizininde puan verin ve yorum yapın"
 
 #: library/plugin-settings.php:67
 msgid "Rate this plugin&nbsp;&raquo;"
-msgstr "Bu eklentiye puan verin&nbsp;&raquo;"
+msgstr "Bu eklentiyi derecelendirin&nbsp;&raquo;"
 
-#: library/plugin-display.php:484
+#: library/plugin-display.php:508
 msgid "reCaptcha Version"
 msgstr "reCaptcha Sürümü"
 
-#: library/plugin-display.php:255
+#: library/plugin-display.php:279
 msgid "Receive Email Alert"
 msgstr "E-posta Uyarısı Alın"
 
-#: library/plugin-display.php:145
+#: library/plugin-display.php:169
 msgid "Redirect URL"
-msgstr "yönlendirme bağlantısı"
+msgstr "Yönlendirme URL'si"
 
-#: library/plugin-display.php:147
+#: library/plugin-display.php:171
 msgid "Redirect user to this URL after post submission (leave blank to stay on current page)"
-msgstr "Gönderi gönderildikten sonra kullanıcıyı bu URL'ye yönlendirin (mevcut sayfada kalmak için boş bırakın)"
+msgstr "Gönderi gönderildikten sonra kullanıcıyı bu URL'ye yönlendir (geçerli sayfada kalmak için boş bırakın)"
 
 #: library/shortcode-login.php:89
 msgid "Register"
@@ -1168,17 +1192,17 @@ msgstr "Kayıt olmak"
 
 #: library/shortcode-login.php:135
 msgid "Register for this site!"
-msgstr "Bu siteye kaydolun!"
+msgstr "Bu siteye kayıt olun!"
 
-#: library/plugin-display.php:219
+#: library/plugin-display.php:243
 msgid "Registered Email"
-msgstr "Kayıtlı e-posta"
+msgstr "Kayıtlı E-posta"
 
-#: library/plugin-display.php:224
+#: library/plugin-display.php:248
 msgid "Registered URL"
 msgstr "Kayıtlı URL"
 
-#: library/plugin-display.php:214
+#: library/plugin-display.php:238
 msgid "Registered Username"
 msgstr "Kayıtlı Kullanıcı Adı"
 
@@ -1186,21 +1210,21 @@ msgstr "Kayıtlı Kullanıcı Adı"
 msgid "Remember me"
 msgstr "Beni Hatırla"
 
-#: library/plugin-display.php:414
+#: library/plugin-display.php:438
 msgid "Require Checkbox"
-msgstr "Onay Kutusu Gerektir"
+msgstr "Gerekli Onay Kutusu"
 
-#: library/plugin-display.php:172
+#: library/plugin-display.php:196
 msgid "Require submitted post titles to be unique (useful for preventing multiple/duplicate posts)"
-msgstr "Gönderilen gönderi başlıklarının benzersiz olmasını zorunlu kılın (birden fazla/yinelenen gönderileri önlemek için kullanışlıdır)"
+msgstr "Gönderilen gönderi başlıklarının benzersiz olmasını zorunlu kılın (birden fazla/kopya gönderileri önlemek için yararlıdır)"
 
-#: library/plugin-display.php:229
+#: library/plugin-display.php:253
 msgid "Require User Login"
-msgstr "Kullanıcı Girişini Gerektir"
+msgstr "Kullanıcı Girişi Gerektir"
 
-#: library/plugin-display.php:231
+#: library/plugin-display.php:255
 msgid "Require users to be logged in to WordPress to view/submit the form"
-msgstr "Formu görüntülemek/göndermek için kullanıcıların WordPress'te oturum açmasını zorunlu kılın"
+msgstr "Kullanıcıların formu görüntülemek/göndermek için WordPress'te oturum açmasını gerektir"
 
 #: user-submitted-posts.php:122
 msgid "requires WordPress "
@@ -1210,55 +1234,55 @@ msgstr "WordPress gerektirir "
 msgid "Reset form"
 msgstr "Formu sıfırla"
 
-#: library/plugin-display.php:739
+#: library/plugin-display.php:763
 msgid "Reset Form Button"
 msgstr "Formu Sıfırla Düğmesi"
 
 #: library/shortcode-login.php:163
 msgid "Reset my password"
-msgstr "Şifremi sıfırlamak"
+msgstr "Şifremi sıfırla"
 
-#: library/plugin-display.php:793
+#: library/plugin-display.php:817
 msgid "Restore default options upon plugin deactivation/reactivation"
-msgstr "Eklentinin devre dışı bırakılması/yeniden etkinleştirilmesi üzerine varsayılan seçenekleri geri yükle"
+msgstr "Eklenti devre dışı bırakıldığında/yeniden etkinleştirildiğinde varsayılan seçenekleri geri yükleyin"
 
-#: library/plugin-display.php:787
+#: library/plugin-display.php:811
 msgid "Restore Defaults"
 msgstr "Varsayılanları Geri Yükle"
 
-#: user-submitted-posts.php:1778
+#: user-submitted-posts.php:1792
 msgid "Return to form"
-msgstr "Forma dön"
+msgstr "Forma geri dön"
 
-#: library/plugin-display.php:165
+#: library/plugin-display.php:189
 msgid "Rich Text Editor"
-msgstr "Zengin metin editörü"
+msgstr "Zengin Metin Düzenleyici"
 
-#: library/plugin-display.php:657
+#: library/plugin-display.php:681
 msgid "Save All Changes"
 msgstr "Tüm Değişiklikleri Kaydet"
 
-#: library/plugin-display.php:822
+#: library/plugin-display.php:846
 msgid "Save Preference"
 msgstr "Tercihi Kaydet"
 
-#: library/plugin-display.php:795
+#: library/plugin-display.php:819
 msgid "Save Settings"
-msgstr "Ayarları kaydet"
+msgstr "Ayarları Kaydet"
 
 #: library/plugin-settings.php:618
 msgid "Select categories to include in the Category field:"
 msgstr "Kategori alanına eklenecek kategorileri seçin:"
 
-#: library/plugin-display.php:257
+#: library/plugin-display.php:281
 msgid "Send email alerts for new post submissions"
-msgstr "Yeni gönderi gönderimleri için e-posta uyarıları gönder"
+msgstr "Yeni gönderi gönderimleri için e-posta uyarıları gönderin"
 
 #: library/plugin-settings.php:29
 msgid "Settings"
 msgstr "Ayarlar"
 
-#: library/plugin-display.php:310
+#: library/plugin-display.php:334
 msgid "Show categories"
 msgstr "Kategorileri göster"
 
@@ -1268,23 +1292,23 @@ msgstr "USP Gönderilerini Göster"
 
 #: library/shortcode-login.php:136
 msgid "Sign up now for the good stuff."
-msgstr "İyi şeyler için şimdi kaydolun."
+msgstr "İyi şeyler için hemen kaydolun."
 
 #: library/shortcode-login.php:147
 msgid "Sign up!"
 msgstr "Üye olmak!"
 
-#: library/plugin-display.php:327
+#: library/plugin-display.php:351
 msgid "Specify category ID(s) to use for &ldquo;Hidden/Default Category&rdquo; (separate multiple IDs with commas)"
-msgstr "&ldquo;Gizli/Varsayılan Kategori&rdquo için kullanılacak kategori kimliklerini belirtin (birden fazla kimliği virgülle ayırın)"
+msgstr "&ldquo;Gizli/Varsayılan Kategori&rdquo; için kullanılacak kategori kimliğini(kimliklerini) belirtin (birden fazla kimliği virgülle ayırın)"
 
-#: library/plugin-display.php:210
+#: library/plugin-display.php:234
 msgid "Specify the user that should be assigned as author for submitted posts"
-msgstr "Gönderilen gönderiler için yazar olarak atanması gereken kullanıcıyı belirtin"
+msgstr "Gönderilen gönderiler için yazar olarak atanacak kullanıcıyı belirtin"
 
-#: library/plugin-display.php:278
+#: library/plugin-display.php:302
 msgid "Subject line for email alerts. Leave blank to use default subject line. You may include any of the following variables:"
-msgstr "E-posta uyarılarının konu satırı. Varsayılan konu satırını kullanmak için boş bırakın. Aşağıdaki değişkenlerden herhangi birini dahil edebilirsiniz:"
+msgstr "E-posta uyarıları için konu satırı. Varsayılan konu satırını kullanmak için boş bırakın. Aşağıdaki değişkenlerden herhangi birini ekleyebilirsiniz:"
 
 #: views/submission-form.php:197 views/submission-form-alt.php:212
 msgid "Submit Post"
@@ -1300,7 +1324,7 @@ msgstr "Gönderenin E-postası: "
 
 #: user-submitted-posts.php:649
 msgid "Submitter IP: "
-msgstr "Gönderenin IP'si: "
+msgstr "Gönderen IP: "
 
 #: user-submitted-posts.php:646
 msgid "Submitter Name: "
@@ -1308,11 +1332,11 @@ msgstr "Gönderenin Adı: "
 
 #: user-submitted-posts.php:648
 msgid "Submitter URL: "
-msgstr "Gönderen URL'si: "
+msgstr "Gönderen URL: "
 
-#: library/plugin-display.php:150
+#: library/plugin-display.php:174
 msgid "Success Message"
-msgstr "başarı mesajı"
+msgstr "Başarı Mesajı"
 
 #: library/shortcode-login.php:97 library/shortcode-login.php:102
 msgid "Success!"
@@ -1320,241 +1344,245 @@ msgstr "Başarı!"
 
 #: library/plugin-settings.php:889
 msgid "Success! Thank you for your submission."
-msgstr "Başarı! Gönderiminiz için teşekkür ederiz."
+msgstr "Başarılı! Gönderiniz için teşekkür ederiz."
 
-#: library/plugin-display.php:42
+#: library/plugin-display.php:66
 msgid "Support Forum"
 msgstr "Destek Forumu"
 
-#: library/plugin-display.php:340
+#: library/plugin-display.php:364
 msgid "tag"
 msgstr "etiket"
 
-#: library/plugin-display.php:126
-msgid "Targeted Loading"
-msgstr "Hedefli Yükleme"
+#: library/plugin-settings.php:1217
+msgid "Take 25% OFF any of our"
+msgstr "Herhangi bir ürünümüzden %25 İNDİRİM kazanın"
 
-#: library/plugin-display.php:431
+#: library/plugin-display.php:150
+msgid "Targeted Loading"
+msgstr "Hedeflenen Yükleme"
+
+#: library/plugin-display.php:455
 msgid "Text displayed next to checkbox. Tip: use curly brackets to output angle brackets, for example:"
-msgstr "Onay kutusunun yanında görüntülenen metin. İpucu: Köşeli ayraçların çıktısını almak için küme parantezleri kullanın, örneğin:"
+msgstr "Onay kutusunun yanında görüntülenen metin. İpucu: açılı parantezleri çıktı olarak almak için süslü parantezleri kullanın, örneğin:"
 
 #: library/support-panel.php:57
 msgid "Thank you for using"
-msgstr "Kullandığın için teşekkürler"
+msgstr "Kullandığınız için teşekkür ederiz"
 
-#: library/plugin-display.php:46
+#: library/plugin-display.php:70
 msgid "THANK YOU for your support!"
-msgstr "Desteğin için teşekkürler!"
+msgstr "Desteğiniz için TEŞEKKÜRLER!"
 
-#: library/plugin-display.php:113
+#: library/plugin-display.php:137
 msgid "That will enable you to customize the form and styles as desired. For more info, check out the \"Custom Submission Form\" section in the"
-msgstr "Bu, formu ve stilleri istediğiniz gibi özelleştirmenizi sağlayacaktır. Daha fazla bilgi için \"Özel Gönderim Formu\" bölümüne bakın."
+msgstr "Bu, formu ve stilleri istediğiniz gibi özelleştirmenize olanak tanır. Daha fazla bilgi için, \"Özel Gönderim Formu\" bölümüne bakın"
 
-#: library/plugin-display.php:773
+#: library/plugin-display.php:797
 msgid "The access shortcodes can be added to any WP Post or Page. So you can display forms and other content conditionally, based on user role and login status."
-msgstr "Erişim kısa kodları herhangi bir WP Gönderisine veya Sayfasına eklenebilir. Böylece formları ve diğer içerikleri kullanıcı rolüne ve oturum açma durumuna göre koşullu olarak görüntüleyebilirsiniz."
+msgstr "Erişim kısayolları herhangi bir WP Gönderisine veya Sayfasına eklenebilir. Böylece formları ve diğer içerikleri kullanıcı rolüne ve oturum açma durumuna göre koşullu olarak görüntüleyebilirsiniz."
 
-#: user-submitted-posts.php:1739
+#: user-submitted-posts.php:1753
 msgid "The file(s) could not be uploaded"
 msgstr "Dosya(lar) yüklenemedi"
 
-#: library/plugin-display.php:689
+#: library/plugin-display.php:713
 msgid "The login/register form displays as a tabbed interface, so users can switch between login, register, and reset password."
-msgstr "Oturum açma/kayıt formu sekmeli bir arayüz olarak görüntülenir, böylece kullanıcılar oturum açma, kaydolma ve parolayı sıfırlama arasında geçiş yapabilir."
+msgstr "Giriş/Kayıt formu sekmeli bir arayüz olarak görüntülenir, böylece kullanıcılar giriş, kayıt ve şifre sıfırlama arasında geçiş yapabilirler."
 
-#: library/plugin-display.php:706
+#: library/plugin-display.php:730
 msgid "The pro version provides many more options for this shortcode."
-msgstr "Pro sürümü bu kısa kod için çok daha fazla seçenek sunar."
+msgstr "Pro sürümü bu kısa kod için çok daha fazla seçenek sunuyor."
 
-#: library/plugin-display.php:777
+#: library/plugin-display.php:801
 msgid "The pro version provides more flexibility with access-control shortcodes."
-msgstr "Pro sürümü, erişim kontrolü kısa kodlarıyla daha fazla esneklik sağlar."
+msgstr "Pro sürümü erişim kontrol kısa kodlarıyla daha fazla esneklik sağlar."
 
 #: library/plugin-settings.php:869
 msgid "There was an error. Please check required fields and try again."
 msgstr "Bir hata oluştu. Lütfen gerekli alanları kontrol edip tekrar deneyin."
 
-#: library/plugin-display.php:188
+#: library/plugin-display.php:212
 msgid "This setting enables any/all shortcodes in widgets (even shortcodes from other plugins)."
-msgstr "Bu ayar, widget'lardaki tüm kısa kodları (hatta diğer eklentilerdeki kısa kodları) etkinleştirir."
+msgstr "Bu ayar, widget'lardaki tüm kısa kodları (diğer eklentilerdeki kısa kodlar dahil) etkinleştirir."
 
-#: library/plugin-display.php:743
+#: library/plugin-display.php:767
 msgid "This shortcode accepts the following attributes:"
-msgstr "Bu kısa kod aşağıdaki özellikleri kabul eder:"
+msgstr "Bu kısa kod aşağıdaki öznitelikleri kabul eder:"
 
-#: library/plugin-display.php:741
+#: library/plugin-display.php:765
 msgid "This shortcode displays a link that resets the form to its original state:"
-msgstr "Bu kısa kod, formu orijinal durumuna sıfırlayan bir bağlantıyı görüntüler:"
+msgstr "Bu kısa kod, formu orijinal durumuna sıfırlayan bir bağlantı görüntüler:"
 
-#: library/plugin-display.php:360
+#: library/plugin-display.php:384
 msgid "This will be displayed as the field label on the form. Default: Custom Field 1"
 msgstr "Bu, formda alan etiketi olarak görüntülenecektir. Varsayılan: Özel Alan 1"
 
-#: library/plugin-display.php:388
+#: library/plugin-display.php:412
 msgid "This will be displayed as the field label on the form. Default: Custom Field 2"
 msgstr "Bu, formda alan etiketi olarak görüntülenecektir. Varsayılan: Özel Alan 2"
 
-#: library/plugin-display.php:705 library/plugin-display.php:760
-#: library/plugin-display.php:776
+#: library/plugin-display.php:729 library/plugin-display.php:784
+#: library/plugin-display.php:800
 msgid "Tip:"
 msgstr "Uç:"
 
-#: library/plugin-display.php:604
+#: library/plugin-display.php:628
 msgid "to display the submitted name."
-msgstr "Gönderilen adı görüntülemek için."
+msgstr "Gönderilen ismi görüntülemek için."
 
-#: library/plugin-display.php:471
+#: library/plugin-display.php:495
 msgid "To enable Google reCaptcha, enter your public and private keys."
 msgstr "Google reCaptcha'yı etkinleştirmek için genel ve özel anahtarlarınızı girin."
 
-#: library/plugin-display.php:747
+#: library/plugin-display.php:771
 msgid "to get the current URL."
-msgstr "Geçerli URL'yi almak için."
+msgstr "geçerli URL'yi almak için."
 
-#: library/plugin-display.php:734
+#: library/plugin-display.php:758
 msgid "to get the URL of the full-size image"
-msgstr "tam boyutlu görüntünün URL'sini almak için"
+msgstr "tam boyutlu resmin URL'sini almak için"
 
-#: library/plugin-display.php:761
+#: library/plugin-display.php:785
 msgid "to include markup in the deny message, you can use"
 msgstr "reddetme mesajına işaretleme eklemek için şunu kullanabilirsiniz:"
 
-#: library/plugin-display.php:761
+#: library/plugin-display.php:785
 msgid "to output"
-msgstr "ÇIKTI"
+msgstr "çıktı almak"
 
-#: library/plugin-display.php:726
+#: library/plugin-display.php:750
 msgid "to output angle brackets"
-msgstr "açılı ayraçların çıktısını almak için"
+msgstr "açılı parantezleri çıkarmak için"
 
-#: library/plugin-display.php:454
+#: library/plugin-display.php:478
 msgid "To prevent spam, enter a question that users must answer before submitting the form"
-msgstr "Spam'i önlemek için kullanıcıların formu göndermeden önce yanıtlaması gereken bir soru girin"
+msgstr "Spam'i önlemek için, kullanıcıların formu göndermeden önce yanıtlaması gereken bir soru girin"
 
-#: user-submitted-posts.php:1810
+#: user-submitted-posts.php:1824
 msgid "to submit content!"
 msgstr "içerik göndermek için!"
 
 #: user-submitted-posts.php:126
 msgid "to upgrade WordPress and try again."
-msgstr "WordPress'i yükseltmek ve tekrar denemek için."
+msgstr "WordPress'i güncelleyip tekrar deneyin."
 
 #: library/plugin-display.php:22
 msgid "Toggle all panels"
-msgstr "Tüm panelleri değiştir"
+msgstr "Tüm panelleri aç/kapat"
 
-#: library/plugin-display.php:170
+#: library/plugin-display.php:194
 msgid "Unique Titles"
 msgstr "Benzersiz Başlıklar"
 
-#: library/plugin-display.php:438
+#: library/plugin-display.php:462
 msgid "unlimited checkbox fields"
-msgstr "sınırsız onay kutusu alanları"
+msgstr "sınırsız onay kutusu alanı"
 
-#: library/plugin-display.php:367 library/plugin-display.php:395
+#: library/plugin-display.php:391 library/plugin-display.php:419
 msgid "unlimited custom fields"
 msgstr "sınırsız özel alanlar"
 
-#: library/plugin-display.php:48
+#: library/plugin-display.php:72
 msgid "Unlimited front-end forms"
 msgstr "Sınırsız ön uç formları"
 
 #: views/submission-form.php:138 views/submission-form-alt.php:153
 msgid "Upload an Image"
-msgstr "Bir görüntü yükle"
+msgstr "Bir Resim Yükle"
 
-#: library/plugin-display.php:511
+#: library/plugin-display.php:535
 msgid "Upload Message"
 msgstr "Mesaj Yükle"
 
 #: library/plugin-settings.php:920
 msgid "URL"
-msgstr "URL'si"
+msgstr "URL"
 
-#: library/plugin-display.php:607
+#: library/plugin-display.php:631
 msgid "URL Display"
-msgstr "URL Görünümü"
+msgstr "URL Görüntüleme"
 
-#: library/plugin-display.php:614
+#: library/plugin-display.php:638
 msgid "URL Markup"
 msgstr "URL İşaretlemesi"
 
-#: library/plugin-display.php:322
+#: library/plugin-display.php:346
 msgid "Use a hidden field for the post category. This hides the category field and sets its value via the next option."
 msgstr "Gönderi kategorisi için gizli bir alan kullanın. Bu, kategori alanını gizler ve değerini bir sonraki seçenek aracılığıyla ayarlar."
 
-#: library/plugin-display.php:726
+#: library/plugin-display.php:750
 msgid "Use curly brackets"
-msgstr "Kıvrımlı parantez kullan"
+msgstr "Kıvrımlı parantez kullanın"
 
-#: library/plugin-display.php:330
+#: library/plugin-display.php:354
 msgid "Use Existing Tags"
 msgstr "Mevcut Etiketleri Kullan"
 
-#: library/plugin-display.php:355 library/plugin-display.php:383
-#: library/plugin-display.php:421
+#: library/plugin-display.php:379 library/plugin-display.php:407
+#: library/plugin-display.php:445
 msgid "Use only alphanumeric, underscores, and dashes. If unsure, use the default name:"
-msgstr "Yalnızca alfasayısal karakterler, alt çizgiler ve kısa çizgiler kullanın. Emin değilseniz varsayılan adı kullanın:"
+msgstr "Yalnızca alfanümerik, alt çizgiler ve tireler kullanın. Emin değilseniz, varsayılan adı kullanın:"
 
-#: library/plugin-display.php:731
+#: library/plugin-display.php:755
 msgid "Use single straight quotes (instead of double quotes) in"
-msgstr "Tek düz tırnak kullanın (çift tırnak yerine)"
+msgstr "Tek tırnak işaretini (çift tırnak işareti yerine) kullanın"
 
-#: library/plugin-display.php:500
+#: library/plugin-display.php:524
 msgid "Use submitted images as Featured Images. Requires theme support for Featured Images (aka Post Thumbnails)"
 msgstr "Gönderilen görselleri Öne Çıkan Görseller olarak kullanın. Öne Çıkan Görseller (diğer adıyla Gönderi Küçük Resimleri) için tema desteği gerektirir"
 
-#: library/plugin-display.php:672 library/plugin-display.php:685
+#: library/plugin-display.php:696 library/plugin-display.php:709
 msgid "Use the shortcode to display the form on any WP Post or Page:"
 msgstr "Formu herhangi bir WP Gönderisinde veya Sayfasında görüntülemek için kısa kodu kullanın:"
 
-#: library/plugin-display.php:226
+#: library/plugin-display.php:250
 msgid "Use the user&rsquo;s Profile URL as the value of the URL field (valid when the user is logged in to WordPress)"
 msgstr "URL alanının değeri olarak kullanıcının Profil URL'sini kullanın (kullanıcı WordPress'te oturum açtığında geçerlidir)"
 
-#: library/plugin-display.php:221
+#: library/plugin-display.php:245
 msgid "Use the user&rsquo;s registered email as the value of the Email field (valid when the user is logged in to WordPress)"
 msgstr "E-posta alanının değeri olarak kullanıcının kayıtlı e-postasını kullanın (kullanıcı WordPress'te oturum açtığında geçerlidir)"
 
-#: library/plugin-display.php:216
+#: library/plugin-display.php:240
 msgid "Use the user&rsquo;s registered username for the Name field (valid when the user is logged in to WordPress)"
 msgstr "Ad alanı için kullanıcının kayıtlı kullanıcı adını kullanın (kullanıcı WordPress'te oturum açtığında geçerlidir)"
 
-#: library/plugin-display.php:713
+#: library/plugin-display.php:737
 msgid "Use this shortcode to display a gallery of uploaded images for each submitted post:"
 msgstr "Gönderilen her gönderi için yüklenen görsellerin galerisini görüntülemek için bu kısa kodu kullanın:"
 
-#: library/plugin-display.php:694
+#: library/plugin-display.php:718
 msgid "Use this shortcode to display a list of submitted posts on any WP Post or Page:"
 msgstr "Herhangi bir WP Gönderisi veya Sayfasında gönderilen gönderilerin listesini görüntülemek için bu kısa kodu kullanın:"
 
-#: library/plugin-display.php:66
+#: library/plugin-display.php:90
 msgid "User Email"
-msgstr "Kullanıcı e-postası"
+msgstr "Kullanıcı E-postası"
 
-#: user-submitted-posts.php:1719
+#: user-submitted-posts.php:1733
 msgid "User email required"
 msgstr "Kullanıcı e-postası gerekli"
 
-#: user-submitted-posts.php:1710
+#: user-submitted-posts.php:1724
 msgid "User login required"
 msgstr "Kullanıcı girişi gerekli"
 
-#: library/plugin-display.php:65
+#: library/plugin-display.php:89
 msgid "User Name"
 msgstr "Kullanıcı adı"
 
-#: user-submitted-posts.php:1711
+#: user-submitted-posts.php:1725
 msgid "User name required"
 msgstr "Kullanıcı adı gerekli"
 
-#: library/plugin-display.php:202
+#: library/plugin-display.php:226
 msgid "User Settings"
-msgstr "Kullanıcı ayarları"
+msgstr "Kullanıcı Ayarları"
 
 #: user-submitted-posts.php:202
 msgid "User Submitted Post"
-msgstr "Kullanıcının Gönderdiği Gönderi"
+msgstr "Kullanıcı Tarafından Gönderilen Gönderi"
 
 #: user-submitted-posts.php:616
 msgid "User Submitted Post Info"
@@ -1565,11 +1593,11 @@ msgstr "Kullanıcı Tarafından Gönderilen Gönderi Bilgileri"
 msgid "User Submitted Posts"
 msgstr "Kullanıcı Tarafından Gönderilen Gönderiler"
 
-#: library/plugin-display.php:67
+#: library/plugin-display.php:91
 msgid "User URL"
 msgstr "Kullanıcı URL'si"
 
-#: user-submitted-posts.php:1713
+#: user-submitted-posts.php:1727
 msgid "User URL required"
 msgstr "Kullanıcı URL'si gerekli"
 
@@ -1579,26 +1607,26 @@ msgstr "Kullanıcı adı"
 
 #: library/shortcode-login.php:159
 msgid "Username or Email"
-msgstr "Kullanıcı adı ya da email"
+msgstr "Kullanıcı adı veya E-posta"
 
-#: user-submitted-posts.php:705 library/plugin-display.php:35
+#: user-submitted-posts.php:705 library/plugin-display.php:59
 msgid "USP"
 msgstr "USP"
 
-#: library/plugin-display.php:671
+#: library/plugin-display.php:695
 msgid "USP enables you to display a post-submission form anywhere on your site."
-msgstr "USP, sitenizin herhangi bir yerinde bir gönderim sonrası formu görüntülemenize olanak tanır."
+msgstr "USP, sitenizin herhangi bir yerinde gönderi sonrası formunu görüntülemenize olanak tanır."
 
-#: library/plugin-display.php:36 library/plugin-display.php:85
-#: library/plugin-display.php:195 library/plugin-display.php:243
-#: library/plugin-display.php:296 library/plugin-display.php:341
-#: library/plugin-display.php:369 library/plugin-display.php:397
-#: library/plugin-display.php:440 library/plugin-display.php:555
-#: library/plugin-display.php:650 library/plugin-display.php:678
+#: library/plugin-display.php:60 library/plugin-display.php:109
+#: library/plugin-display.php:219 library/plugin-display.php:267
+#: library/plugin-display.php:320 library/plugin-display.php:365
+#: library/plugin-display.php:393 library/plugin-display.php:421
+#: library/plugin-display.php:464 library/plugin-display.php:579
+#: library/plugin-display.php:674 library/plugin-display.php:702
 msgid "USP Pro"
-msgstr "USP Profesyoneli"
+msgstr "USP Profesyonel"
 
-#: library/plugin-display.php:752
+#: library/plugin-display.php:776
 msgid "USP provides three shortcodes to control access and restrict content."
 msgstr "USP, erişimi kontrol etmek ve içeriği kısıtlamak için üç kısa kod sağlar."
 
@@ -1616,17 +1644,21 @@ msgstr "Doğrulama"
 
 #: library/shortcode-misc.php:133
 msgid "View full post"
-msgstr "Gönderinin tamamını görüntüle"
+msgstr "Yazının tamamını görüntüle"
 
-#: library/plugin-display.php:677
+#: library/plugin-display.php:701
 msgid "Want more than one form? Create unlimited submission forms, registration forms, contact forms and more with"
-msgstr "Birden fazla form mu istiyorsunuz? Sınırsız gönderim formları, kayıt formları, iletişim formları ve daha fazlasını oluşturun."
+msgstr "Birden fazla form mu istiyorsunuz? Sınırsız gönderim formları, kayıt formları, iletişim formları ve daha fazlasını oluşturun"
+
+#: library/plugin-display.php:31
+msgid "We need your support!"
+msgstr "Desteğinize ihtiyacımız var!"
 
 #: library/shortcode-login.php:177
 msgid "Welcome, "
 msgstr "Hoş geldin, "
 
-#: library/plugin-display.php:102
+#: library/plugin-display.php:126
 msgid "With this option, you can copy the plugin&rsquo;s default templates:"
 msgstr "Bu seçenekle eklentinin varsayılan şablonlarını kopyalayabilirsiniz:"
 
@@ -1640,29 +1672,33 @@ msgstr "WP Sayfası"
 
 #: library/plugin-settings.php:175
 msgid "WP Post (recommended)"
-msgstr "WP Gönderisi (önerilir)"
+msgstr "WP Post (önerilir)"
 
-#: library/plugin-display.php:800
+#: library/plugin-display.php:824
 msgid "WP Resources"
 msgstr "WP Kaynakları"
 
-#: library/plugin-display.php:684
+#: library/plugin-display.php:708
 msgid "You also can display a simple form that enables users to log in, register, or reset their password."
-msgstr "Ayrıca kullanıcıların oturum açmasına, kaydolmasına veya parolasını sıfırlamasına olanak tanıyan basit bir form da görüntüleyebilirsiniz."
+msgstr "Ayrıca kullanıcıların oturum açmasını, kayıt olmasını veya şifrelerini sıfırlamasını sağlayan basit bir form da görüntüleyebilirsiniz."
 
-#: library/plugin-display.php:717
+#: library/plugin-display.php:741
 msgid "You can customize using any of the follwing attributes:"
-msgstr "Aşağıdaki özelliklerden herhangi birini kullanarak özelleştirebilirsiniz:"
+msgstr "Aşağıdaki niteliklerden herhangi birini kullanarak özelleştirebilirsiniz:"
 
 #: views/submission-form.php:37 views/submission-form.php:38
 #: views/submission-form-alt.php:52 views/submission-form-alt.php:53
 #: library/shortcode-login.php:143
 msgid "Your Email"
-msgstr "E-posta adresiniz"
+msgstr "E-postanız"
+
+#: library/plugin-display.php:41
+msgid "Your generous support enables continued development of this free plugin. Thank you!"
+msgstr "Cömert desteğiniz bu ücretsiz eklentinin sürekli geliştirilmesini sağlıyor. Teşekkür ederiz!"
 
 #: library/support-panel.php:60
 msgid "Your generous support helps future development of"
-msgstr "Cömert desteğiniz gelecekteki gelişimine yardımcı oluyor"
+msgstr "Cömert desteğiniz gelecekteki gelişmeye yardımcı olur"
 
 #: views/submission-form.php:31 views/submission-form.php:32
 #: views/submission-form-alt.php:46 views/submission-form-alt.php:47

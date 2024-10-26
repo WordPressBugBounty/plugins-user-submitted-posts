@@ -4,81 +4,81 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: USP 20240703\n"
+"Project-Id-Version: USP 20241026\n"
 "Language: ru\n"
 
 #: library/plugin-settings.php:590
 msgid " approved posts"
-msgstr " утвержденные должности"
+msgstr "одобренные посты"
 
-#: user-submitted-posts.php:1687
+#: user-submitted-posts.php:1701
 msgid " file"
 msgstr " файл"
 
-#: user-submitted-posts.php:1684
+#: user-submitted-posts.php:1698
 msgid " file required"
-msgstr " требуется файл"
+msgstr "требуется файл"
 
-#: user-submitted-posts.php:1686
+#: user-submitted-posts.php:1700
 msgid " files"
-msgstr " файлы"
+msgstr "файлы"
 
-#: user-submitted-posts.php:1683
+#: user-submitted-posts.php:1697
 msgid " files required"
-msgstr " необходимые файлы"
+msgstr "файлы требуются"
 
 #: user-submitted-posts.php:123
 msgid " or higher, and has been deactivated! "
-msgstr " или выше и был деактивирован! "
+msgstr "или выше, и был деактивирован! "
 
-#: user-submitted-posts.php:1689 user-submitted-posts.php:1690
-#: user-submitted-posts.php:1691 user-submitted-posts.php:1692
+#: user-submitted-posts.php:1703 user-submitted-posts.php:1704
+#: user-submitted-posts.php:1705 user-submitted-posts.php:1706
 msgid " pixels"
-msgstr " пиксели"
+msgstr "пиксели"
 
-#: user-submitted-posts.php:1729 user-submitted-posts.php:1730
+#: user-submitted-posts.php:1743 user-submitted-posts.php:1744
 msgid " required"
 msgstr " необходимый"
 
-#: library/plugin-display.php:516
+#: library/plugin-display.php:540
 msgid "&ldquo;Add another image&rdquo; link"
-msgstr "&ldquo;Добавить другое изображение&rdquo; связь"
+msgstr "Ссылка «Добавить еще одно изображение»"
 
-#: library/plugin-display.php:37
+#: library/plugin-display.php:61
 msgid "&mdash; the ultimate solution for user-generated content."
-msgstr "&mdash; идеальное решение для пользовательского контента."
+msgstr "– лучшее решение для пользовательского контента."
 
 #: library/plugin-settings.php:203
 msgid "(Provide your own form template &amp; styles)"
-msgstr "(Укажите собственный шаблон формы и стили)"
+msgstr "(Предоставьте свой собственный шаблон формы и стили)"
 
 #: library/plugin-settings.php:199
 msgid "(Provide your own styles)"
-msgstr "(Предложите свои собственные стили)"
+msgstr "(Предоставьте свои собственные стили)"
 
 #: library/plugin-settings.php:195
 msgid "(Recommended)"
-msgstr "(Рекомендуемые)"
+msgstr "(Рекомендуется)"
 
-#: library/plugin-display.php:107
+#: library/plugin-display.php:131
 msgid "..and upload them into a directory named"
 msgstr "..и загрузите их в каталог с именем"
 
-#: library/plugin-display.php:750
+#: library/plugin-display.php:774
 msgid "Access Control"
 msgstr "Контроль доступа"
 
-#: library/plugin-display.php:449
+#: library/plugin-display.php:473
 msgid "Add a challenge question to help stop spam. Tip: make the question easy to answer for any human."
-msgstr "Добавьте контрольный вопрос, который поможет остановить спам. Совет: сделайте вопрос так, чтобы на него мог ответить любой человек."
+msgstr "Добавьте контрольный вопрос, чтобы остановить спам. Совет: сделайте вопрос простым для ответа любому человеку."
 
 #: views/submission-form.php:147 views/submission-form-alt.php:162
 msgid "Add another image"
-msgstr "Добавить другое изображение"
+msgstr "Добавить еще одно изображение"
 
-#: library/plugin-display.php:267
+#: library/plugin-display.php:291
 msgid "Additional recipients for email alerts. Use commas to separate multiple addresses."
-msgstr "Дополнительные получатели оповещений по электронной почте. Используйте запятые для разделения нескольких адресов."
+msgstr "Дополнительные получатели для оповещений по электронной почте. Используйте запятые для разделения нескольких адресов."
 
 #: library/shortcode-login.php:183
 msgid "Admin"
@@ -88,162 +88,174 @@ msgstr "Админ"
 #: library/plugin-settings.php:271 library/plugin-settings.php:295
 #: library/plugin-settings.php:319
 msgid "After post content"
-msgstr "После публикации контента"
+msgstr "После поста контента"
 
-#: user-submitted-posts.php:1700
+#: user-submitted-posts.php:1714
 msgid "An error occurred. Please go back and try again."
-msgstr "Произошла ошибка. Пожалуйста вернитесь и попробуйте снова."
+msgstr "Произошла ошибка. Пожалуйста, вернитесь и попробуйте еще раз."
 
-#: library/plugin-display.php:339 library/plugin-display.php:727
-#: library/plugin-display.php:732
+#: library/plugin-settings.php:1219 library/plugin-display.php:363
+#: library/plugin-display.php:751 library/plugin-display.php:756
 msgid "and"
 msgstr "и"
 
 #: library/support-panel.php:61
 msgid "and is greatly appreciated."
-msgstr "и очень ценится."
+msgstr "и это очень ценится."
+
+#: library/plugin-display.php:35
+msgid "and/or"
+msgstr "и/или"
 
 #: views/submission-form.php:85 views/submission-form-alt.php:100
 msgid "Antispam Question"
-msgstr "Антиспам Вопрос"
+msgstr "Вопрос по антиспаму"
 
 #: library/support-panel.php:63
 msgid "Any size donation helps me to continue developing this free plugin and other awesome WordPress resources."
 msgstr "Любое пожертвование поможет мне продолжить разработку этого бесплатного плагина и других замечательных ресурсов WordPress."
 
-#: library/plugin-display.php:207
+#: library/plugin-settings.php:1221
+msgid "Apply code"
+msgstr "Применить код"
+
+#: library/plugin-display.php:231
 msgid "Assigned Author"
 msgstr "Назначенный автор"
 
-#: library/plugin-display.php:728 library/plugin-display.php:732
+#: library/plugin-settings.php:1221
+msgid "at checkout. Sale ends 12/21/24."
+msgstr "при оформлении заказа. Распродажа заканчивается 21.12.24."
+
+#: library/plugin-display.php:752 library/plugin-display.php:756
 msgid "attributes"
 msgstr "атрибуты"
 
-#: library/plugin-display.php:564
+#: library/plugin-display.php:588
 msgid "Automatically display images and more."
-msgstr "Автоматическое отображение изображений и многое другое."
+msgstr "Автоматически отображать изображения и многое другое."
 
 #: library/plugin-settings.php:219 library/plugin-settings.php:243
 #: library/plugin-settings.php:267 library/plugin-settings.php:291
 #: library/plugin-settings.php:315
 msgid "Before post content"
-msgstr "Прежде чем публиковать контент"
+msgstr "Перед публикацией контента"
 
-#: library/support-panel.php:53
+#: library/support-panel.php:53 library/plugin-settings.php:1220
 msgid "books"
 msgstr "книги"
 
-#: library/plugin-settings.php:1217
-msgid "Buy one get one FREE with code"
-msgstr "Купите один, получите один БЕСПЛАТНО с кодом"
-
-#: library/plugin-display.php:809
+#: library/plugin-display.php:833
 msgid "by"
 msgstr "к"
 
-#: library/plugin-display.php:128
+#: library/plugin-display.php:152
 msgid "By default, CSS &amp; JavaScript files are loaded on every page. To load only on specific page(s), enter the URL(s) here. Use commas to separate multiple URLs. Leave blank to load on all pages."
-msgstr "По умолчанию CSS &amp; Файлы JavaScript загружаются на каждую страницу. Чтобы загружать только определенные страницы, введите здесь URL-адреса. Используйте запятые для разделения нескольких URL-адресов. Оставьте пустым, чтобы загрузиться на всех страницах."
+msgstr "По умолчанию файлы CSS и JavaScript загружаются на каждой странице. Чтобы загрузить только на определенной странице(ах), введите URL-адрес(а) здесь. Используйте запятые для разделения нескольких URL-адресов. Оставьте пустым для загрузки на всех страницах."
 
-#: library/plugin-display.php:406
+#: library/plugin-display.php:430
 msgid "By default, this displays an &ldquo;Agree to Terms&rdquo; checkbox. Customize as desired."
-msgstr "По умолчанию отображается сообщение «Согласен с условиями». флажок. Настройте по желанию."
+msgstr "По умолчанию здесь отображается флажок «Согласен с условиями». Настройте по желанию."
 
-#: library/plugin-display.php:734
+#: library/plugin-display.php:758
 msgid "Can use"
-msgstr "Можешь использовать"
+msgstr "Можно использовать"
 
-#: library/plugin-display.php:462
+#: library/plugin-display.php:486
 msgid "Case-sensitivity"
 msgstr "Чувствительность к регистру"
 
-#: library/plugin-display.php:308
+#: library/plugin-display.php:332
 msgid "Categories"
 msgstr "Категории"
 
-#: library/plugin-display.php:303
+#: library/plugin-display.php:327
 msgid "Categories &amp; Tags"
-msgstr "Категории и усилители; Теги"
+msgstr "Категории и теги"
 
-#: library/plugin-display.php:339
+#: library/plugin-display.php:363
 msgid "category"
 msgstr "категория"
 
-#: library/plugin-display.php:325
+#: library/plugin-display.php:349
 msgid "Category ID for Hidden Field"
 msgstr "Идентификатор категории для скрытого поля"
 
-#: library/plugin-settings.php:431 library/plugin-display.php:447
-#: library/plugin-display.php:452
+#: library/plugin-settings.php:431 library/plugin-display.php:471
+#: library/plugin-display.php:476
 msgid "Challenge Question"
-msgstr "проблемный вопрос"
+msgstr "Вопрос-вызов"
 
-#: library/plugin-display.php:457
+#: library/plugin-display.php:481
 msgid "Challenge Response"
 msgstr "Вызов Ответ"
 
-#: library/plugin-display.php:295 library/plugin-display.php:368
-#: library/plugin-display.php:396 library/plugin-display.php:439
+#: library/plugin-display.php:319 library/plugin-display.php:392
+#: library/plugin-display.php:420 library/plugin-display.php:463
 msgid "check out"
 msgstr "проверить"
 
-#: library/plugin-display.php:735
+#: library/plugin-display.php:759
 msgid "Check out the source code inline notes for more info"
-msgstr "Ознакомьтесь со встроенными примечаниями к исходному коду для получения дополнительной информации."
+msgstr "Для получения дополнительной информации ознакомьтесь с примечаниями к исходному коду."
+
+#: library/plugin-display.php:46
+msgid "Check this box if you have shown support"
+msgstr "Поставьте отметку в этом поле, если вы оказали поддержку"
 
 #: library/shortcode-login.php:98
 msgid "Check your email for the password."
-msgstr "Проверьте свою электронную почту, чтобы узнать пароль."
+msgstr "Проверьте свою электронную почту на наличие пароля."
 
 #: library/shortcode-login.php:103
 msgid "Check your email to reset your password."
 msgstr "Проверьте свою электронную почту, чтобы сбросить пароль."
 
-#: library/plugin-display.php:424
+#: library/plugin-display.php:448
 msgid "Checkbox Error"
 msgstr "Ошибка флажка"
 
-#: library/plugin-display.php:419
+#: library/plugin-display.php:443
 msgid "Checkbox Name"
 msgstr "Имя флажка"
 
-#: library/plugin-display.php:429
+#: library/plugin-display.php:453
 msgid "Checkbox Text"
 msgstr "Текст флажка"
 
-#: library/plugin-display.php:61
+#: library/plugin-display.php:85
 msgid "Choose fields to display on the front-end form."
-msgstr "Выберите поля для отображения во внешней форме."
+msgstr "Выберите поля для отображения на форме интерфейса."
 
-#: library/plugin-display.php:487
+#: library/plugin-display.php:511
 msgid "Choose reCaptcha version"
 msgstr "Выберите версию reCaptcha"
 
-#: library/plugin-display.php:350
+#: library/plugin-display.php:374
 msgid "Configure Custom Field #1."
-msgstr "Настройте настраиваемое поле №1."
+msgstr "Настройте пользовательское поле №1."
 
-#: library/plugin-display.php:378
+#: library/plugin-display.php:402
 msgid "Configure Custom Field #2."
-msgstr "Настройте настраиваемое поле №2."
+msgstr "Настройте пользовательское поле №2."
 
-#: library/plugin-display.php:252
+#: library/plugin-display.php:276
 msgid "Configure email notifications for new submitted posts."
 msgstr "Настройте уведомления по электронной почте о новых отправленных сообщениях."
 
-#: library/plugin-display.php:94
+#: library/plugin-display.php:118
 msgid "Configure general settings. Note: the default settings work fine for most cases."
-msgstr "Настройте общие параметры. Примечание: настройки по умолчанию работают нормально в большинстве случаев."
+msgstr "Настройте общие параметры. Примечание: настройки по умолчанию подходят для большинства случаев."
 
-#: library/plugin-display.php:495
+#: library/plugin-display.php:519
 msgid "Configure settings for image uploads."
 msgstr "Настройте параметры загрузки изображений."
 
-#: library/plugin-display.php:305
+#: library/plugin-display.php:329
 msgid "Configure settings for the Category and Tag fields."
-msgstr "Настройте параметры полей «Категория» и «Тег»."
+msgstr "Настройте параметры для полей «Категория» и «Тег»."
 
-#: library/plugin-display.php:204
+#: library/plugin-display.php:228
 msgid "Configure user settings."
 msgstr "Настройте параметры пользователя."
 
@@ -251,174 +263,174 @@ msgstr "Настройте параметры пользователя."
 msgid "Congratulations, you&rsquo;re logged in."
 msgstr "Поздравляем, вы вошли в систему."
 
-#: user-submitted-posts.php:1717 user-submitted-posts.php:1718
+#: user-submitted-posts.php:1731 user-submitted-posts.php:1732
 msgid "Correct captcha required"
-msgstr "Требуется правильная капча"
+msgstr "Требуется правильный капча"
 
-#: library/plugin-display.php:272
+#: library/plugin-display.php:296
 msgid "Custom address for the email &ldquo;From&rdquo; header (see plugin FAQs for info)."
-msgstr "Пользовательский адрес электронной почты &ldquo;От&rdquo; заголовок (см. часто задаваемые вопросы по плагину)."
+msgstr "Пользовательский адрес для заголовка электронного письма «От» (для получения информации см. раздел часто задаваемых вопросов о плагине)."
 
-#: library/plugin-display.php:404
+#: library/plugin-display.php:428
 msgid "Custom Checkbox"
 msgstr "Пользовательский флажок"
 
-#: user-submitted-posts.php:1697
+#: user-submitted-posts.php:1711
 msgid "Custom checkbox required"
-msgstr "Требуется специальный флажок"
+msgstr "Требуется пользовательский флажок"
 
-#: library/plugin-display.php:160
+#: library/plugin-display.php:184
 msgid "Custom Content"
 msgstr "Пользовательский контент"
 
-#: user-submitted-posts.php:1694 library/core-functions.php:306
+#: user-submitted-posts.php:1708 library/core-functions.php:306
 #: library/plugin-settings.php:392 library/plugin-settings.php:930
-#: library/plugin-display.php:348
+#: library/plugin-display.php:372
 msgid "Custom Field 1"
 msgstr "Пользовательское поле 1"
 
-#: library/plugin-display.php:620
+#: library/plugin-display.php:644
 msgid "Custom Field 1 Display"
-msgstr "Отображение настраиваемого поля 1"
+msgstr "Отображение пользовательского поля 1"
 
-#: library/plugin-display.php:627
+#: library/plugin-display.php:651
 msgid "Custom Field 1 Markup"
 msgstr "Разметка пользовательского поля 1"
 
-#: user-submitted-posts.php:1695 library/core-functions.php:255
+#: user-submitted-posts.php:1709 library/core-functions.php:255
 #: library/plugin-settings.php:397 library/plugin-settings.php:933
-#: library/plugin-display.php:376
+#: library/plugin-display.php:400
 msgid "Custom Field 2"
 msgstr "Пользовательское поле 2"
 
-#: library/plugin-display.php:633
+#: library/plugin-display.php:657
 msgid "Custom Field 2 Display"
-msgstr "Отображение настраиваемого поля 2"
+msgstr "Отображение пользовательского поля 2"
 
-#: library/plugin-display.php:640
+#: library/plugin-display.php:664
 msgid "Custom Field 2 Markup"
 msgstr "Разметка пользовательского поля 2"
 
-#: library/plugin-display.php:358 library/plugin-display.php:386
+#: library/plugin-display.php:382 library/plugin-display.php:410
 msgid "Custom Field Label"
 msgstr "Пользовательская метка поля"
 
-#: library/plugin-display.php:353 library/plugin-display.php:381
+#: library/plugin-display.php:377 library/plugin-display.php:405
 msgid "Custom Field Name"
-msgstr "Имя настраиваемого поля"
+msgstr "Имя пользовательского поля"
 
 #: library/plugin-settings.php:203
 msgid "Custom Form + Custom CSS"
-msgstr "Пользовательская форма + пользовательский CSS"
+msgstr "Пользовательская форма + Пользовательский CSS"
 
-#: library/plugin-display.php:518
+#: library/plugin-display.php:542
 msgid "Custom markup for the &ldquo;Add another image&rdquo; link. Leave blank to use the default markup (recommended)."
-msgstr "Пользовательская разметка для кнопки «Добавить другое изображение». связь. Оставьте поле пустым, чтобы использовать разметку по умолчанию (рекомендуется)."
+msgstr "Пользовательская разметка для ссылки «Добавить другое изображение». Оставьте пустым, чтобы использовать разметку по умолчанию (рекомендуется)."
 
-#: library/plugin-display.php:503
+#: library/plugin-display.php:527
 msgid "Default Featured Image"
-msgstr "Рекомендуемое изображение по умолчанию"
+msgstr "Основное изображение по умолчанию"
 
 #: library/plugin-settings.php:504
 msgid "Disable"
 msgstr "Запрещать"
 
-#: library/plugin-display.php:177
+#: library/plugin-display.php:201
 msgid "Disable all required attributes on form fields (useful for troubleshooting error messages)"
-msgstr "Отключите все обязательные атрибуты в полях формы (полезно для устранения неполадок с сообщениями об ошибках)."
+msgstr "Отключите все обязательные атрибуты в полях формы (полезно для устранения неполадок с сообщениями об ошибках)"
 
-#: library/plugin-display.php:180
+#: library/plugin-display.php:204
 msgid "Disable IP Tracking"
-msgstr "Отключить IP-отслеживание"
+msgstr "Отключить отслеживание IP"
 
-#: library/plugin-display.php:234
+#: library/plugin-display.php:258
 msgid "Disable Replace Author"
 msgstr "Отключить замену автора"
 
-#: library/plugin-display.php:175
+#: library/plugin-display.php:199
 msgid "Disable Required"
-msgstr "Отключить обязательно"
+msgstr "Отключить Требуется"
 
 #: library/plugin-settings.php:373 library/plugin-settings.php:414
 #: library/plugin-settings.php:444 library/plugin-settings.php:474
 msgid "Disable this field"
 msgstr "Отключить это поле"
 
-#: library/plugin-settings.php:1291
+#: library/plugin-settings.php:1293
 msgid "Dismiss"
 msgstr "Увольнять"
 
-#: library/plugin-display.php:332
+#: library/plugin-display.php:356
 msgid "Display a select/dropdown menu of existing tags (valid when Tag field is displayed on the form)"
-msgstr "Отобразить меню выбора/раскрывающееся меню существующих тегов (действительно, если в форме отображается поле «Тег»)."
+msgstr "Отображение выпадающего меню существующих тегов (действительно, если поле «Тег» отображается в форме)"
 
-#: library/plugin-display.php:409
+#: library/plugin-display.php:433
 msgid "Display Checkbox"
-msgstr "Отображать флажок"
+msgstr "Отобразить флажок"
 
-#: library/plugin-display.php:753
+#: library/plugin-display.php:777
 msgid "Display content only to users with a specific capability:"
-msgstr "Отображать контент только для пользователей с определенными возможностями:"
+msgstr "Показывать контент только пользователям с определенными возможностями:"
 
-#: library/plugin-display.php:755
+#: library/plugin-display.php:779
 msgid "Display content to logged-in users:"
 msgstr "Отображение контента для вошедших в систему пользователей:"
 
-#: library/plugin-display.php:757
+#: library/plugin-display.php:781
 msgid "Display content to visitors only:"
-msgstr "Отображать контент только для посетителей:"
+msgstr "Показывать контент только посетителям:"
 
-#: library/plugin-display.php:411
+#: library/plugin-display.php:435
 msgid "Display custom checkbox on the submission form"
-msgstr "Отображение настраиваемого флажка в форме отправки"
+msgstr "Отображение пользовательского флажка в форме отправки"
 
-#: library/plugin-display.php:622
+#: library/plugin-display.php:646
 msgid "Display Custom Field 1:"
-msgstr "Отобразить настраиваемое поле 1:"
+msgstr "Отображение пользовательского поля 1:"
 
-#: library/plugin-display.php:635
+#: library/plugin-display.php:659
 msgid "Display Custom Field 2:"
-msgstr "Отобразить настраиваемое поле 2:"
+msgstr "Отображение пользовательского поля 2:"
 
-#: library/plugin-display.php:711
+#: library/plugin-display.php:735
 msgid "Display image gallery"
 msgstr "Показать галерею изображений"
 
-#: library/plugin-display.php:596
+#: library/plugin-display.php:620
 msgid "Display submitted author/name:"
-msgstr "Отобразить представленного автора/имя:"
+msgstr "Показать отправленного автора/имя:"
 
-#: library/plugin-display.php:583
+#: library/plugin-display.php:607
 msgid "Display submitted email address:"
-msgstr "Отобразить отправленный адрес электронной почты:"
+msgstr "Показать отправленный адрес электронной почты:"
 
-#: library/plugin-display.php:569
+#: library/plugin-display.php:593
 msgid "Display submitted images:"
 msgstr "Показать отправленные изображения:"
 
-#: library/plugin-display.php:609
+#: library/plugin-display.php:633
 msgid "Display submitted URL:"
-msgstr "Отобразить отправленный URL:"
+msgstr "Показать отправленный URL:"
 
-#: library/plugin-display.php:665
+#: library/plugin-display.php:689
 msgid "Display the Form"
-msgstr "Отображение формы"
+msgstr "Показать форму"
 
-#: library/plugin-display.php:682
+#: library/plugin-display.php:706
 msgid "Display the login/register form"
-msgstr "Отображение формы входа/регистрации"
+msgstr "Отобразить форму входа/регистрации"
 
-#: library/plugin-display.php:669
+#: library/plugin-display.php:693
 msgid "Display the submit-post form"
-msgstr "Отображение формы отправки-публикации"
+msgstr "Отобразить форму отправки сообщения"
 
-#: library/plugin-display.php:692
+#: library/plugin-display.php:716
 msgid "Display user-submitted posts"
 msgstr "Отображение сообщений, отправленных пользователями"
 
-#: library/plugin-display.php:182
+#: library/plugin-display.php:206
 msgid "Do not collect or store any user IP address (useful for complying with privacy regulations)"
-msgstr "Не собирайте и не храните IP-адреса пользователей (полезно для соблюдения правил конфиденциальности)."
+msgstr "Не собирайте и не храните IP-адреса пользователей (полезно для соблюдения правил конфиденциальности)"
 
 #: library/plugin-settings.php:227 library/plugin-settings.php:251
 #: library/plugin-settings.php:275 library/plugin-settings.php:299
@@ -426,17 +438,17 @@ msgstr "Не собирайте и не храните IP-адреса поль�
 msgid "Do not display"
 msgstr "Не отображать"
 
-#: library/plugin-display.php:236
+#: library/plugin-display.php:260
 msgid "Do not replace post author with submitted user name"
-msgstr "Не заменяйте автора сообщения представленным именем пользователя."
+msgstr "Не заменяйте автора сообщения на указанное имя пользователя."
 
-#: library/plugin-display.php:41
+#: library/plugin-display.php:65
 msgid "Documentation"
 msgstr "Документация"
 
 #: library/support-panel.php:51
 msgid "Donate via PayPal, credit card, or cryptocurrency"
-msgstr "Пожертвуйте через PayPal, кредитную карту или криптовалюту."
+msgstr "Сделайте пожертвование через PayPal, кредитную карту или криптовалюту"
 
 #: library/support-panel.php:55
 msgid "donation"
@@ -446,45 +458,45 @@ msgstr "пожертвование"
 msgid "Draft"
 msgstr "Черновик"
 
-#: user-submitted-posts.php:1742
+#: user-submitted-posts.php:1756
 msgid "Duplicate post title. Please try again."
-msgstr "Повторяющееся название поста. Пожалуйста, попробуйте еще раз."
+msgstr "Повторяющееся название поста. Попробуйте еще раз."
 
 #: library/plugin-settings.php:918
 msgid "Email"
 msgstr "Электронная почта"
 
-#: library/plugin-display.php:270
+#: library/plugin-display.php:294
 msgid "Email &ldquo;From&rdquo; Address"
-msgstr "Электронная почта &ldquo;От&rdquo; Адрес"
+msgstr "Адрес электронной почты «От»"
 
-#: library/plugin-display.php:265
+#: library/plugin-display.php:289
 msgid "Email Address for Alerts"
 msgstr "Адрес электронной почты для оповещений"
 
-#: library/plugin-display.php:283
+#: library/plugin-display.php:307
 msgid "Email Alert Message"
-msgstr "Предупреждающее сообщение по электронной почте"
+msgstr "Оповещение по электронной почте"
 
-#: library/plugin-display.php:276
+#: library/plugin-display.php:300
 msgid "Email Alert Subject"
 msgstr "Тема оповещения по электронной почте"
 
-#: library/plugin-display.php:250
+#: library/plugin-display.php:274
 msgid "Email Alerts"
 msgstr "Оповещения по электронной почте"
 
-#: library/plugin-display.php:581
+#: library/plugin-display.php:605
 msgid "Email Display"
 msgstr "Отображение электронной почты"
 
-#: library/plugin-display.php:588
+#: library/plugin-display.php:612
 msgid "Email Markup"
 msgstr "Разметка электронной почты"
 
-#: library/plugin-display.php:294
+#: library/plugin-display.php:318
 msgid "email-alert options"
-msgstr "варианты оповещений по электронной почте"
+msgstr "параметры оповещения по электронной почте"
 
 #: library/plugin-settings.php:503
 msgid "Enable"
@@ -499,56 +511,56 @@ msgstr "Включить и потребовать"
 msgid "Enable but do not require"
 msgstr "Включить, но не требовать"
 
-#: library/plugin-display.php:260
+#: library/plugin-display.php:284
 msgid "Enable HTML Format"
 msgstr "Включить формат HTML"
 
-#: library/plugin-display.php:262
+#: library/plugin-display.php:286
 msgid "Enable HTML format for email alert messages"
-msgstr "Включить формат HTML для сообщений с оповещениями по электронной почте"
+msgstr "Включить формат HTML для оповещений по электронной почте"
 
-#: library/plugin-display.php:167
+#: library/plugin-display.php:191
 msgid "Enable RTE/Visual Editor for the Post Content field"
-msgstr "Включите RTE/визуальный редактор для поля «Содержимое публикации»."
+msgstr "Включить RTE/визуальный редактор для поля «Содержимое записи»"
 
-#: library/plugin-display.php:185
+#: library/plugin-display.php:209
 msgid "Enable Shortcodes"
 msgstr "Включить короткие коды"
 
-#: library/plugin-display.php:187
+#: library/plugin-display.php:211
 msgid "Enable shortcodes in widgets. By default, WordPress does not enable shortcodes in widgets. "
-msgstr "Включите шорткоды в виджетах. По умолчанию WordPress не поддерживает короткие коды в виджетах. "
+msgstr "Включить шорткоды в виджетах. По умолчанию WordPress не включает шорткоды в виджетах. "
 
-#: library/plugin-display.php:317
+#: library/plugin-display.php:341
 msgid "Enable users to select multiple categories"
 msgstr "Разрешить пользователям выбирать несколько категорий"
 
-#: library/plugin-display.php:554
+#: library/plugin-display.php:578
 msgid "Enable users to upload other file types (like PDF, Word, Zip, videos, and more), check out"
-msgstr "Предоставьте пользователям возможность загружать файлы других типов (например, PDF, Word, Zip, видео и т. д.), ознакомьтесь"
+msgstr "Разрешите пользователям загружать другие типы файлов (например, PDF, Word, Zip, видео и т. д.), ознакомьтесь с"
 
 #. Description of the plugin
 #: 
 msgid "Enables your visitors to submit posts and images from anywhere on your site."
 msgstr "Позволяет вашим посетителям отправлять сообщения и изображения из любой точки вашего сайта."
 
-#: library/plugin-display.php:35
+#: library/plugin-display.php:59
 msgid "enables your visitors to submit posts and upload images from the front-end of your site. "
-msgstr "позволяет вашим посетителям отправлять сообщения и загружать изображения из внешнего интерфейса вашего сайта. "
+msgstr "позволяет посетителям отправлять сообщения и загружать изображения с интерфейса вашего сайта. "
 
-#: library/plugin-display.php:459
+#: library/plugin-display.php:483
 msgid "Enter the *only* correct answer to the challenge question"
-msgstr "Введите *единственный* правильный ответ на контрольный вопрос."
+msgstr "Введите *единственный* правильный ответ на контрольный вопрос"
 
-#: library/plugin-display.php:507
+#: library/plugin-display.php:531
 msgid "Enter URL or click button to upload/choose an image (optional)"
-msgstr "Введите URL-адрес или нажмите кнопку, чтобы загрузить/выбрать изображение (необязательно)"
+msgstr "Введите URL или нажмите кнопку, чтобы загрузить/выбрать изображение (необязательно)"
 
-#: library/plugin-display.php:481
+#: library/plugin-display.php:505
 msgid "Enter your Private Key"
-msgstr "Введите свой закрытый ключ"
+msgstr "Введите ваш закрытый ключ"
 
-#: library/plugin-display.php:476
+#: library/plugin-display.php:500
 msgid "Enter your Public Key"
 msgstr "Введите свой открытый ключ"
 
@@ -556,123 +568,127 @@ msgstr "Введите свой открытый ключ"
 msgid "Enter your username or email to reset your password."
 msgstr "Введите свое имя пользователя или адрес электронной почты, чтобы сбросить пароль."
 
-#: library/plugin-display.php:155
+#: library/plugin-display.php:179
 msgid "Error Message"
 msgstr "Сообщение об ошибке"
 
-#: library/plugin-display.php:157
+#: library/plugin-display.php:181
 msgid "Error message displayed if post submission fails (basic markup allowed)"
-msgstr "Сообщение об ошибке отображается в случае сбоя отправки сообщения (разрешена базовая разметка)"
+msgstr "Сообщение об ошибке отображается, если отправка сообщения не удалась (разрешена базовая разметка)"
 
-#: library/plugin-display.php:426
+#: library/plugin-display.php:450
 msgid "Error message displayed if user does not check the box"
-msgstr "Сообщение об ошибке отображается, если пользователь не устанавливает флажок"
+msgstr "Сообщение об ошибке отображается, если пользователь не установил флажок"
 
-#: user-submitted-posts.php:1752
+#: user-submitted-posts.php:1766
 msgid "Error: "
 msgstr "Ошибка: "
 
-#: library/plugin-display.php:763
+#: library/plugin-display.php:787
 msgid "Example"
 msgstr "Пример"
 
-#: library/plugin-display.php:498
+#: library/plugin-settings.php:1216
+msgid "Fall Sale!"
+msgstr "Осенняя распродажа!"
+
+#: library/plugin-display.php:522
 msgid "Featured Image"
-msgstr "Популярное изображение"
+msgstr "Главное изображение"
 
-#: user-submitted-posts.php:1735
+#: user-submitted-posts.php:1749
 msgid "File not uploaded. Please check the file and try again."
-msgstr "Файл не загружен. Пожалуйста, проверьте файл и повторите попытку."
+msgstr "Файл не загружен. Проверьте файл и попробуйте еще раз."
 
-#: user-submitted-posts.php:1728
+#: user-submitted-posts.php:1742
 msgid "File type not allowed (please upload images only)"
 msgstr "Недопустимый тип файла (загружайте только изображения)"
 
-#: library/plugin-display.php:366 library/plugin-display.php:394
-#: library/plugin-display.php:437
+#: library/plugin-display.php:390 library/plugin-display.php:418
+#: library/plugin-display.php:461
 msgid "For"
 msgstr "Для"
 
-#: library/plugin-display.php:293 library/plugin-display.php:338
+#: library/plugin-display.php:317 library/plugin-display.php:362
 msgid "For more"
-msgstr "Для большего"
+msgstr "Для получения дополнительной информации"
 
-#: library/plugin-display.php:36
+#: library/plugin-display.php:60
 msgid "For more features and unlimited forms, check out"
-msgstr "Дополнительные возможности и неограниченное количество форм см."
+msgstr "Для получения дополнительных функций и неограниченного количества форм посетите"
 
-#: library/plugin-display.php:194 library/plugin-display.php:242
-#: library/plugin-display.php:649
+#: library/plugin-display.php:218 library/plugin-display.php:266
+#: library/plugin-display.php:673
 msgid "For more options and features, check out"
-msgstr "Дополнительные возможности и возможности см."
+msgstr "Для получения дополнительных опций и функций ознакомьтесь с"
 
-#: library/plugin-display.php:84
+#: library/plugin-display.php:108
 msgid "For unlimited fields, check out"
-msgstr "Чтобы получить неограниченное количество полей, проверьте"
+msgstr "Для неограниченного количества полей ознакомьтесь с"
 
 #: library/shortcode-login.php:90
 msgid "Forgot?"
 msgstr "Забыл?"
 
-#: library/plugin-display.php:59
+#: library/plugin-display.php:83
 msgid "Form Fields"
 msgstr "Поля формы"
 
-#: library/plugin-display.php:97
+#: library/plugin-display.php:121
 msgid "Form Style"
 msgstr "Стиль формы"
 
-#: library/plugin-display.php:562
+#: library/plugin-display.php:586
 msgid "Front-end Display"
-msgstr "Внешний дисплей"
+msgstr "Дисплей на передней панели"
 
-#: library/plugin-display.php:115
+#: library/plugin-display.php:139
 msgid "FYI: here is a"
 msgstr "К вашему сведению: вот"
 
-#: library/plugin-display.php:92
+#: library/plugin-display.php:116
 msgid "General Settings"
-msgstr "общие настройки"
+msgstr "Общие настройки"
 
-#: library/plugin-display.php:48
+#: library/plugin-display.php:72
 msgid "Get USP Pro"
-msgstr "Получите USP Pro"
+msgstr "Получить USP Pro"
 
 #: library/plugin-settings.php:38
 msgid "Get USP Pro for unlimited forms!"
 msgstr "Получите USP Pro для неограниченного количества форм!"
 
-#: library/plugin-settings.php:1219
-msgid "Get&nbsp;plugins&nbsp;&raquo;"
-msgstr "Получить плагины&raquo;"
-
-#: library/plugin-display.php:46
+#: library/plugin-display.php:70
 msgid "give it a 5-star rating"
 msgstr "дайте ему оценку 5 звезд"
 
+#: library/plugin-display.php:37
+msgid "give this plugin a 5-star rating"
+msgstr "дайте этому плагину оценку 5 звезд"
+
 #: library/plugin-settings.php:66
 msgid "Give USP a 5-star rating at WordPress.org"
-msgstr "Поставьте USP 5-звездочный рейтинг на WordPress.org"
+msgstr "Дайте USP 5-звездочный рейтинг на WordPress.org"
 
 #: library/plugin-settings.php:39
 msgid "Go Pro"
-msgstr "Станьте профессионалом"
+msgstr "Стань профессионалом"
 
-#: library/plugin-settings.php:461 library/plugin-display.php:469
+#: library/plugin-settings.php:461 library/plugin-display.php:493
 msgid "Google reCaptcha"
-msgstr "Google реКапча"
+msgstr "Google reCaptcha"
 
 #: library/shortcode-login.php:107
 msgid "Have an account?"
-msgstr "Иметь аккаунт?"
+msgstr "Есть аккаунт?"
 
-#: library/plugin-display.php:698
+#: library/plugin-display.php:722
 msgid "Here are some examples showing how to configure this shortcode:"
-msgstr "Вот несколько примеров, показывающих, как настроить этот короткий код:"
+msgstr "Вот несколько примеров, показывающих, как настроить этот шорткод:"
 
-#: library/plugin-display.php:320
+#: library/plugin-display.php:344
 msgid "Hidden/Default Category"
-msgstr "Скрытая/категория по умолчанию"
+msgstr "Скрытая/Категория по умолчанию"
 
 #: library/plugin-settings.php:61
 msgid "Homepage"
@@ -684,7 +700,7 @@ msgstr "Форма HTML5 + CSS по умолчанию"
 
 #: library/plugin-settings.php:199
 msgid "HTML5 Form + Disable CSS"
-msgstr "Форма HTML5 + отключить CSS"
+msgstr "Форма HTML5 + Отключить CSS"
 
 #. URI of the plugin
 #: 
@@ -700,59 +716,59 @@ msgstr "https://plugin-planet.com/"
 msgid "Human verification: leave this field empty."
 msgstr "Проверка человеком: оставьте это поле пустым."
 
-#: library/plugin-display.php:273
+#: library/plugin-display.php:297
 msgid "If multiple addresses are specified for the previous setting, include an equal number of addresses for this setting (in the same order)."
-msgstr "Если для предыдущего параметра указано несколько адресов, включите равное количество адресов для этого параметра (в том же порядке)."
+msgstr "Если для предыдущей настройки указано несколько адресов, включите равное количество адресов для этой настройки (в том же порядке)."
 
-#: library/plugin-display.php:764
+#: library/plugin-display.php:788
 msgid "If the user is logged in, display the post-submit form; or if the user is not logged in, display the login form:"
-msgstr "Если пользователь вошел в систему, отобразите форму после отправки; или, если пользователь не вошел в систему, отобразите форму входа:"
+msgstr "Если пользователь вошел в систему, отобразить форму после отправки; или, если пользователь не вошел в систему, отобразить форму входа:"
 
-#: library/plugin-display.php:45
+#: library/plugin-display.php:69
 msgid "If you like this plugin, please"
 msgstr "Если вам нравится этот плагин, пожалуйста"
 
-#: library/plugin-display.php:567
+#: library/plugin-display.php:591
 msgid "Image Display"
 msgstr "Отображение изображения"
 
-#: user-submitted-posts.php:1727
+#: user-submitted-posts.php:1741
 msgid "Image height exceeds maximum"
-msgstr "Высота изображения превышает максимальную"
+msgstr "Высота изображения превышает максимум"
 
-#: library/plugin-display.php:574
+#: library/plugin-display.php:598
 msgid "Image Markup"
 msgstr "Разметка изображения"
 
-#: library/plugin-settings.php:491 library/plugin-display.php:493
+#: library/plugin-settings.php:491 library/plugin-display.php:517
 msgid "Image Uploads"
 msgstr "Загрузка изображений"
 
-#: user-submitted-posts.php:1725
+#: user-submitted-posts.php:1739
 msgid "Image width exceeds maximum"
 msgstr "Ширина изображения превышает максимальную"
 
-#: library/plugin-display.php:727
+#: library/plugin-display.php:751
 msgid "in"
 msgstr "в"
 
-#: library/plugin-display.php:107
+#: library/plugin-display.php:131
 msgid "in your theme:"
 msgstr "в вашей теме:"
 
-#: library/plugin-display.php:121
+#: library/plugin-display.php:145
 msgid "Include JavaScript"
 msgstr "Включить JavaScript"
 
-#: library/plugin-display.php:123
+#: library/plugin-display.php:147
 msgid "Include required JavaScript files (recommended)"
-msgstr "Включите необходимые файлы JavaScript (рекомендуется)"
+msgstr "Включить необходимые файлы JavaScript (рекомендуется)"
 
 #: library/enqueue-scripts.php:152
 msgid "Incorrect response."
 msgstr "Неправильный ответ."
 
-#: library/plugin-display.php:114
+#: library/plugin-display.php:138
 msgid "Installation Docs"
 msgstr "Документы по установке"
 
@@ -761,33 +777,33 @@ msgstr "Документы по установке"
 msgid "Jeff Starr"
 msgstr "Джефф Старр"
 
-#: library/plugin-display.php:810
+#: library/plugin-display.php:834
 msgid "Jeff Starr on Twitter"
-msgstr "Джефф Старр в Твиттере"
+msgstr "Джефф Старр в Twitter"
 
-#: library/plugin-display.php:707 library/plugin-display.php:778
+#: library/plugin-display.php:731 library/plugin-display.php:802
 msgid "Learn&nbsp;more"
-msgstr "Подробнее…"
+msgstr "Узнать больше"
 
-#: library/plugin-display.php:789
+#: library/plugin-display.php:813
 msgid "Leave this option disabled to remember your settings."
-msgstr "Оставьте эту опцию отключенной, чтобы сохранить настройки."
+msgstr "Оставьте эту опцию отключенной, чтобы запомнить ваши настройки."
 
 #: library/plugin-settings.php:88
 msgid "Like this plugin? Give it a"
 msgstr "Нравится этот плагин? Дайте ему"
 
-#: library/plugin-display.php:115
+#: library/plugin-display.php:139
 msgid "list of USP CSS selectors"
 msgstr "список селекторов CSS USP"
 
-#: user-submitted-posts.php:1809
+#: user-submitted-posts.php:1823
 msgid "log in"
 msgstr "авторизоваться"
 
 #: library/shortcode-login.php:108
 msgid "Log in or sign up! It&rsquo;s fast &amp; free!"
-msgstr "Войдите или зарегистрируйтесь! Это быстро и легко. бесплатно!"
+msgstr "Авторизуйтесь или зарегистрируйтесь! Это быстро и бесплатно!"
 
 #: library/shortcode-login.php:182
 msgid "Log out"
@@ -799,163 +815,171 @@ msgstr "Авторизоваться"
 
 #: library/shortcode-login.php:155
 msgid "Lose something?"
-msgstr "Потерять что-нибудь?"
+msgstr "Что-то потеряли?"
+
+#: library/plugin-display.php:35
+msgid "make a donation"
+msgstr "сделать пожертвование"
+
+#: library/plugin-display.php:35
+msgid "Make a donation via PayPal"
+msgstr "Сделайте пожертвование через PayPal"
 
 #: library/support-panel.php:107
 msgid "Make a donation&nbsp;&raquo;"
 msgstr "Сделать пожертвование&nbsp;&raquo;"
 
-#: library/plugin-display.php:464
+#: library/plugin-display.php:488
 msgid "Make the challenge response case-sensitive"
-msgstr "Сделайте запрос-ответ чувствительным к регистру"
+msgstr "Сделать ответ на вызов чувствительным к регистру"
 
-#: library/plugin-display.php:416
+#: library/plugin-display.php:440
 msgid "Make the custom checkbox required (uncheck to make optional)"
 msgstr "Сделайте пользовательский флажок обязательным (снимите флажок, чтобы сделать его необязательным)"
 
-#: library/plugin-display.php:629
+#: library/plugin-display.php:653
 msgid "Markup for Custom Field 1. You may include any of the following variables:"
-msgstr "Разметка для настраиваемого поля 1. Вы можете включить любую из следующих переменных:"
+msgstr "Разметка для пользовательского поля 1. Вы можете включить любую из следующих переменных:"
 
-#: library/plugin-display.php:642
+#: library/plugin-display.php:666
 msgid "Markup for Custom Field 2. You may include any of the following variables:"
-msgstr "Разметка для настраиваемого поля 2. Вы можете включить любую из следующих переменных:"
+msgstr "Разметка для пользовательского поля 2. Вы можете включить любую из следующих переменных:"
 
-#: library/plugin-display.php:576
+#: library/plugin-display.php:600
 msgid "Markup for each submitted image. You may include any of the following variables:"
 msgstr "Разметка для каждого отправленного изображения. Вы можете включить любую из следующих переменных:"
 
-#: library/plugin-display.php:603
+#: library/plugin-display.php:627
 msgid "Markup for submitted author/name. You may include"
 msgstr "Разметка для представленного автора/имени. Вы можете включить"
 
-#: library/plugin-display.php:590
+#: library/plugin-display.php:614
 msgid "Markup for submitted email address. You may include any of the following variables:"
 msgstr "Разметка для отправленного адреса электронной почты. Вы можете включить любую из следующих переменных:"
 
-#: library/plugin-display.php:616
+#: library/plugin-display.php:640
 msgid "Markup for submitted URL. You may include any of the following variables:"
 msgstr "Разметка для отправленного URL. Вы можете включить любую из следующих переменных:"
 
-#: library/plugin-display.php:548
+#: library/plugin-display.php:572
 msgid "Maximum height (in pixels) for uploaded images"
-msgstr "Максимальная высота (в пикселях) загружаемых изображений"
+msgstr "Максимальная высота (в пикселях) для загружаемых изображений"
 
-#: library/plugin-display.php:546
+#: library/plugin-display.php:570
 msgid "Maximum image height"
 msgstr "Максимальная высота изображения"
 
-#: library/plugin-display.php:541
+#: library/plugin-display.php:565
 msgid "Maximum image width"
 msgstr "Максимальная ширина изображения"
 
-#: library/plugin-display.php:526
+#: library/plugin-display.php:550
 msgid "Maximum number of images"
 msgstr "Максимальное количество изображений"
 
-#: user-submitted-posts.php:1723
+#: user-submitted-posts.php:1737
 msgid "Maximum number of images exceeded "
 msgstr "Превышено максимальное количество изображений "
 
-#: library/plugin-display.php:528
+#: library/plugin-display.php:552
 msgid "Maximum number of images for each submitted post"
-msgstr "Максимальное количество изображений для каждого отправленного сообщения"
+msgstr "Максимальное количество изображений для каждого отправленного поста"
 
-#: library/plugin-display.php:543
+#: library/plugin-display.php:567
 msgid "Maximum width (in pixels) for uploaded images"
-msgstr "Максимальная ширина (в пикселях) загружаемых изображений"
+msgstr "Максимальная ширина (в пикселях) для загружаемых изображений"
 
-#: library/plugin-display.php:152
+#: library/plugin-display.php:176
 msgid "Message displayed after successful post submission (basic markup allowed)"
 msgstr "Сообщение, отображаемое после успешной отправки сообщения (разрешена базовая разметка)"
 
-#: library/plugin-display.php:513
+#: library/plugin-display.php:537
 msgid "Message displayed next to the file upload field (basic markup allowed)"
 msgstr "Сообщение, отображаемое рядом с полем загрузки файла (разрешена базовая разметка)"
 
-#: library/plugin-display.php:285
+#: library/plugin-display.php:309
 msgid "Message for email alerts. Leave blank to use default message. You may include any of the following variables:"
 msgstr "Сообщение для оповещений по электронной почте. Оставьте пустым, чтобы использовать сообщение по умолчанию. Вы можете включить любую из следующих переменных:"
 
-#: library/plugin-display.php:538
+#: library/plugin-display.php:562
 msgid "Minimum height (in pixels) for uploaded images"
 msgstr "Минимальная высота (в пикселях) для загружаемых изображений"
 
-#: library/plugin-display.php:536
+#: library/plugin-display.php:560
 msgid "Minimum image height"
 msgstr "Минимальная высота изображения"
 
-#: user-submitted-posts.php:1726
+#: user-submitted-posts.php:1740
 msgid "Minimum image height not met"
-msgstr "Минимальная высота изображения не достигнута"
+msgstr "Минимальная высота изображения не соблюдена"
 
-#: library/plugin-display.php:531
+#: library/plugin-display.php:555
 msgid "Minimum image width"
 msgstr "Минимальная ширина изображения"
 
-#: user-submitted-posts.php:1724
+#: user-submitted-posts.php:1738
 msgid "Minimum image width not met"
 msgstr "Минимальная ширина изображения не соблюдена"
 
-#: library/plugin-display.php:521
+#: library/plugin-display.php:545
 msgid "Minimum number of images"
 msgstr "Минимальное количество изображений"
 
-#: library/plugin-display.php:523
+#: library/plugin-display.php:547
 msgid "Minimum number of images for each submitted post"
-msgstr "Минимальное количество изображений для каждого отправленного сообщения"
+msgstr "Минимальное количество изображений для каждого отправленного поста"
 
-#: user-submitted-posts.php:1722
+#: user-submitted-posts.php:1736
 msgid "Minimum number of images not met"
-msgstr "Минимальное количество изображений не соблюдено"
+msgstr "Минимальное количество изображений не достигнуто"
 
-#: library/plugin-display.php:533
+#: library/plugin-display.php:557
 msgid "Minimum width (in pixels) for uploaded images"
-msgstr "Минимальная ширина (в пикселях) загружаемых изображений"
+msgstr "Минимальная ширина (в пикселях) для загружаемых изображений"
 
-#: library/plugin-display.php:81 library/plugin-display.php:191
-#: library/plugin-display.php:239 library/plugin-display.php:290
-#: library/plugin-display.php:335 library/plugin-display.php:363
-#: library/plugin-display.php:391 library/plugin-display.php:434
-#: library/plugin-display.php:551 library/plugin-display.php:646
+#: library/plugin-display.php:105 library/plugin-display.php:215
+#: library/plugin-display.php:263 library/plugin-display.php:314
+#: library/plugin-display.php:359 library/plugin-display.php:387
+#: library/plugin-display.php:415 library/plugin-display.php:458
+#: library/plugin-display.php:575 library/plugin-display.php:670
 msgid "More Options"
 msgstr "Больше вариантов"
 
-#: library/plugin-display.php:315
+#: library/plugin-display.php:339
 msgid "Multiple Categories"
 msgstr "Несколько категорий"
 
-#: library/plugin-display.php:594
+#: library/plugin-display.php:618
 msgid "Name Display"
 msgstr "Отображение имени"
 
-#: library/plugin-display.php:601
+#: library/plugin-display.php:625
 msgid "Name Markup"
-msgstr "Разметка имени"
+msgstr "Имя Разметка"
 
-#: user-submitted-posts.php:1721
+#: user-submitted-posts.php:1735
 msgid "Non-empty value for hidden field"
 msgstr "Непустое значение для скрытого поля"
 
-#: library/plugin-display.php:747
+#: library/plugin-display.php:771
 msgid "Note that the url attribute accepts"
-msgstr "Обратите внимание, что атрибут URL принимает"
+msgstr "Обратите внимание, что атрибут url принимает"
 
-#: library/plugin-display.php:723
+#: library/plugin-display.php:747
 msgid "Notes:"
 msgstr "Примечания:"
 
-#: library/plugin-display.php:811
+#: library/plugin-display.php:835
 msgid "Obsessive Web Design &amp; Development"
-msgstr "Одержимый веб-дизайн и усиление; Разработка"
+msgstr "Навязчивый веб-дизайн и разработка"
 
-#: library/plugin-display.php:162
+#: library/plugin-display.php:186
 msgid "Optional markup/text to include before the submission form (leave blank to disable)"
 msgstr "Необязательная разметка/текст для включения перед формой отправки (оставьте пустым, чтобы отключить)"
 
-#: library/plugin-display.php:340
+#: library/plugin-display.php:364
 msgid "options, check out"
-msgstr "варианты, посмотрите"
+msgstr "варианты, проверьте"
 
 #: library/support-panel.php:59
 msgid "or"
@@ -965,27 +989,23 @@ msgstr "или"
 msgid "or by making a"
 msgstr "или сделав"
 
-#: library/plugin-settings.php:1218
-msgid "or take 30% off with code"
-msgstr "или получите скидку 30% по коду"
-
-#: library/plugin-display.php:790
+#: library/plugin-display.php:814
 msgid "Or, to go ahead and restore the default plugin options: check the box, save your settings, and then deactivate/reactivate the plugin."
 msgstr "Или, чтобы продолжить и восстановить параметры плагина по умолчанию: установите флажок, сохраните настройки, а затем деактивируйте/повторно активируйте плагин."
 
-#: library/plugin-display.php:696
+#: library/plugin-display.php:720
 msgid "Or, use the template tag to display a list of submitted posts anywhere in your theme template:"
 msgstr "Или используйте тег шаблона, чтобы отобразить список отправленных сообщений в любом месте шаблона вашей темы:"
 
-#: library/plugin-display.php:715
+#: library/plugin-display.php:739
 msgid "Or, use the template tag to display an image gallery anywhere in your theme template:"
-msgstr "Или используйте тег шаблона, чтобы отобразить галерею изображений в любом месте шаблона темы:"
+msgstr "Или используйте тег шаблона для отображения галереи изображений в любом месте шаблона вашей темы:"
 
-#: library/plugin-display.php:674 library/plugin-display.php:687
+#: library/plugin-display.php:698 library/plugin-display.php:711
 msgid "Or, use the template tag to display the form anywhere in your theme template:"
-msgstr "Или используйте тег шаблона, чтобы отобразить форму в любом месте шаблона темы:"
+msgstr "Или используйте тег шаблона, чтобы отобразить форму в любом месте шаблона вашей темы:"
 
-#: library/plugin-display.php:31
+#: library/plugin-display.php:55
 msgid "Overview"
 msgstr "Обзор"
 
@@ -995,19 +1015,19 @@ msgstr "Пароль"
 
 #: library/plugin-settings.php:587
 msgid "Pending (default)"
-msgstr "В ожидании (по умолчанию)"
+msgstr "Ожидание (по умолчанию)"
 
 #: library/support-panel.php:49
 msgid "Perishable Press Books"
-msgstr "Скоропортящиеся книги"
+msgstr "Скоропортящиеся книги Press"
 
-#: user-submitted-posts.php:1808
+#: user-submitted-posts.php:1822 library/plugin-display.php:35
 msgid "Please"
 msgstr "Пожалуйста"
 
-#: user-submitted-posts.php:1720
+#: user-submitted-posts.php:1734
 msgid "Please check your email and try again"
-msgstr "Пожалуйста, проверьте свою электронную почту и повторите попытку."
+msgstr "Пожалуйста, проверьте свою электронную почту и попробуйте еще раз."
 
 #: views/submission-form.php:21 views/submission-form-alt.php:40
 msgid "Please complete the required fields."
@@ -1015,38 +1035,38 @@ msgstr "Пожалуйста, заполните обязательные пол
 
 #: library/support-panel.php:105
 msgid "Please Donate"
-msgstr "Пожалуйста пожертвуйте"
+msgstr "Пожалуйста, сделайте пожертвование"
 
 #: user-submitted-posts.php:124
 msgid "Please return to the"
-msgstr "Пожалуйста, вернитесь в"
+msgstr "Пожалуйста, вернитесь к"
 
 #: views/submission-form.php:92 views/submission-form-alt.php:107
 msgid "Please select a category.."
-msgstr "Пожалуйста, выберите категорию.."
+msgstr "Пожалуйста, выберите категорию."
 
 #: views/submission-form.php:58 views/submission-form-alt.php:73
 msgid "Please select some tags.."
-msgstr "Пожалуйста, выберите несколько тегов.."
+msgstr "Пожалуйста, выберите несколько тегов."
 
 #: library/plugin-settings.php:883
 msgid "Please select your image(s) to upload."
-msgstr "Пожалуйста, выберите изображения для загрузки."
+msgstr "Выберите изображение(я) для загрузки."
 
 #: library/support-panel.php:58
 msgid "Please show support by purchasing one of my"
-msgstr "Пожалуйста, проявите поддержку, купив один из моих"
+msgstr "Пожалуйста, окажите поддержку, купив один из моих"
 
-#: library/plugin-settings.php:60 library/plugin-display.php:40
-#: library/plugin-display.php:809
+#: library/plugin-settings.php:60 library/plugin-display.php:64
+#: library/plugin-display.php:833
 msgid "Plugin Homepage"
 msgstr "Домашняя страница плагина"
 
 #: library/support-panel.php:50
 msgid "Plugin Planet: Pro WordPress Plugins"
-msgstr "Планета плагинов: профессиональные плагины WordPress"
+msgstr "Plugin Planet: Профессиональные плагины WordPress"
 
-#: library/plugin-display.php:55
+#: library/plugin-display.php:79
 msgid "Plugin Settings"
 msgstr "Настройки плагина"
 
@@ -1055,78 +1075,78 @@ msgid "plugins"
 msgstr "плагины"
 
 #: views/submission-form.php:90 views/submission-form-alt.php:105
-#: library/plugin-display.php:70
+#: library/plugin-display.php:94
 msgid "Post Category"
-msgstr "Категория сообщения"
+msgstr "Категория поста"
 
-#: user-submitted-posts.php:1715
+#: user-submitted-posts.php:1729
 msgid "Post category required"
-msgstr "Требуется категория сообщения"
+msgstr "Категория сообщения обязательна"
 
 #: views/submission-form.php:123 views/submission-form.php:124
 #: views/submission-form-alt.php:138 views/submission-form-alt.php:139
-#: library/plugin-display.php:71
+#: library/plugin-display.php:95
 msgid "Post Content"
 msgstr "Опубликовать контент"
 
-#: user-submitted-posts.php:1716
+#: user-submitted-posts.php:1730
 msgid "Post content required"
-msgstr "Требуется содержание публикации"
+msgstr "Требуется содержание поста"
 
-#: user-submitted-posts.php:1741
+#: user-submitted-posts.php:1755
 msgid "Post not created. Please contact the site administrator for help."
-msgstr "Пост не создан. Обратитесь за помощью к администратору сайта."
+msgstr "Запись не создана. Обратитесь за помощью к администратору сайта."
 
-#: library/plugin-display.php:138
+#: library/plugin-display.php:162
 msgid "Post Status"
-msgstr "Статус сообщения"
+msgstr "Статус поста"
 
-#: library/plugin-display.php:141
+#: library/plugin-display.php:165
 msgid "Post Status for submitted posts"
-msgstr "Статус отправленных сообщений"
+msgstr "Статус сообщения для отправленных сообщений"
 
 #: views/submission-form.php:56 views/submission-form.php:65
 #: views/submission-form.php:66 views/submission-form-alt.php:71
 #: views/submission-form-alt.php:80 views/submission-form-alt.php:81
-#: library/plugin-display.php:69
+#: library/plugin-display.php:93
 msgid "Post Tags"
 msgstr "Теги сообщений"
 
-#: user-submitted-posts.php:1714
+#: user-submitted-posts.php:1728
 msgid "Post tags required"
 msgstr "Требуются теги сообщений"
 
 #: views/submission-form.php:49 views/submission-form.php:50
 #: views/submission-form-alt.php:64 views/submission-form-alt.php:65
-#: library/plugin-display.php:68
+#: library/plugin-display.php:92
 msgid "Post Title"
-msgstr "Заголовок поста"
+msgstr "Заголовок сообщения"
 
-#: user-submitted-posts.php:1712
+#: user-submitted-posts.php:1726
 msgid "Post title required"
-msgstr "Требуется заголовок сообщения"
+msgstr "Требуется название поста"
 
-#: library/plugin-display.php:131
+#: library/plugin-display.php:155
 msgid "Post Type"
 msgstr "Тип сообщения"
 
-#: library/plugin-display.php:134
+#: library/plugin-display.php:158
 msgid "Post Type for submitted posts"
 msgstr "Тип сообщения для отправленных сообщений"
 
-#: library/plugin-display.php:479
+#: library/plugin-display.php:503
 msgid "Private Key"
 msgstr "Закрытый ключ"
 
-#: library/plugin-settings.php:1216
-msgid "Pro Plugin Sale!"
-msgstr "Распродажа профессиональных плагинов!"
+#: library/plugin-settings.php:1218
+msgid "Pro WordPress plugins"
+msgstr "Профессиональные плагины WordPress"
 
 #: library/shortcode-login.php:184
 msgid "Profile"
 msgstr "Профиль"
 
-#: library/plugin-display.php:474
+#: library/plugin-display.php:498
 msgid "Public Key"
 msgstr "Открытый ключ"
 
@@ -1136,49 +1156,53 @@ msgstr "Опубликовать после "
 
 #: library/plugin-settings.php:589
 msgid "Publish after 1 approved post"
-msgstr "Опубликовать после 1 одобренного сообщения"
+msgstr "Опубликовать после 1 одобренного поста"
 
 #: library/plugin-settings.php:588
 msgid "Publish immediately"
 msgstr "Опубликовать немедленно"
 
+#: library/plugin-display.php:36
+msgid "Rate and review at the Plugin Directory"
+msgstr "Оцените и оставьте отзыв в каталоге плагинов"
+
 #: library/plugin-settings.php:67
 msgid "Rate this plugin&nbsp;&raquo;"
 msgstr "Оцените этот плагин&nbsp;&raquo;"
 
-#: library/plugin-display.php:484
+#: library/plugin-display.php:508
 msgid "reCaptcha Version"
 msgstr "Версия reCaptcha"
 
-#: library/plugin-display.php:255
+#: library/plugin-display.php:279
 msgid "Receive Email Alert"
-msgstr "Получить оповещение по электронной почте"
+msgstr "Получать оповещения по электронной почте"
 
-#: library/plugin-display.php:145
+#: library/plugin-display.php:169
 msgid "Redirect URL"
 msgstr "URL-адрес перенаправления"
 
-#: library/plugin-display.php:147
+#: library/plugin-display.php:171
 msgid "Redirect user to this URL after post submission (leave blank to stay on current page)"
-msgstr "Перенаправить пользователя на этот URL-адрес после отправки сообщения (оставьте пустым, чтобы остаться на текущей странице)"
+msgstr "Перенаправить пользователя на этот URL после отправки сообщения (оставьте поле пустым, чтобы остаться на текущей странице)"
 
 #: library/shortcode-login.php:89
 msgid "Register"
-msgstr "регистр"
+msgstr "Зарегистрироваться"
 
 #: library/shortcode-login.php:135
 msgid "Register for this site!"
 msgstr "Зарегистрируйтесь на этом сайте!"
 
-#: library/plugin-display.php:219
+#: library/plugin-display.php:243
 msgid "Registered Email"
-msgstr "зарегистрированная электронная почта"
+msgstr "Зарегистрированный адрес электронной почты"
 
-#: library/plugin-display.php:224
+#: library/plugin-display.php:248
 msgid "Registered URL"
 msgstr "Зарегистрированный URL-адрес"
 
-#: library/plugin-display.php:214
+#: library/plugin-display.php:238
 msgid "Registered Username"
 msgstr "Зарегистрированное имя пользователя"
 
@@ -1186,21 +1210,21 @@ msgstr "Зарегистрированное имя пользователя"
 msgid "Remember me"
 msgstr "Запомнить меня"
 
-#: library/plugin-display.php:414
+#: library/plugin-display.php:438
 msgid "Require Checkbox"
-msgstr "Требовать флажок"
+msgstr "Требуется флажок"
 
-#: library/plugin-display.php:172
+#: library/plugin-display.php:196
 msgid "Require submitted post titles to be unique (useful for preventing multiple/duplicate posts)"
-msgstr "Требовать, чтобы заголовки отправленных сообщений были уникальными (полезно для предотвращения множественных/дублирующихся сообщений)."
+msgstr "Требовать, чтобы заголовки отправляемых сообщений были уникальными (полезно для предотвращения создания множественных/дублирующихся сообщений)"
 
-#: library/plugin-display.php:229
+#: library/plugin-display.php:253
 msgid "Require User Login"
 msgstr "Требовать вход пользователя"
 
-#: library/plugin-display.php:231
+#: library/plugin-display.php:255
 msgid "Require users to be logged in to WordPress to view/submit the form"
-msgstr "Требовать от пользователей входа в WordPress для просмотра/отправки формы."
+msgstr "Требовать, чтобы пользователи вошли в WordPress для просмотра/отправки формы"
 
 #: user-submitted-posts.php:122
 msgid "requires WordPress "
@@ -1208,41 +1232,41 @@ msgstr "требуется WordPress "
 
 #: library/shortcode-misc.php:17
 msgid "Reset form"
-msgstr "Сброс форма"
+msgstr "Сбросить форму"
 
-#: library/plugin-display.php:739
+#: library/plugin-display.php:763
 msgid "Reset Form Button"
 msgstr "Кнопка сброса формы"
 
 #: library/shortcode-login.php:163
 msgid "Reset my password"
-msgstr "Сбросить пароль"
+msgstr "Сбросить мой пароль"
 
-#: library/plugin-display.php:793
+#: library/plugin-display.php:817
 msgid "Restore default options upon plugin deactivation/reactivation"
 msgstr "Восстановить параметры по умолчанию при деактивации/повторной активации плагина"
 
-#: library/plugin-display.php:787
+#: library/plugin-display.php:811
 msgid "Restore Defaults"
-msgstr "Восстановить значения по умолчанию"
+msgstr "Восстановить настройки по умолчанию"
 
-#: user-submitted-posts.php:1778
+#: user-submitted-posts.php:1792
 msgid "Return to form"
 msgstr "Вернуться к форме"
 
-#: library/plugin-display.php:165
+#: library/plugin-display.php:189
 msgid "Rich Text Editor"
 msgstr "Редактор форматированного текста"
 
-#: library/plugin-display.php:657
+#: library/plugin-display.php:681
 msgid "Save All Changes"
 msgstr "Сохранить все изменения"
 
-#: library/plugin-display.php:822
+#: library/plugin-display.php:846
 msgid "Save Preference"
 msgstr "Сохранить предпочтения"
 
-#: library/plugin-display.php:795
+#: library/plugin-display.php:819
 msgid "Save Settings"
 msgstr "Сохранить настройки"
 
@@ -1250,7 +1274,7 @@ msgstr "Сохранить настройки"
 msgid "Select categories to include in the Category field:"
 msgstr "Выберите категории для включения в поле «Категория»:"
 
-#: library/plugin-display.php:257
+#: library/plugin-display.php:281
 msgid "Send email alerts for new post submissions"
 msgstr "Отправлять оповещения по электронной почте о новых публикациях"
 
@@ -1258,7 +1282,7 @@ msgstr "Отправлять оповещения по электронной п
 msgid "Settings"
 msgstr "Настройки"
 
-#: library/plugin-display.php:310
+#: library/plugin-display.php:334
 msgid "Show categories"
 msgstr "Показать категории"
 
@@ -1268,23 +1292,23 @@ msgstr "Показать сообщения USP"
 
 #: library/shortcode-login.php:136
 msgid "Sign up now for the good stuff."
-msgstr "Подпишитесь сейчас, чтобы получать хорошие вещи."
+msgstr "Подпишитесь сейчас и получайте все самое лучшее."
 
 #: library/shortcode-login.php:147
 msgid "Sign up!"
 msgstr "Зарегистрироваться!"
 
-#: library/plugin-display.php:327
+#: library/plugin-display.php:351
 msgid "Specify category ID(s) to use for &ldquo;Hidden/Default Category&rdquo; (separate multiple IDs with commas)"
-msgstr "Укажите идентификаторы категорий, которые будут использоваться для &ldquo;Скрытой категории/категории по умолчанию&rdquo; (разделяйте несколько идентификаторов запятыми)"
+msgstr "Укажите идентификатор(ы) категории, которые будут использоваться для «Скрытой/Категории по умолчанию» (разделите несколько идентификаторов запятыми)"
 
-#: library/plugin-display.php:210
+#: library/plugin-display.php:234
 msgid "Specify the user that should be assigned as author for submitted posts"
-msgstr "Укажите пользователя, которого следует назначить автором отправленных сообщений."
+msgstr "Укажите пользователя, который должен быть назначен автором для отправленных сообщений."
 
-#: library/plugin-display.php:278
+#: library/plugin-display.php:302
 msgid "Subject line for email alerts. Leave blank to use default subject line. You may include any of the following variables:"
-msgstr "Тема для уведомлений по электронной почте. Оставьте пустым, чтобы использовать тему по умолчанию. Вы можете включить любую из следующих переменных:"
+msgstr "Тема для оповещений по электронной почте. Оставьте пустым, чтобы использовать тему по умолчанию. Вы можете включить любую из следующих переменных:"
 
 #: views/submission-form.php:197 views/submission-form-alt.php:212
 msgid "Submit Post"
@@ -1292,7 +1316,7 @@ msgstr "Отправить сообщение"
 
 #: library/plugin-settings.php:9
 msgid "Submitted Posts"
-msgstr "Отправленные сообщения"
+msgstr "Представленные сообщения"
 
 #: user-submitted-posts.php:647
 msgid "Submitter Email: "
@@ -1308,11 +1332,11 @@ msgstr "Имя отправителя: "
 
 #: user-submitted-posts.php:648
 msgid "Submitter URL: "
-msgstr "URL-адрес отправителя: "
+msgstr "URL отправителя: "
 
-#: library/plugin-display.php:150
+#: library/plugin-display.php:174
 msgid "Success Message"
-msgstr "Сообщение об успехе"
+msgstr "Сообщение об успешном завершении"
 
 #: library/shortcode-login.php:97 library/shortcode-login.php:102
 msgid "Success!"
@@ -1320,237 +1344,241 @@ msgstr "Успех!"
 
 #: library/plugin-settings.php:889
 msgid "Success! Thank you for your submission."
-msgstr "Успех! Спасибо за ваш вклад."
+msgstr "Успех! Спасибо за вашу заявку."
 
-#: library/plugin-display.php:42
+#: library/plugin-display.php:66
 msgid "Support Forum"
 msgstr "Форум поддержки"
 
-#: library/plugin-display.php:340
+#: library/plugin-display.php:364
 msgid "tag"
 msgstr "ярлык"
 
-#: library/plugin-display.php:126
+#: library/plugin-settings.php:1217
+msgid "Take 25% OFF any of our"
+msgstr "Получите скидку 25% на любой из наших"
+
+#: library/plugin-display.php:150
 msgid "Targeted Loading"
 msgstr "Целевая загрузка"
 
-#: library/plugin-display.php:431
+#: library/plugin-display.php:455
 msgid "Text displayed next to checkbox. Tip: use curly brackets to output angle brackets, for example:"
-msgstr "Текст, отображаемый рядом с флажком. Совет: для вывода угловых скобок используйте фигурные скобки, например:"
+msgstr "Текст, отображаемый рядом с флажком. Совет: используйте фигурные скобки для вывода угловых скобок, например:"
 
 #: library/support-panel.php:57
 msgid "Thank you for using"
 msgstr "Спасибо за использование"
 
-#: library/plugin-display.php:46
+#: library/plugin-display.php:70
 msgid "THANK YOU for your support!"
-msgstr "Спасибо за Вашу поддержку!"
+msgstr "СПАСИБО за вашу поддержку!"
 
-#: library/plugin-display.php:113
+#: library/plugin-display.php:137
 msgid "That will enable you to customize the form and styles as desired. For more info, check out the \"Custom Submission Form\" section in the"
-msgstr "Это позволит вам настроить форму и стили по своему желанию. Для получения дополнительной информации посетите раздел «Пользовательская форма отправки» на странице"
+msgstr "Это позволит вам настроить форму и стили по своему желанию. Для получения дополнительной информации ознакомьтесь с разделом «Пользовательская форма отправки» в"
 
-#: library/plugin-display.php:773
+#: library/plugin-display.php:797
 msgid "The access shortcodes can be added to any WP Post or Page. So you can display forms and other content conditionally, based on user role and login status."
-msgstr "Шорткоды доступа можно добавить к любому сообщению или странице WP. Таким образом, вы можете отображать формы и другой контент в зависимости от роли пользователя и статуса входа в систему."
+msgstr "Короткие коды доступа можно добавлять к любой записи или странице WP. Таким образом, вы можете отображать формы и другой контент условно, на основе роли пользователя и статуса входа."
 
-#: user-submitted-posts.php:1739
+#: user-submitted-posts.php:1753
 msgid "The file(s) could not be uploaded"
-msgstr "Файл(ы) не удалось загрузить"
+msgstr "Файл(ы) не могут быть загружены"
 
-#: library/plugin-display.php:689
+#: library/plugin-display.php:713
 msgid "The login/register form displays as a tabbed interface, so users can switch between login, register, and reset password."
-msgstr "Форма входа/регистрации отображается в виде интерфейса с вкладками, поэтому пользователи могут переключаться между входом в систему, регистрацией и сбросом пароля."
+msgstr "Форма входа/регистрации отображается в виде интерфейса с вкладками, что позволяет пользователям переключаться между входом в систему, регистрацией и сбросом пароля."
 
-#: library/plugin-display.php:706
+#: library/plugin-display.php:730
 msgid "The pro version provides many more options for this shortcode."
-msgstr "Профессиональная версия предоставляет гораздо больше возможностей для этого короткого кода."
+msgstr "Профессиональная версия предоставляет гораздо больше возможностей для этого шорткода."
 
-#: library/plugin-display.php:777
+#: library/plugin-display.php:801
 msgid "The pro version provides more flexibility with access-control shortcodes."
-msgstr "Профессиональная версия обеспечивает большую гибкость благодаря коротким кодам контроля доступа."
+msgstr "Профессиональная версия обеспечивает большую гибкость благодаря коротким кодам управления доступом."
 
 #: library/plugin-settings.php:869
 msgid "There was an error. Please check required fields and try again."
-msgstr "Была допущена ошибка. Пожалуйста, проверьте обязательные поля и повторите попытку."
+msgstr "Произошла ошибка. Проверьте обязательные поля и попробуйте еще раз."
 
-#: library/plugin-display.php:188
+#: library/plugin-display.php:212
 msgid "This setting enables any/all shortcodes in widgets (even shortcodes from other plugins)."
 msgstr "Этот параметр включает любые/все шорткоды в виджетах (даже шорткоды из других плагинов)."
 
-#: library/plugin-display.php:743
+#: library/plugin-display.php:767
 msgid "This shortcode accepts the following attributes:"
-msgstr "Этот короткий код принимает следующие атрибуты:"
+msgstr "Этот шорткод принимает следующие атрибуты:"
 
-#: library/plugin-display.php:741
+#: library/plugin-display.php:765
 msgid "This shortcode displays a link that resets the form to its original state:"
-msgstr "Этот шорткод отображает ссылку, которая возвращает форму в исходное состояние:"
+msgstr "Этот шорткод отображает ссылку, которая сбрасывает форму в исходное состояние:"
 
-#: library/plugin-display.php:360
+#: library/plugin-display.php:384
 msgid "This will be displayed as the field label on the form. Default: Custom Field 1"
-msgstr "Это будет отображаться как метка поля в форме. По умолчанию: настраиваемое поле 1."
+msgstr "Это будет отображаться как метка поля в форме. По умолчанию: Пользовательское поле 1"
 
-#: library/plugin-display.php:388
+#: library/plugin-display.php:412
 msgid "This will be displayed as the field label on the form. Default: Custom Field 2"
-msgstr "Это будет отображаться как метка поля в форме. По умолчанию: настраиваемое поле 2."
+msgstr "Это будет отображаться как метка поля в форме. По умолчанию: Пользовательское поле 2"
 
-#: library/plugin-display.php:705 library/plugin-display.php:760
-#: library/plugin-display.php:776
+#: library/plugin-display.php:729 library/plugin-display.php:784
+#: library/plugin-display.php:800
 msgid "Tip:"
 msgstr "Кончик:"
 
-#: library/plugin-display.php:604
+#: library/plugin-display.php:628
 msgid "to display the submitted name."
 msgstr "для отображения отправленного имени."
 
-#: library/plugin-display.php:471
+#: library/plugin-display.php:495
 msgid "To enable Google reCaptcha, enter your public and private keys."
 msgstr "Чтобы включить Google reCaptcha, введите свой открытый и закрытый ключи."
 
-#: library/plugin-display.php:747
+#: library/plugin-display.php:771
 msgid "to get the current URL."
 msgstr "чтобы получить текущий URL."
 
-#: library/plugin-display.php:734
+#: library/plugin-display.php:758
 msgid "to get the URL of the full-size image"
-msgstr "чтобы получить URL-адрес полноразмерного изображения"
+msgstr "чтобы получить URL полноразмерного изображения"
 
-#: library/plugin-display.php:761
+#: library/plugin-display.php:785
 msgid "to include markup in the deny message, you can use"
-msgstr "чтобы включить разметку в сообщение об отказе, вы можете использовать"
+msgstr "Чтобы включить разметку в сообщение об отказе, вы можете использовать"
 
-#: library/plugin-display.php:761
+#: library/plugin-display.php:785
 msgid "to output"
 msgstr "для вывода"
 
-#: library/plugin-display.php:726
+#: library/plugin-display.php:750
 msgid "to output angle brackets"
 msgstr "для вывода угловых скобок"
 
-#: library/plugin-display.php:454
+#: library/plugin-display.php:478
 msgid "To prevent spam, enter a question that users must answer before submitting the form"
 msgstr "Чтобы предотвратить спам, введите вопрос, на который пользователи должны ответить перед отправкой формы."
 
-#: user-submitted-posts.php:1810
+#: user-submitted-posts.php:1824
 msgid "to submit content!"
 msgstr "для отправки контента!"
 
 #: user-submitted-posts.php:126
 msgid "to upgrade WordPress and try again."
-msgstr "чтобы обновить WordPress и повторите попытку."
+msgstr "обновить WordPress и повторить попытку."
 
 #: library/plugin-display.php:22
 msgid "Toggle all panels"
 msgstr "Переключить все панели"
 
-#: library/plugin-display.php:170
+#: library/plugin-display.php:194
 msgid "Unique Titles"
-msgstr "Уникальные титулы"
+msgstr "Уникальные заголовки"
 
-#: library/plugin-display.php:438
+#: library/plugin-display.php:462
 msgid "unlimited checkbox fields"
-msgstr "неограниченное количество полей флажков"
+msgstr "неограниченное количество полей для флажков"
 
-#: library/plugin-display.php:367 library/plugin-display.php:395
+#: library/plugin-display.php:391 library/plugin-display.php:419
 msgid "unlimited custom fields"
 msgstr "неограниченное количество пользовательских полей"
 
-#: library/plugin-display.php:48
+#: library/plugin-display.php:72
 msgid "Unlimited front-end forms"
-msgstr "Неограниченное количество внешних форм"
+msgstr "Неограниченное количество форм интерфейса"
 
 #: views/submission-form.php:138 views/submission-form-alt.php:153
 msgid "Upload an Image"
 msgstr "Загрузить изображение"
 
-#: library/plugin-display.php:511
+#: library/plugin-display.php:535
 msgid "Upload Message"
 msgstr "Загрузить сообщение"
 
 #: library/plugin-settings.php:920
 msgid "URL"
-msgstr "URL-адрес"
+msgstr "URL"
 
-#: library/plugin-display.php:607
+#: library/plugin-display.php:631
 msgid "URL Display"
 msgstr "Отображение URL-адреса"
 
-#: library/plugin-display.php:614
+#: library/plugin-display.php:638
 msgid "URL Markup"
 msgstr "Разметка URL-адреса"
 
-#: library/plugin-display.php:322
+#: library/plugin-display.php:346
 msgid "Use a hidden field for the post category. This hides the category field and sets its value via the next option."
-msgstr "Используйте скрытое поле для категории сообщения. Это скроет поле категории и установит его значение с помощью следующей опции."
+msgstr "Использовать скрытое поле для категории поста. Это скроет поле категории и задаст его значение через следующую опцию."
 
-#: library/plugin-display.php:726
+#: library/plugin-display.php:750
 msgid "Use curly brackets"
 msgstr "Используйте фигурные скобки"
 
-#: library/plugin-display.php:330
+#: library/plugin-display.php:354
 msgid "Use Existing Tags"
 msgstr "Использовать существующие теги"
 
-#: library/plugin-display.php:355 library/plugin-display.php:383
-#: library/plugin-display.php:421
+#: library/plugin-display.php:379 library/plugin-display.php:407
+#: library/plugin-display.php:445
 msgid "Use only alphanumeric, underscores, and dashes. If unsure, use the default name:"
-msgstr "Используйте только буквы, цифры, подчеркивания и тире. Если вы не уверены, используйте имя по умолчанию:"
+msgstr "Используйте только буквы, цифры, подчеркивания и тире. Если не уверены, используйте имя по умолчанию:"
 
-#: library/plugin-display.php:731
+#: library/plugin-display.php:755
 msgid "Use single straight quotes (instead of double quotes) in"
-msgstr "Используйте одинарные прямые кавычки (вместо двойных кавычек) в"
+msgstr "Используйте одинарные прямые кавычки (вместо двойных) в"
 
-#: library/plugin-display.php:500
+#: library/plugin-display.php:524
 msgid "Use submitted images as Featured Images. Requires theme support for Featured Images (aka Post Thumbnails)"
-msgstr "Используйте отправленные изображения в качестве избранных изображений. Требуется поддержка темы для избранных изображений (также известных как миниатюры сообщений)."
+msgstr "Использовать отправленные изображения как избранные изображения. Требуется поддержка темы для избранных изображений (также известных как миниатюры постов)"
 
-#: library/plugin-display.php:672 library/plugin-display.php:685
+#: library/plugin-display.php:696 library/plugin-display.php:709
 msgid "Use the shortcode to display the form on any WP Post or Page:"
-msgstr "Используйте шорткод для отображения формы в любой публикации или странице WP:"
+msgstr "Используйте шорткод для отображения формы в любой записи или странице WP:"
 
-#: library/plugin-display.php:226
+#: library/plugin-display.php:250
 msgid "Use the user&rsquo;s Profile URL as the value of the URL field (valid when the user is logged in to WordPress)"
-msgstr "Используйте URL-адрес профиля пользователя в качестве значения поля URL-адреса (действительно, когда пользователь вошел в WordPress)."
+msgstr "Используйте URL-адрес профиля пользователя в качестве значения поля URL (действительно, если пользователь вошел в WordPress)"
 
-#: library/plugin-display.php:221
+#: library/plugin-display.php:245
 msgid "Use the user&rsquo;s registered email as the value of the Email field (valid when the user is logged in to WordPress)"
-msgstr "Используйте зарегистрированный адрес электронной почты пользователя в качестве значения поля «Электронная почта» (действительно, когда пользователь вошел в WordPress)."
+msgstr "Использовать зарегистрированный адрес электронной почты пользователя в качестве значения поля «Электронная почта» (действительно, если пользователь вошел в WordPress)"
 
-#: library/plugin-display.php:216
+#: library/plugin-display.php:240
 msgid "Use the user&rsquo;s registered username for the Name field (valid when the user is logged in to WordPress)"
-msgstr "Используйте зарегистрированное имя пользователя в поле «Имя» (действительно, когда пользователь вошел в WordPress)."
+msgstr "Используйте зарегистрированное имя пользователя для поля «Имя» (действительно, если пользователь вошел в WordPress)"
 
-#: library/plugin-display.php:713
+#: library/plugin-display.php:737
 msgid "Use this shortcode to display a gallery of uploaded images for each submitted post:"
-msgstr "Используйте этот шорткод, чтобы отобразить галерею загруженных изображений для каждого отправленного сообщения:"
+msgstr "Используйте этот шорткод для отображения галереи загруженных изображений для каждого отправленного поста:"
 
-#: library/plugin-display.php:694
+#: library/plugin-display.php:718
 msgid "Use this shortcode to display a list of submitted posts on any WP Post or Page:"
-msgstr "Используйте этот короткий код для отображения списка отправленных сообщений в любой публикации или странице WP:"
+msgstr "Используйте этот шорткод для отображения списка отправленных сообщений в любой записи или странице WP:"
 
-#: library/plugin-display.php:66
+#: library/plugin-display.php:90
 msgid "User Email"
 msgstr "Электронная почта пользователя"
 
-#: user-submitted-posts.php:1719
+#: user-submitted-posts.php:1733
 msgid "User email required"
 msgstr "Требуется адрес электронной почты пользователя"
 
-#: user-submitted-posts.php:1710
+#: user-submitted-posts.php:1724
 msgid "User login required"
 msgstr "Требуется вход пользователя"
 
-#: library/plugin-display.php:65
+#: library/plugin-display.php:89
 msgid "User Name"
 msgstr "Имя пользователя"
 
-#: user-submitted-posts.php:1711
+#: user-submitted-posts.php:1725
 msgid "User name required"
 msgstr "Требуется имя пользователя"
 
-#: library/plugin-display.php:202
+#: library/plugin-display.php:226
 msgid "User Settings"
-msgstr "Пользовательские настройки"
+msgstr "Настройки пользователя"
 
 #: user-submitted-posts.php:202
 msgid "User Submitted Post"
@@ -1558,18 +1586,18 @@ msgstr "Сообщение, отправленное пользователем"
 
 #: user-submitted-posts.php:616
 msgid "User Submitted Post Info"
-msgstr "Информация о отправленном пользователем сообщении"
+msgstr "Информация о сообщении, отправленном пользователем"
 
 #. Name of the plugin
 #: user-submitted-posts.php:42 library/support-panel.php:7
 msgid "User Submitted Posts"
 msgstr "Сообщения, отправленные пользователем"
 
-#: library/plugin-display.php:67
+#: library/plugin-display.php:91
 msgid "User URL"
 msgstr "URL-адрес пользователя"
 
-#: user-submitted-posts.php:1713
+#: user-submitted-posts.php:1727
 msgid "User URL required"
 msgstr "Требуется URL пользователя"
 
@@ -1581,30 +1609,30 @@ msgstr "Имя пользователя"
 msgid "Username or Email"
 msgstr "Имя пользователя или адрес электронной почты"
 
-#: user-submitted-posts.php:705 library/plugin-display.php:35
+#: user-submitted-posts.php:705 library/plugin-display.php:59
 msgid "USP"
-msgstr "USP"
+msgstr "УТП"
 
-#: library/plugin-display.php:671
+#: library/plugin-display.php:695
 msgid "USP enables you to display a post-submission form anywhere on your site."
-msgstr "USP позволяет отображать форму после отправки в любом месте вашего сайта."
+msgstr "USP позволяет вам отображать форму отправки после отправки в любом месте вашего сайта."
 
-#: library/plugin-display.php:36 library/plugin-display.php:85
-#: library/plugin-display.php:195 library/plugin-display.php:243
-#: library/plugin-display.php:296 library/plugin-display.php:341
-#: library/plugin-display.php:369 library/plugin-display.php:397
-#: library/plugin-display.php:440 library/plugin-display.php:555
-#: library/plugin-display.php:650 library/plugin-display.php:678
+#: library/plugin-display.php:60 library/plugin-display.php:109
+#: library/plugin-display.php:219 library/plugin-display.php:267
+#: library/plugin-display.php:320 library/plugin-display.php:365
+#: library/plugin-display.php:393 library/plugin-display.php:421
+#: library/plugin-display.php:464 library/plugin-display.php:579
+#: library/plugin-display.php:674 library/plugin-display.php:702
 msgid "USP Pro"
-msgstr "УСП Про"
+msgstr "USP Pro"
 
-#: library/plugin-display.php:752
+#: library/plugin-display.php:776
 msgid "USP provides three shortcodes to control access and restrict content."
-msgstr "USP предоставляет три коротких кода для контроля доступа и ограничения контента."
+msgstr "USP предоставляет три коротких кода для управления доступом и ограничения контента."
 
 #: library/plugin-settings.php:339
 msgid "v2 (I&rsquo;m not a robot)"
-msgstr "v2 (я не робот)"
+msgstr "v2 (Я не робот)"
 
 #: library/plugin-settings.php:343
 msgid "v3 (Hidden reCaptcha)"
@@ -1616,41 +1644,45 @@ msgstr "Проверка"
 
 #: library/shortcode-misc.php:133
 msgid "View full post"
-msgstr "Посмотреть полный пост"
+msgstr "Просмотреть полный пост"
 
-#: library/plugin-display.php:677
+#: library/plugin-display.php:701
 msgid "Want more than one form? Create unlimited submission forms, registration forms, contact forms and more with"
-msgstr "Хотите более одной формы? Создавайте неограниченное количество форм отправки, регистрационных форм, контактных форм и т. д. с помощью"
+msgstr "Хотите больше одной формы? Создавайте неограниченное количество форм отправки, регистрационных форм, контактных форм и многого другого с помощью"
+
+#: library/plugin-display.php:31
+msgid "We need your support!"
+msgstr "Нам нужна ваша поддержка!"
 
 #: library/shortcode-login.php:177
 msgid "Welcome, "
 msgstr "Добро пожаловать, "
 
-#: library/plugin-display.php:102
+#: library/plugin-display.php:126
 msgid "With this option, you can copy the plugin&rsquo;s default templates:"
 msgstr "С помощью этой опции вы можете скопировать шаблоны плагина по умолчанию:"
 
 #: user-submitted-posts.php:125
 msgid "WordPress Admin Area"
-msgstr "Админ-панель WordPress"
+msgstr "Административная зона WordPress"
 
 #: library/plugin-settings.php:179
 msgid "WP Page"
-msgstr "WP-страница"
+msgstr "Страница WP"
 
 #: library/plugin-settings.php:175
 msgid "WP Post (recommended)"
 msgstr "WP Post (рекомендуется)"
 
-#: library/plugin-display.php:800
+#: library/plugin-display.php:824
 msgid "WP Resources"
 msgstr "Ресурсы WP"
 
-#: library/plugin-display.php:684
+#: library/plugin-display.php:708
 msgid "You also can display a simple form that enables users to log in, register, or reset their password."
-msgstr "Вы также можете отобразить простую форму, которая позволяет пользователям войти в систему, зарегистрироваться или сбросить пароль."
+msgstr "Вы также можете отобразить простую форму, которая позволит пользователям войти в систему, зарегистрироваться или сбросить свой пароль."
 
-#: library/plugin-display.php:717
+#: library/plugin-display.php:741
 msgid "You can customize using any of the follwing attributes:"
 msgstr "Вы можете настроить, используя любой из следующих атрибутов:"
 
@@ -1660,9 +1692,13 @@ msgstr "Вы можете настроить, используя любой из
 msgid "Your Email"
 msgstr "Ваш адрес электронной почты"
 
+#: library/plugin-display.php:41
+msgid "Your generous support enables continued development of this free plugin. Thank you!"
+msgstr "Ваша щедрая поддержка позволяет продолжить разработку этого бесплатного плагина. Спасибо!"
+
 #: library/support-panel.php:60
 msgid "Your generous support helps future development of"
-msgstr "Ваша щедрая поддержка помогает будущему развитию"
+msgstr "Ваша щедрая поддержка поможет будущему развитию"
 
 #: views/submission-form.php:31 views/submission-form.php:32
 #: views/submission-form-alt.php:46 views/submission-form-alt.php:47

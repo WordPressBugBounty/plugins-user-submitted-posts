@@ -9,9 +9,9 @@
 	Donate link: https://monzillamedia.com/donate.html
 	Contributors: specialk
 	Requires at least: 4.6
-	Tested up to: 6.6
-	Stable tag: 20240703
-	Version:    20240703
+	Tested up to: 6.7
+	Stable tag: 20241026
+	Version:    20241026
 	Requires PHP: 5.6.20
 	Text Domain: usp
 	Domain Path: /languages
@@ -38,7 +38,7 @@
 if (!defined('ABSPATH')) die();
 
 if (!defined('USP_WP_VERSION')) define('USP_WP_VERSION', '4.6');
-if (!defined('USP_VERSION'))    define('USP_VERSION', '20240703');
+if (!defined('USP_VERSION'))    define('USP_VERSION', '20241026');
 if (!defined('USP_PLUGIN'))     define('USP_PLUGIN', esc_html__('User Submitted Posts', 'usp'));
 if (!defined('USP_FILE'))       define('USP_FILE', plugin_basename(__FILE__));
 if (!defined('USP_PATH'))       define('USP_PATH', plugin_dir_path(__FILE__));
@@ -1007,9 +1007,23 @@ function usp_check_duplicates($title) {
 	
 	if ($usp_options['titles_unique']) {
 		
-		$check_post = get_page_by_title($title, OBJECT, 'post');
+		$args = array(
+			
+			'post_type'              => 'post',
+			'title'                  => $title,
+			'post_status'            => 'all',
+			'posts_per_page'         => 1,
+			'no_found_rows'          => true,
+			'ignore_sticky_posts'    => true,
+			'update_post_term_cache' => false,
+			'update_post_meta_cache' => false,
+			'orderby'                => 'post_date ID',
+			'order'                  => 'ASC'
+		);
 		
-		if ($check_post && $check_post->ID) return false;
+		$check_post = new WP_Query(apply_filters('usp_check_duplicates', $args));
+		
+		if (!empty($check_post->post)) return false;
 		
 	}
 	

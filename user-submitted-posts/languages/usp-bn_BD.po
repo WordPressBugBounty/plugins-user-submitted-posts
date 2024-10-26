@@ -4,47 +4,47 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: USP 20240703\n"
+"Project-Id-Version: USP 20241026\n"
 "Language: bn\n"
 
 #: library/plugin-settings.php:590
 msgid " approved posts"
 msgstr " অনুমোদিত পদ"
 
-#: user-submitted-posts.php:1687
+#: user-submitted-posts.php:1701
 msgid " file"
 msgstr " ফাইল"
 
-#: user-submitted-posts.php:1684
+#: user-submitted-posts.php:1698
 msgid " file required"
 msgstr " ফাইল প্রয়োজন"
 
-#: user-submitted-posts.php:1686
+#: user-submitted-posts.php:1700
 msgid " files"
-msgstr " নথি পত্র"
+msgstr " ফাইল"
 
-#: user-submitted-posts.php:1683
+#: user-submitted-posts.php:1697
 msgid " files required"
-msgstr " প্রয়োজনীয় ফাইল"
+msgstr " ফাইল প্রয়োজন"
 
 #: user-submitted-posts.php:123
 msgid " or higher, and has been deactivated! "
 msgstr " বা উচ্চতর, এবং নিষ্ক্রিয় করা হয়েছে! "
 
-#: user-submitted-posts.php:1689 user-submitted-posts.php:1690
-#: user-submitted-posts.php:1691 user-submitted-posts.php:1692
+#: user-submitted-posts.php:1703 user-submitted-posts.php:1704
+#: user-submitted-posts.php:1705 user-submitted-posts.php:1706
 msgid " pixels"
 msgstr " পিক্সেল"
 
-#: user-submitted-posts.php:1729 user-submitted-posts.php:1730
+#: user-submitted-posts.php:1743 user-submitted-posts.php:1744
 msgid " required"
 msgstr " প্রয়োজনীয়"
 
-#: library/plugin-display.php:516
+#: library/plugin-display.php:540
 msgid "&ldquo;Add another image&rdquo; link"
 msgstr "&ldquo;অন্য ছবি যোগ করুন&rdquo; লিঙ্ক"
 
-#: library/plugin-display.php:37
+#: library/plugin-display.php:61
 msgid "&mdash; the ultimate solution for user-generated content."
 msgstr "&mdash; ব্যবহারকারী-উত্পন্ন সামগ্রীর জন্য চূড়ান্ত সমাধান।"
 
@@ -60,15 +60,15 @@ msgstr "(আপনার নিজস্ব শৈলী প্রদান ক�
 msgid "(Recommended)"
 msgstr "(প্রস্তাবিত)"
 
-#: library/plugin-display.php:107
+#: library/plugin-display.php:131
 msgid "..and upload them into a directory named"
 msgstr "..এবং তাদের নামের একটি ডিরেক্টরিতে আপলোড করুন"
 
-#: library/plugin-display.php:750
+#: library/plugin-display.php:774
 msgid "Access Control"
-msgstr "প্রবেশাধিকার নিয়ন্ত্রণ"
+msgstr "অ্যাক্সেস কন্ট্রোল"
 
-#: library/plugin-display.php:449
+#: library/plugin-display.php:473
 msgid "Add a challenge question to help stop spam. Tip: make the question easy to answer for any human."
 msgstr "স্প্যাম বন্ধ করতে সাহায্য করার জন্য একটি চ্যালেঞ্জ প্রশ্ন যোগ করুন। পরামর্শ: যেকোনো মানুষের জন্য প্রশ্নের উত্তর সহজ করে দিন।"
 
@@ -76,7 +76,7 @@ msgstr "স্প্যাম বন্ধ করতে সাহায্য �
 msgid "Add another image"
 msgstr "অন্য ইমেজ যোগ করুন"
 
-#: library/plugin-display.php:267
+#: library/plugin-display.php:291
 msgid "Additional recipients for email alerts. Use commas to separate multiple addresses."
 msgstr "ইমেল সতর্কতার জন্য অতিরিক্ত প্রাপক। একাধিক ঠিকানা আলাদা করতে কমা ব্যবহার করুন।"
 
@@ -90,18 +90,22 @@ msgstr "অ্যাডমিন"
 msgid "After post content"
 msgstr "পোস্ট কন্টেন্ট পরে"
 
-#: user-submitted-posts.php:1700
+#: user-submitted-posts.php:1714
 msgid "An error occurred. Please go back and try again."
-msgstr "একটি ত্রুটি ঘটেছে। ফিরে যান এবং আবার চেষ্টা করুন।"
+msgstr "একটি ত্রুটি ঘটেছে. অনুগ্রহ করে ফিরে যান এবং আবার চেষ্টা করুন।"
 
-#: library/plugin-display.php:339 library/plugin-display.php:727
-#: library/plugin-display.php:732
+#: library/plugin-settings.php:1219 library/plugin-display.php:363
+#: library/plugin-display.php:751 library/plugin-display.php:756
 msgid "and"
 msgstr "এবং"
 
 #: library/support-panel.php:61
 msgid "and is greatly appreciated."
 msgstr "এবং ব্যাপকভাবে প্রশংসা করা হয়."
+
+#: library/plugin-display.php:35
+msgid "and/or"
+msgstr "এবং/অথবা"
 
 #: views/submission-form.php:85 views/submission-form-alt.php:100
 msgid "Antispam Question"
@@ -111,15 +115,23 @@ msgstr "এন্টিস্প্যাম প্রশ্ন"
 msgid "Any size donation helps me to continue developing this free plugin and other awesome WordPress resources."
 msgstr "যেকোনো আকারের দান আমাকে এই বিনামূল্যের প্লাগইন এবং অন্যান্য দুর্দান্ত ওয়ার্ডপ্রেস সংস্থানগুলি বিকাশ চালিয়ে যেতে সাহায্য করে।"
 
-#: library/plugin-display.php:207
+#: library/plugin-settings.php:1221
+msgid "Apply code"
+msgstr "কোড প্রয়োগ করুন"
+
+#: library/plugin-display.php:231
 msgid "Assigned Author"
 msgstr "নিযুক্ত লেখক"
 
-#: library/plugin-display.php:728 library/plugin-display.php:732
+#: library/plugin-settings.php:1221
+msgid "at checkout. Sale ends 12/21/24."
+msgstr "চেকআউট এ বিক্রয় শেষ হবে 12/21/24 তারিখে।"
+
+#: library/plugin-display.php:752 library/plugin-display.php:756
 msgid "attributes"
 msgstr "গুণাবলী"
 
-#: library/plugin-display.php:564
+#: library/plugin-display.php:588
 msgid "Automatically display images and more."
 msgstr "স্বয়ংক্রিয়ভাবে ছবি এবং আরো প্রদর্শন."
 
@@ -129,67 +141,67 @@ msgstr "স্বয়ংক্রিয়ভাবে ছবি এবং আ
 msgid "Before post content"
 msgstr "কন্টেন্ট পোস্ট করার আগে"
 
-#: library/support-panel.php:53
+#: library/support-panel.php:53 library/plugin-settings.php:1220
 msgid "books"
 msgstr "বই"
 
-#: library/plugin-settings.php:1217
-msgid "Buy one get one FREE with code"
-msgstr "একটি কিনুন কোড সহ একটি বিনামূল্যে পান"
-
-#: library/plugin-display.php:809
+#: library/plugin-display.php:833
 msgid "by"
 msgstr "দ্বারা"
 
-#: library/plugin-display.php:128
+#: library/plugin-display.php:152
 msgid "By default, CSS &amp; JavaScript files are loaded on every page. To load only on specific page(s), enter the URL(s) here. Use commas to separate multiple URLs. Leave blank to load on all pages."
 msgstr "ডিফল্টরূপে, CSS &amp; জাভাস্ক্রিপ্ট ফাইল প্রতিটি পৃষ্ঠায় লোড করা হয়. শুধুমাত্র নির্দিষ্ট পৃষ্ঠা(গুলি) লোড করতে, এখানে URL(গুলি) লিখুন৷ একাধিক URL আলাদা করতে কমা ব্যবহার করুন। সমস্ত পৃষ্ঠায় লোড করতে ফাঁকা ছেড়ে দিন।"
 
-#: library/plugin-display.php:406
+#: library/plugin-display.php:430
 msgid "By default, this displays an &ldquo;Agree to Terms&rdquo; checkbox. Customize as desired."
 msgstr "ডিফল্টরূপে, এটি একটি &ldquo;শর্তগুলিতে সম্মত&rdquo; চেকবক্স ইচ্ছামত কাস্টমাইজ করুন।"
 
-#: library/plugin-display.php:734
+#: library/plugin-display.php:758
 msgid "Can use"
 msgstr "ব্যবহার করতে পারেন"
 
-#: library/plugin-display.php:462
+#: library/plugin-display.php:486
 msgid "Case-sensitivity"
 msgstr "কেস-সংবেদনশীলতা"
 
-#: library/plugin-display.php:308
+#: library/plugin-display.php:332
 msgid "Categories"
 msgstr "ক্যাটাগরি"
 
-#: library/plugin-display.php:303
+#: library/plugin-display.php:327
 msgid "Categories &amp; Tags"
 msgstr "বিভাগ &amp; ট্যাগ"
 
-#: library/plugin-display.php:339
+#: library/plugin-display.php:363
 msgid "category"
 msgstr "বিভাগ"
 
-#: library/plugin-display.php:325
+#: library/plugin-display.php:349
 msgid "Category ID for Hidden Field"
 msgstr "গোপন ক্ষেত্রের জন্য বিভাগ আইডি"
 
-#: library/plugin-settings.php:431 library/plugin-display.php:447
-#: library/plugin-display.php:452
+#: library/plugin-settings.php:431 library/plugin-display.php:471
+#: library/plugin-display.php:476
 msgid "Challenge Question"
 msgstr "চ্যালেঞ্জ প্রশ্ন"
 
-#: library/plugin-display.php:457
+#: library/plugin-display.php:481
 msgid "Challenge Response"
 msgstr "চ্যালেঞ্জ প্রতিক্রিয়া"
 
-#: library/plugin-display.php:295 library/plugin-display.php:368
-#: library/plugin-display.php:396 library/plugin-display.php:439
+#: library/plugin-display.php:319 library/plugin-display.php:392
+#: library/plugin-display.php:420 library/plugin-display.php:463
 msgid "check out"
 msgstr "চেক আউট"
 
-#: library/plugin-display.php:735
+#: library/plugin-display.php:759
 msgid "Check out the source code inline notes for more info"
-msgstr "আরও তথ্যের জন্য সোর্স কোড ইনলাইন নোট চেক আউট"
+msgstr "আরও তথ্যের জন্য সোর্স কোড ইনলাইন নোট দেখুন"
+
+#: library/plugin-display.php:46
+msgid "Check this box if you have shown support"
+msgstr "আপনি যদি সমর্থন দেখিয়ে থাকেন তবে এই বক্সটি চেক করুন৷"
 
 #: library/shortcode-login.php:98
 msgid "Check your email for the password."
@@ -197,53 +209,53 @@ msgstr "পাসওয়ার্ডের জন্য আপনার ইম
 
 #: library/shortcode-login.php:103
 msgid "Check your email to reset your password."
-msgstr "আপনার পাসওয়ার্ড রিসেট করতে আপনার ইমেইল চেক করুন।"
+msgstr "আপনার পাসওয়ার্ড পুনরায় সেট করতে আপনার ইমেল চেক করুন."
 
-#: library/plugin-display.php:424
+#: library/plugin-display.php:448
 msgid "Checkbox Error"
 msgstr "চেকবক্স ত্রুটি"
 
-#: library/plugin-display.php:419
+#: library/plugin-display.php:443
 msgid "Checkbox Name"
-msgstr "চেকবক্স নাম"
+msgstr "চেকবক্সের নাম"
 
-#: library/plugin-display.php:429
+#: library/plugin-display.php:453
 msgid "Checkbox Text"
 msgstr "চেকবক্স পাঠ্য"
 
-#: library/plugin-display.php:61
+#: library/plugin-display.php:85
 msgid "Choose fields to display on the front-end form."
 msgstr "ফ্রন্ট-এন্ড ফর্মে প্রদর্শনের জন্য ক্ষেত্রগুলি বেছে নিন।"
 
-#: library/plugin-display.php:487
+#: library/plugin-display.php:511
 msgid "Choose reCaptcha version"
 msgstr "reCaptcha সংস্করণ চয়ন করুন"
 
-#: library/plugin-display.php:350
+#: library/plugin-display.php:374
 msgid "Configure Custom Field #1."
 msgstr "কাস্টম ক্ষেত্র #1 কনফিগার করুন।"
 
-#: library/plugin-display.php:378
+#: library/plugin-display.php:402
 msgid "Configure Custom Field #2."
 msgstr "কাস্টম ক্ষেত্র #2 কনফিগার করুন।"
 
-#: library/plugin-display.php:252
+#: library/plugin-display.php:276
 msgid "Configure email notifications for new submitted posts."
 msgstr "নতুন জমা দেওয়া পোস্টের জন্য ইমেল বিজ্ঞপ্তি কনফিগার করুন।"
 
-#: library/plugin-display.php:94
+#: library/plugin-display.php:118
 msgid "Configure general settings. Note: the default settings work fine for most cases."
 msgstr "সাধারণ সেটিংস কনফিগার করুন। দ্রষ্টব্য: ডিফল্ট সেটিংস বেশিরভাগ ক্ষেত্রেই ঠিক কাজ করে।"
 
-#: library/plugin-display.php:495
+#: library/plugin-display.php:519
 msgid "Configure settings for image uploads."
 msgstr "ছবি আপলোডের জন্য সেটিংস কনফিগার করুন।"
 
-#: library/plugin-display.php:305
+#: library/plugin-display.php:329
 msgid "Configure settings for the Category and Tag fields."
 msgstr "বিভাগ এবং ট্যাগ ক্ষেত্রগুলির জন্য সেটিংস কনফিগার করুন।"
 
-#: library/plugin-display.php:204
+#: library/plugin-display.php:228
 msgid "Configure user settings."
 msgstr "ব্যবহারকারী সেটিংস কনফিগার করুন।"
 
@@ -251,59 +263,59 @@ msgstr "ব্যবহারকারী সেটিংস কনফিগা�
 msgid "Congratulations, you&rsquo;re logged in."
 msgstr "অভিনন্দন, আপনি লগ ইন করেছেন৷"
 
-#: user-submitted-posts.php:1717 user-submitted-posts.php:1718
+#: user-submitted-posts.php:1731 user-submitted-posts.php:1732
 msgid "Correct captcha required"
 msgstr "সঠিক ক্যাপচা প্রয়োজন"
 
-#: library/plugin-display.php:272
+#: library/plugin-display.php:296
 msgid "Custom address for the email &ldquo;From&rdquo; header (see plugin FAQs for info)."
 msgstr "ইমেলের জন্য কাস্টম ঠিকানা &ldquo;থেকে&rdquo; হেডার (তথ্যের জন্য প্লাগইন FAQs দেখুন)।"
 
-#: library/plugin-display.php:404
+#: library/plugin-display.php:428
 msgid "Custom Checkbox"
 msgstr "কাস্টম চেকবক্স"
 
-#: user-submitted-posts.php:1697
+#: user-submitted-posts.php:1711
 msgid "Custom checkbox required"
 msgstr "কাস্টম চেকবক্স প্রয়োজন"
 
-#: library/plugin-display.php:160
+#: library/plugin-display.php:184
 msgid "Custom Content"
-msgstr "কাস্টম কন্টেন্ট"
+msgstr "কাস্টম সামগ্রী"
 
-#: user-submitted-posts.php:1694 library/core-functions.php:306
+#: user-submitted-posts.php:1708 library/core-functions.php:306
 #: library/plugin-settings.php:392 library/plugin-settings.php:930
-#: library/plugin-display.php:348
+#: library/plugin-display.php:372
 msgid "Custom Field 1"
 msgstr "কাস্টম ক্ষেত্র 1"
 
-#: library/plugin-display.php:620
+#: library/plugin-display.php:644
 msgid "Custom Field 1 Display"
 msgstr "কাস্টম ফিল্ড 1 ডিসপ্লে"
 
-#: library/plugin-display.php:627
+#: library/plugin-display.php:651
 msgid "Custom Field 1 Markup"
 msgstr "কাস্টম ফিল্ড 1 মার্কআপ"
 
-#: user-submitted-posts.php:1695 library/core-functions.php:255
+#: user-submitted-posts.php:1709 library/core-functions.php:255
 #: library/plugin-settings.php:397 library/plugin-settings.php:933
-#: library/plugin-display.php:376
+#: library/plugin-display.php:400
 msgid "Custom Field 2"
 msgstr "কাস্টম ক্ষেত্র 2"
 
-#: library/plugin-display.php:633
+#: library/plugin-display.php:657
 msgid "Custom Field 2 Display"
 msgstr "কাস্টম ফিল্ড 2 ডিসপ্লে"
 
-#: library/plugin-display.php:640
+#: library/plugin-display.php:664
 msgid "Custom Field 2 Markup"
 msgstr "কাস্টম ফিল্ড 2 মার্কআপ"
 
-#: library/plugin-display.php:358 library/plugin-display.php:386
+#: library/plugin-display.php:382 library/plugin-display.php:410
 msgid "Custom Field Label"
 msgstr "কাস্টম ফিল্ড লেবেল"
 
-#: library/plugin-display.php:353 library/plugin-display.php:381
+#: library/plugin-display.php:377 library/plugin-display.php:405
 msgid "Custom Field Name"
 msgstr "কাস্টম ক্ষেত্রের নাম"
 
@@ -311,11 +323,11 @@ msgstr "কাস্টম ক্ষেত্রের নাম"
 msgid "Custom Form + Custom CSS"
 msgstr "কাস্টম ফর্ম + কাস্টম সিএসএস"
 
-#: library/plugin-display.php:518
+#: library/plugin-display.php:542
 msgid "Custom markup for the &ldquo;Add another image&rdquo; link. Leave blank to use the default markup (recommended)."
 msgstr "&ldquo;অন্য ছবি যোগ করুন&rdquo; এর জন্য কাস্টম মার্কআপ লিঙ্ক ডিফল্ট মার্কআপ ব্যবহার করতে ফাঁকা ছেড়ে দিন (প্রস্তাবিত)।"
 
-#: library/plugin-display.php:503
+#: library/plugin-display.php:527
 msgid "Default Featured Image"
 msgstr "ডিফল্ট বৈশিষ্ট্যযুক্ত ছবি"
 
@@ -323,19 +335,19 @@ msgstr "ডিফল্ট বৈশিষ্ট্যযুক্ত ছবি"
 msgid "Disable"
 msgstr "নিষ্ক্রিয় করুন"
 
-#: library/plugin-display.php:177
+#: library/plugin-display.php:201
 msgid "Disable all required attributes on form fields (useful for troubleshooting error messages)"
 msgstr "ফর্ম ক্ষেত্রগুলিতে সমস্ত প্রয়োজনীয় বৈশিষ্ট্যগুলি অক্ষম করুন (ত্রুটি বার্তাগুলির সমস্যা সমাধানের জন্য দরকারী)"
 
-#: library/plugin-display.php:180
+#: library/plugin-display.php:204
 msgid "Disable IP Tracking"
 msgstr "আইপি ট্র্যাকিং অক্ষম করুন"
 
-#: library/plugin-display.php:234
+#: library/plugin-display.php:258
 msgid "Disable Replace Author"
 msgstr "লেখক প্রতিস্থাপন অক্ষম করুন"
 
-#: library/plugin-display.php:175
+#: library/plugin-display.php:199
 msgid "Disable Required"
 msgstr "নিষ্ক্রিয় আবশ্যক"
 
@@ -344,79 +356,79 @@ msgstr "নিষ্ক্রিয় আবশ্যক"
 msgid "Disable this field"
 msgstr "এই ক্ষেত্রটি নিষ্ক্রিয় করুন"
 
-#: library/plugin-settings.php:1291
+#: library/plugin-settings.php:1293
 msgid "Dismiss"
 msgstr "খারিজ"
 
-#: library/plugin-display.php:332
+#: library/plugin-display.php:356
 msgid "Display a select/dropdown menu of existing tags (valid when Tag field is displayed on the form)"
 msgstr "বিদ্যমান ট্যাগগুলির একটি নির্বাচন/ড্রপডাউন মেনু প্রদর্শন করুন (ফর্মে ট্যাগ ক্ষেত্র প্রদর্শিত হলে বৈধ)"
 
-#: library/plugin-display.php:409
+#: library/plugin-display.php:433
 msgid "Display Checkbox"
 msgstr "চেকবক্স প্রদর্শন করুন"
 
-#: library/plugin-display.php:753
+#: library/plugin-display.php:777
 msgid "Display content only to users with a specific capability:"
 msgstr "শুধুমাত্র একটি নির্দিষ্ট ক্ষমতা সম্পন্ন ব্যবহারকারীদের জন্য সামগ্রী প্রদর্শন করুন:"
 
-#: library/plugin-display.php:755
+#: library/plugin-display.php:779
 msgid "Display content to logged-in users:"
 msgstr "লগ ইন করা ব্যবহারকারীদের জন্য সামগ্রী প্রদর্শন করুন:"
 
-#: library/plugin-display.php:757
+#: library/plugin-display.php:781
 msgid "Display content to visitors only:"
 msgstr "শুধুমাত্র দর্শকদের জন্য সামগ্রী প্রদর্শন করুন:"
 
-#: library/plugin-display.php:411
+#: library/plugin-display.php:435
 msgid "Display custom checkbox on the submission form"
 msgstr "জমা ফর্মে কাস্টম চেকবক্স প্রদর্শন করুন"
 
-#: library/plugin-display.php:622
+#: library/plugin-display.php:646
 msgid "Display Custom Field 1:"
 msgstr "কাস্টম ক্ষেত্র 1 প্রদর্শন করুন:"
 
-#: library/plugin-display.php:635
+#: library/plugin-display.php:659
 msgid "Display Custom Field 2:"
 msgstr "কাস্টম ক্ষেত্র 2 প্রদর্শন করুন:"
 
-#: library/plugin-display.php:711
+#: library/plugin-display.php:735
 msgid "Display image gallery"
 msgstr "চিত্র গ্যালারি প্রদর্শন করুন"
 
-#: library/plugin-display.php:596
+#: library/plugin-display.php:620
 msgid "Display submitted author/name:"
 msgstr "জমা দেওয়া লেখক/নাম প্রদর্শন করুন:"
 
-#: library/plugin-display.php:583
+#: library/plugin-display.php:607
 msgid "Display submitted email address:"
 msgstr "জমা দেওয়া ইমেল ঠিকানা প্রদর্শন করুন:"
 
-#: library/plugin-display.php:569
+#: library/plugin-display.php:593
 msgid "Display submitted images:"
 msgstr "জমা দেওয়া ছবিগুলি প্রদর্শন করুন:"
 
-#: library/plugin-display.php:609
+#: library/plugin-display.php:633
 msgid "Display submitted URL:"
 msgstr "জমা দেওয়া URL প্রদর্শন করুন:"
 
-#: library/plugin-display.php:665
+#: library/plugin-display.php:689
 msgid "Display the Form"
 msgstr "ফর্মটি প্রদর্শন করুন"
 
-#: library/plugin-display.php:682
+#: library/plugin-display.php:706
 msgid "Display the login/register form"
 msgstr "লগইন/রেজিস্টার ফর্মটি প্রদর্শন করুন"
 
-#: library/plugin-display.php:669
+#: library/plugin-display.php:693
 msgid "Display the submit-post form"
 msgstr "জমা পোস্ট ফর্ম প্রদর্শন"
 
-#: library/plugin-display.php:692
+#: library/plugin-display.php:716
 msgid "Display user-submitted posts"
 msgstr "ব্যবহারকারীর জমা দেওয়া পোস্টগুলি প্রদর্শন করুন"
 
-#: library/plugin-display.php:182
+#: library/plugin-display.php:206
 msgid "Do not collect or store any user IP address (useful for complying with privacy regulations)"
 msgstr "কোন ব্যবহারকারীর আইপি ঠিকানা সংগ্রহ বা সংরক্ষণ করবেন না (গোপনীয়তা প্রবিধান মেনে চলার জন্য দরকারী)"
 
@@ -426,11 +438,11 @@ msgstr "কোন ব্যবহারকারীর আইপি ঠিকা
 msgid "Do not display"
 msgstr "প্রদর্শন করবেন না"
 
-#: library/plugin-display.php:236
+#: library/plugin-display.php:260
 msgid "Do not replace post author with submitted user name"
 msgstr "জমা দেওয়া ব্যবহারকারীর নাম দিয়ে পোস্ট লেখক প্রতিস্থাপন করবেন না"
 
-#: library/plugin-display.php:41
+#: library/plugin-display.php:65
 msgid "Documentation"
 msgstr "ডকুমেন্টেশন"
 
@@ -446,43 +458,43 @@ msgstr "দান"
 msgid "Draft"
 msgstr "খসড়া"
 
-#: user-submitted-posts.php:1742
+#: user-submitted-posts.php:1756
 msgid "Duplicate post title. Please try again."
-msgstr "ডুপ্লিকেট পোস্ট শিরোনাম. অনুগ্রহপূর্বক আবার চেষ্টা করুন।"
+msgstr "ডুপ্লিকেট পোস্ট শিরোনাম. আবার চেষ্টা করুন."
 
 #: library/plugin-settings.php:918
 msgid "Email"
 msgstr "ইমেইল"
 
-#: library/plugin-display.php:270
+#: library/plugin-display.php:294
 msgid "Email &ldquo;From&rdquo; Address"
 msgstr "ইমেল &ldquo;থেকে&rdquo; ঠিকানা"
 
-#: library/plugin-display.php:265
+#: library/plugin-display.php:289
 msgid "Email Address for Alerts"
 msgstr "সতর্কতা জন্য ইমেল ঠিকানা"
 
-#: library/plugin-display.php:283
+#: library/plugin-display.php:307
 msgid "Email Alert Message"
 msgstr "ইমেল সতর্কতা বার্তা"
 
-#: library/plugin-display.php:276
+#: library/plugin-display.php:300
 msgid "Email Alert Subject"
 msgstr "ইমেল সতর্কতা বিষয়"
 
-#: library/plugin-display.php:250
+#: library/plugin-display.php:274
 msgid "Email Alerts"
 msgstr "ইমেল সতর্কতা"
 
-#: library/plugin-display.php:581
+#: library/plugin-display.php:605
 msgid "Email Display"
 msgstr "ইমেল প্রদর্শন"
 
-#: library/plugin-display.php:588
+#: library/plugin-display.php:612
 msgid "Email Markup"
 msgstr "ইমেল মার্কআপ"
 
-#: library/plugin-display.php:294
+#: library/plugin-display.php:318
 msgid "email-alert options"
 msgstr "ইমেল-সতর্কতা বিকল্প"
 
@@ -499,31 +511,31 @@ msgstr "সক্ষম করুন এবং প্রয়োজন"
 msgid "Enable but do not require"
 msgstr "সক্রিয় কিন্তু প্রয়োজন নেই"
 
-#: library/plugin-display.php:260
+#: library/plugin-display.php:284
 msgid "Enable HTML Format"
 msgstr "HTML ফরম্যাট সক্ষম করুন"
 
-#: library/plugin-display.php:262
+#: library/plugin-display.php:286
 msgid "Enable HTML format for email alert messages"
 msgstr "ইমেল সতর্কতা বার্তাগুলির জন্য HTML বিন্যাস সক্ষম করুন৷"
 
-#: library/plugin-display.php:167
+#: library/plugin-display.php:191
 msgid "Enable RTE/Visual Editor for the Post Content field"
 msgstr "পোস্ট কন্টেন্ট ক্ষেত্রের জন্য RTE/ভিজ্যুয়াল এডিটর সক্ষম করুন"
 
-#: library/plugin-display.php:185
+#: library/plugin-display.php:209
 msgid "Enable Shortcodes"
 msgstr "শর্টকোড সক্রিয় করুন"
 
-#: library/plugin-display.php:187
+#: library/plugin-display.php:211
 msgid "Enable shortcodes in widgets. By default, WordPress does not enable shortcodes in widgets. "
 msgstr "উইজেটগুলিতে শর্টকোডগুলি সক্ষম করুন৷ ডিফল্টরূপে, ওয়ার্ডপ্রেস উইজেটে শর্টকোড সক্রিয় করে না। "
 
-#: library/plugin-display.php:317
+#: library/plugin-display.php:341
 msgid "Enable users to select multiple categories"
 msgstr "ব্যবহারকারীদের একাধিক বিভাগ নির্বাচন করতে সক্ষম করুন"
 
-#: library/plugin-display.php:554
+#: library/plugin-display.php:578
 msgid "Enable users to upload other file types (like PDF, Word, Zip, videos, and more), check out"
 msgstr "ব্যবহারকারীদের অন্যান্য ফাইলের ধরন (যেমন PDF, Word, Zip, ভিডিও এবং আরও অনেক কিছু) আপলোড করতে সক্ষম করুন, চেক আউট করুন৷"
 
@@ -532,81 +544,85 @@ msgstr "ব্যবহারকারীদের অন্যান্য ফ�
 msgid "Enables your visitors to submit posts and images from anywhere on your site."
 msgstr "আপনার সাইটের যেকোনো জায়গা থেকে আপনার দর্শকদের পোস্ট এবং ছবি জমা দিতে সক্ষম করে।"
 
-#: library/plugin-display.php:35
+#: library/plugin-display.php:59
 msgid "enables your visitors to submit posts and upload images from the front-end of your site. "
 msgstr "আপনার দর্শকদের পোস্ট জমা দিতে এবং আপনার সাইটের সামনের প্রান্ত থেকে ছবি আপলোড করতে সক্ষম করে। "
 
-#: library/plugin-display.php:459
+#: library/plugin-display.php:483
 msgid "Enter the *only* correct answer to the challenge question"
 msgstr "চ্যালেঞ্জ প্রশ্নের *শুধু* সঠিক উত্তর লিখুন"
 
-#: library/plugin-display.php:507
+#: library/plugin-display.php:531
 msgid "Enter URL or click button to upload/choose an image (optional)"
 msgstr "URL লিখুন বা একটি ছবি আপলোড/বাছাই করতে বাটনে ক্লিক করুন (ঐচ্ছিক)"
 
-#: library/plugin-display.php:481
+#: library/plugin-display.php:505
 msgid "Enter your Private Key"
 msgstr "আপনার ব্যক্তিগত কী লিখুন"
 
-#: library/plugin-display.php:476
+#: library/plugin-display.php:500
 msgid "Enter your Public Key"
 msgstr "আপনার সর্বজনীন কী লিখুন"
 
 #: library/shortcode-login.php:156
 msgid "Enter your username or email to reset your password."
-msgstr "আপনার গোপন শব্দ নতুন করতে সদস্যের নাম আর ইমেইল প্রবেশ করান।"
+msgstr "আপনার পাসওয়ার্ড রিসেট করতে আপনার ব্যবহারকারীর নাম বা ইমেল লিখুন।"
 
-#: library/plugin-display.php:155
+#: library/plugin-display.php:179
 msgid "Error Message"
-msgstr "ভুল বার্তা"
+msgstr "ত্রুটি বার্তা"
 
-#: library/plugin-display.php:157
+#: library/plugin-display.php:181
 msgid "Error message displayed if post submission fails (basic markup allowed)"
-msgstr "পোস্ট জমা ব্যর্থ হলে ত্রুটি বার্তা প্রদর্শিত হয় (মৌলিক মার্কআপ অনুমোদিত)"
+msgstr "পোস্ট জমা ব্যর্থ হলে ত্রুটি বার্তা প্রদর্শিত হয় (বেসিক মার্কআপ অনুমোদিত)"
 
-#: library/plugin-display.php:426
+#: library/plugin-display.php:450
 msgid "Error message displayed if user does not check the box"
 msgstr "ব্যবহারকারী বাক্সটি চেক না করলে ত্রুটি বার্তা প্রদর্শিত হবে"
 
-#: user-submitted-posts.php:1752
+#: user-submitted-posts.php:1766
 msgid "Error: "
 msgstr "ত্রুটি: "
 
-#: library/plugin-display.php:763
+#: library/plugin-display.php:787
 msgid "Example"
 msgstr "উদাহরণ"
 
-#: library/plugin-display.php:498
-msgid "Featured Image"
-msgstr "বৈশিষ্ট্যযুক্ত ইমেজ"
+#: library/plugin-settings.php:1216
+msgid "Fall Sale!"
+msgstr "পতন বিক্রয়!"
 
-#: user-submitted-posts.php:1735
+#: library/plugin-display.php:522
+msgid "Featured Image"
+msgstr "বৈশিষ্ট্যযুক্ত ছবি"
+
+#: user-submitted-posts.php:1749
 msgid "File not uploaded. Please check the file and try again."
 msgstr "ফাইল আপলোড করা হয়নি। ফাইল চেক করুন এবং আবার চেষ্টা করুন."
 
-#: user-submitted-posts.php:1728
+#: user-submitted-posts.php:1742
 msgid "File type not allowed (please upload images only)"
 msgstr "ফাইল প্রকার অনুমোদিত নয় (শুধুমাত্র ছবি আপলোড করুন)"
 
-#: library/plugin-display.php:366 library/plugin-display.php:394
-#: library/plugin-display.php:437
+#: library/plugin-display.php:390 library/plugin-display.php:418
+#: library/plugin-display.php:461
 msgid "For"
 msgstr "জন্য"
 
-#: library/plugin-display.php:293 library/plugin-display.php:338
+#: library/plugin-display.php:317 library/plugin-display.php:362
 msgid "For more"
-msgstr "আরো বেশী"
+msgstr "আরো জন্য"
 
-#: library/plugin-display.php:36
+#: library/plugin-display.php:60
 msgid "For more features and unlimited forms, check out"
 msgstr "আরও বৈশিষ্ট্য এবং সীমাহীন ফর্মের জন্য, চেক আউট করুন"
 
-#: library/plugin-display.php:194 library/plugin-display.php:242
-#: library/plugin-display.php:649
+#: library/plugin-display.php:218 library/plugin-display.php:266
+#: library/plugin-display.php:673
 msgid "For more options and features, check out"
 msgstr "আরো বিকল্প এবং বৈশিষ্ট্যের জন্য, চেক আউট"
 
-#: library/plugin-display.php:84
+#: library/plugin-display.php:108
 msgid "For unlimited fields, check out"
 msgstr "সীমাহীন ক্ষেত্রের জন্য, চেক আউট"
 
@@ -614,27 +630,27 @@ msgstr "সীমাহীন ক্ষেত্রের জন্য, চে�
 msgid "Forgot?"
 msgstr "ভুলে গেছেন?"
 
-#: library/plugin-display.php:59
+#: library/plugin-display.php:83
 msgid "Form Fields"
 msgstr "ফর্ম ক্ষেত্র"
 
-#: library/plugin-display.php:97
+#: library/plugin-display.php:121
 msgid "Form Style"
 msgstr "ফর্ম শৈলী"
 
-#: library/plugin-display.php:562
+#: library/plugin-display.php:586
 msgid "Front-end Display"
 msgstr "ফ্রন্ট-এন্ড ডিসপ্লে"
 
-#: library/plugin-display.php:115
+#: library/plugin-display.php:139
 msgid "FYI: here is a"
 msgstr "FYI: এখানে একটি"
 
-#: library/plugin-display.php:92
+#: library/plugin-display.php:116
 msgid "General Settings"
 msgstr "সাধারণ সেটিংস"
 
-#: library/plugin-display.php:48
+#: library/plugin-display.php:72
 msgid "Get USP Pro"
 msgstr "ইউএসপি প্রো পান"
 
@@ -642,13 +658,13 @@ msgstr "ইউএসপি প্রো পান"
 msgid "Get USP Pro for unlimited forms!"
 msgstr "সীমাহীন ফর্মের জন্য ইউএসপি প্রো পান!"
 
-#: library/plugin-settings.php:1219
-msgid "Get&nbsp;plugins&nbsp;&raquo;"
-msgstr "পান&nbsp;প্লাগইন&nbsp;&raquo;"
-
-#: library/plugin-display.php:46
+#: library/plugin-display.php:70
 msgid "give it a 5-star rating"
 msgstr "এটি একটি 5-স্টার রেটিং দিন"
+
+#: library/plugin-display.php:37
+msgid "give this plugin a 5-star rating"
+msgstr "এই প্লাগইনটিকে 5-স্টার রেটিং দিন"
 
 #: library/plugin-settings.php:66
 msgid "Give USP a 5-star rating at WordPress.org"
@@ -658,19 +674,19 @@ msgstr "WordPress.org-এ USP-কে 5-স্টার রেটিং দিন
 msgid "Go Pro"
 msgstr "প্রো যান"
 
-#: library/plugin-settings.php:461 library/plugin-display.php:469
+#: library/plugin-settings.php:461 library/plugin-display.php:493
 msgid "Google reCaptcha"
 msgstr "Google reCaptcha"
 
 #: library/shortcode-login.php:107
 msgid "Have an account?"
-msgstr "একাউন্ট আছে?"
+msgstr "একটি অ্যাকাউন্ট আছে?"
 
-#: library/plugin-display.php:698
+#: library/plugin-display.php:722
 msgid "Here are some examples showing how to configure this shortcode:"
 msgstr "এই শর্টকোডটি কীভাবে কনফিগার করতে হয় তা এখানে কিছু উদাহরণ রয়েছে:"
 
-#: library/plugin-display.php:320
+#: library/plugin-display.php:344
 msgid "Hidden/Default Category"
 msgstr "লুকানো/ডিফল্ট বিভাগ"
 
@@ -700,51 +716,51 @@ msgstr "https://plugin-planet.com/"
 msgid "Human verification: leave this field empty."
 msgstr "মানব যাচাই: এই ক্ষেত্রটি খালি ছেড়ে দিন।"
 
-#: library/plugin-display.php:273
+#: library/plugin-display.php:297
 msgid "If multiple addresses are specified for the previous setting, include an equal number of addresses for this setting (in the same order)."
 msgstr "যদি পূর্ববর্তী সেটিং এর জন্য একাধিক ঠিকানা নির্দিষ্ট করা থাকে, তাহলে এই সেটিং এর জন্য সমান সংখ্যক ঠিকানা অন্তর্ভুক্ত করুন (একই ক্রমে)।"
 
-#: library/plugin-display.php:764
+#: library/plugin-display.php:788
 msgid "If the user is logged in, display the post-submit form; or if the user is not logged in, display the login form:"
-msgstr "যদি ব্যবহারকারী লগ ইন করে থাকেন, পোস্ট-সাবমিট ফর্মটি প্রদর্শন করুন; অথবা ব্যবহারকারী লগ ইন না করলে, লগইন ফর্মটি প্রদর্শন করুন:"
+msgstr "যদি ব্যবহারকারী লগ ইন করে থাকেন, পোস্ট-সাবমিট ফর্মটি প্রদর্শন করুন; অথবা ব্যবহারকারী লগইন না করলে, লগইন ফর্মটি প্রদর্শন করুন:"
 
-#: library/plugin-display.php:45
+#: library/plugin-display.php:69
 msgid "If you like this plugin, please"
 msgstr "আপনি যদি এই প্লাগইন পছন্দ করেন, দয়া করে"
 
-#: library/plugin-display.php:567
+#: library/plugin-display.php:591
 msgid "Image Display"
 msgstr "ইমেজ ডিসপ্লে"
 
-#: user-submitted-posts.php:1727
+#: user-submitted-posts.php:1741
 msgid "Image height exceeds maximum"
 msgstr "ছবির উচ্চতা সর্বোচ্চ ছাড়িয়ে গেছে"
 
-#: library/plugin-display.php:574
+#: library/plugin-display.php:598
 msgid "Image Markup"
 msgstr "ইমেজ মার্কআপ"
 
-#: library/plugin-settings.php:491 library/plugin-display.php:493
+#: library/plugin-settings.php:491 library/plugin-display.php:517
 msgid "Image Uploads"
 msgstr "ছবি আপলোড"
 
-#: user-submitted-posts.php:1725
+#: user-submitted-posts.php:1739
 msgid "Image width exceeds maximum"
 msgstr "ছবির প্রস্থ সর্বোচ্চ ছাড়িয়ে গেছে"
 
-#: library/plugin-display.php:727
+#: library/plugin-display.php:751
 msgid "in"
-msgstr "ভিতরে"
+msgstr "মধ্যে"
 
-#: library/plugin-display.php:107
+#: library/plugin-display.php:131
 msgid "in your theme:"
 msgstr "আপনার থিমে:"
 
-#: library/plugin-display.php:121
+#: library/plugin-display.php:145
 msgid "Include JavaScript"
 msgstr "জাভাস্ক্রিপ্ট অন্তর্ভুক্ত করুন"
 
-#: library/plugin-display.php:123
+#: library/plugin-display.php:147
 msgid "Include required JavaScript files (recommended)"
 msgstr "প্রয়োজনীয় জাভাস্ক্রিপ্ট ফাইল অন্তর্ভুক্ত করুন (প্রস্তাবিত)"
 
@@ -752,7 +768,7 @@ msgstr "প্রয়োজনীয় জাভাস্ক্রিপ্�
 msgid "Incorrect response."
 msgstr "ভুল প্রতিক্রিয়া."
 
-#: library/plugin-display.php:114
+#: library/plugin-display.php:138
 msgid "Installation Docs"
 msgstr "ইনস্টলেশন ডক্স"
 
@@ -761,15 +777,15 @@ msgstr "ইনস্টলেশন ডক্স"
 msgid "Jeff Starr"
 msgstr "জেফ স্টার"
 
-#: library/plugin-display.php:810
+#: library/plugin-display.php:834
 msgid "Jeff Starr on Twitter"
 msgstr "টুইটারে জেফ স্টার"
 
-#: library/plugin-display.php:707 library/plugin-display.php:778
+#: library/plugin-display.php:731 library/plugin-display.php:802
 msgid "Learn&nbsp;more"
 msgstr "আরও&nbsp;জানুন৷"
 
-#: library/plugin-display.php:789
+#: library/plugin-display.php:813
 msgid "Leave this option disabled to remember your settings."
 msgstr "আপনার সেটিংস মনে রাখতে এই বিকল্পটি অক্ষম রাখুন।"
 
@@ -777,183 +793,191 @@ msgstr "আপনার সেটিংস মনে রাখতে এই ব�
 msgid "Like this plugin? Give it a"
 msgstr "এই প্লাগইন মত? দাও ক"
 
-#: library/plugin-display.php:115
+#: library/plugin-display.php:139
 msgid "list of USP CSS selectors"
 msgstr "ইউএসপি সিএসএস নির্বাচকদের তালিকা"
 
-#: user-submitted-posts.php:1809
+#: user-submitted-posts.php:1823
 msgid "log in"
-msgstr "প্রবেশ করুন"
+msgstr "লগ ইন"
 
 #: library/shortcode-login.php:108
 msgid "Log in or sign up! It&rsquo;s fast &amp; free!"
-msgstr "লগিন করো অথবা সাইন আপ করুন! এটা দ্রুত &amp; বিনামূল্যে!"
+msgstr "লগ ইন বা সাইন আপ! এটা দ্রুত &amp; বিনামূল্যে!"
 
 #: library/shortcode-login.php:182
 msgid "Log out"
-msgstr "প্রস্থান"
+msgstr "লগ আউট করুন"
 
 #: library/shortcode-login.php:88 library/shortcode-login.php:127
 msgid "Login"
-msgstr "প্রবেশ করুন"
+msgstr "লগইন করুন"
 
 #: library/shortcode-login.php:155
 msgid "Lose something?"
-msgstr "কিছু হারান?"
+msgstr "কিছু হারাবেন?"
+
+#: library/plugin-display.php:35
+msgid "make a donation"
+msgstr "একটি দান করা"
+
+#: library/plugin-display.php:35
+msgid "Make a donation via PayPal"
+msgstr "পেপ্যালের মাধ্যমে দান করুন"
 
 #: library/support-panel.php:107
 msgid "Make a donation&nbsp;&raquo;"
 msgstr "একটি দান করুন&nbsp;&raquo;"
 
-#: library/plugin-display.php:464
+#: library/plugin-display.php:488
 msgid "Make the challenge response case-sensitive"
 msgstr "চ্যালেঞ্জ প্রতিক্রিয়া কেস-সংবেদনশীল করুন"
 
-#: library/plugin-display.php:416
+#: library/plugin-display.php:440
 msgid "Make the custom checkbox required (uncheck to make optional)"
 msgstr "কাস্টম চেকবক্স প্রয়োজনীয় করুন (ঐচ্ছিক করতে আনচেক করুন)"
 
-#: library/plugin-display.php:629
+#: library/plugin-display.php:653
 msgid "Markup for Custom Field 1. You may include any of the following variables:"
 msgstr "কাস্টম ফিল্ডের জন্য মার্কআপ 1. আপনি নিম্নলিখিত ভেরিয়েবলগুলির মধ্যে যেকোনো একটি অন্তর্ভুক্ত করতে পারেন:"
 
-#: library/plugin-display.php:642
+#: library/plugin-display.php:666
 msgid "Markup for Custom Field 2. You may include any of the following variables:"
 msgstr "কাস্টম ফিল্ড 2 এর জন্য মার্কআপ। আপনি নিম্নলিখিত ভেরিয়েবলগুলির যেকোনও অন্তর্ভুক্ত করতে পারেন:"
 
-#: library/plugin-display.php:576
+#: library/plugin-display.php:600
 msgid "Markup for each submitted image. You may include any of the following variables:"
 msgstr "জমা দেওয়া প্রতিটি ছবির জন্য মার্কআপ। আপনি নিম্নলিখিত ভেরিয়েবলগুলির মধ্যে যেকোনো একটি অন্তর্ভুক্ত করতে পারেন:"
 
-#: library/plugin-display.php:603
+#: library/plugin-display.php:627
 msgid "Markup for submitted author/name. You may include"
 msgstr "জমা দেওয়া লেখক/নামের জন্য মার্কআপ। আপনি অন্তর্ভুক্ত করতে পারেন"
 
-#: library/plugin-display.php:590
+#: library/plugin-display.php:614
 msgid "Markup for submitted email address. You may include any of the following variables:"
-msgstr "জমা দেওয়া ইমেল ঠিকানার জন্য মার্কআপ। আপনি নিম্নলিখিত যে কোনো ভেরিয়েবল অন্তর্ভুক্ত করতে পারেন:"
+msgstr "জমা দেওয়া ইমেল ঠিকানার জন্য মার্কআপ। আপনি নিম্নলিখিত ভেরিয়েবলগুলির মধ্যে যেকোনো একটি অন্তর্ভুক্ত করতে পারেন:"
 
-#: library/plugin-display.php:616
+#: library/plugin-display.php:640
 msgid "Markup for submitted URL. You may include any of the following variables:"
-msgstr "জমা দেওয়া URL এর জন্য মার্কআপ। আপনি নিম্নলিখিত ভেরিয়েবলগুলির মধ্যে যেকোনো একটি অন্তর্ভুক্ত করতে পারেন:"
+msgstr "জমা দেওয়া URL এর জন্য মার্কআপ। আপনি নিম্নলিখিত যে কোনো ভেরিয়েবল অন্তর্ভুক্ত করতে পারেন:"
 
-#: library/plugin-display.php:548
+#: library/plugin-display.php:572
 msgid "Maximum height (in pixels) for uploaded images"
 msgstr "আপলোড করা ছবির জন্য সর্বোচ্চ উচ্চতা (পিক্সেলে)"
 
-#: library/plugin-display.php:546
+#: library/plugin-display.php:570
 msgid "Maximum image height"
 msgstr "ছবির সর্বোচ্চ উচ্চতা"
 
-#: library/plugin-display.php:541
+#: library/plugin-display.php:565
 msgid "Maximum image width"
 msgstr "সর্বাধিক ছবির প্রস্থ"
 
-#: library/plugin-display.php:526
+#: library/plugin-display.php:550
 msgid "Maximum number of images"
 msgstr "ছবির সর্বাধিক সংখ্যা"
 
-#: user-submitted-posts.php:1723
+#: user-submitted-posts.php:1737
 msgid "Maximum number of images exceeded "
 msgstr "ছবির সর্বোচ্চ সংখ্যা ছাড়িয়ে গেছে "
 
-#: library/plugin-display.php:528
+#: library/plugin-display.php:552
 msgid "Maximum number of images for each submitted post"
 msgstr "প্রতিটি জমা দেওয়া পোস্টের জন্য সর্বাধিক সংখ্যক ছবি"
 
-#: library/plugin-display.php:543
+#: library/plugin-display.php:567
 msgid "Maximum width (in pixels) for uploaded images"
 msgstr "আপলোড করা ছবিগুলির জন্য সর্বাধিক প্রস্থ (পিক্সেলে)"
 
-#: library/plugin-display.php:152
+#: library/plugin-display.php:176
 msgid "Message displayed after successful post submission (basic markup allowed)"
 msgstr "সফল পোস্ট জমা দেওয়ার পরে বার্তা প্রদর্শিত হয় (বেসিক মার্কআপ অনুমোদিত)"
 
-#: library/plugin-display.php:513
+#: library/plugin-display.php:537
 msgid "Message displayed next to the file upload field (basic markup allowed)"
 msgstr "ফাইল আপলোড ক্ষেত্রের পাশে বার্তা প্রদর্শিত হয় (বেসিক মার্কআপ অনুমোদিত)"
 
-#: library/plugin-display.php:285
+#: library/plugin-display.php:309
 msgid "Message for email alerts. Leave blank to use default message. You may include any of the following variables:"
-msgstr "ইমেল সতর্কতা জন্য বার্তা. ডিফল্ট বার্তা ব্যবহার করতে ফাঁকা ছেড়ে দিন। আপনি নিম্নলিখিত ভেরিয়েবলগুলির মধ্যে যেকোনো একটি অন্তর্ভুক্ত করতে পারেন:"
+msgstr "ইমেল সতর্কতা জন্য বার্তা. ডিফল্ট বার্তা ব্যবহার করতে ফাঁকা ছেড়ে দিন। আপনি নিম্নলিখিত যে কোনো ভেরিয়েবল অন্তর্ভুক্ত করতে পারেন:"
 
-#: library/plugin-display.php:538
+#: library/plugin-display.php:562
 msgid "Minimum height (in pixels) for uploaded images"
 msgstr "আপলোড করা ছবির জন্য ন্যূনতম উচ্চতা (পিক্সেলে)"
 
-#: library/plugin-display.php:536
+#: library/plugin-display.php:560
 msgid "Minimum image height"
 msgstr "ন্যূনতম ছবির উচ্চতা"
 
-#: user-submitted-posts.php:1726
+#: user-submitted-posts.php:1740
 msgid "Minimum image height not met"
 msgstr "ন্যূনতম চিত্র উচ্চতা পূরণ করা হয়নি"
 
-#: library/plugin-display.php:531
+#: library/plugin-display.php:555
 msgid "Minimum image width"
 msgstr "ন্যূনতম চিত্র প্রস্থ"
 
-#: user-submitted-posts.php:1724
+#: user-submitted-posts.php:1738
 msgid "Minimum image width not met"
 msgstr "ন্যূনতম চিত্র প্রস্থ পূরণ হয়নি"
 
-#: library/plugin-display.php:521
+#: library/plugin-display.php:545
 msgid "Minimum number of images"
 msgstr "ছবির ন্যূনতম সংখ্যা"
 
-#: library/plugin-display.php:523
+#: library/plugin-display.php:547
 msgid "Minimum number of images for each submitted post"
 msgstr "প্রতিটি জমা দেওয়া পোস্টের জন্য ন্যূনতম সংখ্যক ছবি"
 
-#: user-submitted-posts.php:1722
+#: user-submitted-posts.php:1736
 msgid "Minimum number of images not met"
 msgstr "ন্যূনতম সংখ্যক ছবি পূরণ হয়নি"
 
-#: library/plugin-display.php:533
+#: library/plugin-display.php:557
 msgid "Minimum width (in pixels) for uploaded images"
 msgstr "আপলোড করা ছবির জন্য ন্যূনতম প্রস্থ (পিক্সেলে)"
 
-#: library/plugin-display.php:81 library/plugin-display.php:191
-#: library/plugin-display.php:239 library/plugin-display.php:290
-#: library/plugin-display.php:335 library/plugin-display.php:363
-#: library/plugin-display.php:391 library/plugin-display.php:434
-#: library/plugin-display.php:551 library/plugin-display.php:646
+#: library/plugin-display.php:105 library/plugin-display.php:215
+#: library/plugin-display.php:263 library/plugin-display.php:314
+#: library/plugin-display.php:359 library/plugin-display.php:387
+#: library/plugin-display.php:415 library/plugin-display.php:458
+#: library/plugin-display.php:575 library/plugin-display.php:670
 msgid "More Options"
 msgstr "আরও বিকল্প"
 
-#: library/plugin-display.php:315
+#: library/plugin-display.php:339
 msgid "Multiple Categories"
 msgstr "একাধিক বিভাগ"
 
-#: library/plugin-display.php:594
+#: library/plugin-display.php:618
 msgid "Name Display"
 msgstr "নাম প্রদর্শন"
 
-#: library/plugin-display.php:601
+#: library/plugin-display.php:625
 msgid "Name Markup"
 msgstr "নাম মার্কআপ"
 
-#: user-submitted-posts.php:1721
+#: user-submitted-posts.php:1735
 msgid "Non-empty value for hidden field"
 msgstr "লুকানো ক্ষেত্রের জন্য অ-খালি মান"
 
-#: library/plugin-display.php:747
+#: library/plugin-display.php:771
 msgid "Note that the url attribute accepts"
 msgstr "উল্লেখ্য যে url বৈশিষ্ট্য গ্রহণ করে"
 
-#: library/plugin-display.php:723
+#: library/plugin-display.php:747
 msgid "Notes:"
-msgstr "মন্তব্য:"
+msgstr "নোট:"
 
-#: library/plugin-display.php:811
+#: library/plugin-display.php:835
 msgid "Obsessive Web Design &amp; Development"
 msgstr "অবসেসিভ ওয়েব ডিজাইন &amp; উন্নয়ন"
 
-#: library/plugin-display.php:162
+#: library/plugin-display.php:186
 msgid "Optional markup/text to include before the submission form (leave blank to disable)"
 msgstr "জমা ফর্মের আগে অন্তর্ভুক্ত করার জন্য ঐচ্ছিক মার্কআপ/টেক্সট (অক্ষম করতে ফাঁকা ছেড়ে দিন)"
 
-#: library/plugin-display.php:340
+#: library/plugin-display.php:364
 msgid "options, check out"
 msgstr "বিকল্প, চেক আউট"
 
@@ -965,27 +989,23 @@ msgstr "বা"
 msgid "or by making a"
 msgstr "অথবা একটি তৈরি করে"
 
-#: library/plugin-settings.php:1218
-msgid "or take 30% off with code"
-msgstr "অথবা কোড সহ 30% ছাড় নিন"
-
-#: library/plugin-display.php:790
+#: library/plugin-display.php:814
 msgid "Or, to go ahead and restore the default plugin options: check the box, save your settings, and then deactivate/reactivate the plugin."
 msgstr "অথবা, এগিয়ে যেতে এবং ডিফল্ট প্লাগইন বিকল্পগুলি পুনরুদ্ধার করতে: বাক্সটি চেক করুন, আপনার সেটিংস সংরক্ষণ করুন এবং তারপর প্লাগইন নিষ্ক্রিয়/পুনরায় সক্রিয় করুন৷"
 
-#: library/plugin-display.php:696
+#: library/plugin-display.php:720
 msgid "Or, use the template tag to display a list of submitted posts anywhere in your theme template:"
 msgstr "অথবা, আপনার থিম টেমপ্লেটের যেকোনো জায়গায় জমা দেওয়া পোস্টগুলির একটি তালিকা প্রদর্শন করতে টেমপ্লেট ট্যাগ ব্যবহার করুন:"
 
-#: library/plugin-display.php:715
+#: library/plugin-display.php:739
 msgid "Or, use the template tag to display an image gallery anywhere in your theme template:"
 msgstr "অথবা, আপনার থিম টেমপ্লেটের যেকোনো জায়গায় একটি চিত্র গ্যালারি প্রদর্শন করতে টেমপ্লেট ট্যাগ ব্যবহার করুন:"
 
-#: library/plugin-display.php:674 library/plugin-display.php:687
+#: library/plugin-display.php:698 library/plugin-display.php:711
 msgid "Or, use the template tag to display the form anywhere in your theme template:"
 msgstr "অথবা, আপনার থিম টেমপ্লেটের যেকোনো জায়গায় ফর্মটি প্রদর্শন করতে টেমপ্লেট ট্যাগ ব্যবহার করুন:"
 
-#: library/plugin-display.php:31
+#: library/plugin-display.php:55
 msgid "Overview"
 msgstr "ওভারভিউ"
 
@@ -1001,11 +1021,11 @@ msgstr "মুলতুবি (ডিফল্ট)"
 msgid "Perishable Press Books"
 msgstr "পচনশীল প্রেস বই"
 
-#: user-submitted-posts.php:1808
+#: user-submitted-posts.php:1822 library/plugin-display.php:35
 msgid "Please"
-msgstr "অনুগ্রহ"
+msgstr "প্লিজ"
 
-#: user-submitted-posts.php:1720
+#: user-submitted-posts.php:1734
 msgid "Please check your email and try again"
 msgstr "আপনার ইমেল চেক করুন এবং আবার চেষ্টা করুন"
 
@@ -1037,8 +1057,8 @@ msgstr "আপলোড করতে আপনার ছবি(গুলি) ন
 msgid "Please show support by purchasing one of my"
 msgstr "আমার একটি ক্রয় দ্বারা সমর্থন দেখান দয়া করে"
 
-#: library/plugin-settings.php:60 library/plugin-display.php:40
-#: library/plugin-display.php:809
+#: library/plugin-settings.php:60 library/plugin-display.php:64
+#: library/plugin-display.php:833
 msgid "Plugin Homepage"
 msgstr "প্লাগইন হোমপেজ"
 
@@ -1046,7 +1066,7 @@ msgstr "প্লাগইন হোমপেজ"
 msgid "Plugin Planet: Pro WordPress Plugins"
 msgstr "প্লাগইন প্ল্যানেট: প্রো ওয়ার্ডপ্রেস প্লাগইন"
 
-#: library/plugin-display.php:55
+#: library/plugin-display.php:79
 msgid "Plugin Settings"
 msgstr "প্লাগইন সেটিংস"
 
@@ -1055,78 +1075,78 @@ msgid "plugins"
 msgstr "প্লাগইন"
 
 #: views/submission-form.php:90 views/submission-form-alt.php:105
-#: library/plugin-display.php:70
+#: library/plugin-display.php:94
 msgid "Post Category"
 msgstr "পোস্ট বিভাগ"
 
-#: user-submitted-posts.php:1715
+#: user-submitted-posts.php:1729
 msgid "Post category required"
 msgstr "পোস্ট বিভাগ প্রয়োজন"
 
 #: views/submission-form.php:123 views/submission-form.php:124
 #: views/submission-form-alt.php:138 views/submission-form-alt.php:139
-#: library/plugin-display.php:71
+#: library/plugin-display.php:95
 msgid "Post Content"
 msgstr "পোস্ট কন্টেন্ট"
 
-#: user-submitted-posts.php:1716
+#: user-submitted-posts.php:1730
 msgid "Post content required"
 msgstr "পোস্ট কন্টেন্ট আবশ্যক"
 
-#: user-submitted-posts.php:1741
+#: user-submitted-posts.php:1755
 msgid "Post not created. Please contact the site administrator for help."
 msgstr "পোস্ট তৈরি করা হয়নি। সাহায্যের জন্য সাইট প্রশাসকের সাথে যোগাযোগ করুন."
 
-#: library/plugin-display.php:138
+#: library/plugin-display.php:162
 msgid "Post Status"
 msgstr "পোস্ট স্ট্যাটাস"
 
-#: library/plugin-display.php:141
+#: library/plugin-display.php:165
 msgid "Post Status for submitted posts"
-msgstr "জমা দেওয়া পোস্টের জন্য পোস্টের অবস্থা"
+msgstr "জমা দেওয়া পোস্টের জন্য পোস্ট স্ট্যাটাস"
 
 #: views/submission-form.php:56 views/submission-form.php:65
 #: views/submission-form.php:66 views/submission-form-alt.php:71
 #: views/submission-form-alt.php:80 views/submission-form-alt.php:81
-#: library/plugin-display.php:69
+#: library/plugin-display.php:93
 msgid "Post Tags"
 msgstr "পোস্ট ট্যাগ"
 
-#: user-submitted-posts.php:1714
+#: user-submitted-posts.php:1728
 msgid "Post tags required"
 msgstr "পোস্ট ট্যাগ প্রয়োজন"
 
 #: views/submission-form.php:49 views/submission-form.php:50
 #: views/submission-form-alt.php:64 views/submission-form-alt.php:65
-#: library/plugin-display.php:68
+#: library/plugin-display.php:92
 msgid "Post Title"
 msgstr "পোস্ট শিরোনাম"
 
-#: user-submitted-posts.php:1712
+#: user-submitted-posts.php:1726
 msgid "Post title required"
 msgstr "পোস্ট শিরোনাম প্রয়োজন"
 
-#: library/plugin-display.php:131
+#: library/plugin-display.php:155
 msgid "Post Type"
 msgstr "পোস্টের ধরন"
 
-#: library/plugin-display.php:134
+#: library/plugin-display.php:158
 msgid "Post Type for submitted posts"
 msgstr "জমা দেওয়া পোস্টের জন্য পোস্টের ধরন"
 
-#: library/plugin-display.php:479
+#: library/plugin-display.php:503
 msgid "Private Key"
 msgstr "ব্যক্তিগত কী"
 
-#: library/plugin-settings.php:1216
-msgid "Pro Plugin Sale!"
-msgstr "প্রো প্লাগইন বিক্রয়!"
+#: library/plugin-settings.php:1218
+msgid "Pro WordPress plugins"
+msgstr "প্রো ওয়ার্ডপ্রেস প্লাগইন"
 
 #: library/shortcode-login.php:184
 msgid "Profile"
 msgstr "প্রোফাইল"
 
-#: library/plugin-display.php:474
+#: library/plugin-display.php:498
 msgid "Public Key"
 msgstr "সর্বজনীন কী"
 
@@ -1142,63 +1162,67 @@ msgstr "1টি অনুমোদিত পোস্টের পরে প্�
 msgid "Publish immediately"
 msgstr "অবিলম্বে প্রকাশ করুন"
 
+#: library/plugin-display.php:36
+msgid "Rate and review at the Plugin Directory"
+msgstr "প্লাগইন ডিরেক্টরিতে রেট দিন এবং পর্যালোচনা করুন"
+
 #: library/plugin-settings.php:67
 msgid "Rate this plugin&nbsp;&raquo;"
 msgstr "এই প্লাগইনটিকে রেট করুন&nbsp;&raquo;"
 
-#: library/plugin-display.php:484
+#: library/plugin-display.php:508
 msgid "reCaptcha Version"
 msgstr "reCaptcha সংস্করণ"
 
-#: library/plugin-display.php:255
+#: library/plugin-display.php:279
 msgid "Receive Email Alert"
 msgstr "ইমেল সতর্কতা গ্রহণ করুন"
 
-#: library/plugin-display.php:145
+#: library/plugin-display.php:169
 msgid "Redirect URL"
 msgstr "পুনঃনির্দেশ URL"
 
-#: library/plugin-display.php:147
+#: library/plugin-display.php:171
 msgid "Redirect user to this URL after post submission (leave blank to stay on current page)"
 msgstr "পোস্ট জমা দেওয়ার পরে ব্যবহারকারীকে এই URL-এ পুনঃনির্দেশ করুন (বর্তমান পৃষ্ঠায় থাকার জন্য ফাঁকা ছেড়ে দিন)"
 
 #: library/shortcode-login.php:89
 msgid "Register"
-msgstr "নিবন্ধন"
+msgstr "নিবন্ধন করুন"
 
 #: library/shortcode-login.php:135
 msgid "Register for this site!"
-msgstr "এই সাইট এর জন্য নিবন্ধন করুন!"
+msgstr "এই সাইটের জন্য নিবন্ধন করুন!"
 
-#: library/plugin-display.php:219
+#: library/plugin-display.php:243
 msgid "Registered Email"
-msgstr "নিবন্ধিত ইমেইল"
+msgstr "নিবন্ধিত ইমেল"
 
-#: library/plugin-display.php:224
+#: library/plugin-display.php:248
 msgid "Registered URL"
 msgstr "নিবন্ধিত URL"
 
-#: library/plugin-display.php:214
+#: library/plugin-display.php:238
 msgid "Registered Username"
 msgstr "নিবন্ধিত ব্যবহারকারীর নাম"
 
 #: library/shortcode-login.php:124
 msgid "Remember me"
-msgstr "আমাকে মনে কর"
+msgstr "আমাকে মনে রেখো"
 
-#: library/plugin-display.php:414
+#: library/plugin-display.php:438
 msgid "Require Checkbox"
 msgstr "চেকবক্স প্রয়োজন"
 
-#: library/plugin-display.php:172
+#: library/plugin-display.php:196
 msgid "Require submitted post titles to be unique (useful for preventing multiple/duplicate posts)"
 msgstr "জমা দেওয়া পোস্ট শিরোনাম অনন্য হতে হবে (একাধিক/ডুপ্লিকেট পোস্ট প্রতিরোধের জন্য দরকারী)"
 
-#: library/plugin-display.php:229
+#: library/plugin-display.php:253
 msgid "Require User Login"
 msgstr "ব্যবহারকারী লগইন প্রয়োজন"
 
-#: library/plugin-display.php:231
+#: library/plugin-display.php:255
 msgid "Require users to be logged in to WordPress to view/submit the form"
 msgstr "ফর্মটি দেখতে/জমা দেওয়ার জন্য ব্যবহারকারীদের ওয়ার্ডপ্রেসে লগ ইন করতে হবে"
 
@@ -1210,7 +1234,7 @@ msgstr "ওয়ার্ডপ্রেস প্রয়োজন "
 msgid "Reset form"
 msgstr "ফর্ম রিসেট করুন"
 
-#: library/plugin-display.php:739
+#: library/plugin-display.php:763
 msgid "Reset Form Button"
 msgstr "ফর্ম বোতাম রিসেট করুন"
 
@@ -1218,31 +1242,31 @@ msgstr "ফর্ম বোতাম রিসেট করুন"
 msgid "Reset my password"
 msgstr "আমার পাসওয়ার্ড রিসেট করুন"
 
-#: library/plugin-display.php:793
+#: library/plugin-display.php:817
 msgid "Restore default options upon plugin deactivation/reactivation"
 msgstr "প্লাগইন নিষ্ক্রিয়/পুনঃসক্রিয় করার পরে ডিফল্ট বিকল্পগুলি পুনরুদ্ধার করুন"
 
-#: library/plugin-display.php:787
+#: library/plugin-display.php:811
 msgid "Restore Defaults"
-msgstr "পূর্বনির্ধারন পুনরুধার"
+msgstr "ডিফল্ট পুনরুদ্ধার করুন"
 
-#: user-submitted-posts.php:1778
+#: user-submitted-posts.php:1792
 msgid "Return to form"
 msgstr "ফর্মে ফিরে যান"
 
-#: library/plugin-display.php:165
+#: library/plugin-display.php:189
 msgid "Rich Text Editor"
-msgstr "উন্নত টেক্সট এডিটর"
+msgstr "রিচ টেক্সট এডিটর"
 
-#: library/plugin-display.php:657
+#: library/plugin-display.php:681
 msgid "Save All Changes"
 msgstr "সমস্ত পরিবর্তন সংরক্ষণ করুন"
 
-#: library/plugin-display.php:822
+#: library/plugin-display.php:846
 msgid "Save Preference"
 msgstr "পছন্দ সংরক্ষণ করুন"
 
-#: library/plugin-display.php:795
+#: library/plugin-display.php:819
 msgid "Save Settings"
 msgstr "সেটিংস সংরক্ষণ করুন"
 
@@ -1250,7 +1274,7 @@ msgstr "সেটিংস সংরক্ষণ করুন"
 msgid "Select categories to include in the Category field:"
 msgstr "বিভাগ ক্ষেত্রে অন্তর্ভুক্ত করার জন্য বিভাগ নির্বাচন করুন:"
 
-#: library/plugin-display.php:257
+#: library/plugin-display.php:281
 msgid "Send email alerts for new post submissions"
 msgstr "নতুন পোস্ট জমা দেওয়ার জন্য ইমেল সতর্কতা পাঠান"
 
@@ -1258,7 +1282,7 @@ msgstr "নতুন পোস্ট জমা দেওয়ার জন্�
 msgid "Settings"
 msgstr "সেটিংস"
 
-#: library/plugin-display.php:310
+#: library/plugin-display.php:334
 msgid "Show categories"
 msgstr "বিভাগ দেখান"
 
@@ -1272,17 +1296,17 @@ msgstr "ভাল জিনিসের জন্য এখন সাইন আ�
 
 #: library/shortcode-login.php:147
 msgid "Sign up!"
-msgstr "নিবন্ধন করুন!"
+msgstr "সাইন আপ!"
 
-#: library/plugin-display.php:327
+#: library/plugin-display.php:351
 msgid "Specify category ID(s) to use for &ldquo;Hidden/Default Category&rdquo; (separate multiple IDs with commas)"
 msgstr "&ldquo;লুকানো/ডিফল্ট বিভাগ&rdquo; এর জন্য ব্যবহার করার জন্য বিভাগ আইডি(গুলি) নির্দিষ্ট করুন (কমা দিয়ে একাধিক আইডি আলাদা করুন)"
 
-#: library/plugin-display.php:210
+#: library/plugin-display.php:234
 msgid "Specify the user that should be assigned as author for submitted posts"
 msgstr "জমা দেওয়া পোস্টগুলির জন্য লেখক হিসাবে নিয়োগ করা উচিত এমন ব্যবহারকারীকে নির্দিষ্ট করুন৷"
 
-#: library/plugin-display.php:278
+#: library/plugin-display.php:302
 msgid "Subject line for email alerts. Leave blank to use default subject line. You may include any of the following variables:"
 msgstr "ইমেল সতর্কতা জন্য বিষয় লাইন. ডিফল্ট বিষয় লাইন ব্যবহার করতে ফাঁকা ছেড়ে দিন। আপনি নিম্নলিখিত ভেরিয়েবলগুলির মধ্যে যেকোনো একটি অন্তর্ভুক্ত করতে পারেন:"
 
@@ -1310,7 +1334,7 @@ msgstr "জমাদানকারীর নাম: "
 msgid "Submitter URL: "
 msgstr "জমা দেওয়ার URL: "
 
-#: library/plugin-display.php:150
+#: library/plugin-display.php:174
 msgid "Success Message"
 msgstr "সফলতার বার্তা"
 
@@ -1320,21 +1344,25 @@ msgstr "সফলতার !"
 
 #: library/plugin-settings.php:889
 msgid "Success! Thank you for your submission."
-msgstr "সফলতার ! আপনার জমা দেওয়ার জন্য আপনাকে ধন্যবাদ।"
+msgstr "সফলতার ! আপনার জমা দেওয়ার জন্য আপনাকে ধন্যবাদ."
 
-#: library/plugin-display.php:42
+#: library/plugin-display.php:66
 msgid "Support Forum"
-msgstr "সাপোর্ট ফোরাম"
+msgstr "সমর্থন ফোরাম"
 
-#: library/plugin-display.php:340
+#: library/plugin-display.php:364
 msgid "tag"
 msgstr "ট্যাগ"
 
-#: library/plugin-display.php:126
+#: library/plugin-settings.php:1217
+msgid "Take 25% OFF any of our"
+msgstr "আমাদের যে কোনো 25% ছাড় নিন"
+
+#: library/plugin-display.php:150
 msgid "Targeted Loading"
 msgstr "টার্গেটেড লোডিং"
 
-#: library/plugin-display.php:431
+#: library/plugin-display.php:455
 msgid "Text displayed next to checkbox. Tip: use curly brackets to output angle brackets, for example:"
 msgstr "টেক্সট চেকবক্সের পাশে প্রদর্শিত হবে। টিপ: কোণ বন্ধনী আউটপুট করতে কোঁকড়া বন্ধনী ব্যবহার করুন, উদাহরণস্বরূপ:"
 
@@ -1342,96 +1370,96 @@ msgstr "টেক্সট চেকবক্সের পাশে প্রদ
 msgid "Thank you for using"
 msgstr "ব্যবহার করার জন্য আপনাকে ধন্যবাদ"
 
-#: library/plugin-display.php:46
+#: library/plugin-display.php:70
 msgid "THANK YOU for your support!"
-msgstr "আপনার সমর্থনের জন্য ধন্যবাদ!"
+msgstr "আপনার সমর্থনের জন্য আপনাকে ধন্যবাদ!"
 
-#: library/plugin-display.php:113
+#: library/plugin-display.php:137
 msgid "That will enable you to customize the form and styles as desired. For more info, check out the \"Custom Submission Form\" section in the"
 msgstr "এটি আপনাকে পছন্দ অনুযায়ী ফর্ম এবং শৈলী কাস্টমাইজ করতে সক্ষম করবে। আরও তথ্যের জন্য, \"কাস্টম জমা ফর্ম\" বিভাগে দেখুন"
 
-#: library/plugin-display.php:773
+#: library/plugin-display.php:797
 msgid "The access shortcodes can be added to any WP Post or Page. So you can display forms and other content conditionally, based on user role and login status."
 msgstr "অ্যাক্সেস শর্টকোডগুলি যেকোনো WP পোস্ট বা পৃষ্ঠায় যোগ করা যেতে পারে। সুতরাং আপনি ব্যবহারকারীর ভূমিকা এবং লগইন অবস্থার উপর ভিত্তি করে শর্তসাপেক্ষে ফর্ম এবং অন্যান্য সামগ্রী প্রদর্শন করতে পারেন৷"
 
-#: user-submitted-posts.php:1739
+#: user-submitted-posts.php:1753
 msgid "The file(s) could not be uploaded"
 msgstr "ফাইল(গুলি) আপলোড করা যায়নি৷"
 
-#: library/plugin-display.php:689
+#: library/plugin-display.php:713
 msgid "The login/register form displays as a tabbed interface, so users can switch between login, register, and reset password."
-msgstr "লগইন/রেজিস্টার ফর্মটি একটি ট্যাবড ইন্টারফেস হিসাবে প্রদর্শিত হয়, যাতে ব্যবহারকারীরা লগইন, নিবন্ধন এবং পাসওয়ার্ড রিসেট করতে পারেন।"
+msgstr "লগইন/রেজিস্টার ফর্মটি একটি ট্যাবড ইন্টারফেস হিসাবে প্রদর্শিত হয়, যাতে ব্যবহারকারীরা লগইন, নিবন্ধন এবং পাসওয়ার্ড রিসেট করতে পারে।"
 
-#: library/plugin-display.php:706
+#: library/plugin-display.php:730
 msgid "The pro version provides many more options for this shortcode."
 msgstr "প্রো সংস্করণ এই শর্টকোডের জন্য আরও অনেক বিকল্প প্রদান করে।"
 
-#: library/plugin-display.php:777
+#: library/plugin-display.php:801
 msgid "The pro version provides more flexibility with access-control shortcodes."
 msgstr "প্রো সংস্করণ অ্যাক্সেস-কন্ট্রোল শর্টকোডগুলির সাথে আরও নমনীয়তা প্রদান করে।"
 
 #: library/plugin-settings.php:869
 msgid "There was an error. Please check required fields and try again."
-msgstr "সেখানে একটা ভুল ছিল। অনুগ্রহ করে প্রয়োজনীয় ক্ষেত্র চেক করুন এবং আবার চেষ্টা করুন।"
+msgstr "একটি ত্রুটি ছিল. অনুগ্রহ করে প্রয়োজনীয় ক্ষেত্র চেক করুন এবং আবার চেষ্টা করুন।"
 
-#: library/plugin-display.php:188
+#: library/plugin-display.php:212
 msgid "This setting enables any/all shortcodes in widgets (even shortcodes from other plugins)."
 msgstr "এই সেটিংটি উইজেটের যেকোনো/সমস্ত শর্টকোড সক্ষম করে (এমনকি অন্যান্য প্লাগইন থেকে শর্টকোডও)।"
 
-#: library/plugin-display.php:743
+#: library/plugin-display.php:767
 msgid "This shortcode accepts the following attributes:"
 msgstr "এই শর্টকোড নিম্নলিখিত বৈশিষ্ট্যগুলি গ্রহণ করে:"
 
-#: library/plugin-display.php:741
+#: library/plugin-display.php:765
 msgid "This shortcode displays a link that resets the form to its original state:"
 msgstr "এই শর্টকোডটি একটি লিঙ্ক প্রদর্শন করে যা ফর্মটিকে তার আসল অবস্থায় পুনরায় সেট করে:"
 
-#: library/plugin-display.php:360
+#: library/plugin-display.php:384
 msgid "This will be displayed as the field label on the form. Default: Custom Field 1"
 msgstr "এটি ফর্মে ফিল্ড লেবেল হিসাবে প্রদর্শিত হবে। ডিফল্ট: কাস্টম ক্ষেত্র 1"
 
-#: library/plugin-display.php:388
+#: library/plugin-display.php:412
 msgid "This will be displayed as the field label on the form. Default: Custom Field 2"
 msgstr "এটি ফর্মে ফিল্ড লেবেল হিসাবে প্রদর্শিত হবে। ডিফল্ট: কাস্টম ক্ষেত্র 2"
 
-#: library/plugin-display.php:705 library/plugin-display.php:760
-#: library/plugin-display.php:776
+#: library/plugin-display.php:729 library/plugin-display.php:784
+#: library/plugin-display.php:800
 msgid "Tip:"
 msgstr "টিপ:"
 
-#: library/plugin-display.php:604
+#: library/plugin-display.php:628
 msgid "to display the submitted name."
 msgstr "জমা দেওয়া নাম প্রদর্শন করতে।"
 
-#: library/plugin-display.php:471
+#: library/plugin-display.php:495
 msgid "To enable Google reCaptcha, enter your public and private keys."
 msgstr "Google reCaptcha সক্ষম করতে, আপনার সর্বজনীন এবং ব্যক্তিগত কী লিখুন৷"
 
-#: library/plugin-display.php:747
+#: library/plugin-display.php:771
 msgid "to get the current URL."
 msgstr "বর্তমান URL পেতে."
 
-#: library/plugin-display.php:734
+#: library/plugin-display.php:758
 msgid "to get the URL of the full-size image"
 msgstr "পূর্ণ আকারের ছবির URL পেতে"
 
-#: library/plugin-display.php:761
+#: library/plugin-display.php:785
 msgid "to include markup in the deny message, you can use"
 msgstr "অস্বীকার বার্তায় মার্কআপ অন্তর্ভুক্ত করতে, আপনি ব্যবহার করতে পারেন"
 
-#: library/plugin-display.php:761
+#: library/plugin-display.php:785
 msgid "to output"
 msgstr "আউটপুট করতে"
 
-#: library/plugin-display.php:726
+#: library/plugin-display.php:750
 msgid "to output angle brackets"
 msgstr "কোণ বন্ধনী আউটপুট করতে"
 
-#: library/plugin-display.php:454
+#: library/plugin-display.php:478
 msgid "To prevent spam, enter a question that users must answer before submitting the form"
 msgstr "স্প্যাম প্রতিরোধ করতে, ফর্ম জমা দেওয়ার আগে ব্যবহারকারীদের অবশ্যই উত্তর দিতে হবে এমন একটি প্রশ্ন লিখুন"
 
-#: user-submitted-posts.php:1810
+#: user-submitted-posts.php:1824
 msgid "to submit content!"
 msgstr "বিষয়বস্তু জমা দিতে!"
 
@@ -1443,19 +1471,19 @@ msgstr "ওয়ার্ডপ্রেস আপগ্রেড করতে 
 msgid "Toggle all panels"
 msgstr "সমস্ত প্যানেল টগল করুন"
 
-#: library/plugin-display.php:170
+#: library/plugin-display.php:194
 msgid "Unique Titles"
 msgstr "অনন্য শিরোনাম"
 
-#: library/plugin-display.php:438
+#: library/plugin-display.php:462
 msgid "unlimited checkbox fields"
 msgstr "সীমাহীন চেকবক্স ক্ষেত্র"
 
-#: library/plugin-display.php:367 library/plugin-display.php:395
+#: library/plugin-display.php:391 library/plugin-display.php:419
 msgid "unlimited custom fields"
 msgstr "সীমাহীন কাস্টম ক্ষেত্র"
 
-#: library/plugin-display.php:48
+#: library/plugin-display.php:72
 msgid "Unlimited front-end forms"
 msgstr "সীমাহীন ফ্রন্ট-এন্ড ফর্ম"
 
@@ -1463,7 +1491,7 @@ msgstr "সীমাহীন ফ্রন্ট-এন্ড ফর্ম"
 msgid "Upload an Image"
 msgstr "একটি ছবি আপলোড করুন"
 
-#: library/plugin-display.php:511
+#: library/plugin-display.php:535
 msgid "Upload Message"
 msgstr "আপলোড বার্তা"
 
@@ -1471,84 +1499,84 @@ msgstr "আপলোড বার্তা"
 msgid "URL"
 msgstr "URL"
 
-#: library/plugin-display.php:607
+#: library/plugin-display.php:631
 msgid "URL Display"
 msgstr "URL প্রদর্শন"
 
-#: library/plugin-display.php:614
+#: library/plugin-display.php:638
 msgid "URL Markup"
 msgstr "ইউআরএল মার্কআপ"
 
-#: library/plugin-display.php:322
+#: library/plugin-display.php:346
 msgid "Use a hidden field for the post category. This hides the category field and sets its value via the next option."
 msgstr "পোস্ট বিভাগের জন্য একটি লুকানো ক্ষেত্র ব্যবহার করুন। এটি বিভাগ ক্ষেত্রটি লুকিয়ে রাখে এবং পরবর্তী বিকল্পের মাধ্যমে এর মান সেট করে।"
 
-#: library/plugin-display.php:726
+#: library/plugin-display.php:750
 msgid "Use curly brackets"
 msgstr "কোঁকড়া বন্ধনী ব্যবহার করুন"
 
-#: library/plugin-display.php:330
+#: library/plugin-display.php:354
 msgid "Use Existing Tags"
 msgstr "বিদ্যমান ট্যাগ ব্যবহার করুন"
 
-#: library/plugin-display.php:355 library/plugin-display.php:383
-#: library/plugin-display.php:421
+#: library/plugin-display.php:379 library/plugin-display.php:407
+#: library/plugin-display.php:445
 msgid "Use only alphanumeric, underscores, and dashes. If unsure, use the default name:"
 msgstr "শুধুমাত্র আলফানিউমেরিক, আন্ডারস্কোর এবং ড্যাশ ব্যবহার করুন। অনিশ্চিত হলে, ডিফল্ট নাম ব্যবহার করুন:"
 
-#: library/plugin-display.php:731
+#: library/plugin-display.php:755
 msgid "Use single straight quotes (instead of double quotes) in"
 msgstr "একক সোজা উদ্ধৃতি ব্যবহার করুন (ডবল উদ্ধৃতির পরিবর্তে)"
 
-#: library/plugin-display.php:500
+#: library/plugin-display.php:524
 msgid "Use submitted images as Featured Images. Requires theme support for Featured Images (aka Post Thumbnails)"
-msgstr "ফিচারড ইমেজ হিসেবে জমা দেওয়া ছবি ব্যবহার করুন। বৈশিষ্ট্যযুক্ত চিত্রগুলির জন্য থিম সমর্থন প্রয়োজন (ওরফে পোস্ট থাম্বনেল)"
+msgstr "ফিচারড ইমেজ হিসেবে জমা দেওয়া ছবি ব্যবহার করুন। বৈশিষ্ট্যযুক্ত চিত্রগুলির জন্য থিম সমর্থন প্রয়োজন (ওরফে পোস্ট থাম্বনেইল)"
 
-#: library/plugin-display.php:672 library/plugin-display.php:685
+#: library/plugin-display.php:696 library/plugin-display.php:709
 msgid "Use the shortcode to display the form on any WP Post or Page:"
 msgstr "যেকোনো WP পোস্ট বা পৃষ্ঠায় ফর্মটি প্রদর্শন করতে শর্টকোড ব্যবহার করুন:"
 
-#: library/plugin-display.php:226
+#: library/plugin-display.php:250
 msgid "Use the user&rsquo;s Profile URL as the value of the URL field (valid when the user is logged in to WordPress)"
 msgstr "ইউআরএল ফিল্ডের মান হিসাবে ব্যবহারকারীর প্রোফাইল ইউআরএল ব্যবহার করুন (ব্যবহারকারী যখন ওয়ার্ডপ্রেসে লগ ইন করেন তখন বৈধ)"
 
-#: library/plugin-display.php:221
+#: library/plugin-display.php:245
 msgid "Use the user&rsquo;s registered email as the value of the Email field (valid when the user is logged in to WordPress)"
 msgstr "ইমেল ক্ষেত্রের মান হিসাবে ব্যবহারকারীর নিবন্ধিত ইমেল ব্যবহার করুন (যখন ব্যবহারকারী ওয়ার্ডপ্রেসে লগ ইন করেন তখন বৈধ)"
 
-#: library/plugin-display.php:216
+#: library/plugin-display.php:240
 msgid "Use the user&rsquo;s registered username for the Name field (valid when the user is logged in to WordPress)"
 msgstr "নাম ক্ষেত্রের জন্য ব্যবহারকারীর নিবন্ধিত ব্যবহারকারীর নাম ব্যবহার করুন (যখন ব্যবহারকারী ওয়ার্ডপ্রেসে লগ ইন করেন তখন বৈধ)"
 
-#: library/plugin-display.php:713
+#: library/plugin-display.php:737
 msgid "Use this shortcode to display a gallery of uploaded images for each submitted post:"
 msgstr "প্রতিটি জমা দেওয়া পোস্টের জন্য আপলোড করা চিত্রগুলির একটি গ্যালারি প্রদর্শন করতে এই শর্টকোডটি ব্যবহার করুন:"
 
-#: library/plugin-display.php:694
+#: library/plugin-display.php:718
 msgid "Use this shortcode to display a list of submitted posts on any WP Post or Page:"
 msgstr "যেকোনো WP পোস্ট বা পৃষ্ঠায় জমা দেওয়া পোস্টগুলির একটি তালিকা প্রদর্শন করতে এই শর্টকোডটি ব্যবহার করুন:"
 
-#: library/plugin-display.php:66
+#: library/plugin-display.php:90
 msgid "User Email"
 msgstr "ব্যবহারকারীর ইমেইল"
 
-#: user-submitted-posts.php:1719
+#: user-submitted-posts.php:1733
 msgid "User email required"
 msgstr "ব্যবহারকারী ইমেল প্রয়োজন"
 
-#: user-submitted-posts.php:1710
+#: user-submitted-posts.php:1724
 msgid "User login required"
 msgstr "ব্যবহারকারী লগইন প্রয়োজন"
 
-#: library/plugin-display.php:65
+#: library/plugin-display.php:89
 msgid "User Name"
 msgstr "ব্যবহারকারীর নাম"
 
-#: user-submitted-posts.php:1711
+#: user-submitted-posts.php:1725
 msgid "User name required"
-msgstr "ব্যবহারকারীর নাম (বাধ্যতামূলক"
+msgstr "ব্যবহারকারীর নাম প্রয়োজন"
 
-#: library/plugin-display.php:202
+#: library/plugin-display.php:226
 msgid "User Settings"
 msgstr "ব্যবহারকারীর সেটিংস"
 
@@ -1565,11 +1593,11 @@ msgstr "ব্যবহারকারী জমা পোস্ট তথ্য
 msgid "User Submitted Posts"
 msgstr "ব্যবহারকারী পোস্ট জমা"
 
-#: library/plugin-display.php:67
+#: library/plugin-display.php:91
 msgid "User URL"
 msgstr "ব্যবহারকারী URL"
 
-#: user-submitted-posts.php:1713
+#: user-submitted-posts.php:1727
 msgid "User URL required"
 msgstr "ব্যবহারকারী URL প্রয়োজন"
 
@@ -1579,26 +1607,26 @@ msgstr "ব্যবহারকারীর নাম"
 
 #: library/shortcode-login.php:159
 msgid "Username or Email"
-msgstr "ব্যবহারকারী নাম বা ইমেল"
+msgstr "ব্যবহারকারীর নাম বা ইমেল"
 
-#: user-submitted-posts.php:705 library/plugin-display.php:35
+#: user-submitted-posts.php:705 library/plugin-display.php:59
 msgid "USP"
 msgstr "ইউএসপি"
 
-#: library/plugin-display.php:671
+#: library/plugin-display.php:695
 msgid "USP enables you to display a post-submission form anywhere on your site."
 msgstr "ইউএসপি আপনাকে আপনার সাইটে যেকোনো জায়গায় পোস্ট-সাবমিশন ফর্ম প্রদর্শন করতে সক্ষম করে।"
 
-#: library/plugin-display.php:36 library/plugin-display.php:85
-#: library/plugin-display.php:195 library/plugin-display.php:243
-#: library/plugin-display.php:296 library/plugin-display.php:341
-#: library/plugin-display.php:369 library/plugin-display.php:397
-#: library/plugin-display.php:440 library/plugin-display.php:555
-#: library/plugin-display.php:650 library/plugin-display.php:678
+#: library/plugin-display.php:60 library/plugin-display.php:109
+#: library/plugin-display.php:219 library/plugin-display.php:267
+#: library/plugin-display.php:320 library/plugin-display.php:365
+#: library/plugin-display.php:393 library/plugin-display.php:421
+#: library/plugin-display.php:464 library/plugin-display.php:579
+#: library/plugin-display.php:674 library/plugin-display.php:702
 msgid "USP Pro"
 msgstr "ইউএসপি প্রো"
 
-#: library/plugin-display.php:752
+#: library/plugin-display.php:776
 msgid "USP provides three shortcodes to control access and restrict content."
 msgstr "ইউএসপি অ্যাক্সেস নিয়ন্ত্রণ এবং বিষয়বস্তু সীমাবদ্ধ করতে তিনটি শর্টকোড প্রদান করে।"
 
@@ -1612,21 +1640,25 @@ msgstr "v3 (লুকানো রিক্যাপচা)"
 
 #: views/submission-form.php:131 views/submission-form-alt.php:146
 msgid "Verification"
-msgstr "প্রতিপাদন"
+msgstr "যাচাইকরণ"
 
 #: library/shortcode-misc.php:133
 msgid "View full post"
 msgstr "সম্পূর্ণ পোস্ট দেখুন"
 
-#: library/plugin-display.php:677
+#: library/plugin-display.php:701
 msgid "Want more than one form? Create unlimited submission forms, registration forms, contact forms and more with"
 msgstr "একাধিক ফর্ম চান? এর সাথে সীমাহীন জমা ফর্ম, নিবন্ধন ফর্ম, যোগাযোগ ফর্ম এবং আরও অনেক কিছু তৈরি করুন"
 
+#: library/plugin-display.php:31
+msgid "We need your support!"
+msgstr "আমরা আপনার সমর্থন প্রয়োজন!"
+
 #: library/shortcode-login.php:177
 msgid "Welcome, "
-msgstr "স্বাগত, "
+msgstr "স্বাগতম, "
 
-#: library/plugin-display.php:102
+#: library/plugin-display.php:126
 msgid "With this option, you can copy the plugin&rsquo;s default templates:"
 msgstr "এই বিকল্পের সাহায্যে, আপনি প্লাগইনের ডিফল্ট টেমপ্লেটগুলি অনুলিপি করতে পারেন:"
 
@@ -1642,15 +1674,15 @@ msgstr "WP পৃষ্ঠা"
 msgid "WP Post (recommended)"
 msgstr "WP পোস্ট (প্রস্তাবিত)"
 
-#: library/plugin-display.php:800
+#: library/plugin-display.php:824
 msgid "WP Resources"
 msgstr "WP সম্পদ"
 
-#: library/plugin-display.php:684
+#: library/plugin-display.php:708
 msgid "You also can display a simple form that enables users to log in, register, or reset their password."
 msgstr "আপনি একটি সাধারণ ফর্মও প্রদর্শন করতে পারেন যা ব্যবহারকারীদের লগ ইন করতে, নিবন্ধন করতে বা তাদের পাসওয়ার্ড পুনরায় সেট করতে সক্ষম করে।"
 
-#: library/plugin-display.php:717
+#: library/plugin-display.php:741
 msgid "You can customize using any of the follwing attributes:"
 msgstr "আপনি নিম্নলিখিত গুণাবলী ব্যবহার করে কাস্টমাইজ করতে পারেন:"
 
@@ -1658,7 +1690,11 @@ msgstr "আপনি নিম্নলিখিত গুণাবলী ব্
 #: views/submission-form-alt.php:52 views/submission-form-alt.php:53
 #: library/shortcode-login.php:143
 msgid "Your Email"
-msgstr "তোমার ইমেইল"
+msgstr "আপনার ইমেইল"
+
+#: library/plugin-display.php:41
+msgid "Your generous support enables continued development of this free plugin. Thank you!"
+msgstr "আপনার উদার সমর্থন এই বিনামূল্যের প্লাগইনের ক্রমাগত বিকাশকে সক্ষম করে। ধন্যবাদ!"
 
 #: library/support-panel.php:60
 msgid "Your generous support helps future development of"
@@ -1667,7 +1703,7 @@ msgstr "আপনার উদার সমর্থন ভবিষ্যতে
 #: views/submission-form.php:31 views/submission-form.php:32
 #: views/submission-form-alt.php:46 views/submission-form-alt.php:47
 msgid "Your Name"
-msgstr "তোমার নাম"
+msgstr "আপনার নাম"
 
 #: views/submission-form.php:43 views/submission-form.php:44
 #: views/submission-form-alt.php:58 views/submission-form-alt.php:59

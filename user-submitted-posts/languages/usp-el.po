@@ -4,26 +4,26 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: USP 20240703\n"
+"Project-Id-Version: USP 20241026\n"
 "Language: el\n"
 
 #: library/plugin-settings.php:590
 msgid " approved posts"
 msgstr " εγκεκριμένες θέσεις"
 
-#: user-submitted-posts.php:1687
+#: user-submitted-posts.php:1701
 msgid " file"
 msgstr " αρχείο"
 
-#: user-submitted-posts.php:1684
+#: user-submitted-posts.php:1698
 msgid " file required"
 msgstr " απαιτείται αρχείο"
 
-#: user-submitted-posts.php:1686
+#: user-submitted-posts.php:1700
 msgid " files"
 msgstr " αρχεία"
 
-#: user-submitted-posts.php:1683
+#: user-submitted-posts.php:1697
 msgid " files required"
 msgstr " απαιτούνται αρχεία"
 
@@ -31,20 +31,20 @@ msgstr " απαιτούνται αρχεία"
 msgid " or higher, and has been deactivated! "
 msgstr " ή υψηλότερο, και έχει απενεργοποιηθεί! "
 
-#: user-submitted-posts.php:1689 user-submitted-posts.php:1690
-#: user-submitted-posts.php:1691 user-submitted-posts.php:1692
+#: user-submitted-posts.php:1703 user-submitted-posts.php:1704
+#: user-submitted-posts.php:1705 user-submitted-posts.php:1706
 msgid " pixels"
 msgstr " εικονοστοιχεία"
 
-#: user-submitted-posts.php:1729 user-submitted-posts.php:1730
+#: user-submitted-posts.php:1743 user-submitted-posts.php:1744
 msgid " required"
-msgstr " απαιτείται"
+msgstr " υποχρεούμαι"
 
-#: library/plugin-display.php:516
+#: library/plugin-display.php:540
 msgid "&ldquo;Add another image&rdquo; link"
-msgstr "&ldquo;Προσθήκη άλλης εικόνας&rdquo; Σύνδεσμος"
+msgstr "&ldquo;Προσθήκη άλλης εικόνας&rdquo; σύνδεσμος"
 
-#: library/plugin-display.php:37
+#: library/plugin-display.php:61
 msgid "&mdash; the ultimate solution for user-generated content."
 msgstr "&mdash; η απόλυτη λύση για περιεχόμενο που δημιουργείται από χρήστες."
 
@@ -60,15 +60,15 @@ msgstr "(Δώστε τα δικά σας στυλ)"
 msgid "(Recommended)"
 msgstr "(Συνιστάται)"
 
-#: library/plugin-display.php:107
+#: library/plugin-display.php:131
 msgid "..and upload them into a directory named"
 msgstr "..και ανεβάστε τα σε έναν κατάλογο με το όνομα"
 
-#: library/plugin-display.php:750
+#: library/plugin-display.php:774
 msgid "Access Control"
 msgstr "Έλεγχος πρόσβασης"
 
-#: library/plugin-display.php:449
+#: library/plugin-display.php:473
 msgid "Add a challenge question to help stop spam. Tip: make the question easy to answer for any human."
 msgstr "Προσθέστε μια ερώτηση πρόκλησης για να σταματήσετε τα ανεπιθύμητα. Συμβουλή: κάντε την ερώτηση εύκολη στην απάντηση για κάθε άνθρωπο."
 
@@ -76,13 +76,13 @@ msgstr "Προσθέστε μια ερώτηση πρόκλησης για να 
 msgid "Add another image"
 msgstr "Προσθήκη άλλης εικόνας"
 
-#: library/plugin-display.php:267
+#: library/plugin-display.php:291
 msgid "Additional recipients for email alerts. Use commas to separate multiple addresses."
 msgstr "Πρόσθετοι παραλήπτες για ειδοποιήσεις μέσω email. Χρησιμοποιήστε κόμματα για να διαχωρίσετε πολλές διευθύνσεις."
 
 #: library/shortcode-login.php:183
 msgid "Admin"
-msgstr "διαχειριστής"
+msgstr "Διαχειρ"
 
 #: library/plugin-settings.php:223 library/plugin-settings.php:247
 #: library/plugin-settings.php:271 library/plugin-settings.php:295
@@ -90,18 +90,22 @@ msgstr "διαχειριστής"
 msgid "After post content"
 msgstr "Μετά το περιεχόμενο της ανάρτησης"
 
-#: user-submitted-posts.php:1700
+#: user-submitted-posts.php:1714
 msgid "An error occurred. Please go back and try again."
 msgstr "Παρουσιάστηκε σφάλμα. Επιστρέψτε και δοκιμάστε ξανά."
 
-#: library/plugin-display.php:339 library/plugin-display.php:727
-#: library/plugin-display.php:732
+#: library/plugin-settings.php:1219 library/plugin-display.php:363
+#: library/plugin-display.php:751 library/plugin-display.php:756
 msgid "and"
 msgstr "και"
 
 #: library/support-panel.php:61
 msgid "and is greatly appreciated."
 msgstr "και εκτιμάται ιδιαίτερα."
+
+#: library/plugin-display.php:35
+msgid "and/or"
+msgstr "και/ή"
 
 #: views/submission-form.php:85 views/submission-form-alt.php:100
 msgid "Antispam Question"
@@ -111,15 +115,23 @@ msgstr "Ερώτηση Antispam"
 msgid "Any size donation helps me to continue developing this free plugin and other awesome WordPress resources."
 msgstr "Η δωρεά οποιουδήποτε μεγέθους με βοηθά να συνεχίσω να αναπτύσσω αυτό το δωρεάν πρόσθετο και άλλους καταπληκτικούς πόρους του WordPress."
 
-#: library/plugin-display.php:207
+#: library/plugin-settings.php:1221
+msgid "Apply code"
+msgstr "Εφαρμογή κωδικού"
+
+#: library/plugin-display.php:231
 msgid "Assigned Author"
 msgstr "Ανατεθειμένος συγγραφέας"
 
-#: library/plugin-display.php:728 library/plugin-display.php:732
+#: library/plugin-settings.php:1221
+msgid "at checkout. Sale ends 12/21/24."
+msgstr "στο ταμείο. Η προσφορά λήγει 21/12/24."
+
+#: library/plugin-display.php:752 library/plugin-display.php:756
 msgid "attributes"
 msgstr "γνωρίσματα"
 
-#: library/plugin-display.php:564
+#: library/plugin-display.php:588
 msgid "Automatically display images and more."
 msgstr "Αυτόματη εμφάνιση εικόνων και πολλά άλλα."
 
@@ -129,67 +141,67 @@ msgstr "Αυτόματη εμφάνιση εικόνων και πολλά άλ�
 msgid "Before post content"
 msgstr "Πριν δημοσιεύσετε περιεχόμενο"
 
-#: library/support-panel.php:53
+#: library/support-panel.php:53 library/plugin-settings.php:1220
 msgid "books"
 msgstr "βιβλία"
 
-#: library/plugin-settings.php:1217
-msgid "Buy one get one FREE with code"
-msgstr "Αγοράστε ένα πάρτε ένα ΔΩΡΕΑΝ με κωδικό"
-
-#: library/plugin-display.php:809
+#: library/plugin-display.php:833
 msgid "by"
 msgstr "με"
 
-#: library/plugin-display.php:128
+#: library/plugin-display.php:152
 msgid "By default, CSS &amp; JavaScript files are loaded on every page. To load only on specific page(s), enter the URL(s) here. Use commas to separate multiple URLs. Leave blank to load on all pages."
 msgstr "Από προεπιλογή, CSS &amp; Τα αρχεία JavaScript φορτώνονται σε κάθε σελίδα. Για φόρτωση μόνο σε συγκεκριμένες σελίδες, εισαγάγετε τη διεύθυνση URL εδώ. Χρησιμοποιήστε κόμματα για να διαχωρίσετε πολλαπλές διευθύνσεις URL. Αφήστε το κενό για φόρτωση σε όλες τις σελίδες."
 
-#: library/plugin-display.php:406
+#: library/plugin-display.php:430
 msgid "By default, this displays an &ldquo;Agree to Terms&rdquo; checkbox. Customize as desired."
 msgstr "Από προεπιλογή, εμφανίζεται μια ένδειξη &ldquo;Συμφωνώ με τους Όρους&rdquo; πλαίσιο ελέγχου. Προσαρμόστε όπως θέλετε."
 
-#: library/plugin-display.php:734
+#: library/plugin-display.php:758
 msgid "Can use"
 msgstr "Μπορεί να χρησιμοποιηθεί"
 
-#: library/plugin-display.php:462
+#: library/plugin-display.php:486
 msgid "Case-sensitivity"
 msgstr "Ευαισθησία πεζών-κεφαλαίων"
 
-#: library/plugin-display.php:308
+#: library/plugin-display.php:332
 msgid "Categories"
 msgstr "Κατηγορίες"
 
-#: library/plugin-display.php:303
+#: library/plugin-display.php:327
 msgid "Categories &amp; Tags"
 msgstr "Κατηγορίες &amp; Ετικέτες"
 
-#: library/plugin-display.php:339
+#: library/plugin-display.php:363
 msgid "category"
 msgstr "κατηγορία"
 
-#: library/plugin-display.php:325
+#: library/plugin-display.php:349
 msgid "Category ID for Hidden Field"
 msgstr "Αναγνωριστικό κατηγορίας για κρυφό πεδίο"
 
-#: library/plugin-settings.php:431 library/plugin-display.php:447
-#: library/plugin-display.php:452
+#: library/plugin-settings.php:431 library/plugin-display.php:471
+#: library/plugin-display.php:476
 msgid "Challenge Question"
 msgstr "Ερώτηση πρόκλησης"
 
-#: library/plugin-display.php:457
+#: library/plugin-display.php:481
 msgid "Challenge Response"
 msgstr "Απάντηση πρόκλησης"
 
-#: library/plugin-display.php:295 library/plugin-display.php:368
-#: library/plugin-display.php:396 library/plugin-display.php:439
+#: library/plugin-display.php:319 library/plugin-display.php:392
+#: library/plugin-display.php:420 library/plugin-display.php:463
 msgid "check out"
-msgstr "Ολοκλήρωση αγοράς"
+msgstr "αναχωρώ"
 
-#: library/plugin-display.php:735
+#: library/plugin-display.php:759
 msgid "Check out the source code inline notes for more info"
 msgstr "Ελέγξτε τις ενσωματωμένες σημειώσεις του πηγαίου κώδικα για περισσότερες πληροφορίες"
+
+#: library/plugin-display.php:46
+msgid "Check this box if you have shown support"
+msgstr "Επιλέξτε αυτό το πλαίσιο εάν έχετε δείξει υποστήριξη"
 
 #: library/shortcode-login.php:98
 msgid "Check your email for the password."
@@ -199,51 +211,51 @@ msgstr "Ελέγξτε το email σας για τον κωδικό πρόσβα
 msgid "Check your email to reset your password."
 msgstr "Ελέγξτε το email σας για να επαναφέρετε τον κωδικό πρόσβασής σας."
 
-#: library/plugin-display.php:424
+#: library/plugin-display.php:448
 msgid "Checkbox Error"
 msgstr "Σφάλμα πλαισίου ελέγχου"
 
-#: library/plugin-display.php:419
+#: library/plugin-display.php:443
 msgid "Checkbox Name"
 msgstr "Όνομα πλαισίου ελέγχου"
 
-#: library/plugin-display.php:429
+#: library/plugin-display.php:453
 msgid "Checkbox Text"
 msgstr "Κείμενο πλαισίου ελέγχου"
 
-#: library/plugin-display.php:61
+#: library/plugin-display.php:85
 msgid "Choose fields to display on the front-end form."
 msgstr "Επιλέξτε πεδία για εμφάνιση στη φόρμα της διεπαφής."
 
-#: library/plugin-display.php:487
+#: library/plugin-display.php:511
 msgid "Choose reCaptcha version"
 msgstr "Επιλέξτε την έκδοση reCaptcha"
 
-#: library/plugin-display.php:350
+#: library/plugin-display.php:374
 msgid "Configure Custom Field #1."
 msgstr "Διαμόρφωση προσαρμοσμένου πεδίου #1."
 
-#: library/plugin-display.php:378
+#: library/plugin-display.php:402
 msgid "Configure Custom Field #2."
 msgstr "Διαμόρφωση προσαρμοσμένου πεδίου #2."
 
-#: library/plugin-display.php:252
+#: library/plugin-display.php:276
 msgid "Configure email notifications for new submitted posts."
 msgstr "Διαμόρφωση ειδοποιήσεων email για νέες υποβληθείσες αναρτήσεις."
 
-#: library/plugin-display.php:94
+#: library/plugin-display.php:118
 msgid "Configure general settings. Note: the default settings work fine for most cases."
 msgstr "Διαμορφώστε τις γενικές ρυθμίσεις. Σημείωση: οι προεπιλεγμένες ρυθμίσεις λειτουργούν καλά στις περισσότερες περιπτώσεις."
 
-#: library/plugin-display.php:495
+#: library/plugin-display.php:519
 msgid "Configure settings for image uploads."
 msgstr "Διαμορφώστε τις ρυθμίσεις για μεταφορτώσεις εικόνων."
 
-#: library/plugin-display.php:305
+#: library/plugin-display.php:329
 msgid "Configure settings for the Category and Tag fields."
 msgstr "Διαμορφώστε τις ρυθμίσεις για τα πεδία Κατηγορία και Ετικέτα."
 
-#: library/plugin-display.php:204
+#: library/plugin-display.php:228
 msgid "Configure user settings."
 msgstr "Διαμορφώστε τις ρυθμίσεις χρήστη."
 
@@ -251,59 +263,59 @@ msgstr "Διαμορφώστε τις ρυθμίσεις χρήστη."
 msgid "Congratulations, you&rsquo;re logged in."
 msgstr "Συγχαρητήρια, έχετε συνδεθεί."
 
-#: user-submitted-posts.php:1717 user-submitted-posts.php:1718
+#: user-submitted-posts.php:1731 user-submitted-posts.php:1732
 msgid "Correct captcha required"
 msgstr "Απαιτείται σωστό captcha"
 
-#: library/plugin-display.php:272
+#: library/plugin-display.php:296
 msgid "Custom address for the email &ldquo;From&rdquo; header (see plugin FAQs for info)."
 msgstr "Προσαρμοσμένη διεύθυνση για το email &ldquo;Από&rdquo; κεφαλίδα (ανατρέξτε στις Συνήθεις Ερωτήσεις της προσθήκης για πληροφορίες)."
 
-#: library/plugin-display.php:404
+#: library/plugin-display.php:428
 msgid "Custom Checkbox"
 msgstr "Προσαρμοσμένο πλαίσιο ελέγχου"
 
-#: user-submitted-posts.php:1697
+#: user-submitted-posts.php:1711
 msgid "Custom checkbox required"
 msgstr "Απαιτείται προσαρμοσμένο πλαίσιο ελέγχου"
 
-#: library/plugin-display.php:160
+#: library/plugin-display.php:184
 msgid "Custom Content"
 msgstr "Προσαρμοσμένο περιεχόμενο"
 
-#: user-submitted-posts.php:1694 library/core-functions.php:306
+#: user-submitted-posts.php:1708 library/core-functions.php:306
 #: library/plugin-settings.php:392 library/plugin-settings.php:930
-#: library/plugin-display.php:348
+#: library/plugin-display.php:372
 msgid "Custom Field 1"
 msgstr "Προσαρμοσμένο πεδίο 1"
 
-#: library/plugin-display.php:620
+#: library/plugin-display.php:644
 msgid "Custom Field 1 Display"
 msgstr "Εμφάνιση προσαρμοσμένου πεδίου 1"
 
-#: library/plugin-display.php:627
+#: library/plugin-display.php:651
 msgid "Custom Field 1 Markup"
 msgstr "Προσαρμοσμένη Σήμανση Πεδίου 1"
 
-#: user-submitted-posts.php:1695 library/core-functions.php:255
+#: user-submitted-posts.php:1709 library/core-functions.php:255
 #: library/plugin-settings.php:397 library/plugin-settings.php:933
-#: library/plugin-display.php:376
+#: library/plugin-display.php:400
 msgid "Custom Field 2"
 msgstr "Προσαρμοσμένο πεδίο 2"
 
-#: library/plugin-display.php:633
+#: library/plugin-display.php:657
 msgid "Custom Field 2 Display"
 msgstr "Εμφάνιση προσαρμοσμένου πεδίου 2"
 
-#: library/plugin-display.php:640
+#: library/plugin-display.php:664
 msgid "Custom Field 2 Markup"
 msgstr "Προσαρμοσμένη Σήμανση Πεδίου 2"
 
-#: library/plugin-display.php:358 library/plugin-display.php:386
+#: library/plugin-display.php:382 library/plugin-display.php:410
 msgid "Custom Field Label"
 msgstr "Προσαρμοσμένη ετικέτα πεδίου"
 
-#: library/plugin-display.php:353 library/plugin-display.php:381
+#: library/plugin-display.php:377 library/plugin-display.php:405
 msgid "Custom Field Name"
 msgstr "Προσαρμοσμένο όνομα πεδίου"
 
@@ -311,11 +323,11 @@ msgstr "Προσαρμοσμένο όνομα πεδίου"
 msgid "Custom Form + Custom CSS"
 msgstr "Προσαρμοσμένη φόρμα + Προσαρμοσμένο CSS"
 
-#: library/plugin-display.php:518
+#: library/plugin-display.php:542
 msgid "Custom markup for the &ldquo;Add another image&rdquo; link. Leave blank to use the default markup (recommended)."
-msgstr "Προσαρμοσμένη σήμανση για το &ldquo;Προσθήκη άλλης εικόνας&rdquo; Σύνδεσμος. Αφήστε το κενό για να χρησιμοποιήσετε την προεπιλεγμένη σήμανση (συνιστάται)."
+msgstr "Προσαρμοσμένη σήμανση για το &ldquo;Προσθήκη άλλης εικόνας&rdquo; σύνδεσμος. Αφήστε το κενό για να χρησιμοποιήσετε την προεπιλεγμένη σήμανση (συνιστάται)."
 
-#: library/plugin-display.php:503
+#: library/plugin-display.php:527
 msgid "Default Featured Image"
 msgstr "Προεπιλεγμένη επιλεγμένη εικόνα"
 
@@ -323,19 +335,19 @@ msgstr "Προεπιλεγμένη επιλεγμένη εικόνα"
 msgid "Disable"
 msgstr "Καθιστώ ανίκανο"
 
-#: library/plugin-display.php:177
+#: library/plugin-display.php:201
 msgid "Disable all required attributes on form fields (useful for troubleshooting error messages)"
 msgstr "Απενεργοποιήστε όλα τα απαιτούμενα χαρακτηριστικά στα πεδία φόρμας (χρήσιμο για την αντιμετώπιση προβλημάτων μηνυμάτων σφαλμάτων)"
 
-#: library/plugin-display.php:180
+#: library/plugin-display.php:204
 msgid "Disable IP Tracking"
 msgstr "Απενεργοποιήστε την παρακολούθηση IP"
 
-#: library/plugin-display.php:234
+#: library/plugin-display.php:258
 msgid "Disable Replace Author"
 msgstr "Απενεργοποίηση Αντικατάσταση συντάκτη"
 
-#: library/plugin-display.php:175
+#: library/plugin-display.php:199
 msgid "Disable Required"
 msgstr "Απαιτείται απενεργοποίηση"
 
@@ -344,79 +356,79 @@ msgstr "Απαιτείται απενεργοποίηση"
 msgid "Disable this field"
 msgstr "Απενεργοποιήστε αυτό το πεδίο"
 
-#: library/plugin-settings.php:1291
+#: library/plugin-settings.php:1293
 msgid "Dismiss"
 msgstr "Απολύω"
 
-#: library/plugin-display.php:332
+#: library/plugin-display.php:356
 msgid "Display a select/dropdown menu of existing tags (valid when Tag field is displayed on the form)"
 msgstr "Εμφάνιση ενός μενού επιλογής/αναπτυσσόμενου μενού υπαρχουσών ετικετών (ισχύει όταν το πεδίο Tag εμφανίζεται στη φόρμα)"
 
-#: library/plugin-display.php:409
+#: library/plugin-display.php:433
 msgid "Display Checkbox"
 msgstr "Εμφάνιση πλαισίου ελέγχου"
 
-#: library/plugin-display.php:753
+#: library/plugin-display.php:777
 msgid "Display content only to users with a specific capability:"
 msgstr "Εμφάνιση περιεχομένου μόνο σε χρήστες με συγκεκριμένη δυνατότητα:"
 
-#: library/plugin-display.php:755
+#: library/plugin-display.php:779
 msgid "Display content to logged-in users:"
 msgstr "Εμφάνιση περιεχομένου σε συνδεδεμένους χρήστες:"
 
-#: library/plugin-display.php:757
+#: library/plugin-display.php:781
 msgid "Display content to visitors only:"
 msgstr "Εμφάνιση περιεχομένου μόνο στους επισκέπτες:"
 
-#: library/plugin-display.php:411
+#: library/plugin-display.php:435
 msgid "Display custom checkbox on the submission form"
 msgstr "Εμφάνιση προσαρμοσμένου πλαισίου ελέγχου στη φόρμα υποβολής"
 
-#: library/plugin-display.php:622
+#: library/plugin-display.php:646
 msgid "Display Custom Field 1:"
 msgstr "Εμφάνιση προσαρμοσμένου πεδίου 1:"
 
-#: library/plugin-display.php:635
+#: library/plugin-display.php:659
 msgid "Display Custom Field 2:"
 msgstr "Εμφάνιση προσαρμοσμένου πεδίου 2:"
 
-#: library/plugin-display.php:711
+#: library/plugin-display.php:735
 msgid "Display image gallery"
 msgstr "Εμφάνιση συλλογής εικόνων"
 
-#: library/plugin-display.php:596
+#: library/plugin-display.php:620
 msgid "Display submitted author/name:"
 msgstr "Εμφάνιση του υποβληθέντος συγγραφέα/ονόματος:"
 
-#: library/plugin-display.php:583
+#: library/plugin-display.php:607
 msgid "Display submitted email address:"
 msgstr "Εμφάνιση της υποβληθείσας διεύθυνσης email:"
 
-#: library/plugin-display.php:569
+#: library/plugin-display.php:593
 msgid "Display submitted images:"
-msgstr "Εμφάνιση εικόνων που έχουν υποβληθεί:"
+msgstr "Εμφάνιση υποβαλλόμενων εικόνων:"
 
-#: library/plugin-display.php:609
+#: library/plugin-display.php:633
 msgid "Display submitted URL:"
 msgstr "Εμφάνιση υποβληθείσας διεύθυνσης URL:"
 
-#: library/plugin-display.php:665
+#: library/plugin-display.php:689
 msgid "Display the Form"
 msgstr "Εμφάνιση της Φόρμας"
 
-#: library/plugin-display.php:682
+#: library/plugin-display.php:706
 msgid "Display the login/register form"
 msgstr "Εμφάνιση της φόρμας σύνδεσης/εγγραφής"
 
-#: library/plugin-display.php:669
+#: library/plugin-display.php:693
 msgid "Display the submit-post form"
 msgstr "Εμφάνιση της φόρμας υποβολής-ανάρτησης"
 
-#: library/plugin-display.php:692
+#: library/plugin-display.php:716
 msgid "Display user-submitted posts"
 msgstr "Εμφάνιση αναρτήσεων που έχουν υποβληθεί από τους χρήστες"
 
-#: library/plugin-display.php:182
+#: library/plugin-display.php:206
 msgid "Do not collect or store any user IP address (useful for complying with privacy regulations)"
 msgstr "Μην συλλέγετε ή αποθηκεύετε καμία διεύθυνση IP χρήστη (χρήσιμη για τη συμμόρφωση με τους κανονισμούς απορρήτου)"
 
@@ -426,13 +438,13 @@ msgstr "Μην συλλέγετε ή αποθηκεύετε καμία διεύ�
 msgid "Do not display"
 msgstr "Να μην εμφανίζεται"
 
-#: library/plugin-display.php:236
+#: library/plugin-display.php:260
 msgid "Do not replace post author with submitted user name"
 msgstr "Μην αντικαθιστάτε τον συντάκτη της ανάρτησης με το υποβληθέν όνομα χρήστη"
 
-#: library/plugin-display.php:41
+#: library/plugin-display.php:65
 msgid "Documentation"
-msgstr "Τεκμηρίωση"
+msgstr "Απόδειξη με έγγραφα"
 
 #: library/support-panel.php:51
 msgid "Donate via PayPal, credit card, or cryptocurrency"
@@ -446,49 +458,49 @@ msgstr "δωρεά"
 msgid "Draft"
 msgstr "Προσχέδιο"
 
-#: user-submitted-posts.php:1742
+#: user-submitted-posts.php:1756
 msgid "Duplicate post title. Please try again."
-msgstr "Διπλότυπος τίτλος ανάρτησης. ΠΑΡΑΚΑΛΩ προσπαθησε ξανα."
+msgstr "Διπλότυπος τίτλος ανάρτησης. Δοκιμάστε ξανά."
 
 #: library/plugin-settings.php:918
 msgid "Email"
-msgstr "ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΕΥΘΥΝΣΗ"
+msgstr "E-mail"
 
-#: library/plugin-display.php:270
+#: library/plugin-display.php:294
 msgid "Email &ldquo;From&rdquo; Address"
 msgstr "Email &ldquo;Από&rdquo; Διεύθυνση"
 
-#: library/plugin-display.php:265
+#: library/plugin-display.php:289
 msgid "Email Address for Alerts"
 msgstr "Διεύθυνση ηλεκτρονικού ταχυδρομείου για ειδοποιήσεις"
 
-#: library/plugin-display.php:283
+#: library/plugin-display.php:307
 msgid "Email Alert Message"
 msgstr "Μήνυμα ειδοποίησης μέσω email"
 
-#: library/plugin-display.php:276
+#: library/plugin-display.php:300
 msgid "Email Alert Subject"
 msgstr "Θέμα ειδοποίησης email"
 
-#: library/plugin-display.php:250
+#: library/plugin-display.php:274
 msgid "Email Alerts"
 msgstr "Ειδοποιήσεις μέσω email"
 
-#: library/plugin-display.php:581
+#: library/plugin-display.php:605
 msgid "Email Display"
 msgstr "Εμφάνιση email"
 
-#: library/plugin-display.php:588
+#: library/plugin-display.php:612
 msgid "Email Markup"
 msgstr "Σήμανση email"
 
-#: library/plugin-display.php:294
+#: library/plugin-display.php:318
 msgid "email-alert options"
 msgstr "επιλογές ειδοποίησης μέσω email"
 
 #: library/plugin-settings.php:503
 msgid "Enable"
-msgstr "επιτρέπω"
+msgstr "Καθιστώ ικανό"
 
 #: library/plugin-settings.php:371 library/plugin-settings.php:412
 #: library/plugin-settings.php:443 library/plugin-settings.php:473
@@ -499,31 +511,31 @@ msgstr "Ενεργοποίηση και απαίτηση"
 msgid "Enable but do not require"
 msgstr "Ενεργοποίηση αλλά δεν απαιτείται"
 
-#: library/plugin-display.php:260
+#: library/plugin-display.php:284
 msgid "Enable HTML Format"
 msgstr "Ενεργοποίηση μορφής HTML"
 
-#: library/plugin-display.php:262
+#: library/plugin-display.php:286
 msgid "Enable HTML format for email alert messages"
-msgstr "Ενεργοποίηση μορφής HTML για μηνύματα ειδοποίησης email"
+msgstr "Ενεργοποιήστε τη μορφή HTML για μηνύματα ειδοποίησης μέσω email"
 
-#: library/plugin-display.php:167
+#: library/plugin-display.php:191
 msgid "Enable RTE/Visual Editor for the Post Content field"
 msgstr "Ενεργοποιήστε το RTE/Visual Editor για το πεδίο Post Content"
 
-#: library/plugin-display.php:185
+#: library/plugin-display.php:209
 msgid "Enable Shortcodes"
 msgstr "Ενεργοποίηση Shortcodes"
 
-#: library/plugin-display.php:187
+#: library/plugin-display.php:211
 msgid "Enable shortcodes in widgets. By default, WordPress does not enable shortcodes in widgets. "
 msgstr "Ενεργοποίηση σύντομων κωδικών σε γραφικά στοιχεία. Από προεπιλογή, το WordPress δεν ενεργοποιεί τους συντομότερους κωδικούς σε γραφικά στοιχεία. "
 
-#: library/plugin-display.php:317
+#: library/plugin-display.php:341
 msgid "Enable users to select multiple categories"
 msgstr "Επιτρέψτε στους χρήστες να επιλέξουν πολλές κατηγορίες"
 
-#: library/plugin-display.php:554
+#: library/plugin-display.php:578
 msgid "Enable users to upload other file types (like PDF, Word, Zip, videos, and more), check out"
 msgstr "Επιτρέψτε στους χρήστες να ανεβάζουν άλλους τύπους αρχείων (όπως PDF, Word, Zip, βίντεο και άλλα), ελέγξτε"
 
@@ -532,23 +544,23 @@ msgstr "Επιτρέψτε στους χρήστες να ανεβάζουν ά�
 msgid "Enables your visitors to submit posts and images from anywhere on your site."
 msgstr "Επιτρέπει στους επισκέπτες σας να υποβάλλουν αναρτήσεις και εικόνες από οπουδήποτε στον ιστότοπό σας."
 
-#: library/plugin-display.php:35
+#: library/plugin-display.php:59
 msgid "enables your visitors to submit posts and upload images from the front-end of your site. "
 msgstr "δίνει τη δυνατότητα στους επισκέπτες σας να υποβάλλουν αναρτήσεις και να ανεβάζουν εικόνες από το μπροστινό μέρος του ιστότοπού σας. "
 
-#: library/plugin-display.php:459
+#: library/plugin-display.php:483
 msgid "Enter the *only* correct answer to the challenge question"
 msgstr "Εισαγάγετε τη *μόνη* σωστή απάντηση στην ερώτηση πρόκλησης"
 
-#: library/plugin-display.php:507
+#: library/plugin-display.php:531
 msgid "Enter URL or click button to upload/choose an image (optional)"
 msgstr "Εισαγάγετε τη διεύθυνση URL ή κάντε κλικ στο κουμπί για να ανεβάσετε/επιλέξετε μια εικόνα (προαιρετικό)"
 
-#: library/plugin-display.php:481
+#: library/plugin-display.php:505
 msgid "Enter your Private Key"
 msgstr "Εισαγάγετε το ιδιωτικό σας κλειδί"
 
-#: library/plugin-display.php:476
+#: library/plugin-display.php:500
 msgid "Enter your Public Key"
 msgstr "Εισαγάγετε το δημόσιο κλειδί σας"
 
@@ -556,57 +568,61 @@ msgstr "Εισαγάγετε το δημόσιο κλειδί σας"
 msgid "Enter your username or email to reset your password."
 msgstr "Εισαγάγετε το όνομα χρήστη ή το email σας για να επαναφέρετε τον κωδικό πρόσβασής σας."
 
-#: library/plugin-display.php:155
+#: library/plugin-display.php:179
 msgid "Error Message"
-msgstr "Μήνυμα λάθους"
+msgstr "Μήνυμα σφάλματος"
 
-#: library/plugin-display.php:157
+#: library/plugin-display.php:181
 msgid "Error message displayed if post submission fails (basic markup allowed)"
 msgstr "Εμφανίζεται μήνυμα σφάλματος εάν η υποβολή της ανάρτησης αποτύχει (επιτρέπεται η βασική σήμανση)"
 
-#: library/plugin-display.php:426
+#: library/plugin-display.php:450
 msgid "Error message displayed if user does not check the box"
 msgstr "Εμφανίζεται μήνυμα σφάλματος εάν ο χρήστης δεν επιλέξει το πλαίσιο"
 
-#: user-submitted-posts.php:1752
+#: user-submitted-posts.php:1766
 msgid "Error: "
-msgstr "Λάθος: "
+msgstr "Σφάλμα: "
 
-#: library/plugin-display.php:763
+#: library/plugin-display.php:787
 msgid "Example"
 msgstr "Παράδειγμα"
 
-#: library/plugin-display.php:498
+#: library/plugin-settings.php:1216
+msgid "Fall Sale!"
+msgstr "Φθινοπωρινές εκπτώσεις!"
+
+#: library/plugin-display.php:522
 msgid "Featured Image"
 msgstr "Επιλεγμένη εικόνα"
 
-#: user-submitted-posts.php:1735
+#: user-submitted-posts.php:1749
 msgid "File not uploaded. Please check the file and try again."
 msgstr "Το αρχείο δεν μεταφορτώθηκε. Ελέγξτε το αρχείο και δοκιμάστε ξανά."
 
-#: user-submitted-posts.php:1728
+#: user-submitted-posts.php:1742
 msgid "File type not allowed (please upload images only)"
 msgstr "Ο τύπος αρχείου δεν επιτρέπεται (παρακαλώ μεταφορτώστε μόνο εικόνες)"
 
-#: library/plugin-display.php:366 library/plugin-display.php:394
-#: library/plugin-display.php:437
+#: library/plugin-display.php:390 library/plugin-display.php:418
+#: library/plugin-display.php:461
 msgid "For"
 msgstr "Για"
 
-#: library/plugin-display.php:293 library/plugin-display.php:338
+#: library/plugin-display.php:317 library/plugin-display.php:362
 msgid "For more"
 msgstr "Για περισσότερα"
 
-#: library/plugin-display.php:36
+#: library/plugin-display.php:60
 msgid "For more features and unlimited forms, check out"
 msgstr "Για περισσότερες δυνατότητες και απεριόριστες φόρμες, ρίξτε μια ματιά"
 
-#: library/plugin-display.php:194 library/plugin-display.php:242
-#: library/plugin-display.php:649
+#: library/plugin-display.php:218 library/plugin-display.php:266
+#: library/plugin-display.php:673
 msgid "For more options and features, check out"
 msgstr "Για περισσότερες επιλογές και δυνατότητες, ρίξτε μια ματιά"
 
-#: library/plugin-display.php:84
+#: library/plugin-display.php:108
 msgid "For unlimited fields, check out"
 msgstr "Για απεριόριστα πεδία, ελέγξτε έξω"
 
@@ -614,27 +630,27 @@ msgstr "Για απεριόριστα πεδία, ελέγξτε έξω"
 msgid "Forgot?"
 msgstr "Ξεχάσατε;"
 
-#: library/plugin-display.php:59
+#: library/plugin-display.php:83
 msgid "Form Fields"
 msgstr "Πεδία Φόρμας"
 
-#: library/plugin-display.php:97
+#: library/plugin-display.php:121
 msgid "Form Style"
 msgstr "Στυλ φόρμας"
 
-#: library/plugin-display.php:562
+#: library/plugin-display.php:586
 msgid "Front-end Display"
 msgstr "Εμπρός οθόνη"
 
-#: library/plugin-display.php:115
+#: library/plugin-display.php:139
 msgid "FYI: here is a"
 msgstr "FYI: εδώ είναι ένα"
 
-#: library/plugin-display.php:92
+#: library/plugin-display.php:116
 msgid "General Settings"
 msgstr "Γενικές Ρυθμίσεις"
 
-#: library/plugin-display.php:48
+#: library/plugin-display.php:72
 msgid "Get USP Pro"
 msgstr "Αποκτήστε το USP Pro"
 
@@ -642,13 +658,13 @@ msgstr "Αποκτήστε το USP Pro"
 msgid "Get USP Pro for unlimited forms!"
 msgstr "Αποκτήστε το USP Pro για απεριόριστες φόρμες!"
 
-#: library/plugin-settings.php:1219
-msgid "Get&nbsp;plugins&nbsp;&raquo;"
-msgstr "Λήψη&nbsp;προσθηκών&nbsp;&raquo;"
-
-#: library/plugin-display.php:46
+#: library/plugin-display.php:70
 msgid "give it a 5-star rating"
 msgstr "δώστε του μια βαθμολογία 5 αστέρων"
+
+#: library/plugin-display.php:37
+msgid "give this plugin a 5-star rating"
+msgstr "δώστε σε αυτό το πρόσθετο βαθμολογία 5 αστέρων"
 
 #: library/plugin-settings.php:66
 msgid "Give USP a 5-star rating at WordPress.org"
@@ -656,21 +672,21 @@ msgstr "Δώστε στο USP μια βαθμολογία 5 αστέρων στ�
 
 #: library/plugin-settings.php:39
 msgid "Go Pro"
-msgstr "Γίνε επαγγελματίας"
+msgstr "Go Pro"
 
-#: library/plugin-settings.php:461 library/plugin-display.php:469
+#: library/plugin-settings.php:461 library/plugin-display.php:493
 msgid "Google reCaptcha"
 msgstr "Google reCaptcha"
 
 #: library/shortcode-login.php:107
 msgid "Have an account?"
-msgstr "Να έχεις ένα λογαριασμό;"
+msgstr "Έχετε λογαριασμό;"
 
-#: library/plugin-display.php:698
+#: library/plugin-display.php:722
 msgid "Here are some examples showing how to configure this shortcode:"
 msgstr "Ακολουθούν μερικά παραδείγματα που δείχνουν πώς να ρυθμίσετε αυτόν τον σύντομο κώδικα:"
 
-#: library/plugin-display.php:320
+#: library/plugin-display.php:344
 msgid "Hidden/Default Category"
 msgstr "Κρυφή/Προεπιλεγμένη κατηγορία"
 
@@ -700,51 +716,51 @@ msgstr "https://plugin-planet.com/"
 msgid "Human verification: leave this field empty."
 msgstr "Ανθρώπινη επαλήθευση: αφήστε αυτό το πεδίο κενό."
 
-#: library/plugin-display.php:273
+#: library/plugin-display.php:297
 msgid "If multiple addresses are specified for the previous setting, include an equal number of addresses for this setting (in the same order)."
 msgstr "Εάν έχουν καθοριστεί πολλές διευθύνσεις για την προηγούμενη ρύθμιση, συμπεριλάβετε ίσο αριθμό διευθύνσεων για αυτήν τη ρύθμιση (με την ίδια σειρά)."
 
-#: library/plugin-display.php:764
+#: library/plugin-display.php:788
 msgid "If the user is logged in, display the post-submit form; or if the user is not logged in, display the login form:"
 msgstr "Εάν ο χρήστης είναι συνδεδεμένος, εμφανίστε τη φόρμα μετά την υποβολή. ή εάν ο χρήστης δεν είναι συνδεδεμένος, εμφανίστε τη φόρμα σύνδεσης:"
 
-#: library/plugin-display.php:45
+#: library/plugin-display.php:69
 msgid "If you like this plugin, please"
 msgstr "Αν σας αρέσει αυτό το πρόσθετο, παρακαλώ"
 
-#: library/plugin-display.php:567
+#: library/plugin-display.php:591
 msgid "Image Display"
 msgstr "Εμφάνιση εικόνας"
 
-#: user-submitted-posts.php:1727
+#: user-submitted-posts.php:1741
 msgid "Image height exceeds maximum"
 msgstr "Το ύψος της εικόνας υπερβαίνει το μέγιστο"
 
-#: library/plugin-display.php:574
+#: library/plugin-display.php:598
 msgid "Image Markup"
 msgstr "Σήμανση εικόνας"
 
-#: library/plugin-settings.php:491 library/plugin-display.php:493
+#: library/plugin-settings.php:491 library/plugin-display.php:517
 msgid "Image Uploads"
 msgstr "Μεταφορτώσεις εικόνων"
 
-#: user-submitted-posts.php:1725
+#: user-submitted-posts.php:1739
 msgid "Image width exceeds maximum"
 msgstr "Το πλάτος της εικόνας υπερβαίνει το μέγιστο"
 
-#: library/plugin-display.php:727
+#: library/plugin-display.php:751
 msgid "in"
 msgstr "σε"
 
-#: library/plugin-display.php:107
+#: library/plugin-display.php:131
 msgid "in your theme:"
 msgstr "στο θέμα σας:"
 
-#: library/plugin-display.php:121
+#: library/plugin-display.php:145
 msgid "Include JavaScript"
 msgstr "Συμπεριλάβετε JavaScript"
 
-#: library/plugin-display.php:123
+#: library/plugin-display.php:147
 msgid "Include required JavaScript files (recommended)"
 msgstr "Συμπερίληψη απαιτούμενων αρχείων JavaScript (συνιστάται)"
 
@@ -752,7 +768,7 @@ msgstr "Συμπερίληψη απαιτούμενων αρχείων JavaScrip
 msgid "Incorrect response."
 msgstr "Λανθασμένη απάντηση."
 
-#: library/plugin-display.php:114
+#: library/plugin-display.php:138
 msgid "Installation Docs"
 msgstr "Έγγραφα εγκατάστασης"
 
@@ -761,37 +777,37 @@ msgstr "Έγγραφα εγκατάστασης"
 msgid "Jeff Starr"
 msgstr "Τζεφ Σταρ"
 
-#: library/plugin-display.php:810
+#: library/plugin-display.php:834
 msgid "Jeff Starr on Twitter"
 msgstr "Ο Τζεφ Σταρ στο Twitter"
 
-#: library/plugin-display.php:707 library/plugin-display.php:778
+#: library/plugin-display.php:731 library/plugin-display.php:802
 msgid "Learn&nbsp;more"
 msgstr "Μάθετε&nbsp;περισσότερα"
 
-#: library/plugin-display.php:789
+#: library/plugin-display.php:813
 msgid "Leave this option disabled to remember your settings."
-msgstr "Αφήστε αυτήν την επιλογή απενεργοποιημένη για να θυμάστε τις ρυθμίσεις σας."
+msgstr "Αφήστε αυτή την επιλογή απενεργοποιημένη για να θυμάστε τις ρυθμίσεις σας."
 
 #: library/plugin-settings.php:88
 msgid "Like this plugin? Give it a"
 msgstr "Σας αρέσει αυτό το πρόσθετο; Δώστε του ένα"
 
-#: library/plugin-display.php:115
+#: library/plugin-display.php:139
 msgid "list of USP CSS selectors"
 msgstr "λίστα επιλογέων USP CSS"
 
-#: user-submitted-posts.php:1809
+#: user-submitted-posts.php:1823
 msgid "log in"
-msgstr "Σύνδεση"
+msgstr "συνδεθείτε"
 
 #: library/shortcode-login.php:108
 msgid "Log in or sign up! It&rsquo;s fast &amp; free!"
-msgstr "Συνδεθείτε ή εγγραφείτε! Είναι γρήγορο &amp; Ελεύθερος!"
+msgstr "Συνδεθείτε ή εγγραφείτε! Είναι γρήγορο &amp; δωρεάν!"
 
 #: library/shortcode-login.php:182
 msgid "Log out"
-msgstr "Αποσύνδεση"
+msgstr "Αποσυνδεθείτε"
 
 #: library/shortcode-login.php:88 library/shortcode-login.php:127
 msgid "Login"
@@ -801,159 +817,167 @@ msgstr "Σύνδεση"
 msgid "Lose something?"
 msgstr "Να χαθεί κάτι;"
 
+#: library/plugin-display.php:35
+msgid "make a donation"
+msgstr "κάντε μια δωρεά"
+
+#: library/plugin-display.php:35
+msgid "Make a donation via PayPal"
+msgstr "Κάντε μια δωρεά μέσω PayPal"
+
 #: library/support-panel.php:107
 msgid "Make a donation&nbsp;&raquo;"
 msgstr "Κάντε μια δωρεά&nbsp;&raquo;"
 
-#: library/plugin-display.php:464
+#: library/plugin-display.php:488
 msgid "Make the challenge response case-sensitive"
 msgstr "Κάντε την απάντηση πρόκλησης με διάκριση πεζών-κεφαλαίων"
 
-#: library/plugin-display.php:416
+#: library/plugin-display.php:440
 msgid "Make the custom checkbox required (uncheck to make optional)"
 msgstr "Απαιτείται το προσαρμοσμένο πλαίσιο ελέγχου (αποεπιλέξτε για να γίνει προαιρετικό)"
 
-#: library/plugin-display.php:629
+#: library/plugin-display.php:653
 msgid "Markup for Custom Field 1. You may include any of the following variables:"
 msgstr "Σήμανση για προσαρμοσμένο πεδίο 1. Μπορείτε να συμπεριλάβετε οποιαδήποτε από τις ακόλουθες μεταβλητές:"
 
-#: library/plugin-display.php:642
+#: library/plugin-display.php:666
 msgid "Markup for Custom Field 2. You may include any of the following variables:"
 msgstr "Σήμανση για προσαρμοσμένο πεδίο 2. Μπορείτε να συμπεριλάβετε οποιαδήποτε από τις ακόλουθες μεταβλητές:"
 
-#: library/plugin-display.php:576
+#: library/plugin-display.php:600
 msgid "Markup for each submitted image. You may include any of the following variables:"
 msgstr "Σήμανση για κάθε εικόνα που υποβάλλεται. Μπορείτε να συμπεριλάβετε οποιαδήποτε από τις ακόλουθες μεταβλητές:"
 
-#: library/plugin-display.php:603
+#: library/plugin-display.php:627
 msgid "Markup for submitted author/name. You may include"
 msgstr "Σήμανση για τον συγγραφέα/όνομα που υποβλήθηκε. Μπορείτε να συμπεριλάβετε"
 
-#: library/plugin-display.php:590
+#: library/plugin-display.php:614
 msgid "Markup for submitted email address. You may include any of the following variables:"
 msgstr "Σήμανση για την υποβληθείσα διεύθυνση email. Μπορείτε να συμπεριλάβετε οποιαδήποτε από τις ακόλουθες μεταβλητές:"
 
-#: library/plugin-display.php:616
+#: library/plugin-display.php:640
 msgid "Markup for submitted URL. You may include any of the following variables:"
 msgstr "Σήμανση για υποβληθείσα διεύθυνση URL. Μπορείτε να συμπεριλάβετε οποιαδήποτε από τις ακόλουθες μεταβλητές:"
 
-#: library/plugin-display.php:548
+#: library/plugin-display.php:572
 msgid "Maximum height (in pixels) for uploaded images"
 msgstr "Μέγιστο ύψος (σε pixel) για τις μεταφορτωμένες εικόνες"
 
-#: library/plugin-display.php:546
+#: library/plugin-display.php:570
 msgid "Maximum image height"
 msgstr "Μέγιστο ύψος εικόνας"
 
-#: library/plugin-display.php:541
+#: library/plugin-display.php:565
 msgid "Maximum image width"
 msgstr "Μέγιστο πλάτος εικόνας"
 
-#: library/plugin-display.php:526
+#: library/plugin-display.php:550
 msgid "Maximum number of images"
 msgstr "Μέγιστος αριθμός εικόνων"
 
-#: user-submitted-posts.php:1723
+#: user-submitted-posts.php:1737
 msgid "Maximum number of images exceeded "
 msgstr "Υπέρβαση του μέγιστου αριθμού εικόνων "
 
-#: library/plugin-display.php:528
+#: library/plugin-display.php:552
 msgid "Maximum number of images for each submitted post"
 msgstr "Μέγιστος αριθμός εικόνων για κάθε υποβληθείσα ανάρτηση"
 
-#: library/plugin-display.php:543
+#: library/plugin-display.php:567
 msgid "Maximum width (in pixels) for uploaded images"
 msgstr "Μέγιστο πλάτος (σε pixel) για μεταφορτωμένες εικόνες"
 
-#: library/plugin-display.php:152
+#: library/plugin-display.php:176
 msgid "Message displayed after successful post submission (basic markup allowed)"
 msgstr "Το μήνυμα εμφανίζεται μετά την επιτυχή υποβολή της ανάρτησης (επιτρέπεται η βασική σήμανση)"
 
-#: library/plugin-display.php:513
+#: library/plugin-display.php:537
 msgid "Message displayed next to the file upload field (basic markup allowed)"
 msgstr "Το μήνυμα εμφανίζεται δίπλα στο πεδίο μεταφόρτωσης αρχείου (επιτρέπεται η βασική σήμανση)"
 
-#: library/plugin-display.php:285
+#: library/plugin-display.php:309
 msgid "Message for email alerts. Leave blank to use default message. You may include any of the following variables:"
 msgstr "Μήνυμα για ειδοποιήσεις μέσω email. Αφήστε το κενό για να χρησιμοποιήσετε το προεπιλεγμένο μήνυμα. Μπορείτε να συμπεριλάβετε οποιαδήποτε από τις ακόλουθες μεταβλητές:"
 
-#: library/plugin-display.php:538
+#: library/plugin-display.php:562
 msgid "Minimum height (in pixels) for uploaded images"
 msgstr "Ελάχιστο ύψος (σε pixel) για τις μεταφορτωμένες εικόνες"
 
-#: library/plugin-display.php:536
+#: library/plugin-display.php:560
 msgid "Minimum image height"
 msgstr "Ελάχιστο ύψος εικόνας"
 
-#: user-submitted-posts.php:1726
+#: user-submitted-posts.php:1740
 msgid "Minimum image height not met"
 msgstr "Δεν πληρούται το ελάχιστο ύψος εικόνας"
 
-#: library/plugin-display.php:531
+#: library/plugin-display.php:555
 msgid "Minimum image width"
 msgstr "Ελάχιστο πλάτος εικόνας"
 
-#: user-submitted-posts.php:1724
+#: user-submitted-posts.php:1738
 msgid "Minimum image width not met"
 msgstr "Δεν πληρούται το ελάχιστο πλάτος εικόνας"
 
-#: library/plugin-display.php:521
+#: library/plugin-display.php:545
 msgid "Minimum number of images"
 msgstr "Ελάχιστος αριθμός εικόνων"
 
-#: library/plugin-display.php:523
+#: library/plugin-display.php:547
 msgid "Minimum number of images for each submitted post"
 msgstr "Ελάχιστος αριθμός εικόνων για κάθε υποβληθείσα ανάρτηση"
 
-#: user-submitted-posts.php:1722
+#: user-submitted-posts.php:1736
 msgid "Minimum number of images not met"
 msgstr "Δεν πληρούται ο ελάχιστος αριθμός εικόνων"
 
-#: library/plugin-display.php:533
+#: library/plugin-display.php:557
 msgid "Minimum width (in pixels) for uploaded images"
 msgstr "Ελάχιστο πλάτος (σε pixel) για μεταφορτωμένες εικόνες"
 
-#: library/plugin-display.php:81 library/plugin-display.php:191
-#: library/plugin-display.php:239 library/plugin-display.php:290
-#: library/plugin-display.php:335 library/plugin-display.php:363
-#: library/plugin-display.php:391 library/plugin-display.php:434
-#: library/plugin-display.php:551 library/plugin-display.php:646
+#: library/plugin-display.php:105 library/plugin-display.php:215
+#: library/plugin-display.php:263 library/plugin-display.php:314
+#: library/plugin-display.php:359 library/plugin-display.php:387
+#: library/plugin-display.php:415 library/plugin-display.php:458
+#: library/plugin-display.php:575 library/plugin-display.php:670
 msgid "More Options"
 msgstr "Περισσότερες επιλογές"
 
-#: library/plugin-display.php:315
+#: library/plugin-display.php:339
 msgid "Multiple Categories"
 msgstr "Πολλαπλές Κατηγορίες"
 
-#: library/plugin-display.php:594
+#: library/plugin-display.php:618
 msgid "Name Display"
 msgstr "Εμφάνιση ονόματος"
 
-#: library/plugin-display.php:601
+#: library/plugin-display.php:625
 msgid "Name Markup"
 msgstr "Σήμανση ονόματος"
 
-#: user-submitted-posts.php:1721
+#: user-submitted-posts.php:1735
 msgid "Non-empty value for hidden field"
 msgstr "Μη κενή τιμή για κρυφό πεδίο"
 
-#: library/plugin-display.php:747
+#: library/plugin-display.php:771
 msgid "Note that the url attribute accepts"
 msgstr "Σημειώστε ότι το χαρακτηριστικό url δέχεται"
 
-#: library/plugin-display.php:723
+#: library/plugin-display.php:747
 msgid "Notes:"
 msgstr "Σημειώσεις:"
 
-#: library/plugin-display.php:811
+#: library/plugin-display.php:835
 msgid "Obsessive Web Design &amp; Development"
 msgstr "Εμμονική σχεδίαση ιστοσελίδων &amp; Ανάπτυξη"
 
-#: library/plugin-display.php:162
+#: library/plugin-display.php:186
 msgid "Optional markup/text to include before the submission form (leave blank to disable)"
 msgstr "Προαιρετική σήμανση/κείμενο που πρέπει να συμπεριληφθεί πριν από τη φόρμα υποβολής (αφήστε κενό για απενεργοποίηση)"
 
-#: library/plugin-display.php:340
+#: library/plugin-display.php:364
 msgid "options, check out"
 msgstr "επιλογές, ελέγξτε έξω"
 
@@ -965,33 +989,29 @@ msgstr "ή"
 msgid "or by making a"
 msgstr "ή κάνοντας ένα"
 
-#: library/plugin-settings.php:1218
-msgid "or take 30% off with code"
-msgstr "ή κάντε έκπτωση 30% με κωδικό"
-
-#: library/plugin-display.php:790
+#: library/plugin-display.php:814
 msgid "Or, to go ahead and restore the default plugin options: check the box, save your settings, and then deactivate/reactivate the plugin."
 msgstr "Ή, για να προχωρήσετε και να επαναφέρετε τις προεπιλεγμένες επιλογές προσθήκης: επιλέξτε το πλαίσιο, αποθηκεύστε τις ρυθμίσεις σας και, στη συνέχεια, απενεργοποιήστε/ενεργοποιήστε ξανά την προσθήκη."
 
-#: library/plugin-display.php:696
+#: library/plugin-display.php:720
 msgid "Or, use the template tag to display a list of submitted posts anywhere in your theme template:"
 msgstr "Εναλλακτικά, χρησιμοποιήστε την ετικέτα προτύπου για να εμφανίσετε μια λίστα με υποβληθείσες αναρτήσεις οπουδήποτε στο πρότυπο θέματός σας:"
 
-#: library/plugin-display.php:715
+#: library/plugin-display.php:739
 msgid "Or, use the template tag to display an image gallery anywhere in your theme template:"
 msgstr "Εναλλακτικά, χρησιμοποιήστε την ετικέτα προτύπου για να εμφανίσετε μια συλλογή εικόνων οπουδήποτε στο πρότυπο θέματός σας:"
 
-#: library/plugin-display.php:674 library/plugin-display.php:687
+#: library/plugin-display.php:698 library/plugin-display.php:711
 msgid "Or, use the template tag to display the form anywhere in your theme template:"
 msgstr "Εναλλακτικά, χρησιμοποιήστε την ετικέτα προτύπου για να εμφανίσετε τη φόρμα οπουδήποτε στο πρότυπο θέματός σας:"
 
-#: library/plugin-display.php:31
+#: library/plugin-display.php:55
 msgid "Overview"
-msgstr "ΣΦΑΙΡΙΚΗ ΕΙΚΟΝΑ"
+msgstr "Επισκόπηση"
 
 #: library/shortcode-login.php:118
 msgid "Password"
-msgstr "Κωδικός πρόσβασης"
+msgstr "Σύνθημα"
 
 #: library/plugin-settings.php:587
 msgid "Pending (default)"
@@ -1001,11 +1021,11 @@ msgstr "Σε εκκρεμότητα (προεπιλογή)"
 msgid "Perishable Press Books"
 msgstr "Φθαρτά Βιβλία Τύπου"
 
-#: user-submitted-posts.php:1808
+#: user-submitted-posts.php:1822 library/plugin-display.php:35
 msgid "Please"
-msgstr "Σας παρακαλούμε"
+msgstr "Παρακαλώ"
 
-#: user-submitted-posts.php:1720
+#: user-submitted-posts.php:1734
 msgid "Please check your email and try again"
 msgstr "Ελέγξτε το email σας και δοκιμάστε ξανά"
 
@@ -1037,8 +1057,8 @@ msgstr "Επιλέξτε τις εικόνες σας για μεταφόρτω�
 msgid "Please show support by purchasing one of my"
 msgstr "Δείξτε υποστήριξη αγοράζοντας ένα από τα δικά μου"
 
-#: library/plugin-settings.php:60 library/plugin-display.php:40
-#: library/plugin-display.php:809
+#: library/plugin-settings.php:60 library/plugin-display.php:64
+#: library/plugin-display.php:833
 msgid "Plugin Homepage"
 msgstr "Αρχική σελίδα προσθήκης"
 
@@ -1046,87 +1066,87 @@ msgstr "Αρχική σελίδα προσθήκης"
 msgid "Plugin Planet: Pro WordPress Plugins"
 msgstr "Plugin Planet: Pro WordPress Plugins"
 
-#: library/plugin-display.php:55
+#: library/plugin-display.php:79
 msgid "Plugin Settings"
-msgstr "Ρυθμίσεις προσθήκης"
+msgstr "Ρυθμίσεις Plugin"
 
 #: library/support-panel.php:54
 msgid "plugins"
 msgstr "πρόσθετα"
 
 #: views/submission-form.php:90 views/submission-form-alt.php:105
-#: library/plugin-display.php:70
+#: library/plugin-display.php:94
 msgid "Post Category"
 msgstr "Κατηγορία αναρτήσεων"
 
-#: user-submitted-posts.php:1715
+#: user-submitted-posts.php:1729
 msgid "Post category required"
 msgstr "Απαιτείται κατηγορία ανάρτησης"
 
 #: views/submission-form.php:123 views/submission-form.php:124
 #: views/submission-form-alt.php:138 views/submission-form-alt.php:139
-#: library/plugin-display.php:71
+#: library/plugin-display.php:95
 msgid "Post Content"
 msgstr "Περιεχόμενο ανάρτησης"
 
-#: user-submitted-posts.php:1716
+#: user-submitted-posts.php:1730
 msgid "Post content required"
 msgstr "Απαιτείται περιεχόμενο ανάρτησης"
 
-#: user-submitted-posts.php:1741
+#: user-submitted-posts.php:1755
 msgid "Post not created. Please contact the site administrator for help."
 msgstr "Η ανάρτηση δεν δημιουργήθηκε. Επικοινωνήστε με τον διαχειριστή του ιστότοπου για βοήθεια."
 
-#: library/plugin-display.php:138
+#: library/plugin-display.php:162
 msgid "Post Status"
 msgstr "Κατάσταση ανάρτησης"
 
-#: library/plugin-display.php:141
+#: library/plugin-display.php:165
 msgid "Post Status for submitted posts"
 msgstr "Κατάσταση ανάρτησης για υποβληθείσες αναρτήσεις"
 
 #: views/submission-form.php:56 views/submission-form.php:65
 #: views/submission-form.php:66 views/submission-form-alt.php:71
 #: views/submission-form-alt.php:80 views/submission-form-alt.php:81
-#: library/plugin-display.php:69
+#: library/plugin-display.php:93
 msgid "Post Tags"
 msgstr "Ετικέτες ανάρτησης"
 
-#: user-submitted-posts.php:1714
+#: user-submitted-posts.php:1728
 msgid "Post tags required"
 msgstr "Απαιτούνται ετικέτες ανάρτησης"
 
 #: views/submission-form.php:49 views/submission-form.php:50
 #: views/submission-form-alt.php:64 views/submission-form-alt.php:65
-#: library/plugin-display.php:68
+#: library/plugin-display.php:92
 msgid "Post Title"
 msgstr "Τίτλος ανάρτησης"
 
-#: user-submitted-posts.php:1712
+#: user-submitted-posts.php:1726
 msgid "Post title required"
 msgstr "Απαιτείται τίτλος ανάρτησης"
 
-#: library/plugin-display.php:131
+#: library/plugin-display.php:155
 msgid "Post Type"
 msgstr "Τύπος ανάρτησης"
 
-#: library/plugin-display.php:134
+#: library/plugin-display.php:158
 msgid "Post Type for submitted posts"
 msgstr "Τύπος ανάρτησης για υποβληθείσες αναρτήσεις"
 
-#: library/plugin-display.php:479
+#: library/plugin-display.php:503
 msgid "Private Key"
 msgstr "Ιδιωτικό κλειδί"
 
-#: library/plugin-settings.php:1216
-msgid "Pro Plugin Sale!"
-msgstr "Έκπτωση Pro Plugin!"
+#: library/plugin-settings.php:1218
+msgid "Pro WordPress plugins"
+msgstr "Προσθήκες Pro WordPress"
 
 #: library/shortcode-login.php:184
 msgid "Profile"
 msgstr "Προφίλ"
 
-#: library/plugin-display.php:474
+#: library/plugin-display.php:498
 msgid "Public Key"
 msgstr "Δημόσιο κλειδί"
 
@@ -1142,43 +1162,47 @@ msgstr "Δημοσίευση μετά από 1 εγκεκριμένη ανάρτ
 msgid "Publish immediately"
 msgstr "Δημοσιεύστε αμέσως"
 
+#: library/plugin-display.php:36
+msgid "Rate and review at the Plugin Directory"
+msgstr "Αξιολογήστε και αξιολογήστε τον Κατάλογο προσθηκών"
+
 #: library/plugin-settings.php:67
 msgid "Rate this plugin&nbsp;&raquo;"
 msgstr "Βαθμολογήστε αυτήν την προσθήκη&nbsp;&raquo;"
 
-#: library/plugin-display.php:484
+#: library/plugin-display.php:508
 msgid "reCaptcha Version"
 msgstr "Έκδοση reCaptcha"
 
-#: library/plugin-display.php:255
+#: library/plugin-display.php:279
 msgid "Receive Email Alert"
 msgstr "Λήψη ειδοποίησης μέσω email"
 
-#: library/plugin-display.php:145
+#: library/plugin-display.php:169
 msgid "Redirect URL"
 msgstr "URL ανακατεύθυνσης"
 
-#: library/plugin-display.php:147
+#: library/plugin-display.php:171
 msgid "Redirect user to this URL after post submission (leave blank to stay on current page)"
 msgstr "Ανακατεύθυνση χρήστη σε αυτήν τη διεύθυνση URL μετά την υποβολή της ανάρτησης (αφήστε κενό για να παραμείνετε στην τρέχουσα σελίδα)"
 
 #: library/shortcode-login.php:89
 msgid "Register"
-msgstr "Κανω ΕΓΓΡΑΦΗ"
+msgstr "Μητρώο"
 
 #: library/shortcode-login.php:135
 msgid "Register for this site!"
 msgstr "Εγγραφείτε σε αυτόν τον ιστότοπο!"
 
-#: library/plugin-display.php:219
+#: library/plugin-display.php:243
 msgid "Registered Email"
-msgstr "Καταχωρημένη Διεύθυνση Ηλεκτρονικού Ταχυδρομείου"
+msgstr "Εγγεγραμμένο email"
 
-#: library/plugin-display.php:224
+#: library/plugin-display.php:248
 msgid "Registered URL"
 msgstr "Εγγεγραμμένο URL"
 
-#: library/plugin-display.php:214
+#: library/plugin-display.php:238
 msgid "Registered Username"
 msgstr "Εγγεγραμμένο Όνομα Χρήστη"
 
@@ -1186,19 +1210,19 @@ msgstr "Εγγεγραμμένο Όνομα Χρήστη"
 msgid "Remember me"
 msgstr "Θυμήσου με"
 
-#: library/plugin-display.php:414
+#: library/plugin-display.php:438
 msgid "Require Checkbox"
 msgstr "Απαιτείται πλαίσιο ελέγχου"
 
-#: library/plugin-display.php:172
+#: library/plugin-display.php:196
 msgid "Require submitted post titles to be unique (useful for preventing multiple/duplicate posts)"
-msgstr "Απαιτείται να είναι μοναδικοί οι τίτλοι των αναρτήσεων που υποβάλλονται (χρήσιμοι για την αποτροπή πολλαπλών/διπλότυπων αναρτήσεων)"
+msgstr "Να απαιτείται οι τίτλοι των αναρτήσεων που υποβάλλονται να είναι μοναδικοί (χρήσιμοι για την αποτροπή πολλαπλών/διπλότυπων αναρτήσεων)"
 
-#: library/plugin-display.php:229
+#: library/plugin-display.php:253
 msgid "Require User Login"
 msgstr "Απαιτείται σύνδεση χρήστη"
 
-#: library/plugin-display.php:231
+#: library/plugin-display.php:255
 msgid "Require users to be logged in to WordPress to view/submit the form"
 msgstr "Απαιτείται από τους χρήστες να είναι συνδεδεμένοι στο WordPress για να προβάλουν/υποβάλουν τη φόρμα"
 
@@ -1208,9 +1232,9 @@ msgstr "απαιτεί WordPress "
 
 #: library/shortcode-misc.php:17
 msgid "Reset form"
-msgstr "Επαναφορά μορφής"
+msgstr "Επαναφορά φόρμας"
 
-#: library/plugin-display.php:739
+#: library/plugin-display.php:763
 msgid "Reset Form Button"
 msgstr "Κουμπί επαναφοράς φόρμας"
 
@@ -1218,31 +1242,31 @@ msgstr "Κουμπί επαναφοράς φόρμας"
 msgid "Reset my password"
 msgstr "Επαναφέρω τον κωδικό πρόσβασής μου"
 
-#: library/plugin-display.php:793
+#: library/plugin-display.php:817
 msgid "Restore default options upon plugin deactivation/reactivation"
 msgstr "Επαναφέρετε τις προεπιλεγμένες επιλογές κατά την απενεργοποίηση/επανενεργοποίηση της προσθήκης"
 
-#: library/plugin-display.php:787
+#: library/plugin-display.php:811
 msgid "Restore Defaults"
-msgstr "Επαναφέρετε τις προεπιλογές"
+msgstr "Επαναφορά προεπιλογών"
 
-#: user-submitted-posts.php:1778
+#: user-submitted-posts.php:1792
 msgid "Return to form"
 msgstr "Επιστροφή στη φόρμα"
 
-#: library/plugin-display.php:165
+#: library/plugin-display.php:189
 msgid "Rich Text Editor"
 msgstr "Επεξεργαστής εμπλουτισμένου κειμένου"
 
-#: library/plugin-display.php:657
+#: library/plugin-display.php:681
 msgid "Save All Changes"
 msgstr "Αποθήκευση όλων των αλλαγών"
 
-#: library/plugin-display.php:822
+#: library/plugin-display.php:846
 msgid "Save Preference"
 msgstr "Αποθήκευση Προτίμησης"
 
-#: library/plugin-display.php:795
+#: library/plugin-display.php:819
 msgid "Save Settings"
 msgstr "Αποθήκευση ρυθμίσεων"
 
@@ -1250,7 +1274,7 @@ msgstr "Αποθήκευση ρυθμίσεων"
 msgid "Select categories to include in the Category field:"
 msgstr "Επιλέξτε κατηγορίες που θα συμπεριληφθούν στο πεδίο Κατηγορία:"
 
-#: library/plugin-display.php:257
+#: library/plugin-display.php:281
 msgid "Send email alerts for new post submissions"
 msgstr "Στείλτε ειδοποιήσεις μέσω email για νέες υποβολές αναρτήσεων"
 
@@ -1258,7 +1282,7 @@ msgstr "Στείλτε ειδοποιήσεις μέσω email για νέες �
 msgid "Settings"
 msgstr "Ρυθμίσεις"
 
-#: library/plugin-display.php:310
+#: library/plugin-display.php:334
 msgid "Show categories"
 msgstr "Εμφάνιση κατηγοριών"
 
@@ -1274,15 +1298,15 @@ msgstr "Εγγραφείτε τώρα για τα καλά πράγματα."
 msgid "Sign up!"
 msgstr "Εγγραφείτε!"
 
-#: library/plugin-display.php:327
+#: library/plugin-display.php:351
 msgid "Specify category ID(s) to use for &ldquo;Hidden/Default Category&rdquo; (separate multiple IDs with commas)"
 msgstr "Καθορίστε αναγνωριστικά κατηγορίας που θα χρησιμοποιηθούν για &ldquo;Κρυφή/Προεπιλεγμένη κατηγορία&rdquo; (διαχωρίστε πολλαπλά αναγνωριστικά με κόμματα)"
 
-#: library/plugin-display.php:210
+#: library/plugin-display.php:234
 msgid "Specify the user that should be assigned as author for submitted posts"
 msgstr "Καθορίστε τον χρήστη που θα πρέπει να οριστεί ως συγγραφέας για τις υποβληθείσες αναρτήσεις"
 
-#: library/plugin-display.php:278
+#: library/plugin-display.php:302
 msgid "Subject line for email alerts. Leave blank to use default subject line. You may include any of the following variables:"
 msgstr "Γραμμή θέματος για ειδοποιήσεις μέσω email. Αφήστε το κενό για να χρησιμοποιήσετε την προεπιλεγμένη γραμμή θέματος. Μπορείτε να συμπεριλάβετε οποιαδήποτε από τις ακόλουθες μεταβλητές:"
 
@@ -1310,7 +1334,7 @@ msgstr "Όνομα υποβάλλοντος: "
 msgid "Submitter URL: "
 msgstr "Διεύθυνση URL υποβολής: "
 
-#: library/plugin-display.php:150
+#: library/plugin-display.php:174
 msgid "Success Message"
 msgstr "Μήνυμα επιτυχίας"
 
@@ -1322,19 +1346,23 @@ msgstr "Επιτυχία!"
 msgid "Success! Thank you for your submission."
 msgstr "Επιτυχία! Σας ευχαριστούμε για την υποβολή σας."
 
-#: library/plugin-display.php:42
+#: library/plugin-display.php:66
 msgid "Support Forum"
 msgstr "Φόρουμ υποστήριξης"
 
-#: library/plugin-display.php:340
+#: library/plugin-display.php:364
 msgid "tag"
 msgstr "ετικέτα"
 
-#: library/plugin-display.php:126
+#: library/plugin-settings.php:1217
+msgid "Take 25% OFF any of our"
+msgstr "Κερδίστε ΕΚΠΤΩΣΗ 25% σε οποιοδήποτε από τα προϊόντα μας"
+
+#: library/plugin-display.php:150
 msgid "Targeted Loading"
 msgstr "Στοχευμένη φόρτωση"
 
-#: library/plugin-display.php:431
+#: library/plugin-display.php:455
 msgid "Text displayed next to checkbox. Tip: use curly brackets to output angle brackets, for example:"
 msgstr "Το κείμενο εμφανίζεται δίπλα στο πλαίσιο ελέγχου. Συμβουλή: χρησιμοποιήστε σγουρές αγκύλες για την έξοδο γωνιακών βραχιόνων, για παράδειγμα:"
 
@@ -1342,31 +1370,31 @@ msgstr "Το κείμενο εμφανίζεται δίπλα στο πλαίσ�
 msgid "Thank you for using"
 msgstr "Σας ευχαριστούμε για τη χρήση"
 
-#: library/plugin-display.php:46
+#: library/plugin-display.php:70
 msgid "THANK YOU for your support!"
-msgstr "Σας ευχαριστούμε για την υποστήριξή σας!"
+msgstr "ΕΥΧΑΡΙΣΤΟΥΜΕ για την υποστήριξή σας!"
 
-#: library/plugin-display.php:113
+#: library/plugin-display.php:137
 msgid "That will enable you to customize the form and styles as desired. For more info, check out the \"Custom Submission Form\" section in the"
 msgstr "Αυτό θα σας επιτρέψει να προσαρμόσετε τη φόρμα και τα στυλ όπως θέλετε. Για περισσότερες πληροφορίες, ανατρέξτε στην ενότητα \"Προσαρμοσμένη φόρμα υποβολής\" στο"
 
-#: library/plugin-display.php:773
+#: library/plugin-display.php:797
 msgid "The access shortcodes can be added to any WP Post or Page. So you can display forms and other content conditionally, based on user role and login status."
-msgstr "Οι σύντομοι κωδικοί πρόσβασης μπορούν να προστεθούν σε οποιαδήποτε ανάρτηση ή σελίδα WP. Έτσι, μπορείτε να προβάλλετε φόρμες και άλλο περιεχόμενο υπό όρους, βάσει του ρόλου χρήστη και της κατάστασης σύνδεσης."
+msgstr "Οι σύντομοι κωδικοί πρόσβασης μπορούν να προστεθούν σε οποιαδήποτε ανάρτηση ή σελίδα WP. Έτσι, μπορείτε να εμφανίζετε φόρμες και άλλο περιεχόμενο υπό όρους, βάσει του ρόλου χρήστη και της κατάστασης σύνδεσης."
 
-#: user-submitted-posts.php:1739
+#: user-submitted-posts.php:1753
 msgid "The file(s) could not be uploaded"
 msgstr "Δεν ήταν δυνατή η μεταφόρτωση των αρχείων"
 
-#: library/plugin-display.php:689
+#: library/plugin-display.php:713
 msgid "The login/register form displays as a tabbed interface, so users can switch between login, register, and reset password."
 msgstr "Η φόρμα σύνδεσης/εγγραφής εμφανίζεται ως διεπαφή με καρτέλες, ώστε οι χρήστες να μπορούν να κάνουν εναλλαγή μεταξύ σύνδεσης, εγγραφής και επαναφοράς κωδικού πρόσβασης."
 
-#: library/plugin-display.php:706
+#: library/plugin-display.php:730
 msgid "The pro version provides many more options for this shortcode."
 msgstr "Η έκδοση pro παρέχει πολλές περισσότερες επιλογές για αυτόν τον σύντομο κώδικα."
 
-#: library/plugin-display.php:777
+#: library/plugin-display.php:801
 msgid "The pro version provides more flexibility with access-control shortcodes."
 msgstr "Η έκδοση pro παρέχει μεγαλύτερη ευελιξία με συντομότερους κωδικούς ελέγχου πρόσβασης."
 
@@ -1374,64 +1402,64 @@ msgstr "Η έκδοση pro παρέχει μεγαλύτερη ευελιξία
 msgid "There was an error. Please check required fields and try again."
 msgstr "Παρουσιάστηκε σφάλμα. Ελέγξτε τα υποχρεωτικά πεδία και δοκιμάστε ξανά."
 
-#: library/plugin-display.php:188
+#: library/plugin-display.php:212
 msgid "This setting enables any/all shortcodes in widgets (even shortcodes from other plugins)."
-msgstr "Αυτή η ρύθμιση ενεργοποιεί οποιονδήποτε/όλους τους συντομότερους κωδικούς σε γραφικά στοιχεία (ακόμη και συντόμους από άλλα πρόσθετα)."
+msgstr "Αυτή η ρύθμιση ενεργοποιεί οποιονδήποτε/όλους τους συντομότερους κωδικούς σε γραφικά στοιχεία (ακόμη και συντομότερους κωδικούς από άλλα πρόσθετα)."
 
-#: library/plugin-display.php:743
+#: library/plugin-display.php:767
 msgid "This shortcode accepts the following attributes:"
 msgstr "Αυτός ο σύντομος κώδικας δέχεται τα ακόλουθα χαρακτηριστικά:"
 
-#: library/plugin-display.php:741
+#: library/plugin-display.php:765
 msgid "This shortcode displays a link that resets the form to its original state:"
 msgstr "Αυτός ο σύντομος κώδικας εμφανίζει έναν σύνδεσμο που επαναφέρει τη φόρμα στην αρχική της κατάσταση:"
 
-#: library/plugin-display.php:360
+#: library/plugin-display.php:384
 msgid "This will be displayed as the field label on the form. Default: Custom Field 1"
 msgstr "Αυτό θα εμφανιστεί ως η ετικέτα πεδίου στη φόρμα. Προεπιλογή: Προσαρμοσμένο πεδίο 1"
 
-#: library/plugin-display.php:388
+#: library/plugin-display.php:412
 msgid "This will be displayed as the field label on the form. Default: Custom Field 2"
 msgstr "Αυτό θα εμφανιστεί ως η ετικέτα πεδίου στη φόρμα. Προεπιλογή: Προσαρμοσμένο πεδίο 2"
 
-#: library/plugin-display.php:705 library/plugin-display.php:760
-#: library/plugin-display.php:776
+#: library/plugin-display.php:729 library/plugin-display.php:784
+#: library/plugin-display.php:800
 msgid "Tip:"
-msgstr "Υπόδειξη:"
+msgstr "Ακρο:"
 
-#: library/plugin-display.php:604
+#: library/plugin-display.php:628
 msgid "to display the submitted name."
-msgstr "για να εμφανίσετε το υποβληθέν όνομα."
+msgstr "για εμφάνιση του υποβληθέντος ονόματος."
 
-#: library/plugin-display.php:471
+#: library/plugin-display.php:495
 msgid "To enable Google reCaptcha, enter your public and private keys."
 msgstr "Για να ενεργοποιήσετε το Google reCaptcha, εισαγάγετε τα δημόσια και ιδιωτικά κλειδιά σας."
 
-#: library/plugin-display.php:747
+#: library/plugin-display.php:771
 msgid "to get the current URL."
 msgstr "για να λάβετε την τρέχουσα διεύθυνση URL."
 
-#: library/plugin-display.php:734
+#: library/plugin-display.php:758
 msgid "to get the URL of the full-size image"
 msgstr "για να λάβετε τη διεύθυνση URL της εικόνας πλήρους μεγέθους"
 
-#: library/plugin-display.php:761
+#: library/plugin-display.php:785
 msgid "to include markup in the deny message, you can use"
 msgstr "για να συμπεριλάβετε τη σήμανση στο μήνυμα άρνησης, μπορείτε να χρησιμοποιήσετε"
 
-#: library/plugin-display.php:761
+#: library/plugin-display.php:785
 msgid "to output"
 msgstr "στην έξοδο"
 
-#: library/plugin-display.php:726
+#: library/plugin-display.php:750
 msgid "to output angle brackets"
 msgstr "για την έξοδο γωνιακών βραχιόνων"
 
-#: library/plugin-display.php:454
+#: library/plugin-display.php:478
 msgid "To prevent spam, enter a question that users must answer before submitting the form"
 msgstr "Για να αποτρέψετε την ανεπιθύμητη αλληλογραφία, εισαγάγετε μια ερώτηση στην οποία πρέπει να απαντήσουν οι χρήστες πριν υποβάλουν τη φόρμα"
 
-#: user-submitted-posts.php:1810
+#: user-submitted-posts.php:1824
 msgid "to submit content!"
 msgstr "για να υποβάλετε περιεχόμενο!"
 
@@ -1443,19 +1471,19 @@ msgstr "να αναβαθμίσετε το WordPress και να προσπαθ�
 msgid "Toggle all panels"
 msgstr "Εναλλαγή όλων των πλαισίων"
 
-#: library/plugin-display.php:170
+#: library/plugin-display.php:194
 msgid "Unique Titles"
 msgstr "Μοναδικοί τίτλοι"
 
-#: library/plugin-display.php:438
+#: library/plugin-display.php:462
 msgid "unlimited checkbox fields"
 msgstr "απεριόριστα πεδία πλαισίου ελέγχου"
 
-#: library/plugin-display.php:367 library/plugin-display.php:395
+#: library/plugin-display.php:391 library/plugin-display.php:419
 msgid "unlimited custom fields"
 msgstr "απεριόριστα προσαρμοσμένα πεδία"
 
-#: library/plugin-display.php:48
+#: library/plugin-display.php:72
 msgid "Unlimited front-end forms"
 msgstr "Απεριόριστες φόρμες front-end"
 
@@ -1463,7 +1491,7 @@ msgstr "Απεριόριστες φόρμες front-end"
 msgid "Upload an Image"
 msgstr "Ανεβάστε μια εικόνα"
 
-#: library/plugin-display.php:511
+#: library/plugin-display.php:535
 msgid "Upload Message"
 msgstr "Μεταφόρτωση μηνύματος"
 
@@ -1471,84 +1499,84 @@ msgstr "Μεταφόρτωση μηνύματος"
 msgid "URL"
 msgstr "URL"
 
-#: library/plugin-display.php:607
+#: library/plugin-display.php:631
 msgid "URL Display"
 msgstr "Εμφάνιση URL"
 
-#: library/plugin-display.php:614
+#: library/plugin-display.php:638
 msgid "URL Markup"
 msgstr "Σήμανση URL"
 
-#: library/plugin-display.php:322
+#: library/plugin-display.php:346
 msgid "Use a hidden field for the post category. This hides the category field and sets its value via the next option."
 msgstr "Χρησιμοποιήστε ένα κρυφό πεδίο για την κατηγορία ανάρτησης. Αυτό αποκρύπτει το πεδίο κατηγορίας και ορίζει την τιμή του μέσω της επόμενης επιλογής."
 
-#: library/plugin-display.php:726
+#: library/plugin-display.php:750
 msgid "Use curly brackets"
 msgstr "Χρησιμοποιήστε σγουρά στηρίγματα"
 
-#: library/plugin-display.php:330
+#: library/plugin-display.php:354
 msgid "Use Existing Tags"
 msgstr "Χρησιμοποιήστε υπάρχουσες ετικέτες"
 
-#: library/plugin-display.php:355 library/plugin-display.php:383
-#: library/plugin-display.php:421
+#: library/plugin-display.php:379 library/plugin-display.php:407
+#: library/plugin-display.php:445
 msgid "Use only alphanumeric, underscores, and dashes. If unsure, use the default name:"
 msgstr "Χρησιμοποιήστε μόνο αλφαριθμητικά, κάτω παύλες και παύλες. Εάν δεν είστε σίγουροι, χρησιμοποιήστε το προεπιλεγμένο όνομα:"
 
-#: library/plugin-display.php:731
+#: library/plugin-display.php:755
 msgid "Use single straight quotes (instead of double quotes) in"
 msgstr "Χρησιμοποιήστε απλά εισαγωγικά (αντί για διπλά εισαγωγικά)."
 
-#: library/plugin-display.php:500
+#: library/plugin-display.php:524
 msgid "Use submitted images as Featured Images. Requires theme support for Featured Images (aka Post Thumbnails)"
 msgstr "Χρησιμοποιήστε τις υποβληθείσες εικόνες ως Προτεινόμενες εικόνες. Απαιτείται υποστήριξη θεμάτων για Επιλεγμένες εικόνες (γνωστή και ως Μικρογραφίες ανάρτησης)"
 
-#: library/plugin-display.php:672 library/plugin-display.php:685
+#: library/plugin-display.php:696 library/plugin-display.php:709
 msgid "Use the shortcode to display the form on any WP Post or Page:"
 msgstr "Χρησιμοποιήστε τον σύντομο κωδικό για να εμφανίσετε τη φόρμα σε οποιαδήποτε ανάρτηση ή σελίδα WP:"
 
-#: library/plugin-display.php:226
+#: library/plugin-display.php:250
 msgid "Use the user&rsquo;s Profile URL as the value of the URL field (valid when the user is logged in to WordPress)"
-msgstr "Χρησιμοποιήστε τη διεύθυνση URL του προφίλ του χρήστη ως τιμή του πεδίου URL (ισχύει όταν ο χρήστης είναι συνδεδεμένος στο WordPress)"
+msgstr "Χρησιμοποιήστε τη διεύθυνση URL του προφίλ χρήστη ως την τιμή του πεδίου URL (ισχύει όταν ο χρήστης είναι συνδεδεμένος στο WordPress)"
 
-#: library/plugin-display.php:221
+#: library/plugin-display.php:245
 msgid "Use the user&rsquo;s registered email as the value of the Email field (valid when the user is logged in to WordPress)"
 msgstr "Χρησιμοποιήστε το καταχωρημένο email του χρήστη ως τιμή του πεδίου Email (ισχύει όταν ο χρήστης είναι συνδεδεμένος στο WordPress)"
 
-#: library/plugin-display.php:216
+#: library/plugin-display.php:240
 msgid "Use the user&rsquo;s registered username for the Name field (valid when the user is logged in to WordPress)"
-msgstr "Χρησιμοποιήστε το εγγεγραμμένο όνομα χρήστη του χρήστη για το πεδίο Όνομα (ισχύει όταν ο χρήστης είναι συνδεδεμένος στο WordPress)"
+msgstr "Χρησιμοποιήστε το καταχωρημένο όνομα χρήστη του χρήστη για το πεδίο Όνομα (ισχύει όταν ο χρήστης είναι συνδεδεμένος στο WordPress)"
 
-#: library/plugin-display.php:713
+#: library/plugin-display.php:737
 msgid "Use this shortcode to display a gallery of uploaded images for each submitted post:"
 msgstr "Χρησιμοποιήστε αυτόν τον σύντομο κώδικα για να εμφανίσετε μια συλλογή με μεταφορτωμένες εικόνες για κάθε υποβληθείσα ανάρτηση:"
 
-#: library/plugin-display.php:694
+#: library/plugin-display.php:718
 msgid "Use this shortcode to display a list of submitted posts on any WP Post or Page:"
 msgstr "Χρησιμοποιήστε αυτόν τον σύντομο κωδικό για να εμφανίσετε μια λίστα με υποβληθείσες αναρτήσεις σε οποιαδήποτε ανάρτηση ή σελίδα WP:"
 
-#: library/plugin-display.php:66
+#: library/plugin-display.php:90
 msgid "User Email"
 msgstr "Email χρήστη"
 
-#: user-submitted-posts.php:1719
+#: user-submitted-posts.php:1733
 msgid "User email required"
 msgstr "Απαιτείται email χρήστη"
 
-#: user-submitted-posts.php:1710
+#: user-submitted-posts.php:1724
 msgid "User login required"
 msgstr "Απαιτείται σύνδεση χρήστη"
 
-#: library/plugin-display.php:65
+#: library/plugin-display.php:89
 msgid "User Name"
 msgstr "Ονομα χρήστη"
 
-#: user-submitted-posts.php:1711
+#: user-submitted-posts.php:1725
 msgid "User name required"
 msgstr "Απαιτείται όνομα χρήστη"
 
-#: library/plugin-display.php:202
+#: library/plugin-display.php:226
 msgid "User Settings"
 msgstr "Ρυθμίσεις χρήστη"
 
@@ -1565,11 +1593,11 @@ msgstr "Πληροφορίες που υποβλήθηκαν από τον χρ�
 msgid "User Submitted Posts"
 msgstr "Αναρτήσεις που υποβλήθηκαν από τον χρήστη"
 
-#: library/plugin-display.php:67
+#: library/plugin-display.php:91
 msgid "User URL"
 msgstr "URL χρήστη"
 
-#: user-submitted-posts.php:1713
+#: user-submitted-posts.php:1727
 msgid "User URL required"
 msgstr "Απαιτείται διεύθυνση URL χρήστη"
 
@@ -1579,26 +1607,26 @@ msgstr "Όνομα χρήστη"
 
 #: library/shortcode-login.php:159
 msgid "Username or Email"
-msgstr "Ονομα χρήστη ή διεύθυνση ηλεκτρονικού ταχυδρομίου"
+msgstr "Όνομα χρήστη ή email"
 
-#: user-submitted-posts.php:705 library/plugin-display.php:35
+#: user-submitted-posts.php:705 library/plugin-display.php:59
 msgid "USP"
 msgstr "USP"
 
-#: library/plugin-display.php:671
+#: library/plugin-display.php:695
 msgid "USP enables you to display a post-submission form anywhere on your site."
 msgstr "Το USP σάς δίνει τη δυνατότητα να εμφανίσετε μια φόρμα μετά την υποβολή οπουδήποτε στον ιστότοπό σας."
 
-#: library/plugin-display.php:36 library/plugin-display.php:85
-#: library/plugin-display.php:195 library/plugin-display.php:243
-#: library/plugin-display.php:296 library/plugin-display.php:341
-#: library/plugin-display.php:369 library/plugin-display.php:397
-#: library/plugin-display.php:440 library/plugin-display.php:555
-#: library/plugin-display.php:650 library/plugin-display.php:678
+#: library/plugin-display.php:60 library/plugin-display.php:109
+#: library/plugin-display.php:219 library/plugin-display.php:267
+#: library/plugin-display.php:320 library/plugin-display.php:365
+#: library/plugin-display.php:393 library/plugin-display.php:421
+#: library/plugin-display.php:464 library/plugin-display.php:579
+#: library/plugin-display.php:674 library/plugin-display.php:702
 msgid "USP Pro"
 msgstr "USP Pro"
 
-#: library/plugin-display.php:752
+#: library/plugin-display.php:776
 msgid "USP provides three shortcodes to control access and restrict content."
 msgstr "Το USP παρέχει τρεις συντόμους για τον έλεγχο της πρόσβασης και τον περιορισμό του περιεχομένου."
 
@@ -1618,15 +1646,19 @@ msgstr "Επαλήθευση"
 msgid "View full post"
 msgstr "Δείτε την πλήρη ανάρτηση"
 
-#: library/plugin-display.php:677
+#: library/plugin-display.php:701
 msgid "Want more than one form? Create unlimited submission forms, registration forms, contact forms and more with"
 msgstr "Θέλετε περισσότερες από μία φόρμες; Δημιουργήστε απεριόριστες φόρμες υποβολής, φόρμες εγγραφής, φόρμες επικοινωνίας και πολλά άλλα με"
 
+#: library/plugin-display.php:31
+msgid "We need your support!"
+msgstr "Χρειαζόμαστε την υποστήριξή σας!"
+
 #: library/shortcode-login.php:177
 msgid "Welcome, "
-msgstr "Καλως ΗΡΘΑΤΕ, "
+msgstr "Καλωσόρισμα, "
 
-#: library/plugin-display.php:102
+#: library/plugin-display.php:126
 msgid "With this option, you can copy the plugin&rsquo;s default templates:"
 msgstr "Με αυτήν την επιλογή, μπορείτε να αντιγράψετε τα προεπιλεγμένα πρότυπα της προσθήκης:"
 
@@ -1642,15 +1674,15 @@ msgstr "Σελίδα WP"
 msgid "WP Post (recommended)"
 msgstr "WP Post (συνιστάται)"
 
-#: library/plugin-display.php:800
+#: library/plugin-display.php:824
 msgid "WP Resources"
 msgstr "Πόροι WP"
 
-#: library/plugin-display.php:684
+#: library/plugin-display.php:708
 msgid "You also can display a simple form that enables users to log in, register, or reset their password."
 msgstr "Μπορείτε επίσης να εμφανίσετε μια απλή φόρμα που επιτρέπει στους χρήστες να συνδεθούν, να εγγραφούν ή να επαναφέρουν τον κωδικό πρόσβασής τους."
 
-#: library/plugin-display.php:717
+#: library/plugin-display.php:741
 msgid "You can customize using any of the follwing attributes:"
 msgstr "Μπορείτε να προσαρμόσετε χρησιμοποιώντας οποιοδήποτε από τα ακόλουθα χαρακτηριστικά:"
 
@@ -1658,7 +1690,11 @@ msgstr "Μπορείτε να προσαρμόσετε χρησιμοποιών�
 #: views/submission-form-alt.php:52 views/submission-form-alt.php:53
 #: library/shortcode-login.php:143
 msgid "Your Email"
-msgstr "Η διεύθυνση του ηλεκτρονικού σου ταχυδρομείου"
+msgstr "Το email σας"
+
+#: library/plugin-display.php:41
+msgid "Your generous support enables continued development of this free plugin. Thank you!"
+msgstr "Η γενναιόδωρη υποστήριξή σας επιτρέπει τη συνεχή ανάπτυξη αυτής της δωρεάν προσθήκης. Σας ευχαριστώ!"
 
 #: library/support-panel.php:60
 msgid "Your generous support helps future development of"
@@ -1667,7 +1703,7 @@ msgstr "Η γενναιόδωρη υποστήριξή σας βοηθά στη 
 #: views/submission-form.php:31 views/submission-form.php:32
 #: views/submission-form-alt.php:46 views/submission-form-alt.php:47
 msgid "Your Name"
-msgstr "Το όνομα σου"
+msgstr "Το όνομά σας"
 
 #: views/submission-form.php:43 views/submission-form.php:44
 #: views/submission-form-alt.php:58 views/submission-form-alt.php:59

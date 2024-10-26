@@ -10,6 +10,8 @@
 	#mm-plugin-options .usp-dismiss-notice { float: none; }
 }
 
+.wp-admin .notice-margin p { margin: 10px 0; }
+
 .wp-admin .notice-custom { background-image: url(../images/sun-icon.png); background-repeat: no-repeat; background-position: left 5px center; background-size: 60px 40px; }
 .wp-admin .notice-custom p { margin: 15px 0; padding-left: 60px; line-height: 1.6; }
 .wp-admin .notice-link { display: inline-block; margin-right: 5px; }
@@ -38,6 +40,7 @@
 /* Support Panel */
 
 #mm-panel-alert p { margin: 15px; }
+#mm-panel-alert p.alert-intro { margin-top: 5px; }
 #mm-panel-alert .dismiss-alert { margin: 15px; }
 #mm-panel-alert .dismiss-alert-wrap { display: inline-block; vertical-align: middle; padding: 7px 0 10px 0; }
 #mm-panel-alert .dismiss-alert label { display: inline-block; vertical-align: middle; margin: -2px 15px 0 0; }
