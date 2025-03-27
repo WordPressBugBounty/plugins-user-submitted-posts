@@ -18,6 +18,7 @@ function usp_display_custom_checkbox() {
 	
 	if ($enable && $name) {
 		
+		$text = str_replace('script', '', $text);
 		$text = str_replace("{", "<", $text);
 		$text = str_replace("}", ">", $text);
 		

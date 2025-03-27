@@ -10,8 +10,8 @@
 	Contributors: specialk
 	Requires at least: 4.6
 	Tested up to: 6.7
-	Stable tag: 20241026
-	Version:    20241026
+	Stable tag: 20250327
+	Version:    20250327
 	Requires PHP: 5.6.20
 	Text Domain: usp
 	Domain Path: /languages
@@ -32,14 +32,14 @@
 	You should have received a copy of the GNU General Public License
 	with this program. If not, visit: https://www.gnu.org/licenses/
 	
-	Copyright 2024 Monzilla Media. All rights reserved.
+	Copyright 2025 Monzilla Media. All rights reserved.
 */
 
 if (!defined('ABSPATH')) die();
 
 if (!defined('USP_WP_VERSION')) define('USP_WP_VERSION', '4.6');
-if (!defined('USP_VERSION'))    define('USP_VERSION', '20241026');
-if (!defined('USP_PLUGIN'))     define('USP_PLUGIN', esc_html__('User Submitted Posts', 'usp'));
+if (!defined('USP_VERSION'))    define('USP_VERSION', '20250327');
+if (!defined('USP_PLUGIN'))     define('USP_PLUGIN', 'User Submitted Posts');
 if (!defined('USP_FILE'))       define('USP_FILE', plugin_basename(__FILE__));
 if (!defined('USP_PATH'))       define('USP_PATH', plugin_dir_path(__FILE__));
 if (!defined('USP_URL'))        define('USP_URL',  plugin_dir_url (__FILE__));

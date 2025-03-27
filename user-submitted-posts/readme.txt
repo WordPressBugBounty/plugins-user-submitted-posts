@@ -10,8 +10,8 @@ Donate link: https://monzillamedia.com/donate.html
 Contributors: specialk
 Requires at least: 4.6
 Tested up to: 6.7
-Stable tag: 20241026
-Version:    20241026
+Stable tag: 20250327
+Version:    20250327
 Requires PHP: 5.6.20
 Text Domain: usp
 Domain Path: /languages
@@ -822,6 +822,12 @@ Links, tweets and likes also appreciated. Thanks! :)
 If you like USP, please take a moment to [give a 5-star rating](https://wordpress.org/support/plugin/user-submitted-posts/reviews/?rate=5#new-post). It helps to keep development and support going strong. Thank you!
 
 
+**20250327**
+
+* Improves sanitization of custom checkbox field
+* Tests on WordPress 6.8
+
+
 **20241026**
 
 * Replaces deprecated function `get_page_by_title()`
@@ -830,7 +836,7 @@ If you like USP, please take a moment to [give a 5-star rating](https://wordpres
 * Updates plugin settings page
 * Updates all translation files
 * Updates default translation template
-* Tests on WordPress 6.7 (beta)
+* Tests on WordPress 6.7
 
 
 Full changelog @ [https://plugin-planet.com/wp/changelog/user-submitted-posts.txt](https://plugin-planet.com/wp/changelog/user-submitted-posts.txt)

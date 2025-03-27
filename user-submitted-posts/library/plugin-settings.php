@@ -1133,7 +1133,17 @@ function usp_validate_options($input) {
 	if (isset($input['auto_url_markup']))      $input['auto_url_markup']      = wp_kses_post($input['auto_url_markup'],      $allowedposttags); else $input['auto_url_markup']      = null;
 	if (isset($input['auto_custom_markup']))   $input['auto_custom_markup']   = wp_kses_post($input['auto_custom_markup'],   $allowedposttags); else $input['auto_custom_markup']   = null;
 	if (isset($input['auto_custom_markup_2'])) $input['auto_custom_markup_2'] = wp_kses_post($input['auto_custom_markup_2'], $allowedposttags); else $input['auto_custom_markup_2'] = null;
-	if (isset($input['custom_checkbox_text'])) $input['custom_checkbox_text'] = wp_kses_post($input['custom_checkbox_text'], $allowedposttags); else $input['custom_checkbox_text'] = null;
+	
+	if (isset($input['custom_checkbox_text'])) {
+		
+		$input['custom_checkbox_text'] = wp_kses_post($input['custom_checkbox_text'], $allowedposttags); 
+		$input['custom_checkbox_text'] = str_replace('script', '', $input['custom_checkbox_text']);
+		
+	} else {
+		
+		$input['custom_checkbox_text'] = null;
+		
+	}
 	
 	$allowedposttags = $default_allowedposttags;
 	
