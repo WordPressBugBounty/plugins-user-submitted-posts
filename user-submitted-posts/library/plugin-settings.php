@@ -483,6 +483,36 @@ function usp_form_field_options_recaptcha() {
 
 
 
+function usp_form_field_options_turnstile() {
+	
+	global $usp_options;
+	
+	$name  = 'usp_turnstile';
+	$label = esc_html__('Cloudflare Turnstile', 'usp');
+	
+	$option = isset($usp_options[$name]) ? $usp_options[$name] : '';
+	
+	$selected_show = ($option === 'show') ? 'selected="selected"' : '';
+	$selected_hide = ($option === 'hide') ? 'selected="selected"' : '';
+	
+	$output  = '<tr>';
+	$output .= '<th scope="row"><label class="description" for="usp_options['. esc_attr($name) .']">'. esc_html($label) .'</label></th>';
+	$output .= '<td>';
+	$output .= '<select name="usp_options['. esc_attr($name) .']" id="usp_options['. esc_attr($name) .']">';
+	
+	$output .= '<option '. $selected_show .' value="show">'. esc_html__('Enable and require', 'usp') .'</option>';
+	$output .= '<option '. $selected_hide .' value="hide">'. esc_html__('Disable this field', 'usp')  .'</option>';
+	
+	$output .= '</select>';
+	$output .= '</td>';
+	$output .= '</tr>';
+	
+	return $output;
+	
+}
+
+
+
 function usp_form_field_options_images() {
 	
 	global $usp_options;
@@ -939,7 +969,10 @@ function usp_add_defaults() {
 			'custom_checkbox_name'  => 'usp_custom_checkbox',
 			'custom_checkbox_text'  => 'I agree the to the terms.',
 			'custom_checkbox_err'   => 'Custom checkbox required',
-			'custom_checkbox_req'   => true
+			'custom_checkbox_req'   => true,
+			'turnstile_site_key'    => '',
+			'turnstile_secret_key'  => '',
+			'usp_turnstile'         => 'hide'
 		);
 		
 		update_option('usp_options', $arr);
@@ -1041,6 +1074,9 @@ function usp_validate_options($input) {
 	if (isset($input['recaptcha_public']))     $input['recaptcha_public']     = wp_filter_nohtml_kses($input['recaptcha_public']);     else $input['recaptcha_public']     = null;
 	if (isset($input['recaptcha_private']))    $input['recaptcha_private']    = wp_filter_nohtml_kses($input['recaptcha_private']);    else $input['recaptcha_private']    = null;
 	if (isset($input['usp_recaptcha']))        $input['usp_recaptcha']        = wp_filter_nohtml_kses($input['usp_recaptcha']);        else $input['usp_recaptcha']        = null;
+	if (isset($input['usp_turnstile']))        $input['usp_turnstile']        = wp_filter_nohtml_kses($input['usp_turnstile']);        else $input['usp_turnstile']        = null;
+	if (isset($input['turnstile_site_key']))   $input['turnstile_site_key']   = wp_filter_nohtml_kses($input['turnstile_site_key']);   else $input['turnstile_site_key']   = null;
+	if (isset($input['turnstile_secret_key'])) $input['turnstile_secret_key'] = wp_filter_nohtml_kses($input['turnstile_secret_key']); else $input['turnstile_secret_key'] = null;
 	if (isset($input['custom_field']))         $input['custom_field']         = wp_filter_nohtml_kses($input['custom_field']);         else $input['custom_field']         = null;
 	if (isset($input['custom_name']))          $input['custom_name']          = wp_filter_nohtml_kses($input['custom_name']);          else $input['custom_name']          = null;
 	if (isset($input['custom_label']))         $input['custom_label']         = wp_filter_nohtml_kses($input['custom_label']);         else $input['custom_label']         = null;
@@ -1221,14 +1257,14 @@ function usp_admin_notice() {
 			
 			?>
 			
-			<div class="notice notice-success notice-margin">
+			<div class="notice notice-success notice-margin notice-custom">
 				<p>
-					<strong><?php esc_html_e('Fall Sale!', 'usp'); ?></strong> 
-					<?php esc_html_e('Take 25% OFF any of our', 'usp'); ?> 
+					<strong><?php esc_html_e('Spring Sale!', 'usp'); ?></strong> 
+					<?php esc_html_e('Take 30% OFF any of our', 'usp'); ?> 
 					<a target="_blank" rel="noopener noreferrer" href="https://plugin-planet.com/"><?php esc_html_e('Pro WordPress plugins', 'usp'); ?></a> 
 					<?php esc_html_e('and', 'usp'); ?> 
 					<a target="_blank" rel="noopener noreferrer" href="https://books.perishablepress.com/"><?php esc_html_e('books', 'usp'); ?></a>. 
-					<?php esc_html_e('Apply code', 'usp'); ?> <code>FALL2024</code> <?php esc_html_e('at checkout. Sale ends 12/21/24.', 'usp'); ?> 
+					<?php esc_html_e('Apply code', 'usp'); ?> <code>SPRING2025</code> <?php esc_html_e('at checkout. Sale ends 6/25/2025.', 'usp'); ?> 
 					<?php echo usp_dismiss_notice_link(); ?>
 				</p>
 			</div>
@@ -1308,7 +1344,7 @@ function usp_dismiss_notice_link() {
 
 function usp_check_date_expired() {
 	
-	$expires = apply_filters('usp_check_date_expired', '2024-12-21');
+	$expires = apply_filters('usp_check_date_expired', '2025-06-25');
 	
 	return (new DateTime() > new DateTime($expires)) ? true : false;
 	

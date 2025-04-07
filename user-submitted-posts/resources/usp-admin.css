@@ -116,7 +116,7 @@
 #mm-panel-secondary ul { margin: 15px 15px 15px 40px; }
 #mm-panel-secondary li { margin: 10px 0; list-style-type: disc; }
 #mm-panel-secondary code { font-size: 12px; }
-#mm-panel-secondary pre { overflow: auto; margin: 15px; padding: 15px; font: 14px/20px Consolas, Monaco, monospace; color: #eee; background-color: #222; }
+#mm-panel-secondary div.mm-pre { white-space: pre; overflow: auto; margin: 15px; padding: 15px; font: 14px/20px Consolas, Monaco, monospace; color: #eee; background-color: #222; }
 
 /* Restore Defaults */
 

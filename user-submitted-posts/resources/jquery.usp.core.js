@@ -51,23 +51,28 @@ jQuery(document).ready(function($) {
 		usp_captcha_check(e);
 	});
 	function usp_captcha_check(e) {
-		if (usp_case_sensitivity === 'true') var usp_casing = '';
-		else var usp_casing = 'i';
-		var usp_response = new RegExp(usp_challenge_response + '$', usp_casing);
-		var usp_captcha = $('.user-submitted-captcha').val();
-		if (typeof usp_captcha != 'undefined') {
-			if (usp_captcha.match(usp_response)) {
-				$('.usp-captcha-error').remove();
-				$('.usp-captcha .usp-input').removeClass('parsley-error');
-				$('.usp-captcha .usp-input').addClass('parsley-success');
-			} else {
-				if (e) e.preventDefault();
-				$('.usp-captcha-error').remove();
-				$('.usp-captcha').append('<ul class="usp-captcha-error parsley-errors-list filled"><li class="parsley-required">'+ usp_parsley_error +'</li></ul>');
-				$('.usp-captcha .usp-input').removeClass('parsley-success');
-				$('.usp-captcha .usp-input').addClass('parsley-error');
+		$.post(ajax_url, {
+			nonce:   challenge_nonce,
+			action: 'challenge_nonce'
+		}, function(data) {
+			if (usp_case_sensitivity === 'true') var usp_casing = '';
+			else var usp_casing = 'i';
+			var usp_response = new RegExp('^' + data + '$', usp_casing);
+			var usp_captcha = $('.user-submitted-captcha').val();
+			if (typeof usp_captcha != 'undefined') {
+				if (usp_captcha.match(usp_response)) {
+					$('.usp-captcha-error').remove();
+					$('.usp-captcha .usp-input').removeClass('parsley-error');
+					$('.usp-captcha .usp-input').addClass('parsley-success');
+				} else {
+					if (e) e.preventDefault();
+					$('.usp-captcha-error').remove();
+					$('.usp-captcha').append('<ul class="usp-captcha-error parsley-errors-list filled"><li class="parsley-required">'+ usp_parsley_error +'</li></ul>');
+					$('.usp-captcha .usp-input').removeClass('parsley-success');
+					$('.usp-captcha .usp-input').addClass('parsley-error');
+				}
 			}
-		}
+		});
 	}
 	
 	// cookies

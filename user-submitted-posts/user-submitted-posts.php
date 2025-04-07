@@ -8,10 +8,10 @@
 	Author URI: https://plugin-planet.com/
 	Donate link: https://monzillamedia.com/donate.html
 	Contributors: specialk
-	Requires at least: 4.6
-	Tested up to: 6.7
-	Stable tag: 20250327
-	Version:    20250327
+	Requires at least: 4.7
+	Tested up to: 6.8
+	Stable tag: 20250329
+	Version:    20250329
 	Requires PHP: 5.6.20
 	Text Domain: usp
 	Domain Path: /languages
@@ -37,8 +37,8 @@
 
 if (!defined('ABSPATH')) die();
 
-if (!defined('USP_WP_VERSION')) define('USP_WP_VERSION', '4.6');
-if (!defined('USP_VERSION'))    define('USP_VERSION', '20250327');
+if (!defined('USP_WP_VERSION')) define('USP_WP_VERSION', '4.7');
+if (!defined('USP_VERSION'))    define('USP_VERSION', '20250329');
 if (!defined('USP_PLUGIN'))     define('USP_PLUGIN', 'User Submitted Posts');
 if (!defined('USP_FILE'))       define('USP_FILE', plugin_basename(__FILE__));
 if (!defined('USP_PATH'))       define('USP_PATH', plugin_dir_path(__FILE__));
@@ -66,43 +66,6 @@ if (isset($usp_options['default_options']) && $usp_options['default_options'] ==
 }
 
 //
-
-function usp_i18n_init() {
-	
-	$domain = 'usp';
-	
-	$locale = apply_filters('usp_locale', get_locale(), $domain);
-	
-	$dir    = trailingslashit(WP_LANG_DIR);
-	
-	$file   = $domain .'-'. $locale .'.mo';
-	
-	$path_1 = $dir . $file;
-	
-	$path_2 = $dir . $domain .'/'. $file;
-	
-	$path_3 = $dir .'plugins/'. $file;
-	
-	$path_4 = $dir .'plugins/'. $domain .'/'. $file;
-	
-	$paths = array($path_1, $path_2, $path_3, $path_4);
-	
-	foreach ($paths as $path) {
-		
-		if ($loaded = load_textdomain($domain, $path)) {
-			
-			return $loaded;
-			
-		} else {
-			
-			return load_plugin_textdomain($domain, false, dirname(USP_FILE) .'/languages/');
-			
-		}
-		
-	}
-	
-}
-add_action('init', 'usp_i18n_init');
 
 
 
@@ -526,6 +489,21 @@ function usp_check_recaptcha_keys() {
 
 
 
+function usp_check_turnstile_keys() {
+	
+	global $usp_options;
+	
+	$site_key   = isset($usp_options['turnstile_site_key'])   ? $usp_options['turnstile_site_key']   : '';
+	$secret_key = isset($usp_options['turnstile_secret_key']) ? $usp_options['turnstile_secret_key'] : '';
+	
+	if (empty($site_key) || empty($secret_key)) return false;
+	
+	return true;
+	
+}
+
+
+
 function usp_verify_recaptcha() {
 	
 	global $usp_options;
@@ -553,6 +531,41 @@ function usp_verify_recaptcha() {
 		return false;
 		
 	}
+	
+}
+
+
+
+function usp_verify_turnstile() {
+	
+	global $usp_options;
+	
+	$site_key   = isset($usp_options['turnstile_site_key'])   ? $usp_options['turnstile_site_key']   : '';
+	$secret_key = isset($usp_options['turnstile_secret_key']) ? $usp_options['turnstile_secret_key'] : '';
+	
+	if (!usp_check_turnstile_keys()) return false;
+	
+	$turnstile = isset($_POST['cf-turnstile-response']) ? $_POST['cf-turnstile-response'] : null;
+	
+	$headers = array(
+		'body' => array(
+			'secret' => $secret_key,
+			'response' => $turnstile,
+			'remoteip' => usp_get_ip_address()
+		)
+	);
+	
+	$verify = wp_remote_post('https://challenges.cloudflare.com/turnstile/v0/siteverify', $headers);
+	
+	$verify = wp_remote_retrieve_body($verify);
+	
+	$verify = json_decode($verify, true);
+	
+	$response = (isset($verify['success']) && $verify['success'] == 1) ? true : false;
+	
+	do_action('cfturnstile_after_check', $response, $verify);
+	
+	return $response;
 	
 }
 
@@ -1315,6 +1328,12 @@ function usp_createPublicSubmission($title, $files, $ip, $author, $url, $email, 
 		
 	}
 	
+	if (usp_check_turnstile_keys()) {
+		
+		if (isset($usp_options['usp_turnstile']) && ($usp_options['usp_turnstile'] == 'show') && !usp_verify_turnstile()) $newPost['error'][] = 'required-recaptcha';
+		
+	}
+	
 	if (isset($usp_options['usp_captcha']) && ($usp_options['usp_captcha'] == 'show') && !usp_spamQuestion($captcha)) $newPost['error'][] = 'required-captcha';
 	
 	if (isset($usp_options['usp_email']) && ($usp_options['usp_email'] == 'show')) {
@@ -1859,3 +1878,22 @@ function usp_clear_cookies() {
 	
 }
 add_action('wp_logout', 'usp_clear_cookies');
+
+
+
+function usp_add_new_options() {
+	
+	global $usp_options;
+	
+	$turnstile = isset($usp_options['usp_turnstile']) ? true : false;
+	
+	if (empty($turnstile)) {
+		
+		$usp_options['usp_turnstile'] = 'hide';
+		
+		$update_option = update_option('usp_options', $usp_options);
+		
+	}
+	
+}
+add_action('admin_init', 'usp_add_new_options');

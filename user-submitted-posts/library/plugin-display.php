@@ -98,6 +98,7 @@ function usp_render_form() {
 										echo usp_form_field_options_custom('2');
 										echo usp_form_field_options_captcha();
 										echo usp_form_field_options_recaptcha();
+										echo usp_form_field_options_turnstile();
 										echo usp_form_field_options_images();
 										
 									?>
@@ -492,7 +493,7 @@ function usp_render_form() {
 							
 							<h3 id="usp-recaptcha"><?php esc_html_e('Google reCaptcha', 'usp'); ?></h3>
 							<div class="mm-table-wrap">
-								<div class="mm-section-desc"><?php esc_html_e('To enable Google reCaptcha, enter your public and private keys.', 'usp'); ?></div>
+								<div class="mm-section-desc"><?php esc_html_e('To enable Google reCaptcha, enter your public and private keys.', 'usp'); ?> <strong><?php esc_html_e('Important:', 'usp'); ?></strong> <?php esc_html_e('do NOT use both Google and Cloudflare captchas at the same time.', 'usp'); ?></div>
 								<table class="widefat mm-table">
 									<tr>
 										<th scope="row"><label class="description" for="usp_options[recaptcha_public]"><?php esc_html_e('Public Key', 'usp'); ?></label></th>
@@ -510,6 +511,23 @@ function usp_render_form() {
 											<?php echo usp_form_field_recaptcha(); ?>
 											<span class="mm-item-caption"><?php esc_html_e('Choose reCaptcha version', 'usp'); ?></span>
 										</td>
+									</tr>
+								</table>
+							</div>
+							
+							<h3 id="usp-turnstile"><?php esc_html_e('Cloudflare Turnstile', 'usp'); ?></h3>
+							<div class="mm-table-wrap">
+								<div class="mm-section-desc"><?php esc_html_e('To enable Cloudflare Turnstile, enter your site key and secret key.', 'usp'); ?> <strong><?php esc_html_e('Important:', 'usp'); ?></strong> <?php esc_html_e('do NOT use both Google and Cloudflare captchas at the same time.', 'usp'); ?></div>
+								<table class="widefat mm-table">
+									<tr>
+										<th scope="row"><label class="description" for="usp_options[turnstile_site_key]"><?php esc_html_e('Site Key', 'usp'); ?></label></th>
+										<td><input type="text" size="45" name="usp_options[turnstile_site_key]" value="<?php if (isset($usp_options['turnstile_site_key'])) echo esc_attr($usp_options['turnstile_site_key']); ?>" />
+										<div class="mm-item-caption"><?php esc_html_e('Enter your Site Key', 'usp'); ?></div></td>
+									</tr>
+									<tr>
+										<th scope="row"><label class="description" for="usp_options[turnstile_secret_key]"><?php esc_html_e('Secret Key', 'usp'); ?></label></th>
+										<td><input type="text" size="45" name="usp_options[turnstile_secret_key]" value="<?php if (isset($usp_options['turnstile_secret_key'])) echo esc_attr($usp_options['turnstile_secret_key']); ?>" />
+										<div class="mm-item-caption"><?php esc_html_e('Enter your Secret Key', 'usp'); ?></div></td>
 									</tr>
 								</table>
 							</div>
@@ -694,9 +712,9 @@ function usp_render_form() {
 							<div class="shortcode-info">
 								<p><?php esc_html_e('USP enables you to display a post-submission form anywhere on your site.', 'usp'); ?></p>
 								<p><?php esc_html_e('Use the shortcode to display the form on any WP Post or Page:', 'usp'); ?></p>
-								<pre>[user-submitted-posts]</pre>
+								<div class="mm-pre">[user-submitted-posts]</div>
 								<p><?php esc_html_e('Or, use the template tag to display the form anywhere in your theme template:', 'usp'); ?></p>
-								<pre>&lt;?php if (function_exists('user_submitted_posts')) user_submitted_posts(); ?&gt;</pre>
+								<div class="mm-pre">&lt;?php if (function_exists('user_submitted_posts')) user_submitted_posts(); ?&gt;</div>
 								<p>
 									<?php esc_html_e('Want more than one form? Create unlimited submission forms, registration forms, contact forms and more with', 'usp'); ?> 
 									<a target="_blank" rel="noopener noreferrer" href="https://plugin-planet.com/usp-pro/"><?php esc_html_e('USP Pro', 'usp'); ?>&nbsp;&raquo;</a>
@@ -707,24 +725,24 @@ function usp_render_form() {
 							<div class="shortcode-info">
 								<p><?php esc_html_e('You also can display a simple form that enables users to log in, register, or reset their password.', 'usp'); ?></p>
 								<p><?php esc_html_e('Use the shortcode to display the form on any WP Post or Page:', 'usp'); ?></p>
-								<pre>[usp-login-form]</pre>
+								<div class="mm-pre">[usp-login-form]</div>
 								<p><?php esc_html_e('Or, use the template tag to display the form anywhere in your theme template:', 'usp'); ?></p>
-								<pre>&lt;?php if (function_exists('usp_login_form')) usp_login_form(); ?&gt;</pre>
+								<div class="mm-pre">&lt;?php if (function_exists('usp_login_form')) usp_login_form(); ?&gt;</div>
 								<p><?php esc_html_e('The login/register form displays as a tabbed interface, so users can switch between login, register, and reset password.', 'usp'); ?></p>
 							</div>
 							
 							<h3><?php esc_html_e('Display user-submitted posts', 'usp'); ?></h3>
 							<div class="shortcode-info">
 								<p><?php esc_html_e('Use this shortcode to display a list of submitted posts on any WP Post or Page:', 'usp'); ?></p>
-								<pre>[usp_display_posts]</pre>
+								<div class="mm-pre">[usp_display_posts]</div>
 								<p><?php esc_html_e('Or, use the template tag to display a list of submitted posts anywhere in your theme template:', 'usp'); ?></p>
-								<pre>&lt;?php if (function_exists('usp_display_posts')) echo usp_display_posts(array('userid' => 'all', 'numposts' => -1)); ?&gt;</pre>
+								<div class="mm-pre">&lt;?php if (function_exists('usp_display_posts')) echo usp_display_posts(array('userid' => 'all', 'numposts' => -1)); ?&gt;</div>
 								<p><?php esc_html_e('Here are some examples showing how to configure this shortcode:', 'usp'); ?></p>
-<pre>[usp_display_posts]                           : default displays all submitted posts by all authors
+<div class="mm-pre">[usp_display_posts]                           : default displays all submitted posts by all authors
 [usp_display_posts userid="1"]                : displays all submitted posts by registered user with ID = 1
 [usp_display_posts userid="Pat Smith"]        : displays all submitted posts by author name "Pat Smith"
 [usp_display_posts userid="all"]              : displays all submitted posts by all users/authors
-[usp_display_posts userid="all" numposts="5"] : limit to 5 posts from all users</pre>
+[usp_display_posts userid="all" numposts="5"] : limit to 5 posts from all users</div>
 								<p>
 									<strong><?php esc_html_e('Tip:', 'usp'); ?></strong> 
 									<?php esc_html_e('The pro version provides many more options for this shortcode.', 'usp'); ?> 
@@ -735,15 +753,15 @@ function usp_render_form() {
 							<h3><?php esc_html_e('Display image gallery', 'usp'); ?></h3>
 							<div class="shortcode-info">
 								<p><?php esc_html_e('Use this shortcode to display a gallery of uploaded images for each submitted post:', 'usp'); ?></p>
-								<pre>[usp_gallery]</pre>
+								<div class="mm-pre">[usp_gallery]</div>
 								<p><?php esc_html_e('Or, use the template tag to display an image gallery anywhere in your theme template:', 'usp'); ?></p>
-								<pre>&lt;?php if (function_exists('usp_get_images')) $images = usp_get_images(); foreach ($images as $image) echo $image; ?&gt;</pre>
+								<div class="mm-pre">&lt;?php if (function_exists('usp_get_images')) $images = usp_get_images(); foreach ($images as $image) echo $image; ?&gt;</div>
 								<p><?php esc_html_e('You can customize using any of the follwing attributes:', 'usp'); ?></p>
-<pre>$size   = image size as thumbnail, medium, large or full -> default = thumbnail
+<div class="mm-pre">$size   = image size as thumbnail, medium, large or full -> default = thumbnail
 $before = text/markup displayed before the image URL     -> default = {a href='%%url%%'}{img src='
 $after  = text/markup displayed after the image URL      -> default = ' /}{/a}
 $number = the number of images to display for each post  -> default = false (display all)
-$postId = an optional post ID to use                     -> default = false (uses global/current post)</pre>
+$postId = an optional post ID to use                     -> default = false (uses global/current post)</div>
 								<p><strong><?php esc_html_e('Notes:', 'usp'); ?></strong></p>
 								<ul>
 									<li>
@@ -763,11 +781,11 @@ $postId = an optional post ID to use                     -> default = false (use
 							<h3><?php esc_html_e('Reset Form Button', 'usp'); ?></h3>
 							<div class="shortcode-info">
 								<p><?php esc_html_e('This shortcode displays a link that resets the form to its original state:', 'usp'); ?></p>
-								<pre>[usp-reset-button]</pre>
+								<div class="mm-pre">[usp-reset-button]</div>
 								<p><?php esc_html_e('This shortcode accepts the following attributes:', 'usp'); ?></p>
-<pre>class  = classes for the parent element (optional, default: none)
+<div class="mm-pre">class  = classes for the parent element (optional, default: none)
 value  = link text (optional, default: "Reset form")
-url    = the URL where your form is displayed (required, default: none)</pre>
+url    = the URL where your form is displayed (required, default: none)</div>
 								<p><?php esc_html_e('Note that the url attribute accepts', 'usp'); ?> <code>%%current%%</code> <?php esc_html_e('to get the current URL.', 'usp'); ?></p>
 							</div>
 							
@@ -775,24 +793,24 @@ url    = the URL where your form is displayed (required, default: none)</pre>
 							<div class="shortcode-info">
 								<p><?php esc_html_e('USP provides three shortcodes to control access and restrict content.', 'usp'); ?></p>
 								<p><?php esc_html_e('Display content only to users with a specific capability:', 'usp'); ?></p>
-								<pre>[usp_access cap="read" deny="Message for users without read capability"][/usp_access]</pre>
+								<div class="mm-pre">[usp_access cap="read" deny="Message for users without read capability"][/usp_access]</div>
 								<p><?php esc_html_e('Display content to logged-in users:', 'usp'); ?></p>
-								<pre>[usp_member deny="Message for users who are not logged in"][/usp_member]</pre>
+								<div class="mm-pre">[usp_member deny="Message for users who are not logged in"][/usp_member]</div>
 								<p><?php esc_html_e('Display content to visitors only:', 'usp'); ?></p>
-								<pre>[usp_visitor deny="Message for users who are logged in"][/usp_visitor]</pre>
+								<div class="mm-pre">[usp_visitor deny="Message for users who are logged in"][/usp_visitor]</div>
 								<p>
 									<strong><?php esc_html_e('Tip:', 'usp'); ?></strong> 
 									<?php esc_html_e('to include markup in the deny message, you can use', 'usp'); ?> <code>{tag}</code> <?php esc_html_e('to output', 'usp'); ?> <code>&lt;tag&gt;</code>.
 								</p>
 								<p><strong><?php esc_html_e('Example', 'usp'); ?></strong></p>
 								<p><?php esc_html_e('If the user is logged in, display the post-submit form; or if the user is not logged in, display the login form:', 'usp'); ?></p>
-<pre>[usp_member]
+<div class="mm-pre">[usp_member]
 [user-submitted-posts]
 [/usp_member]					
 
 [usp_visitor]
 [usp-login-form]
-[/usp_visitor]</pre>
+[/usp_visitor]</div>
 								<p>
 									<?php esc_html_e('The access shortcodes can be added to any WP Post or Page. So you can display forms and other content conditionally, based on user role and login status.', 'usp'); ?>
 								</p>
@@ -831,7 +849,7 @@ url    = the URL where your form is displayed (required, default: none)</pre>
 			
 			<div id="mm-credit-info">
 				<a target="_blank" rel="noopener noreferrer" href="https://perishablepress.com/user-submitted-posts/" title="<?php esc_attr_e('Plugin Homepage', 'usp'); ?>"><?php echo USP_PLUGIN; ?></a> <?php esc_html_e('by', 'usp'); ?> 
-				<a target="_blank" rel="noopener noreferrer" href="https://twitter.com/perishable" title="<?php esc_attr_e('Jeff Starr on Twitter', 'usp'); ?>">Jeff Starr</a> @ 
+				<a target="_blank" rel="noopener noreferrer" href="https://x.com/perishable" title="<?php esc_attr_e('Jeff Starr on X (Twitter)', 'usp'); ?>">Jeff Starr</a> @ 
 				<a target="_blank" rel="noopener noreferrer" href="https://monzillamedia.com/" title="<?php esc_attr_e('Obsessive Web Design &amp; Development', 'usp'); ?>">Monzilla Media</a>
 			</div>
 		</form>

@@ -99,6 +99,10 @@ else :
 			<label for="user-submitted-captcha"><?php echo $usp_options['usp_question']; ?></label>
 			<input id="user-submitted-captcha" name="user-submitted-captcha" type="text" value="" placeholder="<?php esc_attr_e('Antispam Question', 'usp'); ?>"<?php echo $usp_required; ?> class="usp-input<?php echo $usp_captcha; ?>" data-parsley-excluded="true">
 		</fieldset>
+		<?php } if ($usp_options['usp_turnstile'] == 'show') { ?>
+		
+		<?php echo usp_display_turnstile(); ?>
+		
 		<?php } if (($usp_options['usp_category'] == 'show' || $usp_options['usp_category'] == 'optn') && ($usp_options['usp_use_cat'] == false)) { ?>
 		
 		<fieldset class="usp-category">

@@ -11,6 +11,7 @@ function usp_enqueueResources() {
 	$form_type     = isset($usp_options['usp_form_version'])  ? $usp_options['usp_form_version']  : null;
 	$display_url   = isset($usp_options['usp_display_url'])   ? $usp_options['usp_display_url']   : null;
 	$recaptcha     = isset($usp_options['usp_recaptcha'])     ? $usp_options['usp_recaptcha']     : null;
+	$turnstile     = isset($usp_options['usp_turnstile'])     ? $usp_options['usp_turnstile']     : null;
 	$multi_cats    = isset($usp_options['multiple-cats'])     ? $usp_options['multiple-cats']     : null;
 	$existing_tags = isset($usp_options['usp_existing_tags']) ? $usp_options['usp_existing_tags'] : null;
 	
@@ -79,6 +80,14 @@ function usp_enqueueResources() {
 			
 		}
 		
+		if ($turnstile === 'show') {
+			
+			usp_enqueue_turnstile();
+			
+			array_push($deps, 'usp_turnstile');
+			
+		}
+		
 		if ($multi_cats || $existing_tags) {
 			
 			wp_enqueue_script('usp_chosen', $plugin_url .'/resources/jquery.chosen.js', array('jquery'), USP_VERSION);
@@ -131,6 +140,12 @@ function usp_enqueue_recaptcha() {
 	
 }
 
+function usp_enqueue_turnstile() {
+	
+	wp_enqueue_script('usp_turnstile', 'https://challenges.cloudflare.com/turnstile/v0/api.js', array(), null);
+	
+}
+
 function usp_inline_script() {
 	
 	global $usp_options;
@@ -141,7 +156,6 @@ function usp_inline_script() {
 	$custom_field_2  = isset($usp_options['custom_name_2'])        ? $usp_options['custom_name_2']        : '';
 	$custom_checkbox = isset($usp_options['custom_checkbox_name']) ? $usp_options['custom_checkbox_name'] : '';
 	$usp_casing      = isset($usp_options['usp_casing'])           ? $usp_options['usp_casing']           : '';
-	$usp_response    = isset($usp_options['usp_response'])         ? $usp_options['usp_response']         : '';
 	$multiple_cats   = isset($usp_options['multiple-cats'])        ? $usp_options['multiple-cats']        : '';
 	$existing_tags   = isset($usp_options['usp_existing_tags'])    ? $usp_options['usp_existing_tags']    : '';
 	$recaptcha_disp  = isset($usp_options['usp_recaptcha'])        ? $usp_options['usp_recaptcha']        : '';
@@ -150,12 +164,13 @@ function usp_inline_script() {
 	
 	$print_casing    = $usp_casing ? 'true' : 'false';
 	$parsley_error   = apply_filters('usp_parsley_error', esc_html__('Incorrect response.', 'usp'));
+	$challenge_nonce = wp_create_nonce('challenge_nonce');
+	$ajax_url        = admin_url('admin-ajax.php');
 	
 	$script  = 'var usp_custom_field = '.       json_encode($custom_field)    .'; ';
 	$script .= 'var usp_custom_field_2 = '.     json_encode($custom_field_2)  .'; ';
 	$script .= 'var usp_custom_checkbox = '.    json_encode($custom_checkbox) .'; ';
 	$script .= 'var usp_case_sensitivity = '.   json_encode($print_casing)    .'; ';
-	$script .= 'var usp_challenge_response = '. json_encode($usp_response)    .'; ';
 	$script .= 'var usp_min_images = '.         json_encode($min_images)      .'; ';
 	$script .= 'var usp_max_images = '.         json_encode($max_images)      .'; ';
 	$script .= 'var usp_parsley_error = '.      json_encode($parsley_error)   .'; ';
@@ -164,6 +179,8 @@ function usp_inline_script() {
 	$script .= 'var usp_recaptcha_disp = '.     json_encode($recaptcha_disp)  .'; ';
 	$script .= 'var usp_recaptcha_vers = '.     json_encode($recaptcha_vers)  .'; ';
 	$script .= 'var usp_recaptcha_key = '.      json_encode($recaptcha_key)   .'; ';
+	$script .= 'var challenge_nonce = '.        json_encode($challenge_nonce) .'; ';
+	$script .= 'var ajax_url = '.               json_encode($ajax_url)        .'; ';
 	
 	wp_add_inline_script('usp_core', $script, 'before');
 	
@@ -190,3 +207,17 @@ function usp_load_admin_styles($hook) {
 	
 }
 add_action('admin_enqueue_scripts', 'usp_load_admin_styles');
+
+function usp_ajax_challenge_nonce() {
+	
+	check_ajax_referer('challenge_nonce', 'nonce');
+	
+	global $usp_options;
+	
+	echo isset($usp_options['usp_response']) ? $usp_options['usp_response'] : '';
+	
+	wp_die(); //
+	
+}
+add_action('wp_ajax_challenge_nonce', 'usp_ajax_challenge_nonce');
+add_action('wp_ajax_nopriv_challenge_nonce', 'usp_ajax_challenge_nonce');
