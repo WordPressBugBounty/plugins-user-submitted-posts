@@ -4,49 +4,49 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: USP 20250329\n"
+"Project-Id-Version: USP 20251121\n"
 "Language: cs\n"
 
 #: library/plugin-settings.php:620
 msgid " approved posts"
-msgstr " schválené příspěvky"
+msgstr "schválené příspěvky"
 
-#: user-submitted-posts.php:1720
+#: user-submitted-posts.php:1760
 msgid " file"
-msgstr " soubor"
+msgstr "soubor"
 
-#: user-submitted-posts.php:1717
+#: user-submitted-posts.php:1757
 msgid " file required"
-msgstr " požadovaný soubor"
+msgstr "požadovaný soubor"
 
-#: user-submitted-posts.php:1719
+#: user-submitted-posts.php:1759
 msgid " files"
-msgstr " soubory"
+msgstr "soubory"
 
-#: user-submitted-posts.php:1716
+#: user-submitted-posts.php:1756
 msgid " files required"
-msgstr " požadované soubory"
+msgstr "požadované soubory"
 
-#: user-submitted-posts.php:86
+#: user-submitted-posts.php:125
 msgid " or higher, and has been deactivated! "
-msgstr " nebo vyšší a byl deaktivován! "
-
-#: user-submitted-posts.php:1722 user-submitted-posts.php:1723
-#: user-submitted-posts.php:1724 user-submitted-posts.php:1725
-msgid " pixels"
-msgstr " pixelů"
+msgstr "nebo vyšší a byl deaktivován! "
 
 #: user-submitted-posts.php:1762 user-submitted-posts.php:1763
+#: user-submitted-posts.php:1764 user-submitted-posts.php:1765
+msgid " pixels"
+msgstr "pixely"
+
+#: user-submitted-posts.php:1802 user-submitted-posts.php:1803
 msgid " required"
-msgstr " požadovaný"
+msgstr "povinné"
 
 #: library/plugin-display.php:558
 msgid "&ldquo;Add another image&rdquo; link"
-msgstr "&ldquo;Přidat další obrázek&ldquo; odkaz"
+msgstr "Odkaz „Přidat další obrázek“"
 
 #: library/plugin-display.php:61
 msgid "&mdash; the ultimate solution for user-generated content."
-msgstr "&ndash; dokonalé řešení pro obsah vytvářený uživateli."
+msgstr "– dokonalé řešení pro obsah generovaný uživateli."
 
 #: library/plugin-settings.php:203
 msgid "(Provide your own form template &amp; styles)"
@@ -58,11 +58,11 @@ msgstr "(Uveďte své vlastní styly)"
 
 #: library/plugin-settings.php:195
 msgid "(Recommended)"
-msgstr "(doporučeno)"
+msgstr "(Doporučeno)"
 
 #: library/plugin-display.php:132
 msgid "..and upload them into a directory named"
-msgstr "..a nahrajte je do adresáře s názvem"
+msgstr "...a nahrajte je do adresáře s názvem"
 
 #: library/plugin-display.php:792
 msgid "Access Control"
@@ -70,27 +70,27 @@ msgstr "Řízení přístupu"
 
 #: library/plugin-display.php:474
 msgid "Add a challenge question to help stop spam. Tip: make the question easy to answer for any human."
-msgstr "Přidejte výzvu, která pomůže zastavit spam. Tip: Usnadněte odpověď na otázku každému člověku."
+msgstr "Přidejte zkušební otázku, která pomůže zastavit spam. Tip: udělejte otázku, na kterou by mohl snadno odpovědět kdokoli."
 
 #: views/submission-form-alt.php:166 views/submission-form.php:151
 msgid "Add another image"
-msgstr "Přidejte další obrázek"
+msgstr "Přidat další obrázek"
 
 #: library/plugin-display.php:292
 msgid "Additional recipients for email alerts. Use commas to separate multiple addresses."
-msgstr "Další příjemci e-mailových upozornění. K oddělení více adres použijte čárky."
+msgstr "Další příjemci e-mailových upozornění. Více adres oddělte čárkami."
 
 #: library/shortcode-login.php:183
 msgid "Admin"
-msgstr "Admin"
+msgstr "Administrátor"
 
 #: library/plugin-settings.php:223 library/plugin-settings.php:247
 #: library/plugin-settings.php:271 library/plugin-settings.php:295
 #: library/plugin-settings.php:319
 msgid "After post content"
-msgstr "Po obsahu příspěvku"
+msgstr "Obsah po zveřejnění"
 
-#: user-submitted-posts.php:1733
+#: user-submitted-posts.php:1773
 msgid "An error occurred. Please go back and try again."
 msgstr "Došlo k chybě. Vraťte se prosím zpět a zkuste to znovu."
 
@@ -109,11 +109,11 @@ msgstr "a/nebo"
 
 #: views/submission-form-alt.php:100 views/submission-form.php:85
 msgid "Antispam Question"
-msgstr "Antispamová otázka"
+msgstr "Otázka ohledně antispamu"
 
 #: library/support-panel.php:89
 msgid "Any size donation helps me to continue developing this free plugin and other awesome WordPress resources."
-msgstr "Dar jakékoli velikosti mi pomáhá pokračovat ve vývoji tohoto bezplatného pluginu a dalších úžasných zdrojů WordPress."
+msgstr "Jakýkoli dar mi pomůže pokračovat ve vývoji tohoto bezplatného pluginu a dalších skvělých zdrojů pro WordPress."
 
 #: library/plugin-settings.php:1267
 msgid "Apply code"
@@ -121,11 +121,11 @@ msgstr "Použít kód"
 
 #: library/plugin-display.php:232
 msgid "Assigned Author"
-msgstr "Přidělený autor"
+msgstr "Přiřazený autor"
 
 #: library/plugin-settings.php:1267
-msgid "at checkout. Sale ends 6/25/2025."
-msgstr "u pokladny. Prodej končí 25.6.2025."
+msgid "at checkout. Sale ends 1/11/2026."
+msgstr "při platbě. Výprodej končí 1. 11. 2026."
 
 #: library/plugin-display.php:770 library/plugin-display.php:774
 msgid "attributes"
@@ -133,13 +133,13 @@ msgstr "atributy"
 
 #: library/plugin-display.php:606
 msgid "Automatically display images and more."
-msgstr "Automaticky zobrazujte obrázky a další."
+msgstr "Automaticky zobrazovat obrázky a další."
 
 #: library/plugin-settings.php:219 library/plugin-settings.php:243
 #: library/plugin-settings.php:267 library/plugin-settings.php:291
 #: library/plugin-settings.php:315
 msgid "Before post content"
-msgstr "Před zveřejněním obsahu"
+msgstr "Před obsahem příspěvku"
 
 #: library/plugin-settings.php:1266 library/support-panel.php:79
 msgid "books"
@@ -151,11 +151,11 @@ msgstr "podle"
 
 #: library/plugin-display.php:153
 msgid "By default, CSS &amp; JavaScript files are loaded on every page. To load only on specific page(s), enter the URL(s) here. Use commas to separate multiple URLs. Leave blank to load on all pages."
-msgstr "Ve výchozím nastavení CSS &amp; Soubory JavaScript se načítají na každé stránce. Chcete-li načíst pouze konkrétní stránky, zadejte zde adresy URL. K oddělení více adres URL použijte čárky. Chcete-li načíst všechny stránky, ponechte prázdné."
+msgstr "Ve výchozím nastavení se soubory CSS a JavaScript načítají na každou stránku. Chcete-li načíst pouze konkrétní stránku (stránky), zadejte sem URL adresu (adresy). Více adres URL oddělte čárkami. Pro načtení na všechny stránky nechte pole prázdné."
 
 #: library/plugin-display.php:431
 msgid "By default, this displays an &ldquo;Agree to Terms&rdquo; checkbox. Customize as desired."
-msgstr "Ve výchozím nastavení se zobrazí text &ldquo;Souhlasím s podmínkami&ldquo; zaškrtávací políčko. Přizpůsobte dle přání."
+msgstr "Ve výchozím nastavení se zobrazuje zaškrtávací políčko „Souhlasím s podmínkami“. Upravte si ho dle potřeby."
 
 #: library/plugin-display.php:776
 msgid "Can use"
@@ -163,7 +163,7 @@ msgstr "Lze použít"
 
 #: library/plugin-display.php:487
 msgid "Case-sensitivity"
-msgstr "Rozlišování malých a velkých písmen"
+msgstr "Rozlišování velkých a malých písmen"
 
 #: library/plugin-display.php:333
 msgid "Categories"
@@ -171,7 +171,7 @@ msgstr "Kategorie"
 
 #: library/plugin-display.php:328
 msgid "Categories &amp; Tags"
-msgstr "Kategorie &amp; Tagy"
+msgstr "Kategorie a štítky"
 
 #: library/plugin-display.php:364
 msgid "category"
@@ -184,11 +184,11 @@ msgstr "ID kategorie pro skryté pole"
 #: library/plugin-display.php:472 library/plugin-display.php:477
 #: library/plugin-settings.php:431
 msgid "Challenge Question"
-msgstr "Výzvová otázka"
+msgstr "Náročná otázka"
 
 #: library/plugin-display.php:482
 msgid "Challenge Response"
-msgstr "Odpověď na výzvu"
+msgstr "Reakce na výzvu"
 
 #: library/plugin-display.php:320 library/plugin-display.php:393
 #: library/plugin-display.php:421 library/plugin-display.php:464
@@ -197,7 +197,7 @@ msgstr "odhlásit se"
 
 #: library/plugin-display.php:777
 msgid "Check out the source code inline notes for more info"
-msgstr "Další informace najdete v poznámkách ke zdrojovému kódu"
+msgstr "Pro více informací se podívejte na poznámky ve zdrojovém kódu"
 
 #: library/plugin-display.php:46
 msgid "Check this box if you have shown support"
@@ -205,11 +205,11 @@ msgstr "Zaškrtněte toto políčko, pokud jste projevili podporu"
 
 #: library/shortcode-login.php:98
 msgid "Check your email for the password."
-msgstr "Zkontrolujte svůj e-mail pro heslo."
+msgstr "Zkontrolujte si heslo ve svém e-mailu."
 
 #: library/shortcode-login.php:103
 msgid "Check your email to reset your password."
-msgstr "Zkontrolujte svůj e-mail a obnovte heslo."
+msgstr "Pro obnovení hesla zkontrolujte svůj e-mail."
 
 #: library/plugin-display.php:449
 msgid "Checkbox Error"
@@ -225,11 +225,11 @@ msgstr "Text zaškrtávacího políčka"
 
 #: library/plugin-display.php:85
 msgid "Choose fields to display on the front-end form."
-msgstr "Vyberte pole, která se mají zobrazit ve formuláři front-end."
+msgstr "Vyberte pole, která se mají zobrazit ve formuláři front-endu."
 
 #: library/plugin-display.php:512
 msgid "Choose reCaptcha version"
-msgstr "Vyberte verzi reCaptcha"
+msgstr "Vyberte verzi reCaptchy"
 
 #: library/plugin-display.php:518 library/plugin-settings.php:491
 msgid "Cloudflare Turnstile"
@@ -237,19 +237,19 @@ msgstr "Turniket Cloudflare"
 
 #: library/plugin-display.php:375
 msgid "Configure Custom Field #1."
-msgstr "Nakonfigurujte vlastní pole č. 1."
+msgstr "Konfigurace vlastního pole č. 1."
 
 #: library/plugin-display.php:403
 msgid "Configure Custom Field #2."
-msgstr "Nakonfigurujte vlastní pole č. 2."
+msgstr "Konfigurace vlastního pole č. 2."
 
 #: library/plugin-display.php:277
 msgid "Configure email notifications for new submitted posts."
-msgstr "Nakonfigurujte e-mailová upozornění na nově odeslané příspěvky."
+msgstr "Nastavte si e-mailová oznámení o nově odeslaných příspěvcích."
 
 #: library/plugin-display.php:119
 msgid "Configure general settings. Note: the default settings work fine for most cases."
-msgstr "Nakonfigurujte obecná nastavení. Poznámka: Výchozí nastavení funguje ve většině případů dobře."
+msgstr "Nakonfigurujte obecná nastavení. Poznámka: Výchozí nastavení funguje ve většině případů správně."
 
 #: library/plugin-display.php:537
 msgid "Configure settings for image uploads."
@@ -257,7 +257,7 @@ msgstr "Nakonfigurujte nastavení pro nahrávání obrázků."
 
 #: library/plugin-display.php:330
 msgid "Configure settings for the Category and Tag fields."
-msgstr "Nakonfigurujte nastavení pro pole Kategorie a Značka."
+msgstr "Nakonfigurujte nastavení pro pole Kategorie a Štítek."
 
 #: library/plugin-display.php:229
 msgid "Configure user settings."
@@ -267,27 +267,27 @@ msgstr "Nakonfigurujte uživatelská nastavení."
 msgid "Congratulations, you&rsquo;re logged in."
 msgstr "Gratulujeme, jste přihlášeni."
 
-#: user-submitted-posts.php:1750 user-submitted-posts.php:1751
+#: user-submitted-posts.php:1790 user-submitted-posts.php:1791
 msgid "Correct captcha required"
-msgstr "Je vyžadována správná captcha"
+msgstr "Vyžadováno správné captcha"
 
 #: library/plugin-display.php:297
 msgid "Custom address for the email &ldquo;From&rdquo; header (see plugin FAQs for info)."
-msgstr "Vlastní adresa pro e-mail &ldquo;Od&ldquo; záhlaví (informace naleznete v nejčastějších dotazech týkajících se pluginu)."
+msgstr "Vlastní adresa pro hlavičku e-mailu „Od“ (informace naleznete v Často kladených otázkách k pluginu)."
 
 #: library/plugin-display.php:429
 msgid "Custom Checkbox"
 msgstr "Vlastní zaškrtávací políčko"
 
-#: user-submitted-posts.php:1730
+#: user-submitted-posts.php:1770
 msgid "Custom checkbox required"
-msgstr "Je vyžadováno vlastní zaškrtávací políčko"
+msgstr "Vyžadováno vlastní zaškrtávací políčko"
 
 #: library/plugin-display.php:185
 msgid "Custom Content"
 msgstr "Vlastní obsah"
 
-#: user-submitted-posts.php:1727 library/core-functions.php:306
+#: user-submitted-posts.php:1767 library/core-functions.php:306
 #: library/plugin-display.php:373 library/plugin-settings.php:392
 #: library/plugin-settings.php:960
 msgid "Custom Field 1"
@@ -299,9 +299,9 @@ msgstr "Zobrazení vlastního pole 1"
 
 #: library/plugin-display.php:669
 msgid "Custom Field 1 Markup"
-msgstr "Vlastní označení pole 1"
+msgstr "Značení vlastního pole 1"
 
-#: user-submitted-posts.php:1728 library/core-functions.php:255
+#: user-submitted-posts.php:1768 library/core-functions.php:255
 #: library/plugin-display.php:401 library/plugin-settings.php:397
 #: library/plugin-settings.php:963
 msgid "Custom Field 2"
@@ -317,7 +317,7 @@ msgstr "Vlastní označení pole 2"
 
 #: library/plugin-display.php:383 library/plugin-display.php:411
 msgid "Custom Field Label"
-msgstr "Vlastní štítek pole"
+msgstr "Popisek vlastního pole"
 
 #: library/plugin-display.php:378 library/plugin-display.php:406
 msgid "Custom Field Name"
@@ -329,7 +329,7 @@ msgstr "Vlastní formulář + vlastní CSS"
 
 #: library/plugin-display.php:560
 msgid "Custom markup for the &ldquo;Add another image&rdquo; link. Leave blank to use the default markup (recommended)."
-msgstr "Vlastní označení pro &ldquo;Přidat další obrázek&ldquo; odkaz. Chcete-li použít výchozí označení, ponechte prázdné (doporučeno)."
+msgstr "Vlastní označení pro odkaz „Přidat další obrázek“. Ponechte prázdné, chcete-li použít výchozí označení (doporučeno)."
 
 #: library/plugin-display.php:545
 msgid "Default Featured Image"
@@ -341,25 +341,25 @@ msgstr "Zakázat"
 
 #: library/plugin-display.php:202
 msgid "Disable all required attributes on form fields (useful for troubleshooting error messages)"
-msgstr "Zakázat všechny požadované atributy v polích formuláře (užitečné při odstraňování chybových zpráv)"
+msgstr "Zakažte všechny povinné atributy v polích formuláře (užitečné pro řešení chybových hlášení)"
 
 #: library/plugin-display.php:205
 msgid "Disable IP Tracking"
-msgstr "Zakázat sledování IP"
+msgstr "Zakázat sledování IP adres"
 
 #: library/plugin-display.php:259
 msgid "Disable Replace Author"
-msgstr "Zakázat Nahradit autora"
+msgstr "Zakázat nahrazení autora"
 
 #: library/plugin-display.php:200
 msgid "Disable Required"
-msgstr "Vyžadováno zakázat"
+msgstr "Zakázat Povinné"
 
 #: library/plugin-settings.php:373 library/plugin-settings.php:414
 #: library/plugin-settings.php:444 library/plugin-settings.php:474
 #: library/plugin-settings.php:504
 msgid "Disable this field"
-msgstr "Deaktivujte toto pole"
+msgstr "Zakázat toto pole"
 
 #: library/plugin-settings.php:1339
 msgid "Dismiss"
@@ -367,15 +367,15 @@ msgstr "Propustit"
 
 #: library/plugin-display.php:357
 msgid "Display a select/dropdown menu of existing tags (valid when Tag field is displayed on the form)"
-msgstr "Zobrazení výběrové/rozbalovací nabídky existujících značek (platí, když je ve formuláři zobrazeno pole Značka)"
+msgstr "Zobrazit výběrovou/rozbalovací nabídku existujících tagů (platí, pokud je ve formuláři zobrazeno pole Tag)"
 
 #: library/plugin-display.php:434
 msgid "Display Checkbox"
-msgstr "Zobrazit zaškrtávací políčko"
+msgstr "Zaškrtávací políčko Zobrazit"
 
 #: library/plugin-display.php:795
 msgid "Display content only to users with a specific capability:"
-msgstr "Zobrazovat obsah pouze uživatelům s konkrétní schopností:"
+msgstr "Zobrazit obsah pouze uživatelům se specifickými schopnostmi:"
 
 #: library/plugin-display.php:797
 msgid "Display content to logged-in users:"
@@ -415,19 +415,19 @@ msgstr "Zobrazit odeslané obrázky:"
 
 #: library/plugin-display.php:651
 msgid "Display submitted URL:"
-msgstr "Viditelná odeslaná adresa URL:"
+msgstr "Zobrazit odeslanou URL adresu:"
 
 #: library/plugin-display.php:707
 msgid "Display the Form"
-msgstr "Zobrazte formulář"
+msgstr "Zobrazit formulář"
 
 #: library/plugin-display.php:724
 msgid "Display the login/register form"
-msgstr "Zobrazte přihlašovací/registrační formulář"
+msgstr "Zobrazit přihlašovací/registrační formulář"
 
 #: library/plugin-display.php:711
 msgid "Display the submit-post form"
-msgstr "Zobrazte formulář pro odeslání příspěvku"
+msgstr "Zobrazit formulář pro odeslání příspěvku"
 
 #: library/plugin-display.php:734
 msgid "Display user-submitted posts"
@@ -435,7 +435,7 @@ msgstr "Zobrazit příspěvky odeslané uživateli"
 
 #: library/plugin-display.php:207
 msgid "Do not collect or store any user IP address (useful for complying with privacy regulations)"
-msgstr "Neshromažďujte ani neuchovávejte žádnou IP adresu uživatele (užitečné pro dodržování předpisů o ochraně osobních údajů)"
+msgstr "Neshromažďujte ani neukládejte žádné IP adresy uživatelů (užitečné pro dodržování předpisů o ochraně osobních údajů)"
 
 #: library/plugin-settings.php:227 library/plugin-settings.php:251
 #: library/plugin-settings.php:275 library/plugin-settings.php:299
@@ -445,11 +445,11 @@ msgstr "Nezobrazovat"
 
 #: library/plugin-display.php:261
 msgid "Do not replace post author with submitted user name"
-msgstr "Nenahrazujte autora příspěvku odeslaným uživatelským jménem"
+msgstr "Nenahrazovat autora příspěvku odeslaným uživatelským jménem"
 
 #: library/plugin-display.php:496 library/plugin-display.php:520
 msgid "do NOT use both Google and Cloudflare captchas at the same time."
-msgstr "NEPOUŽÍVEJTE zároveň captcha Google a Cloudflare."
+msgstr "Nepoužívejte captchy z Google a Cloudflare současně."
 
 #: library/plugin-display.php:65
 msgid "Documentation"
@@ -467,7 +467,7 @@ msgstr "dar"
 msgid "Draft"
 msgstr "Návrh"
 
-#: user-submitted-posts.php:1775
+#: user-submitted-posts.php:1815
 msgid "Duplicate post title. Please try again."
 msgstr "Duplicitní název příspěvku. Zkuste to prosím znovu."
 
@@ -477,7 +477,7 @@ msgstr "E-mail"
 
 #: library/plugin-display.php:295
 msgid "Email &ldquo;From&rdquo; Address"
-msgstr "E-mail &ldquo;Od&ldquo; Adresa"
+msgstr "E-mailová adresa „Od“"
 
 #: library/plugin-display.php:290
 msgid "Email Address for Alerts"
@@ -485,7 +485,7 @@ msgstr "E-mailová adresa pro upozornění"
 
 #: library/plugin-display.php:308
 msgid "Email Alert Message"
-msgstr "E-mailová výstražná zpráva"
+msgstr "E-mailová upozorňovací zpráva"
 
 #: library/plugin-display.php:301
 msgid "Email Alert Subject"
@@ -493,7 +493,7 @@ msgstr "Předmět upozornění e-mailem"
 
 #: library/plugin-display.php:275
 msgid "Email Alerts"
-msgstr "Upozornění e-mailem"
+msgstr "E-mailová upozornění"
 
 #: library/plugin-display.php:623
 msgid "Email Display"
@@ -501,11 +501,11 @@ msgstr "Zobrazení e-mailu"
 
 #: library/plugin-display.php:630
 msgid "Email Markup"
-msgstr "Označení e-mailu"
+msgstr "Značky e-mailů"
 
 #: library/plugin-display.php:319
 msgid "email-alert options"
-msgstr "možnosti upozornění e-mailem"
+msgstr "možnosti e-mailových upozornění"
 
 #: library/plugin-settings.php:533
 msgid "Enable"
@@ -527,11 +527,11 @@ msgstr "Povolit formát HTML"
 
 #: library/plugin-display.php:287
 msgid "Enable HTML format for email alert messages"
-msgstr "Povolit formát HTML pro e-mailové výstražné zprávy"
+msgstr "Povolit formát HTML pro e-mailové upozornění"
 
 #: library/plugin-display.php:192
 msgid "Enable RTE/Visual Editor for the Post Content field"
-msgstr "Povolte RTE/Visual Editor pro pole Obsah příspěvku"
+msgstr "Povolit RTE/vizuální editor pro pole Obsah příspěvku"
 
 #: library/plugin-display.php:210
 msgid "Enable Shortcodes"
@@ -539,32 +539,32 @@ msgstr "Povolit krátké kódy"
 
 #: library/plugin-display.php:212
 msgid "Enable shortcodes in widgets. By default, WordPress does not enable shortcodes in widgets. "
-msgstr "Povolit krátké kódy ve widgetech. Ve výchozím nastavení WordPress nepovoluje krátké kódy ve widgetech. "
+msgstr "Povolte shortcodes ve widgetech. Ve výchozím nastavení WordPress shortcodes ve widgetech nepovoluje. "
 
 #: library/plugin-display.php:342
 msgid "Enable users to select multiple categories"
-msgstr "Umožněte uživatelům vybrat více kategorií"
+msgstr "Umožnit uživatelům vybrat více kategorií"
 
 #: library/plugin-display.php:596
 msgid "Enable users to upload other file types (like PDF, Word, Zip, videos, and more), check out"
-msgstr "Umožněte uživatelům nahrávat jiné typy souborů (jako jsou PDF, Word, Zip, videa a další), podívejte se"
+msgstr "Umožněte uživatelům nahrávat další typy souborů (jako PDF, Word, Zip, videa a další), rezervujte si"
 
 #. Description of the plugin
 #: 
 msgid "Enables your visitors to submit posts and images from anywhere on your site."
-msgstr "Umožňuje vašim návštěvníkům odesílat příspěvky a obrázky odkudkoli na vašem webu."
+msgstr "Umožňuje vašim návštěvníkům odesílat příspěvky a obrázky z libovolného místa na vašem webu."
 
 #: library/plugin-display.php:59
 msgid "enables your visitors to submit posts and upload images from the front-end of your site. "
-msgstr "umožňuje vašim návštěvníkům odesílat příspěvky a nahrávat obrázky z front-endu vašeho webu. "
+msgstr "umožňuje návštěvníkům odesílat příspěvky a nahrávat obrázky z frontendu vašeho webu. "
 
 #: library/plugin-display.php:484
 msgid "Enter the *only* correct answer to the challenge question"
-msgstr "Zadejte *pouze* správnou odpověď na soutěžní otázku"
+msgstr "Zadejte *jedinou* správnou odpověď na výzvu"
 
 #: library/plugin-display.php:549
 msgid "Enter URL or click button to upload/choose an image (optional)"
-msgstr "Zadejte adresu URL nebo klikněte na tlačítko a nahrajte/vyberte obrázek (volitelné)"
+msgstr "Zadejte URL adresu nebo klikněte na tlačítko pro nahrání/výběr obrázku (volitelné)"
 
 #: library/plugin-display.php:506
 msgid "Enter your Private Key"
@@ -580,11 +580,11 @@ msgstr "Zadejte svůj tajný klíč"
 
 #: library/plugin-display.php:525
 msgid "Enter your Site Key"
-msgstr "Zadejte klíč webu"
+msgstr "Zadejte klíč svého webu"
 
 #: library/shortcode-login.php:156
 msgid "Enter your username or email to reset your password."
-msgstr "Pro resetování hesla zadejte své uživatelské jméno nebo e-mail."
+msgstr "Zadejte své uživatelské jméno nebo e-mail pro obnovení hesla."
 
 #: library/plugin-display.php:180
 msgid "Error Message"
@@ -592,13 +592,13 @@ msgstr "Chybová zpráva"
 
 #: library/plugin-display.php:182
 msgid "Error message displayed if post submission fails (basic markup allowed)"
-msgstr "Pokud se odeslání příspěvku nezdaří, zobrazí se chybová zpráva (základní označení povoleno)"
+msgstr "Chybová zpráva zobrazená v případě neúspěchu odeslání příspěvku (povoleno základní značkování)"
 
 #: library/plugin-display.php:451
 msgid "Error message displayed if user does not check the box"
-msgstr "Pokud uživatel nezaškrtne políčko, zobrazí se chybová zpráva"
+msgstr "Chybová zpráva se zobrazí, pokud uživatel nezaškrtne políčko"
 
-#: user-submitted-posts.php:1785
+#: user-submitted-posts.php:1825
 msgid "Error: "
 msgstr "Chyba: "
 
@@ -606,17 +606,21 @@ msgstr "Chyba: "
 msgid "Example"
 msgstr "Příklad"
 
+#: library/plugin-settings.php:1262
+msgid "Fall Sale!"
+msgstr "Podzimní výprodej!"
+
 #: library/plugin-display.php:540
 msgid "Featured Image"
-msgstr "Vybraný obrázek"
+msgstr "Doporučený obrázek"
 
-#: user-submitted-posts.php:1768
+#: user-submitted-posts.php:1808
 msgid "File not uploaded. Please check the file and try again."
-msgstr "Soubor nebyl nahrán. Zkontrolujte soubor a zkuste to znovu."
+msgstr "Soubor se nenahrál. Zkontrolujte soubor a zkuste to znovu."
 
-#: user-submitted-posts.php:1761
+#: user-submitted-posts.php:1801
 msgid "File type not allowed (please upload images only)"
-msgstr "Typ souboru není povolen (nahrajte prosím pouze obrázky)"
+msgstr "Typ souboru není povolen (nahrávejte prosím pouze obrázky)"
 
 #: library/plugin-display.php:391 library/plugin-display.php:419
 #: library/plugin-display.php:462
@@ -629,16 +633,16 @@ msgstr "Pro více"
 
 #: library/plugin-display.php:60
 msgid "For more features and unlimited forms, check out"
-msgstr "Pro více funkcí a neomezené množství formulářů se podívejte"
+msgstr "Pro více funkcí a neomezený počet formulářů se podívejte"
 
 #: library/plugin-display.php:219 library/plugin-display.php:267
 #: library/plugin-display.php:691
 msgid "For more options and features, check out"
-msgstr "Další možnosti a funkce naleznete v části"
+msgstr "Pro více možností a funkcí se podívejte"
 
 #: library/plugin-display.php:109
 msgid "For unlimited fields, check out"
-msgstr "U neomezených polí se podívejte"
+msgstr "Pro neomezený počet polí se podívejte"
 
 #: library/shortcode-login.php:90
 msgid "Forgot?"
@@ -658,7 +662,7 @@ msgstr "Přední displej"
 
 #: library/plugin-display.php:140
 msgid "FYI: here is a"
-msgstr "FYI: tady je a"
+msgstr "Pro vaši informaci: zde je"
 
 #: library/plugin-display.php:117
 msgid "General Settings"
@@ -670,23 +674,23 @@ msgstr "Získejte USP Pro"
 
 #: library/plugin-settings.php:38
 msgid "Get USP Pro for unlimited forms!"
-msgstr "Získejte USP Pro pro neomezené množství formulářů!"
+msgstr "Získejte USP Pro pro neomezený počet formulářů!"
 
 #: library/plugin-display.php:70
 msgid "give it a 5-star rating"
-msgstr "dejte mu 5hvězdičkové hodnocení"
+msgstr "dejte tomu 5 hvězdiček"
 
 #: library/plugin-display.php:37
 msgid "give this plugin a 5-star rating"
-msgstr "ohodnoťte tento plugin 5 hvězdičkami"
+msgstr "dejte tomuto pluginu 5 hvězdiček"
 
 #: library/plugin-settings.php:66
 msgid "Give USP a 5-star rating at WordPress.org"
-msgstr "Dejte USP 5hvězdičkové hodnocení na WordPress.org"
+msgstr "Ohodnoťte USP 5 hvězdičkami na WordPress.org"
 
 #: library/plugin-settings.php:39
 msgid "Go Pro"
-msgstr "Přejít Pro"
+msgstr "Jdi profesionálně"
 
 #: library/plugin-display.php:494 library/plugin-settings.php:461
 msgid "Google reCaptcha"
@@ -698,7 +702,7 @@ msgstr "Máte účet?"
 
 #: library/plugin-display.php:740
 msgid "Here are some examples showing how to configure this shortcode:"
-msgstr "Zde je několik příkladů, které ukazují, jak nakonfigurovat tento krátký kód:"
+msgstr "Zde je několik příkladů, jak nakonfigurovat tento krátký kód:"
 
 #: library/plugin-display.php:345
 msgid "Hidden/Default Category"
@@ -706,7 +710,7 @@ msgstr "Skrytá/Výchozí kategorie"
 
 #: library/plugin-settings.php:61
 msgid "Homepage"
-msgstr "domovská stránka"
+msgstr "Domovská stránka"
 
 #: library/plugin-settings.php:195
 msgid "HTML5 Form + Default CSS"
@@ -728,15 +732,15 @@ msgstr "https://plugin-planet.com/"
 
 #: views/submission-form-alt.php:188 views/submission-form.php:173
 msgid "Human verification: leave this field empty."
-msgstr "Lidské ověření: ponechte toto pole prázdné."
+msgstr "Lidské ověření: toto pole nechte prázdné."
 
 #: library/plugin-display.php:298
 msgid "If multiple addresses are specified for the previous setting, include an equal number of addresses for this setting (in the same order)."
-msgstr "Pokud je pro předchozí nastavení zadáno více adres, zahrňte stejný počet adres pro toto nastavení (ve stejném pořadí)."
+msgstr "Pokud je pro předchozí nastavení zadáno více adres, zadejte stejný počet adres i pro toto nastavení (ve stejném pořadí)."
 
 #: library/plugin-display.php:806
 msgid "If the user is logged in, display the post-submit form; or if the user is not logged in, display the login form:"
-msgstr "Pokud je uživatel přihlášen, zobrazte formulář pro odeslání; nebo pokud uživatel není přihlášen, zobrazte přihlašovací formulář:"
+msgstr "Pokud je uživatel přihlášen, zobrazte formulář po odeslání; nebo pokud uživatel přihlášen není, zobrazte přihlašovací formulář:"
 
 #: library/plugin-display.php:69
 msgid "If you like this plugin, please"
@@ -744,23 +748,23 @@ msgstr "Pokud se vám tento plugin líbí, prosím"
 
 #: library/plugin-display.php:609
 msgid "Image Display"
-msgstr "Obrazový displej"
+msgstr "Zobrazení obrazu"
 
-#: user-submitted-posts.php:1760
+#: user-submitted-posts.php:1800
 msgid "Image height exceeds maximum"
-msgstr "Výška obrázku přesahuje maximum"
+msgstr "Výška obrázku překračuje maximum"
 
 #: library/plugin-display.php:616
 msgid "Image Markup"
-msgstr "Označení obrázku"
+msgstr "Značení obrázku"
 
 #: library/plugin-display.php:535 library/plugin-settings.php:521
 msgid "Image Uploads"
-msgstr "Nahrání obrázků"
+msgstr "Nahrávání obrázků"
 
-#: user-submitted-posts.php:1758
+#: user-submitted-posts.php:1798
 msgid "Image width exceeds maximum"
-msgstr "Šířka obrázku přesahuje maximum"
+msgstr "Šířka obrázku překračuje maximum"
 
 #: library/plugin-display.php:496 library/plugin-display.php:520
 msgid "Important:"
@@ -782,13 +786,13 @@ msgstr "Zahrnout JavaScript"
 msgid "Include required JavaScript files (recommended)"
 msgstr "Zahrnout požadované soubory JavaScript (doporučeno)"
 
-#: library/enqueue-scripts.php:166
+#: library/enqueue-scripts.php:168
 msgid "Incorrect response."
 msgstr "Nesprávná odpověď."
 
 #: library/plugin-display.php:139
 msgid "Installation Docs"
-msgstr "Instalační dokumenty"
+msgstr "Instalační dokumentace"
 
 #. Author of the plugin
 #: 
@@ -801,31 +805,31 @@ msgstr "Jeff Starr na X (Twitter)"
 
 #: library/plugin-display.php:749 library/plugin-display.php:820
 msgid "Learn&nbsp;more"
-msgstr "Zjistěte&nbsp;další informace"
+msgstr "Zjistěte více"
 
 #: library/plugin-display.php:831
 msgid "Leave this option disabled to remember your settings."
-msgstr "Chcete-li si zapamatovat nastavení, ponechte tuto možnost deaktivovanou."
+msgstr "Nechte tuto možnost vypnutou, aby si vaše nastavení pamatovala."
 
 #: library/plugin-settings.php:88
 msgid "Like this plugin? Give it a"
-msgstr "Líbí se vám tento plugin? Dejte to a"
+msgstr "Líbí se vám tento plugin? Dejte mu hodnocení."
 
 #: library/plugin-display.php:140
 msgid "list of USP CSS selectors"
-msgstr "seznam selektorů USP CSS"
+msgstr "seznam selektorů CSS USP"
 
-#: user-submitted-posts.php:1842
+#: user-submitted-posts.php:1882
 msgid "log in"
 msgstr "přihlásit se"
 
 #: library/shortcode-login.php:108
 msgid "Log in or sign up! It&rsquo;s fast &amp; free!"
-msgstr "Přihlaste se nebo se zaregistrujte! Je to rychlé &amp; uvolnit!"
+msgstr "Přihlaste se nebo se zaregistrujte! Je to rychlé a zdarma!"
 
 #: library/shortcode-login.php:182
 msgid "Log out"
-msgstr "Odhlaste se"
+msgstr "Odhlásit se"
 
 #: library/shortcode-login.php:88 library/shortcode-login.php:127
 msgid "Login"
@@ -837,7 +841,7 @@ msgstr "Ztratit něco?"
 
 #: library/plugin-display.php:35
 msgid "make a donation"
-msgstr "darovat"
+msgstr "přispět"
 
 #: library/plugin-display.php:35
 msgid "Make a donation via PayPal"
@@ -845,23 +849,23 @@ msgstr "Darujte přes PayPal"
 
 #: library/support-panel.php:134
 msgid "Make a donation&nbsp;&raquo;"
-msgstr "Přispějte&nbsp;&raquo;"
+msgstr "Přispějte darem"
 
 #: library/plugin-display.php:489
 msgid "Make the challenge response case-sensitive"
-msgstr "V odpovědi na výzvu rozlišujte velká a malá písmena"
+msgstr "Rozlišovat velká a malá písmena v odpovědi na výzvu"
 
 #: library/plugin-display.php:441
 msgid "Make the custom checkbox required (uncheck to make optional)"
-msgstr "Požadujte vlastní zaškrtávací políčko (zrušte zaškrtnutí, chcete-li, aby bylo volitelné)"
+msgstr "Nastavit vlastní zaškrtávací políčko jako povinné (zrušit zaškrtnutí, pokud chcete nastavit jako volitelné)"
 
 #: library/plugin-display.php:671
 msgid "Markup for Custom Field 1. You may include any of the following variables:"
-msgstr "Značka pro vlastní pole 1. Můžete zahrnout kteroukoli z následujících proměnných:"
+msgstr "Značky pro vlastní pole 1. Můžete zahrnout kteroukoli z následujících proměnných:"
 
 #: library/plugin-display.php:684
 msgid "Markup for Custom Field 2. You may include any of the following variables:"
-msgstr "Značka pro vlastní pole 2. Můžete zahrnout kteroukoli z následujících proměnných:"
+msgstr "Značky pro vlastní pole 2. Můžete zahrnout kteroukoli z následujících proměnných:"
 
 #: library/plugin-display.php:618
 msgid "Markup for each submitted image. You may include any of the following variables:"
@@ -869,15 +873,15 @@ msgstr "Označení pro každý odeslaný obrázek. Můžete zahrnout kteroukoli 
 
 #: library/plugin-display.php:645
 msgid "Markup for submitted author/name. You may include"
-msgstr "Označení pro odeslaného autora/jméno. Můžete zahrnout"
+msgstr "Značení pro odeslaného autora/jméno. Můžete zahrnout"
 
 #: library/plugin-display.php:632
 msgid "Markup for submitted email address. You may include any of the following variables:"
-msgstr "Označení pro odeslanou e-mailovou adresu. Můžete zahrnout kteroukoli z následujících proměnných:"
+msgstr "Značky pro odeslanou e-mailovou adresu. Můžete zahrnout kteroukoli z následujících proměnných:"
 
 #: library/plugin-display.php:658
 msgid "Markup for submitted URL. You may include any of the following variables:"
-msgstr "Označení pro odeslanou adresu URL. Můžete zahrnout kteroukoli z následujících proměnných:"
+msgstr "Značky pro odeslanou URL adresu. Můžete zahrnout kteroukoli z následujících proměnných:"
 
 #: library/plugin-display.php:590
 msgid "Maximum height (in pixels) for uploaded images"
@@ -895,9 +899,9 @@ msgstr "Maximální šířka obrázku"
 msgid "Maximum number of images"
 msgstr "Maximální počet obrázků"
 
-#: user-submitted-posts.php:1756
+#: user-submitted-posts.php:1796
 msgid "Maximum number of images exceeded "
-msgstr "Byl překročen maximální počet obrázků "
+msgstr "Překročen maximální počet obrázků "
 
 #: library/plugin-display.php:570
 msgid "Maximum number of images for each submitted post"
@@ -909,15 +913,15 @@ msgstr "Maximální šířka (v pixelech) pro nahrané obrázky"
 
 #: library/plugin-display.php:177
 msgid "Message displayed after successful post submission (basic markup allowed)"
-msgstr "Zpráva se zobrazí po úspěšném odeslání příspěvku (povoleno základní označení)"
+msgstr "Zpráva zobrazená po úspěšném odeslání příspěvku (povoleno základní značkování)"
 
 #: library/plugin-display.php:555
 msgid "Message displayed next to the file upload field (basic markup allowed)"
-msgstr "Zpráva zobrazená vedle pole pro nahrání souboru (základní označení povoleno)"
+msgstr "Zpráva zobrazená vedle pole pro nahrání souboru (povoleno základní značkování)"
 
 #: library/plugin-display.php:310
 msgid "Message for email alerts. Leave blank to use default message. You may include any of the following variables:"
-msgstr "Zpráva pro e-mailová upozornění. Chcete-li použít výchozí zprávu, ponechte prázdné. Můžete zahrnout kteroukoli z následujících proměnných:"
+msgstr "Zpráva pro e-mailová upozornění. Pro použití výchozí zprávy ponechte pole prázdné. Můžete zahrnout kteroukoli z následujících proměnných:"
 
 #: library/plugin-display.php:580
 msgid "Minimum height (in pixels) for uploaded images"
@@ -927,17 +931,17 @@ msgstr "Minimální výška (v pixelech) pro nahrané obrázky"
 msgid "Minimum image height"
 msgstr "Minimální výška obrázku"
 
-#: user-submitted-posts.php:1759
+#: user-submitted-posts.php:1799
 msgid "Minimum image height not met"
-msgstr "Nebyla splněna minimální výška obrázku"
+msgstr "Nebyla dosažena minimální výška obrázku"
 
 #: library/plugin-display.php:573
 msgid "Minimum image width"
 msgstr "Minimální šířka obrázku"
 
-#: user-submitted-posts.php:1757
+#: user-submitted-posts.php:1797
 msgid "Minimum image width not met"
-msgstr "Nebyla splněna minimální šířka obrázku"
+msgstr "Nebyla dosažena minimální šířka obrázku"
 
 #: library/plugin-display.php:563
 msgid "Minimum number of images"
@@ -947,9 +951,9 @@ msgstr "Minimální počet obrázků"
 msgid "Minimum number of images for each submitted post"
 msgstr "Minimální počet obrázků pro každý odeslaný příspěvek"
 
-#: user-submitted-posts.php:1755
+#: user-submitted-posts.php:1795
 msgid "Minimum number of images not met"
-msgstr "Nebyl splněn minimální počet snímků"
+msgstr "Nebyl dosažen minimální počet obrázků"
 
 #: library/plugin-display.php:575
 msgid "Minimum width (in pixels) for uploaded images"
@@ -969,13 +973,13 @@ msgstr "Více kategorií"
 
 #: library/plugin-display.php:636
 msgid "Name Display"
-msgstr "Zobrazení názvu"
+msgstr "Zobrazení jména"
 
 #: library/plugin-display.php:643
 msgid "Name Markup"
-msgstr "Jméno Markup"
+msgstr "Značkovací název"
 
-#: user-submitted-posts.php:1754
+#: user-submitted-posts.php:1794
 msgid "Non-empty value for hidden field"
 msgstr "Neprázdná hodnota pro skryté pole"
 
@@ -989,11 +993,11 @@ msgstr "Poznámky:"
 
 #: library/plugin-display.php:853
 msgid "Obsessive Web Design &amp; Development"
-msgstr "Obsessive Web Design &amp; Rozvoj"
+msgstr "Obsessive Web Design & Development"
 
 #: library/plugin-display.php:187
 msgid "Optional markup/text to include before the submission form (leave blank to disable)"
-msgstr "Volitelné označení/text, který se má zahrnout před formulář pro odeslání (nechte prázdné, chcete-li deaktivovat)"
+msgstr "Volitelné označení/text, který se má přidat před odesílací formulář (ponechte prázdné pro zakázání)"
 
 #: library/plugin-display.php:365
 msgid "options, check out"
@@ -1005,23 +1009,23 @@ msgstr "nebo"
 
 #: library/support-panel.php:85
 msgid "or by making a"
-msgstr "nebo vytvořením a"
+msgstr "nebo vytvořením"
 
 #: library/plugin-display.php:832
 msgid "Or, to go ahead and restore the default plugin options: check the box, save your settings, and then deactivate/reactivate the plugin."
-msgstr "Nebo, chcete-li pokračovat a obnovit výchozí možnosti pluginu: zaškrtněte políčko, uložte nastavení a poté plugin deaktivujte/znovu aktivujte."
+msgstr "Nebo chcete-li pokračovat a obnovit výchozí možnosti pluginu: zaškrtněte políčko, uložte nastavení a poté plugin deaktivujte/znovu aktivujte."
 
 #: library/plugin-display.php:738
 msgid "Or, use the template tag to display a list of submitted posts anywhere in your theme template:"
-msgstr "Nebo použijte značku šablony k zobrazení seznamu odeslaných příspěvků kdekoli v šabloně motivu:"
+msgstr "Nebo použijte tag template k zobrazení seznamu odeslaných příspěvků kdekoli v šabloně tématu:"
 
 #: library/plugin-display.php:757
 msgid "Or, use the template tag to display an image gallery anywhere in your theme template:"
-msgstr "Nebo použijte značku šablony k zobrazení galerie obrázků kdekoli v šabloně motivu:"
+msgstr "Nebo použijte tag template k zobrazení galerie obrázků kdekoli v šabloně motivu:"
 
 #: library/plugin-display.php:716 library/plugin-display.php:729
 msgid "Or, use the template tag to display the form anywhere in your theme template:"
-msgstr "Nebo použijte značku šablony k zobrazení formuláře kdekoli v šabloně motivu:"
+msgstr "Nebo použijte značku template k zobrazení formuláře kdekoli v šabloně motivu:"
 
 #: library/plugin-display.php:55
 msgid "Overview"
@@ -1033,47 +1037,47 @@ msgstr "Heslo"
 
 #: library/plugin-settings.php:617
 msgid "Pending (default)"
-msgstr "Nevyřízeno (výchozí)"
+msgstr "Čeká na vyřízení (výchozí)"
 
 #: library/support-panel.php:75
 msgid "Perishable Press Books"
-msgstr "Tiskové knihy podléhající zkáze"
+msgstr "Knihy s krátkou dobou zkázy"
 
-#: user-submitted-posts.php:1841 library/plugin-display.php:35
+#: user-submitted-posts.php:1881 library/plugin-display.php:35
 msgid "Please"
 msgstr "Prosím"
 
-#: user-submitted-posts.php:1753
+#: user-submitted-posts.php:1793
 msgid "Please check your email and try again"
-msgstr "Zkontrolujte prosím svůj e-mail a zkuste to znovu"
+msgstr "Zkontrolujte si prosím e-mail a zkuste to znovu."
 
 #: views/submission-form-alt.php:40 views/submission-form.php:21
 msgid "Please complete the required fields."
-msgstr "Vyplňte prosím povinná pole."
+msgstr "Vyplňte prosím požadovaná pole."
 
 #: library/support-panel.php:132
 msgid "Please Donate"
-msgstr "Prosím darujte"
+msgstr "Prosím, darujte"
 
-#: user-submitted-posts.php:87
+#: user-submitted-posts.php:126
 msgid "Please return to the"
-msgstr "Vraťte se prosím na"
+msgstr "Prosím, vraťte se k"
 
 #: views/submission-form-alt.php:111 views/submission-form.php:96
 msgid "Please select a category.."
-msgstr "Vyberte prosím kategorii.."
+msgstr "Vyberte prosím kategorii."
 
 #: views/submission-form-alt.php:73 views/submission-form.php:58
 msgid "Please select some tags.."
-msgstr "Vyberte prosím nějaké značky.."
+msgstr "Vyberte prosím nějaké štítky."
 
 #: library/plugin-settings.php:913
 msgid "Please select your image(s) to upload."
-msgstr "Vyberte prosím obrázek(y), který chcete nahrát."
+msgstr "Vyberte prosím obrázek(y) k nahrání."
 
 #: library/support-panel.php:84
 msgid "Please show support by purchasing one of my"
-msgstr "Projevte prosím podporu zakoupením jednoho z mých"
+msgstr "Prosím, podpořte mě zakoupením jednoho z mých"
 
 #: library/plugin-display.php:64 library/plugin-display.php:851
 #: library/plugin-settings.php:60
@@ -1082,7 +1086,7 @@ msgstr "Domovská stránka pluginu"
 
 #: library/support-panel.php:76
 msgid "Plugin Planet: Pro WordPress Plugins"
-msgstr "Plugin Planet: Pro WordPress pluginy"
+msgstr "Plugin Planet: Profesionální pluginy pro WordPress"
 
 #: library/plugin-display.php:79
 msgid "Plugin Settings"
@@ -1097,7 +1101,7 @@ msgstr "pluginy"
 msgid "Post Category"
 msgstr "Kategorie příspěvku"
 
-#: user-submitted-posts.php:1748
+#: user-submitted-posts.php:1788
 msgid "Post category required"
 msgstr "Kategorie příspěvku je povinná"
 
@@ -1107,13 +1111,13 @@ msgstr "Kategorie příspěvku je povinná"
 msgid "Post Content"
 msgstr "Obsah příspěvku"
 
-#: user-submitted-posts.php:1749
+#: user-submitted-posts.php:1789
 msgid "Post content required"
-msgstr "Je vyžadován obsah příspěvku"
+msgstr "Obsah příspěvku je povinný"
 
-#: user-submitted-posts.php:1774
+#: user-submitted-posts.php:1814
 msgid "Post not created. Please contact the site administrator for help."
-msgstr "Příspěvek nebyl vytvořen. Požádejte o pomoc správce webu."
+msgstr "Příspěvek nebyl vytvořen. Pro pomoc prosím kontaktujte administrátora webu."
 
 #: library/plugin-display.php:163
 msgid "Post Status"
@@ -1128,11 +1132,11 @@ msgstr "Stav příspěvku pro odeslané příspěvky"
 #: views/submission-form.php:56 views/submission-form.php:65
 #: views/submission-form.php:66
 msgid "Post Tags"
-msgstr "Značky příspěvku"
+msgstr "Štítky příspěvků"
 
-#: user-submitted-posts.php:1747
+#: user-submitted-posts.php:1787
 msgid "Post tags required"
-msgstr "Jsou vyžadovány značky příspěvku"
+msgstr "Vyžadují se štítky příspěvků"
 
 #: library/plugin-display.php:92 views/submission-form-alt.php:64
 #: views/submission-form-alt.php:65 views/submission-form.php:49
@@ -1140,7 +1144,7 @@ msgstr "Jsou vyžadovány značky příspěvku"
 msgid "Post Title"
 msgstr "Název příspěvku"
 
-#: user-submitted-posts.php:1745
+#: user-submitted-posts.php:1785
 msgid "Post title required"
 msgstr "Název příspěvku je povinný"
 
@@ -1158,7 +1162,7 @@ msgstr "Soukromý klíč"
 
 #: library/plugin-settings.php:1264
 msgid "Pro WordPress plugins"
-msgstr "Pro WordPress pluginy"
+msgstr "Profesionální pluginy pro WordPress"
 
 #: library/shortcode-login.php:184
 msgid "Profile"
@@ -1178,31 +1182,31 @@ msgstr "Publikovat po 1 schváleném příspěvku"
 
 #: library/plugin-settings.php:618
 msgid "Publish immediately"
-msgstr "Okamžitě publikovat"
+msgstr "Publikovat okamžitě"
 
 #: library/plugin-display.php:36
 msgid "Rate and review at the Plugin Directory"
-msgstr "Hodnotit a recenzovat v adresáři pluginů"
+msgstr "Ohodnoťte a napište recenzi v adresáři pluginů"
 
 #: library/plugin-settings.php:67
 msgid "Rate this plugin&nbsp;&raquo;"
-msgstr "Ohodnoťte tento plugin&nbsp;&raquo;"
+msgstr "Ohodnoťte tento plugin"
 
 #: library/plugin-display.php:509
 msgid "reCaptcha Version"
-msgstr "Verze reCaptcha"
+msgstr "Verze reCaptchy"
 
 #: library/plugin-display.php:280
 msgid "Receive Email Alert"
-msgstr "Obdržet e-mailové upozornění"
+msgstr "Dostávat e-mailová upozornění"
 
 #: library/plugin-display.php:170
 msgid "Redirect URL"
-msgstr "Adresa URL přesměrování"
+msgstr "URL přesměrování"
 
 #: library/plugin-display.php:172
 msgid "Redirect user to this URL after post submission (leave blank to stay on current page)"
-msgstr "Po odeslání příspěvku přesměrovat uživatele na tuto adresu URL (nechte prázdné, chcete-li zůstat na aktuální stránce)"
+msgstr "Přesměrovat uživatele na tuto URL adresu po odeslání příspěvku (ponechte prázdné, chcete-li zůstat na aktuální stránce)"
 
 #: library/shortcode-login.php:89
 msgid "Register"
@@ -1210,15 +1214,15 @@ msgstr "Rejstřík"
 
 #: library/shortcode-login.php:135
 msgid "Register for this site!"
-msgstr "Zaregistrujte se na tento web!"
+msgstr "Zaregistrujte se na tomto webu!"
 
 #: library/plugin-display.php:244
 msgid "Registered Email"
-msgstr "Registrovaný email"
+msgstr "Registrovaný e-mail"
 
 #: library/plugin-display.php:249
 msgid "Registered URL"
-msgstr "Registrovaná adresa URL"
+msgstr "Registrovaná URL adresa"
 
 #: library/plugin-display.php:239
 msgid "Registered Username"
@@ -1226,15 +1230,15 @@ msgstr "Registrované uživatelské jméno"
 
 #: library/shortcode-login.php:124
 msgid "Remember me"
-msgstr "Pamatuj si mě"
+msgstr "Zapamatuj si mě"
 
 #: library/plugin-display.php:439
 msgid "Require Checkbox"
-msgstr "Vyžadovat zaškrtávací políčko"
+msgstr "Požadovat zaškrtávací políčko"
 
 #: library/plugin-display.php:197
 msgid "Require submitted post titles to be unique (useful for preventing multiple/duplicate posts)"
-msgstr "Vyžadovat, aby byly názvy odeslaných příspěvků jedinečné (užitečné pro zamezení vícenásobných/duplicitních příspěvků)"
+msgstr "Vyžadovat, aby názvy odeslaných příspěvků byly jedinečné (užitečné pro prevenci vícenásobných/duplicitních příspěvků)"
 
 #: library/plugin-display.php:254
 msgid "Require User Login"
@@ -1242,9 +1246,9 @@ msgstr "Vyžadovat přihlášení uživatele"
 
 #: library/plugin-display.php:256
 msgid "Require users to be logged in to WordPress to view/submit the form"
-msgstr "Pro zobrazení/odeslání formuláře vyžadovat, aby uživatelé byli přihlášeni do WordPressu"
+msgstr "Vyžadovat, aby se uživatelé pro zobrazení/odeslání formuláře přihlásili do WordPressu"
 
-#: user-submitted-posts.php:85
+#: user-submitted-posts.php:124
 msgid "requires WordPress "
 msgstr "vyžaduje WordPress "
 
@@ -1254,7 +1258,7 @@ msgstr "Obnovit formulář"
 
 #: library/plugin-display.php:781
 msgid "Reset Form Button"
-msgstr "Tlačítko Resetovat formulář"
+msgstr "Tlačítko Obnovit formulář"
 
 #: library/shortcode-login.php:163
 msgid "Reset my password"
@@ -1262,19 +1266,19 @@ msgstr "Obnovit heslo"
 
 #: library/plugin-display.php:835
 msgid "Restore default options upon plugin deactivation/reactivation"
-msgstr "Obnovit výchozí možnosti při deaktivaci/reaktivaci pluginu"
+msgstr "Obnovit výchozí nastavení po deaktivaci/opětovné aktivaci pluginu"
 
 #: library/plugin-display.php:829
 msgid "Restore Defaults"
-msgstr "Obnovit výchozí"
+msgstr "Obnovit výchozí nastavení"
 
-#: user-submitted-posts.php:1811
+#: user-submitted-posts.php:1851
 msgid "Return to form"
-msgstr "Návrat do formy"
+msgstr "Zpět do formuláře"
 
 #: library/plugin-display.php:190
 msgid "Rich Text Editor"
-msgstr "Rich Text Editor"
+msgstr "Editor formátovaného textu"
 
 #: library/plugin-display.php:699
 msgid "Save All Changes"
@@ -1298,7 +1302,7 @@ msgstr "Vyberte kategorie, které chcete zahrnout do pole Kategorie:"
 
 #: library/plugin-display.php:282
 msgid "Send email alerts for new post submissions"
-msgstr "Odesílejte e-mailová upozornění na nové příspěvky"
+msgstr "Zasílat e-mailová upozornění na nové příspěvky"
 
 #: library/plugin-settings.php:29
 msgid "Settings"
@@ -1308,13 +1312,13 @@ msgstr "Nastavení"
 msgid "Show categories"
 msgstr "Zobrazit kategorie"
 
-#: user-submitted-posts.php:717
+#: user-submitted-posts.php:756
 msgid "Show USP Posts"
 msgstr "Zobrazit příspěvky USP"
 
 #: library/shortcode-login.php:136
 msgid "Sign up now for the good stuff."
-msgstr "Přihlaste se nyní pro dobré věci."
+msgstr "Přihlaste se nyní k odběru dobrých věcí."
 
 #: library/shortcode-login.php:147
 msgid "Sign up!"
@@ -1326,19 +1330,15 @@ msgstr "Klíč webu"
 
 #: library/plugin-display.php:352
 msgid "Specify category ID(s) to use for &ldquo;Hidden/Default Category&rdquo; (separate multiple IDs with commas)"
-msgstr "Zadejte ID kategorií, které se mají použít pro &ldquo;Skrytá/Výchozí kategorie&dquo; (více ID oddělte čárkami)"
+msgstr "Zadejte ID kategorie/kategorií, které chcete použít pro „Skrytá/Výchozí kategorie“ (více ID oddělte čárkami)"
 
 #: library/plugin-display.php:235
 msgid "Specify the user that should be assigned as author for submitted posts"
 msgstr "Zadejte uživatele, který má být přiřazen jako autor odeslaných příspěvků"
 
-#: library/plugin-settings.php:1262
-msgid "Spring Sale!"
-msgstr "Jarní výprodej!"
-
 #: library/plugin-display.php:303
 msgid "Subject line for email alerts. Leave blank to use default subject line. You may include any of the following variables:"
-msgstr "Předmět pro e-mailová upozornění. Chcete-li použít výchozí řádek předmětu, ponechte prázdné. Můžete zahrnout kteroukoli z následujících proměnných:"
+msgstr "Předmět pro e-mailová upozornění. Pro použití výchozího předmětu ponechte prázdné. Můžete zahrnout kteroukoli z následujících proměnných:"
 
 #: views/submission-form-alt.php:216 views/submission-form.php:201
 msgid "Submit Post"
@@ -1348,21 +1348,21 @@ msgstr "Odeslat příspěvek"
 msgid "Submitted Posts"
 msgstr "Odeslané příspěvky"
 
-#: user-submitted-posts.php:660
+#: user-submitted-posts.php:699
 msgid "Submitter Email: "
 msgstr "E-mail odesílatele: "
 
-#: user-submitted-posts.php:662
+#: user-submitted-posts.php:701
 msgid "Submitter IP: "
-msgstr "IP odesílatele: "
+msgstr "IP adresa odesílatele: "
 
-#: user-submitted-posts.php:659
+#: user-submitted-posts.php:698
 msgid "Submitter Name: "
-msgstr "Jméno zadavatele: "
+msgstr "Jméno odesílatele: "
 
-#: user-submitted-posts.php:661
+#: user-submitted-posts.php:700
 msgid "Submitter URL: "
-msgstr "Adresa URL odesílatele: "
+msgstr "URL odesílatele: "
 
 #: library/plugin-display.php:175
 msgid "Success Message"
@@ -1374,7 +1374,7 @@ msgstr "Úspěch!"
 
 #: library/plugin-settings.php:919
 msgid "Success! Thank you for your submission."
-msgstr "Úspěch! Děkujeme za váš příspěvek."
+msgstr "Úspěšně! Děkujeme za váš příspěvek."
 
 #: library/plugin-display.php:66
 msgid "Support Forum"
@@ -1385,8 +1385,8 @@ msgid "tag"
 msgstr "štítek"
 
 #: library/plugin-settings.php:1263
-msgid "Take 30% OFF any of our"
-msgstr "Získejte 30% SLEVU na kteroukoli z našich"
+msgid "Take 25% OFF any of our"
+msgstr "Získejte 25% slevu na cokoli z našich"
 
 #: library/plugin-display.php:151
 msgid "Targeted Loading"
@@ -1394,27 +1394,27 @@ msgstr "Cílené načítání"
 
 #: library/plugin-display.php:456
 msgid "Text displayed next to checkbox. Tip: use curly brackets to output angle brackets, for example:"
-msgstr "Text zobrazený vedle zaškrtávacího políčka. Tip: Použijte složené závorky pro výstup lomených závorek, například:"
+msgstr "Text zobrazený vedle zaškrtávacího políčka. Tip: pro výstup lomených závorek použijte složené závorky, například:"
 
 #: library/support-panel.php:83
 msgid "Thank you for using"
-msgstr "Děkujeme, že používáte"
+msgstr "Děkujeme za použití"
 
 #: library/plugin-display.php:70
 msgid "THANK YOU for your support!"
-msgstr "DĚKUJI za vaši podporu!"
+msgstr "DĚKUJEME za vaši podporu!"
 
 #: library/plugin-display.php:138
 msgid "That will enable you to customize the form and styles as desired. For more info, check out the \"Custom Submission Form\" section in the"
-msgstr "To vám umožní přizpůsobit formulář a styly podle potřeby. Pro více informací se podívejte do sekce \"Vlastní formulář pro odeslání\" v"
+msgstr "To vám umožní přizpůsobit formulář a styly dle libosti. Více informací naleznete v části „Vlastní formulář pro odeslání“ v"
 
 #: library/plugin-display.php:815
 msgid "The access shortcodes can be added to any WP Post or Page. So you can display forms and other content conditionally, based on user role and login status."
-msgstr "Přístupové krátké kódy lze přidat do jakéhokoli příspěvku nebo stránky WP. Můžete tedy zobrazovat formuláře a další obsah podmíněně na základě uživatelské role a stavu přihlášení."
+msgstr "Krátké přístupové kódy lze přidat do libovolného příspěvku nebo stránky WP. Můžete tak zobrazovat formuláře a další obsah podmíněně, na základě role uživatele a stavu přihlášení."
 
-#: user-submitted-posts.php:1772
+#: user-submitted-posts.php:1812
 msgid "The file(s) could not be uploaded"
-msgstr "Soubor(y) nelze nahrát"
+msgstr "Soubor(y) se nepodařilo nahrát"
 
 #: library/plugin-display.php:731
 msgid "The login/register form displays as a tabbed interface, so users can switch between login, register, and reset password."
@@ -1422,11 +1422,11 @@ msgstr "Přihlašovací/registrační formulář se zobrazuje jako rozhraní s k
 
 #: library/plugin-display.php:748
 msgid "The pro version provides many more options for this shortcode."
-msgstr "Verze Pro poskytuje mnohem více možností pro tento krátký kód."
+msgstr "Pro verze nabízí pro tento shortcode mnohem více možností."
 
 #: library/plugin-display.php:819
 msgid "The pro version provides more flexibility with access-control shortcodes."
-msgstr "Verze Pro poskytuje větší flexibilitu díky krátkým kódům řízení přístupu."
+msgstr "Pro verze nabízí větší flexibilitu s krátkými kódy pro řízení přístupu."
 
 #: library/plugin-settings.php:899
 msgid "There was an error. Please check required fields and try again."
@@ -1434,23 +1434,23 @@ msgstr "Došlo k chybě. Zkontrolujte prosím povinná pole a zkuste to znovu."
 
 #: library/plugin-display.php:213
 msgid "This setting enables any/all shortcodes in widgets (even shortcodes from other plugins)."
-msgstr "Toto nastavení povolí jakékoli/všechny krátké kódy ve widgetech (dokonce i zkratky z jiných pluginů)."
+msgstr "Toto nastavení povoluje všechny shortcody ve widgetech (i shortcody z jiných pluginů)."
 
 #: library/plugin-display.php:785
 msgid "This shortcode accepts the following attributes:"
-msgstr "Tento krátký kód přijímá následující atributy:"
+msgstr "Tento shortcode akceptuje následující atributy:"
 
 #: library/plugin-display.php:783
 msgid "This shortcode displays a link that resets the form to its original state:"
-msgstr "Tento krátký kód zobrazuje odkaz, který obnoví formulář do původního stavu:"
+msgstr "Tento krátký kód zobrazuje odkaz, který resetuje formulář do původního stavu:"
 
 #: library/plugin-display.php:385
 msgid "This will be displayed as the field label on the form. Default: Custom Field 1"
-msgstr "To se zobrazí jako popisek pole ve formuláři. Výchozí: Vlastní pole 1"
+msgstr "Toto se zobrazí jako popisek pole ve formuláři. Výchozí: Vlastní pole 1"
 
 #: library/plugin-display.php:413
 msgid "This will be displayed as the field label on the form. Default: Custom Field 2"
-msgstr "To se zobrazí jako popisek pole ve formuláři. Výchozí: Vlastní pole 2"
+msgstr "Toto se zobrazí jako popisek pole ve formuláři. Výchozí: Vlastní pole 2"
 
 #: library/plugin-display.php:747 library/plugin-display.php:802
 #: library/plugin-display.php:818
@@ -1459,45 +1459,45 @@ msgstr "Tip:"
 
 #: library/plugin-display.php:646
 msgid "to display the submitted name."
-msgstr "k zobrazení odeslaného jména."
+msgstr "zobrazit zadané jméno."
 
 #: library/plugin-display.php:520
 msgid "To enable Cloudflare Turnstile, enter your site key and secret key."
-msgstr "Chcete-li povolit Turniket Cloudflare, zadejte klíč svého webu a tajný klíč."
+msgstr "Chcete-li povolit turniket Cloudflare, zadejte klíč webu a tajný klíč."
 
 #: library/plugin-display.php:496
 msgid "To enable Google reCaptcha, enter your public and private keys."
-msgstr "Chcete-li aktivovat Google reCaptcha, zadejte svůj veřejný a soukromý klíč."
+msgstr "Chcete-li povolit Google reCaptcha, zadejte svůj veřejný a soukromý klíč."
 
 #: library/plugin-display.php:789
 msgid "to get the current URL."
-msgstr "získat aktuální URL."
+msgstr "pro získání aktuální URL adresy."
 
 #: library/plugin-display.php:776
 msgid "to get the URL of the full-size image"
-msgstr "získat adresu URL obrázku v plné velikosti"
+msgstr "získat URL adresu obrázku v plné velikosti"
 
 #: library/plugin-display.php:803
 msgid "to include markup in the deny message, you can use"
-msgstr "k zahrnutí označení do zprávy odmítnutí můžete použít"
+msgstr "Chcete-li do zprávy o odmítnutí zahrnout značky, můžete použít"
 
 #: library/plugin-display.php:803
 msgid "to output"
-msgstr "na výstup"
+msgstr "k výstupu"
 
 #: library/plugin-display.php:768
 msgid "to output angle brackets"
-msgstr "pro výstup úhlových závorek"
+msgstr "k výstupu lomených závorek"
 
 #: library/plugin-display.php:479
 msgid "To prevent spam, enter a question that users must answer before submitting the form"
-msgstr "Chcete-li zabránit spamu, zadejte otázku, na kterou musí uživatelé před odesláním formuláře odpovědět"
+msgstr "Abyste zabránili spamu, zadejte otázku, na kterou musí uživatelé odpovědět před odesláním formuláře."
 
-#: user-submitted-posts.php:1843
+#: user-submitted-posts.php:1883
 msgid "to submit content!"
-msgstr "odeslat obsah!"
+msgstr "k odeslání obsahu!"
 
-#: user-submitted-posts.php:89
+#: user-submitted-posts.php:128
 msgid "to upgrade WordPress and try again."
 msgstr "upgradujte WordPress a zkuste to znovu."
 
@@ -1507,23 +1507,23 @@ msgstr "Přepnout všechny panely"
 
 #: library/plugin-display.php:195
 msgid "Unique Titles"
-msgstr "Jedinečné tituly"
+msgstr "Unikátní tituly"
 
 #: library/plugin-display.php:463
 msgid "unlimited checkbox fields"
-msgstr "neomezené zaškrtávací pole"
+msgstr "neomezený počet políček s zaškrtávacími políčky"
 
 #: library/plugin-display.php:392 library/plugin-display.php:420
 msgid "unlimited custom fields"
-msgstr "neomezená vlastní pole"
+msgstr "neomezený počet vlastních polí"
 
 #: library/plugin-display.php:72
 msgid "Unlimited front-end forms"
-msgstr "Neomezené front-end formuláře"
+msgstr "Neomezené front-endové formuláře"
 
 #: views/submission-form-alt.php:157 views/submission-form.php:142
 msgid "Upload an Image"
-msgstr "Nahrajte obrázek"
+msgstr "Nahrát obrázek"
 
 #: library/plugin-display.php:553
 msgid "Upload Message"
@@ -1535,15 +1535,15 @@ msgstr "URL"
 
 #: library/plugin-display.php:649
 msgid "URL Display"
-msgstr "Zobrazení adresy URL"
+msgstr "Zobrazení URL adresy"
 
 #: library/plugin-display.php:656
 msgid "URL Markup"
-msgstr "Značky URL"
+msgstr "Značení URL"
 
 #: library/plugin-display.php:347
 msgid "Use a hidden field for the post category. This hides the category field and sets its value via the next option."
-msgstr "Pro kategorii příspěvků použijte skryté pole. Tím se pole kategorie skryje a jeho hodnota se nastaví pomocí další možnosti."
+msgstr "Pro kategorii příspěvku použijte skryté pole. Tím se pole kategorie skryje a jeho hodnota se nastaví pomocí další možnosti."
 
 #: library/plugin-display.php:768
 msgid "Use curly brackets"
@@ -1551,7 +1551,7 @@ msgstr "Použijte složené závorky"
 
 #: library/plugin-display.php:355
 msgid "Use Existing Tags"
-msgstr "Použít existující značky"
+msgstr "Použít existující štítky"
 
 #: library/plugin-display.php:380 library/plugin-display.php:408
 #: library/plugin-display.php:446
@@ -1560,80 +1560,80 @@ msgstr "Používejte pouze alfanumerické znaky, podtržítka a pomlčky. Pokud 
 
 #: library/plugin-display.php:773
 msgid "Use single straight quotes (instead of double quotes) in"
-msgstr "Použijte jednoduché rovné uvozovky (místo dvojitých uvozovek)."
+msgstr "Používejte jednoduché rovné uvozovky (místo dvojitých uvozovek) v"
 
 #: library/plugin-display.php:542
 msgid "Use submitted images as Featured Images. Requires theme support for Featured Images (aka Post Thumbnails)"
-msgstr "Použít odeslané obrázky jako doporučené obrázky. Vyžaduje podporu motivu pro doporučené obrázky (neboli miniatury příspěvků)"
+msgstr "Používejte odeslané obrázky jako vybrané obrázky. Vyžaduje podporu motivu pro vybrané obrázky (neboli miniatury příspěvků)."
 
 #: library/plugin-display.php:714 library/plugin-display.php:727
 msgid "Use the shortcode to display the form on any WP Post or Page:"
-msgstr "Použijte krátký kód k zobrazení formuláře na jakémkoli příspěvku nebo stránce WP:"
+msgstr "Použijte shortcode pro zobrazení formuláře v jakémkoli příspěvku nebo stránce WP:"
 
 #: library/plugin-display.php:251
 msgid "Use the user&rsquo;s Profile URL as the value of the URL field (valid when the user is logged in to WordPress)"
-msgstr "Jako hodnotu pole URL použijte adresu URL profilu uživatele (platí, když je uživatel přihlášen do WordPressu)"
+msgstr "Jako hodnotu pole URL použijte URL profilu uživatele (platné, když je uživatel přihlášen do WordPressu)."
 
 #: library/plugin-display.php:246
 msgid "Use the user&rsquo;s registered email as the value of the Email field (valid when the user is logged in to WordPress)"
-msgstr "Použijte registrovaný e-mail uživatele jako hodnotu pole Email (platí, když je uživatel přihlášen do WordPressu)"
+msgstr "Jako hodnotu pole E-mail použijte registrovaný e-mail uživatele (platné, když je uživatel přihlášen do WordPressu)."
 
 #: library/plugin-display.php:241
 msgid "Use the user&rsquo;s registered username for the Name field (valid when the user is logged in to WordPress)"
-msgstr "Do pole Jméno použijte registrované uživatelské jméno uživatele (platí, když je uživatel přihlášen do WordPressu)"
+msgstr "Pro pole Jméno použijte registrované uživatelské jméno uživatele (platné, když je uživatel přihlášen do WordPressu)."
 
 #: library/plugin-display.php:755
 msgid "Use this shortcode to display a gallery of uploaded images for each submitted post:"
-msgstr "Použijte tento krátký kód k zobrazení galerie nahraných obrázků pro každý odeslaný příspěvek:"
+msgstr "Pomocí tohoto krátkého kódu zobrazíte galerii nahraných obrázků pro každý odeslaný příspěvek:"
 
 #: library/plugin-display.php:736
 msgid "Use this shortcode to display a list of submitted posts on any WP Post or Page:"
-msgstr "Tento krátký kód použijte k zobrazení seznamu odeslaných příspěvků na jakémkoli příspěvku nebo stránce WP:"
+msgstr "Pomocí tohoto shortcode zobrazíte seznam odeslaných příspěvků v libovolném příspěvku nebo na stránce WP:"
 
 #: library/plugin-display.php:90
 msgid "User Email"
-msgstr "E-mail uživatele"
+msgstr "Uživatelský e-mail"
 
-#: user-submitted-posts.php:1752
+#: user-submitted-posts.php:1792
 msgid "User email required"
-msgstr "Je vyžadován e-mail uživatele"
+msgstr "Vyžadován e-mail uživatele"
 
-#: user-submitted-posts.php:1743
+#: user-submitted-posts.php:1783
 msgid "User login required"
-msgstr "Je vyžadováno přihlášení uživatele"
+msgstr "Vyžadováno přihlášení uživatele"
 
 #: library/plugin-display.php:89
 msgid "User Name"
 msgstr "Uživatelské jméno"
 
-#: user-submitted-posts.php:1744
+#: user-submitted-posts.php:1784
 msgid "User name required"
-msgstr "Je vyžadováno uživatelské jméno"
+msgstr "Uživatelské jméno je povinné"
 
 #: library/plugin-display.php:227
 msgid "User Settings"
 msgstr "Uživatelská nastavení"
 
-#: user-submitted-posts.php:165
+#: user-submitted-posts.php:204
 msgid "User Submitted Post"
 msgstr "Příspěvek odeslaný uživatelem"
 
-#: user-submitted-posts.php:629
+#: user-submitted-posts.php:668
 msgid "User Submitted Post Info"
 msgstr "Informace o příspěvku odeslaném uživatelem"
 
 #. Name of the plugin
 #: library/support-panel.php:7
 msgid "User Submitted Posts"
-msgstr "Příspěvky odeslané uživatelem"
+msgstr "Příspěvky odeslané uživateli"
 
 #: library/plugin-display.php:91
 msgid "User URL"
 msgstr "URL uživatele"
 
-#: user-submitted-posts.php:1746
+#: user-submitted-posts.php:1786
 msgid "User URL required"
-msgstr "Je vyžadována adresa URL uživatele"
+msgstr "URL adresa uživatele je vyžadována"
 
 #: library/shortcode-login.php:114 library/shortcode-login.php:139
 msgid "Username"
@@ -1643,7 +1643,7 @@ msgstr "Uživatelské jméno"
 msgid "Username or Email"
 msgstr "Uživatelské jméno nebo e-mail"
 
-#: user-submitted-posts.php:718 library/plugin-display.php:59
+#: user-submitted-posts.php:757 library/plugin-display.php:59
 msgid "USP"
 msgstr "USP"
 
@@ -1662,15 +1662,15 @@ msgstr "USP Pro"
 
 #: library/plugin-display.php:794
 msgid "USP provides three shortcodes to control access and restrict content."
-msgstr "USP poskytuje tři krátké kódy pro řízení přístupu a omezení obsahu."
+msgstr "USP nabízí tři krátké kódy pro řízení přístupu a omezení obsahu."
 
 #: library/plugin-settings.php:339
 msgid "v2 (I&rsquo;m not a robot)"
-msgstr "v2 (nejsem robot)"
+msgstr "v2 (Nejsem robot)"
 
 #: library/plugin-settings.php:343
 msgid "v3 (Hidden reCaptcha)"
-msgstr "v3 (skrytá reCaptcha)"
+msgstr "v3 (Skrytá reCaptcha)"
 
 #: views/submission-form-alt.php:150 views/submission-form.php:135
 msgid "Verification"
@@ -1682,7 +1682,7 @@ msgstr "Zobrazit celý příspěvek"
 
 #: library/plugin-display.php:719
 msgid "Want more than one form? Create unlimited submission forms, registration forms, contact forms and more with"
-msgstr "Chcete více než jeden formulář? Vytvářejte neomezené přihlašovací formuláře, registrační formuláře, kontaktní formuláře a další pomocí"
+msgstr "Chcete více než jeden formulář? Vytvořte neomezený počet formulářů pro odeslání, registrační formuláře, kontaktní formuláře a další s"
 
 #: library/plugin-display.php:31
 msgid "We need your support!"
@@ -1694,19 +1694,19 @@ msgstr "Vítejte, "
 
 #: library/plugin-display.php:127
 msgid "With this option, you can copy the plugin&rsquo;s default templates:"
-msgstr "Pomocí této možnosti můžete zkopírovat výchozí šablony pluginu:"
+msgstr "Pomocí této možnosti můžete kopírovat výchozí šablony pluginu:"
 
-#: user-submitted-posts.php:88
+#: user-submitted-posts.php:127
 msgid "WordPress Admin Area"
-msgstr "WordPress Admin Area"
+msgstr "Administrační oblast WordPressu"
 
 #: library/plugin-settings.php:179
 msgid "WP Page"
-msgstr "Stránka WP"
+msgstr "WP stránka"
 
 #: library/plugin-settings.php:175
 msgid "WP Post (recommended)"
-msgstr "WP Post (doporučeno)"
+msgstr "Příspěvek WP (doporučeno)"
 
 #: library/plugin-display.php:842
 msgid "WP Resources"
@@ -1714,25 +1714,25 @@ msgstr "Zdroje WP"
 
 #: library/plugin-display.php:726
 msgid "You also can display a simple form that enables users to log in, register, or reset their password."
-msgstr "Můžete také zobrazit jednoduchý formulář, který umožňuje uživatelům přihlásit se, zaregistrovat nebo resetovat heslo."
+msgstr "Můžete také zobrazit jednoduchý formulář, který uživatelům umožní přihlásit se, zaregistrovat se nebo obnovit heslo."
 
 #: library/plugin-display.php:759
 msgid "You can customize using any of the follwing attributes:"
-msgstr "Můžete přizpůsobit pomocí kteréhokoli z následujících atributů:"
+msgstr "Můžete si přizpůsobit pomocí kteréhokoli z následujících atributů:"
 
 #: library/shortcode-login.php:143 views/submission-form-alt.php:52
 #: views/submission-form-alt.php:53 views/submission-form.php:37
 #: views/submission-form.php:38
 msgid "Your Email"
-msgstr "Váš email"
+msgstr "Váš e-mail"
 
 #: library/plugin-display.php:41
 msgid "Your generous support enables continued development of this free plugin. Thank you!"
-msgstr "Vaše štědrá podpora umožňuje další vývoj tohoto bezplatného pluginu. Děkuju!"
+msgstr "Vaše štědrá podpora umožňuje další vývoj tohoto bezplatného pluginu. Děkujeme!"
 
 #: library/support-panel.php:86
 msgid "Your generous support helps future development of"
-msgstr "Vaše štědrá podpora pomáhá budoucímu rozvoji"
+msgstr "Vaše štědrá podpora napomáhá budoucímu rozvoji"
 
 #: views/submission-form-alt.php:46 views/submission-form-alt.php:47
 #: views/submission-form.php:31 views/submission-form.php:32
@@ -1742,9 +1742,9 @@ msgstr "Vaše jméno"
 #: views/submission-form-alt.php:58 views/submission-form-alt.php:59
 #: views/submission-form.php:43 views/submission-form.php:44
 msgid "Your URL"
-msgstr "Vaše URL"
+msgstr "Vaše URL adresa"
 
 #: library/plugin-settings.php:92
 msgid "★★★★★ rating&nbsp;&raquo;"
-msgstr "★★★★★ hodnocení&nbsp;&raquo;"
+msgstr "★★★★★ hodnocení"
 

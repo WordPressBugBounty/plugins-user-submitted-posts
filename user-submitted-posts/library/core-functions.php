@@ -272,11 +272,11 @@ function usp_auto_display_custom_2($content) {
 			$patterns[4] = "/%%title%%/";
 			
 			$replacements = array();
-			$replacements[0] = $author;
-			$replacements[1] = $label;
-			$replacements[2] = $name;
-			$replacements[3] = $value;
-			$replacements[4] = $title;
+			$replacements[0] = wp_kses_post($author);
+			$replacements[1] = wp_kses_post($label);
+			$replacements[2] = wp_kses_post($name);
+			$replacements[3] = wp_kses_post($value);
+			$replacements[4] = wp_kses_post($title);
 			
 			$markup = preg_replace($patterns, $replacements, $markup);
 			
@@ -323,11 +323,11 @@ function usp_auto_display_custom($content) {
 			$patterns[4] = "/%%title%%/";
 			
 			$replacements = array();
-			$replacements[0] = $author;
-			$replacements[1] = $label;
-			$replacements[2] = $name;
-			$replacements[3] = $value;
-			$replacements[4] = $title;
+			$replacements[0] = wp_kses_post($author);
+			$replacements[1] = wp_kses_post($label);
+			$replacements[2] = wp_kses_post($name);
+			$replacements[3] = wp_kses_post($value);
+			$replacements[4] = wp_kses_post($title);
 			
 			$markup = preg_replace($patterns, $replacements, $markup);
 			

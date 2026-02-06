@@ -4,41 +4,41 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: USP 20250329\n"
+"Project-Id-Version: USP 20251121\n"
 "Language: ur\n"
 
 #: library/plugin-settings.php:620
 msgid " approved posts"
 msgstr " منظور شدہ پوسٹس"
 
-#: user-submitted-posts.php:1720
+#: user-submitted-posts.php:1760
 msgid " file"
 msgstr " فائل"
 
-#: user-submitted-posts.php:1717
+#: user-submitted-posts.php:1757
 msgid " file required"
 msgstr " فائل کی ضرورت ہے"
 
-#: user-submitted-posts.php:1719
+#: user-submitted-posts.php:1759
 msgid " files"
 msgstr " فائلیں"
 
-#: user-submitted-posts.php:1716
+#: user-submitted-posts.php:1756
 msgid " files required"
 msgstr " فائلوں کی ضرورت ہے"
 
-#: user-submitted-posts.php:86
+#: user-submitted-posts.php:125
 msgid " or higher, and has been deactivated! "
 msgstr " یا اس سے زیادہ، اور اسے غیر فعال کر دیا گیا ہے! "
 
-#: user-submitted-posts.php:1722 user-submitted-posts.php:1723
-#: user-submitted-posts.php:1724 user-submitted-posts.php:1725
+#: user-submitted-posts.php:1762 user-submitted-posts.php:1763
+#: user-submitted-posts.php:1764 user-submitted-posts.php:1765
 msgid " pixels"
 msgstr " پکسلز"
 
-#: user-submitted-posts.php:1762 user-submitted-posts.php:1763
+#: user-submitted-posts.php:1802 user-submitted-posts.php:1803
 msgid " required"
-msgstr " مطلوبہ"
+msgstr " کی ضرورت ہے"
 
 #: library/plugin-display.php:558
 msgid "&ldquo;Add another image&rdquo; link"
@@ -90,9 +90,9 @@ msgstr "ایڈمن"
 msgid "After post content"
 msgstr "مواد پوسٹ کرنے کے بعد"
 
-#: user-submitted-posts.php:1733
+#: user-submitted-posts.php:1773
 msgid "An error occurred. Please go back and try again."
-msgstr "ایک خرابی پیش آگئی۔ براہ کرم واپس جائیں اور دوبارہ کوشش کریں۔"
+msgstr "ایک خرابی پیش آ گئی۔ براہ کرم واپس جائیں اور دوبارہ کوشش کریں۔"
 
 #: library/plugin-display.php:364 library/plugin-display.php:769
 #: library/plugin-display.php:774 library/plugin-settings.php:1265
@@ -124,8 +124,8 @@ msgid "Assigned Author"
 msgstr "تفویض کردہ مصنف"
 
 #: library/plugin-settings.php:1267
-msgid "at checkout. Sale ends 6/25/2025."
-msgstr "چیک آؤٹ پر فروخت 25/6/2025 کو ختم ہو رہی ہے۔"
+msgid "at checkout. Sale ends 1/11/2026."
+msgstr "چیک آؤٹ پر فروخت 1/11/2026 کو ختم ہو رہی ہے۔"
 
 #: library/plugin-display.php:770 library/plugin-display.php:774
 msgid "attributes"
@@ -225,7 +225,7 @@ msgstr "چیک باکس ٹیکسٹ"
 
 #: library/plugin-display.php:85
 msgid "Choose fields to display on the front-end form."
-msgstr "سامنے والے فارم پر ظاہر کرنے کے لیے فیلڈز کا انتخاب کریں۔"
+msgstr "فرنٹ اینڈ فارم پر ظاہر کرنے کے لیے فیلڈز کا انتخاب کریں۔"
 
 #: library/plugin-display.php:512
 msgid "Choose reCaptcha version"
@@ -267,7 +267,7 @@ msgstr "صارف کی ترتیبات کو ترتیب دیں۔"
 msgid "Congratulations, you&rsquo;re logged in."
 msgstr "مبارک ہو، آپ لاگ ان ہو گئے ہیں۔"
 
-#: user-submitted-posts.php:1750 user-submitted-posts.php:1751
+#: user-submitted-posts.php:1790 user-submitted-posts.php:1791
 msgid "Correct captcha required"
 msgstr "درست کیپچا درکار ہے۔"
 
@@ -279,7 +279,7 @@ msgstr "ای میل کے لیے حسب ضرورت پتہ &ldquo;منجانب&rdq
 msgid "Custom Checkbox"
 msgstr "حسب ضرورت چیک باکس"
 
-#: user-submitted-posts.php:1730
+#: user-submitted-posts.php:1770
 msgid "Custom checkbox required"
 msgstr "حسب ضرورت چیک باکس درکار ہے۔"
 
@@ -287,7 +287,7 @@ msgstr "حسب ضرورت چیک باکس درکار ہے۔"
 msgid "Custom Content"
 msgstr "حسب ضرورت مواد"
 
-#: user-submitted-posts.php:1727 library/core-functions.php:306
+#: user-submitted-posts.php:1767 library/core-functions.php:306
 #: library/plugin-display.php:373 library/plugin-settings.php:392
 #: library/plugin-settings.php:960
 msgid "Custom Field 1"
@@ -301,7 +301,7 @@ msgstr "حسب ضرورت فیلڈ 1 ڈسپلے"
 msgid "Custom Field 1 Markup"
 msgstr "حسب ضرورت فیلڈ 1 مارک اپ"
 
-#: user-submitted-posts.php:1728 library/core-functions.php:255
+#: user-submitted-posts.php:1768 library/core-functions.php:255
 #: library/plugin-display.php:401 library/plugin-settings.php:397
 #: library/plugin-settings.php:963
 msgid "Custom Field 2"
@@ -467,7 +467,7 @@ msgstr "عطیہ"
 msgid "Draft"
 msgstr "مسودہ"
 
-#: user-submitted-posts.php:1775
+#: user-submitted-posts.php:1815
 msgid "Duplicate post title. Please try again."
 msgstr "ڈپلیکیٹ پوسٹ کا عنوان۔ براہ کرم دوبارہ کوشش کریں۔"
 
@@ -598,7 +598,7 @@ msgstr "پوسٹ جمع کرنے میں ناکام ہونے پر خرابی کا
 msgid "Error message displayed if user does not check the box"
 msgstr "اگر صارف باکس کو چیک نہیں کرتا ہے تو خرابی کا پیغام ظاہر ہوتا ہے۔"
 
-#: user-submitted-posts.php:1785
+#: user-submitted-posts.php:1825
 msgid "Error: "
 msgstr "خرابی: "
 
@@ -606,15 +606,19 @@ msgstr "خرابی: "
 msgid "Example"
 msgstr "مثال"
 
+#: library/plugin-settings.php:1262
+msgid "Fall Sale!"
+msgstr "گر فروخت!"
+
 #: library/plugin-display.php:540
 msgid "Featured Image"
 msgstr "نمایاں تصویر"
 
-#: user-submitted-posts.php:1768
+#: user-submitted-posts.php:1808
 msgid "File not uploaded. Please check the file and try again."
 msgstr "فائل اپ لوڈ نہیں ہوئی۔ براہ کرم فائل چیک کریں اور دوبارہ کوشش کریں۔"
 
-#: user-submitted-posts.php:1761
+#: user-submitted-posts.php:1801
 msgid "File type not allowed (please upload images only)"
 msgstr "فائل کی قسم کی اجازت نہیں ہے (براہ کرم صرف تصاویر اپ لوڈ کریں)"
 
@@ -740,13 +744,13 @@ msgstr "اگر صارف لاگ ان ہے تو، جمع کرانے کے بعد ف
 
 #: library/plugin-display.php:69
 msgid "If you like this plugin, please"
-msgstr "اگر آپ کو یہ پلگ ان پسند ہے تو براہ کرم"
+msgstr "اگر آپ کو یہ پلگ ان پسند ہے، تو براہ مہربانی"
 
 #: library/plugin-display.php:609
 msgid "Image Display"
 msgstr "تصویری ڈسپلے"
 
-#: user-submitted-posts.php:1760
+#: user-submitted-posts.php:1800
 msgid "Image height exceeds maximum"
 msgstr "تصویر کی اونچائی زیادہ سے زیادہ ہے۔"
 
@@ -758,7 +762,7 @@ msgstr "امیج مارک اپ"
 msgid "Image Uploads"
 msgstr "تصویری اپ لوڈز"
 
-#: user-submitted-posts.php:1758
+#: user-submitted-posts.php:1798
 msgid "Image width exceeds maximum"
 msgstr "تصویر کی چوڑائی زیادہ سے زیادہ ہے۔"
 
@@ -782,7 +786,7 @@ msgstr "جاوا اسکرپٹ شامل کریں۔"
 msgid "Include required JavaScript files (recommended)"
 msgstr "مطلوبہ JavaScript فائلیں شامل کریں (تجویز کردہ)"
 
-#: library/enqueue-scripts.php:166
+#: library/enqueue-scripts.php:168
 msgid "Incorrect response."
 msgstr "غلط جواب۔"
 
@@ -815,7 +819,7 @@ msgstr "اس پلگ ان کی طرح؟ اسے دے a"
 msgid "list of USP CSS selectors"
 msgstr "یو ایس پی سی ایس ایس سلیکٹرز کی فہرست"
 
-#: user-submitted-posts.php:1842
+#: user-submitted-posts.php:1882
 msgid "log in"
 msgstr "لاگ ان"
 
@@ -895,7 +899,7 @@ msgstr "تصویر کی زیادہ سے زیادہ چوڑائی"
 msgid "Maximum number of images"
 msgstr "تصاویر کی زیادہ سے زیادہ تعداد"
 
-#: user-submitted-posts.php:1756
+#: user-submitted-posts.php:1796
 msgid "Maximum number of images exceeded "
 msgstr "تصاویر کی زیادہ سے زیادہ تعداد سے تجاوز کر گیا۔ "
 
@@ -927,7 +931,7 @@ msgstr "اپ لوڈ کردہ تصاویر کے لیے کم از کم اونچا�
 msgid "Minimum image height"
 msgstr "تصویر کی کم از کم اونچائی"
 
-#: user-submitted-posts.php:1759
+#: user-submitted-posts.php:1799
 msgid "Minimum image height not met"
 msgstr "تصویر کی کم از کم اونچائی پوری نہیں ہوئی۔"
 
@@ -935,7 +939,7 @@ msgstr "تصویر کی کم از کم اونچائی پوری نہیں ہوئی
 msgid "Minimum image width"
 msgstr "تصویر کی کم از کم چوڑائی"
 
-#: user-submitted-posts.php:1757
+#: user-submitted-posts.php:1797
 msgid "Minimum image width not met"
 msgstr "تصویر کی کم از کم چوڑائی پوری نہیں ہوئی۔"
 
@@ -947,7 +951,7 @@ msgstr "تصاویر کی کم از کم تعداد"
 msgid "Minimum number of images for each submitted post"
 msgstr "ہر جمع کرائی گئی پوسٹ کے لیے تصاویر کی کم از کم تعداد"
 
-#: user-submitted-posts.php:1755
+#: user-submitted-posts.php:1795
 msgid "Minimum number of images not met"
 msgstr "تصاویر کی کم از کم تعداد پوری نہیں ہوئی۔"
 
@@ -975,7 +979,7 @@ msgstr "نام ڈسپلے"
 msgid "Name Markup"
 msgstr "نام مارک اپ"
 
-#: user-submitted-posts.php:1754
+#: user-submitted-posts.php:1794
 msgid "Non-empty value for hidden field"
 msgstr "پوشیدہ فیلڈ کے لیے غیر خالی قدر"
 
@@ -1039,11 +1043,11 @@ msgstr "زیر التواء (پہلے سے طے شدہ)"
 msgid "Perishable Press Books"
 msgstr "خراب ہونے والی پریس کتب"
 
-#: user-submitted-posts.php:1841 library/plugin-display.php:35
+#: user-submitted-posts.php:1881 library/plugin-display.php:35
 msgid "Please"
 msgstr "مہربانی فرمائیں"
 
-#: user-submitted-posts.php:1753
+#: user-submitted-posts.php:1793
 msgid "Please check your email and try again"
 msgstr "براہ کرم اپنا ای میل چیک کریں اور دوبارہ کوشش کریں۔"
 
@@ -1055,7 +1059,7 @@ msgstr "براہ کرم مطلوبہ فیلڈز کو مکمل کریں۔"
 msgid "Please Donate"
 msgstr "برائے مہربانی عطیہ کریں۔"
 
-#: user-submitted-posts.php:87
+#: user-submitted-posts.php:126
 msgid "Please return to the"
 msgstr "براہ کرم پر واپس جائیں۔"
 
@@ -1097,7 +1101,7 @@ msgstr "پلگ ان"
 msgid "Post Category"
 msgstr "پوسٹ کیٹیگری"
 
-#: user-submitted-posts.php:1748
+#: user-submitted-posts.php:1788
 msgid "Post category required"
 msgstr "پوسٹ زمرہ درکار ہے۔"
 
@@ -1107,11 +1111,11 @@ msgstr "پوسٹ زمرہ درکار ہے۔"
 msgid "Post Content"
 msgstr "مواد پوسٹ کریں۔"
 
-#: user-submitted-posts.php:1749
+#: user-submitted-posts.php:1789
 msgid "Post content required"
 msgstr "پوسٹ مواد درکار ہے۔"
 
-#: user-submitted-posts.php:1774
+#: user-submitted-posts.php:1814
 msgid "Post not created. Please contact the site administrator for help."
 msgstr "پوسٹ نہیں بنائی گئی۔ براہ کرم مدد کے لیے سائٹ کے منتظم سے رابطہ کریں۔"
 
@@ -1130,7 +1134,7 @@ msgstr "جمع کرائی گئی پوسٹس کے لیے پوسٹ کی حیثیت
 msgid "Post Tags"
 msgstr "ٹیگز پوسٹ کریں۔"
 
-#: user-submitted-posts.php:1747
+#: user-submitted-posts.php:1787
 msgid "Post tags required"
 msgstr "پوسٹ ٹیگز کی ضرورت ہے۔"
 
@@ -1140,7 +1144,7 @@ msgstr "پوسٹ ٹیگز کی ضرورت ہے۔"
 msgid "Post Title"
 msgstr "پوسٹ کا عنوان"
 
-#: user-submitted-posts.php:1745
+#: user-submitted-posts.php:1785
 msgid "Post title required"
 msgstr "پوسٹ کا عنوان درکار ہے۔"
 
@@ -1244,7 +1248,7 @@ msgstr "صارف لاگ ان کی ضرورت ہے۔"
 msgid "Require users to be logged in to WordPress to view/submit the form"
 msgstr "فارم دیکھنے/جمع کرانے کے لیے صارفین کو ورڈپریس میں لاگ ان ہونے کی ضرورت ہے۔"
 
-#: user-submitted-posts.php:85
+#: user-submitted-posts.php:124
 msgid "requires WordPress "
 msgstr "ورڈپریس کی ضرورت ہے۔ "
 
@@ -1268,7 +1272,7 @@ msgstr "پلگ ان کو غیر فعال کرنے / دوبارہ فعال کرن
 msgid "Restore Defaults"
 msgstr "ڈیفالٹس کو بحال کریں۔"
 
-#: user-submitted-posts.php:1811
+#: user-submitted-posts.php:1851
 msgid "Return to form"
 msgstr "فارم پر واپس جائیں۔"
 
@@ -1308,7 +1312,7 @@ msgstr "ترتیبات"
 msgid "Show categories"
 msgstr "زمرے دکھائیں۔"
 
-#: user-submitted-posts.php:717
+#: user-submitted-posts.php:756
 msgid "Show USP Posts"
 msgstr "یو ایس پی پوسٹس دکھائیں۔"
 
@@ -1332,10 +1336,6 @@ msgstr "&ldquo;پوشیدہ/ڈیفالٹ زمرہ&rdquo; کے لیے استعم�
 msgid "Specify the user that should be assigned as author for submitted posts"
 msgstr "اس صارف کی وضاحت کریں جسے جمع کرائی گئی پوسٹس کے لیے مصنف کے طور پر تفویض کیا جانا چاہیے۔"
 
-#: library/plugin-settings.php:1262
-msgid "Spring Sale!"
-msgstr "موسم بہار کی فروخت!"
-
 #: library/plugin-display.php:303
 msgid "Subject line for email alerts. Leave blank to use default subject line. You may include any of the following variables:"
 msgstr "ای میل الرٹس کے لیے سبجیکٹ لائن۔ ڈیفالٹ سبجیکٹ لائن استعمال کرنے کے لیے خالی چھوڑ دیں۔ آپ درج ذیل متغیرات میں سے کوئی بھی شامل کر سکتے ہیں:"
@@ -1348,19 +1348,19 @@ msgstr "پوسٹ جمع کروائیں۔"
 msgid "Submitted Posts"
 msgstr "جمع کرائی گئی پوسٹس"
 
-#: user-submitted-posts.php:660
+#: user-submitted-posts.php:699
 msgid "Submitter Email: "
 msgstr "بھیجنے والا ای میل: "
 
-#: user-submitted-posts.php:662
+#: user-submitted-posts.php:701
 msgid "Submitter IP: "
 msgstr "جمع کرانے والا IP: "
 
-#: user-submitted-posts.php:659
+#: user-submitted-posts.php:698
 msgid "Submitter Name: "
 msgstr "جمع کرانے والے کا نام: "
 
-#: user-submitted-posts.php:661
+#: user-submitted-posts.php:700
 msgid "Submitter URL: "
 msgstr "جمع کرانے والا URL: "
 
@@ -1385,8 +1385,8 @@ msgid "tag"
 msgstr "ٹیگ"
 
 #: library/plugin-settings.php:1263
-msgid "Take 30% OFF any of our"
-msgstr "ہماری کسی بھی چیز پر 30% چھوٹ لیں۔"
+msgid "Take 25% OFF any of our"
+msgstr "ہماری کسی بھی چیز پر 25% چھوٹ لیں۔"
 
 #: library/plugin-display.php:151
 msgid "Targeted Loading"
@@ -1412,7 +1412,7 @@ msgstr "یہ آپ کو اپنی مرضی کے مطابق فارم اور اسٹ�
 msgid "The access shortcodes can be added to any WP Post or Page. So you can display forms and other content conditionally, based on user role and login status."
 msgstr "رسائی کے شارٹ کوڈز کو کسی بھی WP پوسٹ یا پیج میں شامل کیا جا سکتا ہے۔ لہذا آپ صارف کے کردار اور لاگ ان کی حیثیت کی بنیاد پر فارم اور دیگر مواد مشروط طور پر ڈسپلے کر سکتے ہیں۔"
 
-#: user-submitted-posts.php:1772
+#: user-submitted-posts.php:1812
 msgid "The file(s) could not be uploaded"
 msgstr "فائل (فائلیں) اپ لوڈ نہیں کی جا سکیں"
 
@@ -1493,11 +1493,11 @@ msgstr "زاویہ بریکٹ آؤٹ پٹ کرنے کے لیے"
 msgid "To prevent spam, enter a question that users must answer before submitting the form"
 msgstr "سپیم کو روکنے کے لیے، ایک سوال درج کریں جس کا جواب صارفین کو فارم جمع کرانے سے پہلے دینا چاہیے۔"
 
-#: user-submitted-posts.php:1843
+#: user-submitted-posts.php:1883
 msgid "to submit content!"
 msgstr "مواد جمع کرنے کے لئے!"
 
-#: user-submitted-posts.php:89
+#: user-submitted-posts.php:128
 msgid "to upgrade WordPress and try again."
 msgstr "ورڈپریس کو اپ گریڈ کرنے کے لیے اور دوبارہ کوشش کریں۔"
 
@@ -1594,11 +1594,11 @@ msgstr "کسی بھی WP پوسٹ یا صفحہ پر جمع کردہ پوسٹس 
 msgid "User Email"
 msgstr "صارف کا ای میل"
 
-#: user-submitted-posts.php:1752
+#: user-submitted-posts.php:1792
 msgid "User email required"
 msgstr "صارف کا ای میل درکار ہے۔"
 
-#: user-submitted-posts.php:1743
+#: user-submitted-posts.php:1783
 msgid "User login required"
 msgstr "صارف لاگ ان درکار ہے۔"
 
@@ -1606,7 +1606,7 @@ msgstr "صارف لاگ ان درکار ہے۔"
 msgid "User Name"
 msgstr "صارف کا نام"
 
-#: user-submitted-posts.php:1744
+#: user-submitted-posts.php:1784
 msgid "User name required"
 msgstr "صارف کا نام درکار ہے۔"
 
@@ -1614,11 +1614,11 @@ msgstr "صارف کا نام درکار ہے۔"
 msgid "User Settings"
 msgstr "صارف کی ترتیبات"
 
-#: user-submitted-posts.php:165
+#: user-submitted-posts.php:204
 msgid "User Submitted Post"
 msgstr "صارف کی جمع کردہ پوسٹ"
 
-#: user-submitted-posts.php:629
+#: user-submitted-posts.php:668
 msgid "User Submitted Post Info"
 msgstr "صارف نے پوسٹ کی معلومات جمع کرائی"
 
@@ -1631,7 +1631,7 @@ msgstr "صارف کی جمع کردہ پوسٹس"
 msgid "User URL"
 msgstr "یوزر یو آر ایل"
 
-#: user-submitted-posts.php:1746
+#: user-submitted-posts.php:1786
 msgid "User URL required"
 msgstr "صارف کا URL درکار ہے۔"
 
@@ -1643,7 +1643,7 @@ msgstr "صارف نام"
 msgid "Username or Email"
 msgstr "صارف نام یا ای میل"
 
-#: user-submitted-posts.php:718 library/plugin-display.php:59
+#: user-submitted-posts.php:757 library/plugin-display.php:59
 msgid "USP"
 msgstr "یو ایس پی"
 
@@ -1696,7 +1696,7 @@ msgstr "خوش آمدید، "
 msgid "With this option, you can copy the plugin&rsquo;s default templates:"
 msgstr "اس اختیار کے ساتھ، آپ پلگ ان کے ڈیفالٹ ٹیمپلیٹس کو کاپی کر سکتے ہیں:"
 
-#: user-submitted-posts.php:88
+#: user-submitted-posts.php:127
 msgid "WordPress Admin Area"
 msgstr "ورڈپریس ایڈمن ایریا"
 

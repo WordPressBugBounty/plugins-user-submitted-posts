@@ -9,9 +9,9 @@
 	Donate link: https://monzillamedia.com/donate.html
 	Contributors: specialk
 	Requires at least: 4.7
-	Tested up to: 6.8
-	Stable tag: 20250329
-	Version:    20250329
+	Tested up to: 6.9
+	Stable tag: 20260113
+	Version:    20260113
 	Requires PHP: 5.6.20
 	Text Domain: usp
 	Domain Path: /languages
@@ -38,7 +38,7 @@
 if (!defined('ABSPATH')) die();
 
 if (!defined('USP_WP_VERSION')) define('USP_WP_VERSION', '4.7');
-if (!defined('USP_VERSION'))    define('USP_VERSION', '20250329');
+if (!defined('USP_VERSION'))    define('USP_VERSION', '20260113');
 if (!defined('USP_PLUGIN'))     define('USP_PLUGIN', 'User Submitted Posts');
 if (!defined('USP_FILE'))       define('USP_FILE', plugin_basename(__FILE__));
 if (!defined('USP_PATH'))       define('USP_PATH', plugin_dir_path(__FILE__));
@@ -66,6 +66,45 @@ if (isset($usp_options['default_options']) && $usp_options['default_options'] ==
 }
 
 //
+
+
+
+function usp_i18n_init() {
+	
+	$domain = 'usp';
+	
+	$locale = apply_filters('usp_locale', get_locale(), $domain);
+	
+	$dir    = trailingslashit(WP_LANG_DIR);
+	
+	$file   = $domain .'-'. $locale .'.mo';
+	
+	$path_1 = $dir . $file;
+	
+	$path_2 = $dir . $domain .'/'. $file;
+	
+	$path_3 = $dir .'plugins/'. $file;
+	
+	$path_4 = $dir .'plugins/'. $domain .'/'. $file;
+	
+	$paths = array($path_1, $path_2, $path_3, $path_4);
+	
+	foreach ($paths as $path) {
+		
+		if ($loaded = load_textdomain($domain, $path)) {
+			
+			return $loaded;
+			
+		} else {
+			
+			return load_plugin_textdomain($domain, false, dirname(USP_FILE) .'/languages/');
+			
+		}
+		
+	}
+	
+}
+add_action('init', 'usp_i18n_init');
 
 
 
@@ -434,21 +473,10 @@ function usp_checkForPublicSubmission() {
 		
 		if ($post_id) {
 			
-			if (!empty($_POST['redirect-override'])) {
-				
-				$redirect = $_POST['redirect-override'];
-				
-				$redirect = remove_query_arg(array('usp-error'), $redirect);
-				$redirect = add_query_arg(array('usp_redirect' => '1', 'success' => 1, 'post_id' => $post_id), $redirect);
-				
-			} else {
-				
-				$redirect = $_SERVER['REQUEST_URI'];
-				
-				$redirect = remove_query_arg(array('usp-error'), $redirect);
-				$redirect = add_query_arg(array('success' => 1, 'post_id' => $post_id), $redirect);
-				
-			}
+			$redirect = $_SERVER['REQUEST_URI'];
+			
+			$redirect = remove_query_arg(array('usp-error'), $redirect);
+			$redirect = add_query_arg(array('success' => 1, 'post_id' => $post_id), $redirect);
 			
 			do_action('usp_submit_success', $redirect);
 			
@@ -688,7 +716,7 @@ function usp_display_form() {
 	return apply_filters('usp_form_shortcode', ob_get_clean());
 	
 }
-add_shortcode ('user-submitted-posts', 'usp_display_form');
+add_shortcode('user-submitted-posts', 'usp_display_form');
 
 
 
@@ -1382,6 +1410,7 @@ function usp_createPublicSubmission($title, $files, $ip, $author, $url, $email, 
 	$postData['post_status'] = apply_filters('usp_post_status', 'pending');
 	
 	do_action('usp_insert_before', $postData);
+	$postData = apply_filters('usp_insert_post_vars', $postData);
 	$newPost['id'] = wp_insert_post($postData);
 	do_action('usp_insert_after', $newPost);
 	
@@ -1444,11 +1473,11 @@ function usp_createPublicSubmission($title, $files, $ip, $author, $url, $email, 
 
 function usp_include_deps() {
 	
-	if (!function_exists('media_handle_upload')) {
+	if (!function_exists('media_handle_upload') || !function_exists('wp_crop_image')) {
 		
-		require_once (ABSPATH .'/wp-admin/includes/media.php');
-		require_once (ABSPATH .'/wp-admin/includes/file.php');
-		require_once (ABSPATH .'/wp-admin/includes/image.php');
+		require_once(ABSPATH .'/wp-admin/includes/media.php');
+		require_once(ABSPATH .'/wp-admin/includes/file.php');
+		require_once(ABSPATH .'/wp-admin/includes/image.php');
 		
 	}
 	

@@ -1257,14 +1257,14 @@ function usp_admin_notice() {
 			
 			?>
 			
-			<div class="notice notice-success notice-margin notice-custom">
+			<div class="notice notice-success notice-lh">
 				<p>
-					<strong><?php esc_html_e('Spring Sale!', 'usp'); ?></strong> 
-					<?php esc_html_e('Take 30% OFF any of our', 'usp'); ?> 
+					<strong><?php esc_html_e('Fall Sale!', 'usp'); ?></strong> 
+					<?php esc_html_e('Take 25% OFF any of our', 'usp'); ?> 
 					<a target="_blank" rel="noopener noreferrer" href="https://plugin-planet.com/"><?php esc_html_e('Pro WordPress plugins', 'usp'); ?></a> 
 					<?php esc_html_e('and', 'usp'); ?> 
 					<a target="_blank" rel="noopener noreferrer" href="https://books.perishablepress.com/"><?php esc_html_e('books', 'usp'); ?></a>. 
-					<?php esc_html_e('Apply code', 'usp'); ?> <code>SPRING2025</code> <?php esc_html_e('at checkout. Sale ends 6/25/2025.', 'usp'); ?> 
+					<?php esc_html_e('Apply code', 'usp'); ?> <code>FALL2025</code> <?php esc_html_e('at checkout. Sale ends 1/11/2026.', 'usp'); ?> 
 					<?php echo usp_dismiss_notice_link(); ?>
 				</p>
 			</div>
@@ -1344,7 +1344,7 @@ function usp_dismiss_notice_link() {
 
 function usp_check_date_expired() {
 	
-	$expires = apply_filters('usp_check_date_expired', '2025-06-25');
+	$expires = apply_filters('usp_check_date_expired', '2026-01-11');
 	
 	return (new DateTime() > new DateTime($expires)) ? true : false;
 	

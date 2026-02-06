@@ -4,39 +4,39 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: USP 20250329\n"
+"Project-Id-Version: USP 20251121\n"
 "Language: ar\n"
 
 #: library/plugin-settings.php:620
 msgid " approved posts"
 msgstr "الوظائف المعتمدة"
 
-#: user-submitted-posts.php:1720
+#: user-submitted-posts.php:1760
 msgid " file"
 msgstr " ملف"
 
-#: user-submitted-posts.php:1717
+#: user-submitted-posts.php:1757
 msgid " file required"
 msgstr "الملف المطلوب"
 
-#: user-submitted-posts.php:1719
+#: user-submitted-posts.php:1759
 msgid " files"
 msgstr "الملفات"
 
-#: user-submitted-posts.php:1716
+#: user-submitted-posts.php:1756
 msgid " files required"
 msgstr "الملفات المطلوبة"
 
-#: user-submitted-posts.php:86
+#: user-submitted-posts.php:125
 msgid " or higher, and has been deactivated! "
 msgstr "أو أعلى، وقد تم إلغاء تنشيطه! "
 
-#: user-submitted-posts.php:1722 user-submitted-posts.php:1723
-#: user-submitted-posts.php:1724 user-submitted-posts.php:1725
+#: user-submitted-posts.php:1762 user-submitted-posts.php:1763
+#: user-submitted-posts.php:1764 user-submitted-posts.php:1765
 msgid " pixels"
 msgstr "بكسل"
 
-#: user-submitted-posts.php:1762 user-submitted-posts.php:1763
+#: user-submitted-posts.php:1802 user-submitted-posts.php:1803
 msgid " required"
 msgstr " مطلوب"
 
@@ -78,7 +78,7 @@ msgstr "أضف صورة أخرى"
 
 #: library/plugin-display.php:292
 msgid "Additional recipients for email alerts. Use commas to separate multiple addresses."
-msgstr "مستلمون إضافيون لتنبيهات البريد الإلكتروني. استخدم الفواصل لفصل العناوين المتعددة."
+msgstr "مستلمون إضافيون لتنبيهات البريد الإلكتروني. استخدم الفواصل للفصل بين العناوين المتعددة."
 
 #: library/shortcode-login.php:183
 msgid "Admin"
@@ -90,7 +90,7 @@ msgstr "مسؤل"
 msgid "After post content"
 msgstr "بعد نشر المحتوى"
 
-#: user-submitted-posts.php:1733
+#: user-submitted-posts.php:1773
 msgid "An error occurred. Please go back and try again."
 msgstr "حدث خطأ. يُرجى الرجوع والمحاولة مرة أخرى."
 
@@ -124,8 +124,8 @@ msgid "Assigned Author"
 msgstr "المؤلف المعين"
 
 #: library/plugin-settings.php:1267
-msgid "at checkout. Sale ends 6/25/2025."
-msgstr "عند الدفع. ينتهي العرض في ٢٥ يونيو ٢٠٢٥."
+msgid "at checkout. Sale ends 1/11/2026."
+msgstr "عند الدفع. ينتهي العرض في 1/11/2026."
 
 #: library/plugin-display.php:770 library/plugin-display.php:774
 msgid "attributes"
@@ -151,11 +151,11 @@ msgstr "بواسطة"
 
 #: library/plugin-display.php:153
 msgid "By default, CSS &amp; JavaScript files are loaded on every page. To load only on specific page(s), enter the URL(s) here. Use commas to separate multiple URLs. Leave blank to load on all pages."
-msgstr "افتراضيًا، يتم تحميل ملفات CSS وJavaScript على كل صفحة. لتحميل صفحات محددة فقط، أدخل عنوان URL هنا. استخدم الفواصل لفصل عناوين URL المتعددة. اترك هذا الحقل فارغًا لتحميل جميع الصفحات."
+msgstr "افتراضيًا، يتم تحميل ملفات CSS وJavaScript على كل صفحة. لتحميل صفحات محددة فقط، أدخل عنوان URL هنا. استخدم الفواصل للفصل بين عناوين URL المتعددة. اترك هذا الحقل فارغًا لتحميل جميع الصفحات."
 
 #: library/plugin-display.php:431
 msgid "By default, this displays an &ldquo;Agree to Terms&rdquo; checkbox. Customize as desired."
-msgstr "افتراضيًا، يُعرض مربع اختيار \"الموافقة على الشروط\". خصّصه كما يحلو لك."
+msgstr "افتراضيًا، يُعرض مربع الاختيار \"الموافقة على الشروط\". خصّصه كما يحلو لك."
 
 #: library/plugin-display.php:776
 msgid "Can use"
@@ -163,7 +163,7 @@ msgstr "يمكن استخدامها"
 
 #: library/plugin-display.php:487
 msgid "Case-sensitivity"
-msgstr "حساسية الحالة"
+msgstr "حساسية لحالة الأحرف"
 
 #: library/plugin-display.php:333
 msgid "Categories"
@@ -267,7 +267,7 @@ msgstr "تكوين إعدادات المستخدم."
 msgid "Congratulations, you&rsquo;re logged in."
 msgstr "مبروك لقد قمت بتسجيل الدخول."
 
-#: user-submitted-posts.php:1750 user-submitted-posts.php:1751
+#: user-submitted-posts.php:1790 user-submitted-posts.php:1791
 msgid "Correct captcha required"
 msgstr "مطلوب رمز التحقق الصحيح"
 
@@ -279,7 +279,7 @@ msgstr "عنوان مخصص لرأس البريد الإلكتروني \"من\" 
 msgid "Custom Checkbox"
 msgstr "مربع الاختيار المخصص"
 
-#: user-submitted-posts.php:1730
+#: user-submitted-posts.php:1770
 msgid "Custom checkbox required"
 msgstr "مطلوب مربع اختيار مخصص"
 
@@ -287,7 +287,7 @@ msgstr "مطلوب مربع اختيار مخصص"
 msgid "Custom Content"
 msgstr "محتوى مخصص"
 
-#: user-submitted-posts.php:1727 library/core-functions.php:306
+#: user-submitted-posts.php:1767 library/core-functions.php:306
 #: library/plugin-display.php:373 library/plugin-settings.php:392
 #: library/plugin-settings.php:960
 msgid "Custom Field 1"
@@ -301,7 +301,7 @@ msgstr "عرض الحقل المخصص 1"
 msgid "Custom Field 1 Markup"
 msgstr "ترميز الحقل المخصص 1"
 
-#: user-submitted-posts.php:1728 library/core-functions.php:255
+#: user-submitted-posts.php:1768 library/core-functions.php:255
 #: library/plugin-display.php:401 library/plugin-settings.php:397
 #: library/plugin-settings.php:963
 msgid "Custom Field 2"
@@ -371,7 +371,7 @@ msgstr "عرض قائمة مختارة/منسدلة للعلامات الموج�
 
 #: library/plugin-display.php:434
 msgid "Display Checkbox"
-msgstr "مربع الاختيار للعرض"
+msgstr "عرض مربع الاختيار"
 
 #: library/plugin-display.php:795
 msgid "Display content only to users with a specific capability:"
@@ -457,7 +457,7 @@ msgstr "التوثيق"
 
 #: library/support-panel.php:77
 msgid "Donate via PayPal, credit card, or cryptocurrency"
-msgstr "التبرع عبر PayPal أو بطاقة الائتمان أو العملة المشفرة"
+msgstr "التبرع عبر PayPal أو بطاقة الائتمان أو العملات المشفرة"
 
 #: library/support-panel.php:81
 msgid "donation"
@@ -467,7 +467,7 @@ msgstr "هبة"
 msgid "Draft"
 msgstr "مسودة"
 
-#: user-submitted-posts.php:1775
+#: user-submitted-posts.php:1815
 msgid "Duplicate post title. Please try again."
 msgstr "عنوان المنشور مكرر. يُرجى المحاولة مرة أخرى."
 
@@ -505,7 +505,7 @@ msgstr "ترميز البريد الإلكتروني"
 
 #: library/plugin-display.php:319
 msgid "email-alert options"
-msgstr "خيارات تنبيه البريد الإلكتروني"
+msgstr "خيارات التنبيه عبر البريد الإلكتروني"
 
 #: library/plugin-settings.php:533
 msgid "Enable"
@@ -598,7 +598,7 @@ msgstr "تظهر رسالة خطأ في حالة فشل إرسال المنشو�
 msgid "Error message displayed if user does not check the box"
 msgstr "تظهر رسالة الخطأ إذا لم يقم المستخدم بتحديد المربع"
 
-#: user-submitted-posts.php:1785
+#: user-submitted-posts.php:1825
 msgid "Error: "
 msgstr "خطأ: "
 
@@ -606,15 +606,19 @@ msgstr "خطأ: "
 msgid "Example"
 msgstr "مثال"
 
+#: library/plugin-settings.php:1262
+msgid "Fall Sale!"
+msgstr "تخفيضات الخريف!"
+
 #: library/plugin-display.php:540
 msgid "Featured Image"
 msgstr "الصورة المميزة"
 
-#: user-submitted-posts.php:1768
+#: user-submitted-posts.php:1808
 msgid "File not uploaded. Please check the file and try again."
 msgstr "لم يتم تحميل الملف. يُرجى التحقق منه والمحاولة مرة أخرى."
 
-#: user-submitted-posts.php:1761
+#: user-submitted-posts.php:1801
 msgid "File type not allowed (please upload images only)"
 msgstr "نوع الملف غير مسموح به (يرجى تحميل الصور فقط)"
 
@@ -678,7 +682,7 @@ msgstr "أعطيه تقييم 5 نجوم"
 
 #: library/plugin-display.php:37
 msgid "give this plugin a 5-star rating"
-msgstr "أعط هذا البرنامج المساعد تقييم 5 نجوم"
+msgstr "أعطي هذا البرنامج الإضافي تقييم 5 نجوم"
 
 #: library/plugin-settings.php:66
 msgid "Give USP a 5-star rating at WordPress.org"
@@ -719,7 +723,7 @@ msgstr "نموذج HTML5 + تعطيل CSS"
 #. URI of the plugin
 #: 
 msgid "https://perishablepress.com/user-submitted-posts/"
-msgstr "https://perishablepress.com/user-submited-posts/"
+msgstr "https://perishablepress.com/user-submitted-posts/"
 
 #. Author URI of the plugin
 #: 
@@ -746,7 +750,7 @@ msgstr "إذا أعجبك هذا البرنامج المساعد، يرجى"
 msgid "Image Display"
 msgstr "عرض الصورة"
 
-#: user-submitted-posts.php:1760
+#: user-submitted-posts.php:1800
 msgid "Image height exceeds maximum"
 msgstr "ارتفاع الصورة يتجاوز الحد الأقصى"
 
@@ -758,7 +762,7 @@ msgstr "ترميز الصورة"
 msgid "Image Uploads"
 msgstr "تحميل الصور"
 
-#: user-submitted-posts.php:1758
+#: user-submitted-posts.php:1798
 msgid "Image width exceeds maximum"
 msgstr "عرض الصورة يتجاوز الحد الأقصى"
 
@@ -782,7 +786,7 @@ msgstr "تضمين جافا سكريبت"
 msgid "Include required JavaScript files (recommended)"
 msgstr "تضمين ملفات JavaScript المطلوبة (مستحسن)"
 
-#: library/enqueue-scripts.php:166
+#: library/enqueue-scripts.php:168
 msgid "Incorrect response."
 msgstr "إجابة غير صحيحة."
 
@@ -815,7 +819,7 @@ msgstr "هل أعجبك هذا البرنامج الإضافي؟ جربه"
 msgid "list of USP CSS selectors"
 msgstr "قائمة محددات CSS USP"
 
-#: user-submitted-posts.php:1842
+#: user-submitted-posts.php:1882
 msgid "log in"
 msgstr "تسجيل الدخول"
 
@@ -873,7 +877,7 @@ msgstr "ترميز للمؤلف/الاسم المُرسل. يُمكنك تضمي
 
 #: library/plugin-display.php:632
 msgid "Markup for submitted email address. You may include any of the following variables:"
-msgstr "ترميز عنوان البريد الإلكتروني المُرسَل. يمكنك تضمين أيٍّ من المتغيرات التالية:"
+msgstr "ترميز عنوان البريد الإلكتروني المُرسل. يمكنك تضمين أيٍّ من المتغيرات التالية:"
 
 #: library/plugin-display.php:658
 msgid "Markup for submitted URL. You may include any of the following variables:"
@@ -895,7 +899,7 @@ msgstr "الحد الأقصى لعرض الصورة"
 msgid "Maximum number of images"
 msgstr "الحد الأقصى لعدد الصور"
 
-#: user-submitted-posts.php:1756
+#: user-submitted-posts.php:1796
 msgid "Maximum number of images exceeded "
 msgstr "تم تجاوز الحد الأقصى لعدد الصور "
 
@@ -917,7 +921,7 @@ msgstr "الرسالة المعروضة بجوار حقل تحميل الملف 
 
 #: library/plugin-display.php:310
 msgid "Message for email alerts. Leave blank to use default message. You may include any of the following variables:"
-msgstr "رسالة تنبيهات البريد الإلكتروني. اترك هذا الحقل فارغًا لاستخدام الرسالة الافتراضية. يمكنك تضمين أيٍّ من المتغيرات التالية:"
+msgstr "رسالة لتنبيهات البريد الإلكتروني. اترك هذا الحقل فارغًا لاستخدام الرسالة الافتراضية. يمكنك تضمين أيٍّ من المتغيرات التالية:"
 
 #: library/plugin-display.php:580
 msgid "Minimum height (in pixels) for uploaded images"
@@ -927,7 +931,7 @@ msgstr "الحد الأدنى للارتفاع (بالبكسل) للصور ال�
 msgid "Minimum image height"
 msgstr "الحد الأدنى لارتفاع الصورة"
 
-#: user-submitted-posts.php:1759
+#: user-submitted-posts.php:1799
 msgid "Minimum image height not met"
 msgstr "لم يتم الوصول إلى الحد الأدنى لارتفاع الصورة"
 
@@ -935,7 +939,7 @@ msgstr "لم يتم الوصول إلى الحد الأدنى لارتفاع ا�
 msgid "Minimum image width"
 msgstr "الحد الأدنى لعرض الصورة"
 
-#: user-submitted-posts.php:1757
+#: user-submitted-posts.php:1797
 msgid "Minimum image width not met"
 msgstr "لم يتم الوصول إلى الحد الأدنى لعرض الصورة"
 
@@ -947,7 +951,7 @@ msgstr "الحد الأدنى لعدد الصور"
 msgid "Minimum number of images for each submitted post"
 msgstr "الحد الأدنى لعدد الصور لكل مشاركة مقدمة"
 
-#: user-submitted-posts.php:1755
+#: user-submitted-posts.php:1795
 msgid "Minimum number of images not met"
 msgstr "لم يتم استيفاء الحد الأدنى لعدد الصور"
 
@@ -975,7 +979,7 @@ msgstr "عرض الاسم"
 msgid "Name Markup"
 msgstr "ترميز الاسم"
 
-#: user-submitted-posts.php:1754
+#: user-submitted-posts.php:1794
 msgid "Non-empty value for hidden field"
 msgstr "قيمة غير فارغة للحقل المخفي"
 
@@ -1039,23 +1043,23 @@ msgstr "معلق (افتراضي)"
 msgid "Perishable Press Books"
 msgstr "كتب الصحافة القابلة للتلف"
 
-#: user-submitted-posts.php:1841 library/plugin-display.php:35
+#: user-submitted-posts.php:1881 library/plugin-display.php:35
 msgid "Please"
 msgstr "لو سمحت"
 
-#: user-submitted-posts.php:1753
+#: user-submitted-posts.php:1793
 msgid "Please check your email and try again"
 msgstr "يرجى التحقق من بريدك الإلكتروني والمحاولة مرة أخرى"
 
 #: views/submission-form-alt.php:40 views/submission-form.php:21
 msgid "Please complete the required fields."
-msgstr "يرجى ملء الحقول المطلوبة."
+msgstr "يرجى إكمال الحقول المطلوبة."
 
 #: library/support-panel.php:132
 msgid "Please Donate"
 msgstr "من فضلك تبرع"
 
-#: user-submitted-posts.php:87
+#: user-submitted-posts.php:126
 msgid "Please return to the"
 msgstr "يرجى العودة إلى"
 
@@ -1069,7 +1073,7 @@ msgstr "الرجاء تحديد بعض العلامات."
 
 #: library/plugin-settings.php:913
 msgid "Please select your image(s) to upload."
-msgstr "الرجاء تحديد صورتك لتحميلها."
+msgstr "الرجاء تحديد الصورة (الصور) التي تريد تحميلها."
 
 #: library/support-panel.php:84
 msgid "Please show support by purchasing one of my"
@@ -1097,7 +1101,7 @@ msgstr "المكونات الإضافية"
 msgid "Post Category"
 msgstr "فئة المنشور"
 
-#: user-submitted-posts.php:1748
+#: user-submitted-posts.php:1788
 msgid "Post category required"
 msgstr "فئة الوظيفة المطلوبة"
 
@@ -1107,11 +1111,11 @@ msgstr "فئة الوظيفة المطلوبة"
 msgid "Post Content"
 msgstr "محتوى المنشور"
 
-#: user-submitted-posts.php:1749
+#: user-submitted-posts.php:1789
 msgid "Post content required"
 msgstr "محتوى المنشور مطلوب"
 
-#: user-submitted-posts.php:1774
+#: user-submitted-posts.php:1814
 msgid "Post not created. Please contact the site administrator for help."
 msgstr "لم يتم إنشاء المنشور. يُرجى التواصل مع مدير الموقع للمساعدة."
 
@@ -1121,7 +1125,7 @@ msgstr "حالة المنشور"
 
 #: library/plugin-display.php:166
 msgid "Post Status for submitted posts"
-msgstr "حالة المنشورات المرسلة"
+msgstr "حالة النشر للمشاركات المرسلة"
 
 #: library/plugin-display.php:93 views/submission-form-alt.php:71
 #: views/submission-form-alt.php:80 views/submission-form-alt.php:81
@@ -1130,7 +1134,7 @@ msgstr "حالة المنشورات المرسلة"
 msgid "Post Tags"
 msgstr "علامات المنشور"
 
-#: user-submitted-posts.php:1747
+#: user-submitted-posts.php:1787
 msgid "Post tags required"
 msgstr "علامات البريد المطلوبة"
 
@@ -1140,7 +1144,7 @@ msgstr "علامات البريد المطلوبة"
 msgid "Post Title"
 msgstr "عنوان المنشور"
 
-#: user-submitted-posts.php:1745
+#: user-submitted-posts.php:1785
 msgid "Post title required"
 msgstr "عنوان الوظيفة مطلوب"
 
@@ -1154,7 +1158,7 @@ msgstr "نوع المنشور للمنشورات المرسلة"
 
 #: library/plugin-display.php:504
 msgid "Private Key"
-msgstr "المفتاح الخاص"
+msgstr "مفتاح خاص"
 
 #: library/plugin-settings.php:1264
 msgid "Pro WordPress plugins"
@@ -1190,7 +1194,7 @@ msgstr "قم بتقييم هذا البرنامج الإضافي&nbsp;"
 
 #: library/plugin-display.php:509
 msgid "reCaptcha Version"
-msgstr "إصدار reCaptcha"
+msgstr "نسخة ريكابتشا"
 
 #: library/plugin-display.php:280
 msgid "Receive Email Alert"
@@ -1234,7 +1238,7 @@ msgstr "يتطلب مربع الاختيار"
 
 #: library/plugin-display.php:197
 msgid "Require submitted post titles to be unique (useful for preventing multiple/duplicate posts)"
-msgstr "اشترط أن تكون عناوين المنشورات المرسلة فريدة (مفيدة لمنع المنشورات المتعددة/المكررة)"
+msgstr "يجب أن تكون عناوين المنشورات المرسلة فريدة (مفيدة لمنع المنشورات المتعددة/المكررة)"
 
 #: library/plugin-display.php:254
 msgid "Require User Login"
@@ -1242,9 +1246,9 @@ msgstr "يتطلب تسجيل دخول المستخدم"
 
 #: library/plugin-display.php:256
 msgid "Require users to be logged in to WordPress to view/submit the form"
-msgstr "طلب من المستخدمين تسجيل الدخول إلى WordPress لعرض/إرسال النموذج"
+msgstr "طلب تسجيل دخول المستخدمين إلى WordPress لعرض/إرسال النموذج"
 
-#: user-submitted-posts.php:85
+#: user-submitted-posts.php:124
 msgid "requires WordPress "
 msgstr "يتطلب ووردبريس "
 
@@ -1268,7 +1272,7 @@ msgstr "استعادة الخيارات الافتراضية عند إلغاء �
 msgid "Restore Defaults"
 msgstr "استعادة الإعدادات الافتراضية"
 
-#: user-submitted-posts.php:1811
+#: user-submitted-posts.php:1851
 msgid "Return to form"
 msgstr "العودة إلى النموذج"
 
@@ -1308,7 +1312,7 @@ msgstr "إعدادات"
 msgid "Show categories"
 msgstr "إظهار الفئات"
 
-#: user-submitted-posts.php:717
+#: user-submitted-posts.php:756
 msgid "Show USP Posts"
 msgstr "عرض مشاركات USP"
 
@@ -1332,10 +1336,6 @@ msgstr "حدد معرفات الفئة التي سيتم استخدامها لـ
 msgid "Specify the user that should be assigned as author for submitted posts"
 msgstr "حدد المستخدم الذي يجب تعيينه كمؤلف للمشاركات المرسلة"
 
-#: library/plugin-settings.php:1262
-msgid "Spring Sale!"
-msgstr "تخفيضات الربيع!"
-
 #: library/plugin-display.php:303
 msgid "Subject line for email alerts. Leave blank to use default subject line. You may include any of the following variables:"
 msgstr "سطر موضوع تنبيهات البريد الإلكتروني. اتركه فارغًا لاستخدام سطر الموضوع الافتراضي. يمكنك تضمين أيٍّ من المتغيرات التالية:"
@@ -1348,19 +1348,19 @@ msgstr "إرسال المنشور"
 msgid "Submitted Posts"
 msgstr "المشاركات المقدمة"
 
-#: user-submitted-posts.php:660
+#: user-submitted-posts.php:699
 msgid "Submitter Email: "
 msgstr "البريد الإلكتروني للمرسل: "
 
-#: user-submitted-posts.php:662
+#: user-submitted-posts.php:701
 msgid "Submitter IP: "
 msgstr "عنوان IP للمرسل: "
 
-#: user-submitted-posts.php:659
+#: user-submitted-posts.php:698
 msgid "Submitter Name: "
 msgstr "اسم المُرسِل: "
 
-#: user-submitted-posts.php:661
+#: user-submitted-posts.php:700
 msgid "Submitter URL: "
 msgstr "عنوان URL للمرسل: "
 
@@ -1385,8 +1385,8 @@ msgid "tag"
 msgstr "علامة"
 
 #: library/plugin-settings.php:1263
-msgid "Take 30% OFF any of our"
-msgstr "احصل على خصم 30% على أي من منتجاتنا"
+msgid "Take 25% OFF any of our"
+msgstr "احصل على خصم 25% على أي من منتجاتنا"
 
 #: library/plugin-display.php:151
 msgid "Targeted Loading"
@@ -1406,13 +1406,13 @@ msgstr "شكرا لدعمكم!"
 
 #: library/plugin-display.php:138
 msgid "That will enable you to customize the form and styles as desired. For more info, check out the \"Custom Submission Form\" section in the"
-msgstr "سيُمكّنك ذلك من تخصيص النموذج والأنماط حسب رغبتك. لمزيد من المعلومات، راجع قسم \"نموذج الإرسال المخصص\" في"
+msgstr "سيُمكّنك ذلك من تخصيص النموذج والأنماط حسب رغبتك. لمزيد من المعلومات، يُرجى مراجعة قسم \"نموذج الإرسال المخصص\" في"
 
 #: library/plugin-display.php:815
 msgid "The access shortcodes can be added to any WP Post or Page. So you can display forms and other content conditionally, based on user role and login status."
 msgstr "يمكن إضافة رموز الوصول المختصرة إلى أي منشور أو صفحة على ووردبريس. ما يتيح لك عرض النماذج والمحتوى الآخر بشكل مشروط، بناءً على دور المستخدم وحالة تسجيل الدخول."
 
-#: user-submitted-posts.php:1772
+#: user-submitted-posts.php:1812
 msgid "The file(s) could not be uploaded"
 msgstr "لم يتم تحميل الملف(الملفات)"
 
@@ -1450,7 +1450,7 @@ msgstr "سيظهر هذا كتسمية حقل في النموذج. الافتر�
 
 #: library/plugin-display.php:413
 msgid "This will be displayed as the field label on the form. Default: Custom Field 2"
-msgstr "سيظهر هذا كتسمية حقل في النموذج. الافتراضي: حقل مخصص ٢"
+msgstr "سيظهر هذا كتسمية للحقل في النموذج. الافتراضي: الحقل المخصص ٢"
 
 #: library/plugin-display.php:747 library/plugin-display.php:802
 #: library/plugin-display.php:818
@@ -1459,7 +1459,7 @@ msgstr "نصيحة:"
 
 #: library/plugin-display.php:646
 msgid "to display the submitted name."
-msgstr "لعرض الاسم المرسل."
+msgstr "لعرض الاسم المقدم."
 
 #: library/plugin-display.php:520
 msgid "To enable Cloudflare Turnstile, enter your site key and secret key."
@@ -1493,11 +1493,11 @@ msgstr "لإخراج أقواس الزاوية"
 msgid "To prevent spam, enter a question that users must answer before submitting the form"
 msgstr "لمنع البريد العشوائي، أدخل سؤالاً يجب على المستخدمين الإجابة عليه قبل إرسال النموذج"
 
-#: user-submitted-posts.php:1843
+#: user-submitted-posts.php:1883
 msgid "to submit content!"
 msgstr "لإرسال المحتوى!"
 
-#: user-submitted-posts.php:89
+#: user-submitted-posts.php:128
 msgid "to upgrade WordPress and try again."
 msgstr "لتحديث WordPress ومحاولة مرة أخرى."
 
@@ -1564,7 +1564,7 @@ msgstr "استخدم علامات الاقتباس المستقيمة المفر
 
 #: library/plugin-display.php:542
 msgid "Use submitted images as Featured Images. Requires theme support for Featured Images (aka Post Thumbnails)"
-msgstr "استخدم الصور المُرسلة كصور مميزة. يتطلب دعمًا للموضوع للصور المميزة (أو الصور المصغرة للمنشورات)."
+msgstr "استخدم الصور المُرسلة كصور مميزة. يتطلب دعمًا للموضوعات للصور المميزة (أو الصور المصغرة للمنشورات)."
 
 #: library/plugin-display.php:714 library/plugin-display.php:727
 msgid "Use the shortcode to display the form on any WP Post or Page:"
@@ -1594,11 +1594,11 @@ msgstr "استخدم هذا الرمز المختصر لعرض قائمة بال
 msgid "User Email"
 msgstr "البريد الإلكتروني للمستخدم"
 
-#: user-submitted-posts.php:1752
+#: user-submitted-posts.php:1792
 msgid "User email required"
 msgstr "مطلوب بريد المستخدم الإلكتروني"
 
-#: user-submitted-posts.php:1743
+#: user-submitted-posts.php:1783
 msgid "User login required"
 msgstr "مطلوب تسجيل دخول المستخدم"
 
@@ -1606,7 +1606,7 @@ msgstr "مطلوب تسجيل دخول المستخدم"
 msgid "User Name"
 msgstr "اسم المستخدم"
 
-#: user-submitted-posts.php:1744
+#: user-submitted-posts.php:1784
 msgid "User name required"
 msgstr "اسم المستخدم مطلوب"
 
@@ -1614,11 +1614,11 @@ msgstr "اسم المستخدم مطلوب"
 msgid "User Settings"
 msgstr "إعدادات المستخدم"
 
-#: user-submitted-posts.php:165
+#: user-submitted-posts.php:204
 msgid "User Submitted Post"
 msgstr "مشاركة مقدمة من المستخدم"
 
-#: user-submitted-posts.php:629
+#: user-submitted-posts.php:668
 msgid "User Submitted Post Info"
 msgstr "معلومات المنشور المرسل من قبل المستخدم"
 
@@ -1631,7 +1631,7 @@ msgstr "المشاركات المقدمة من المستخدم"
 msgid "User URL"
 msgstr "عنوان URL للمستخدم"
 
-#: user-submitted-posts.php:1746
+#: user-submitted-posts.php:1786
 msgid "User URL required"
 msgstr "مطلوب عنوان URL للمستخدم"
 
@@ -1643,7 +1643,7 @@ msgstr "اسم المستخدم"
 msgid "Username or Email"
 msgstr "اسم المستخدم أو البريد الإلكتروني"
 
-#: user-submitted-posts.php:718 library/plugin-display.php:59
+#: user-submitted-posts.php:757 library/plugin-display.php:59
 msgid "USP"
 msgstr "جامعة جنوب المحيط الهادئ"
 
@@ -1658,7 +1658,7 @@ msgstr "يتيح لك USP عرض نموذج ما بعد الإرسال في أي
 #: library/plugin-display.php:465 library/plugin-display.php:597
 #: library/plugin-display.php:692 library/plugin-display.php:720
 msgid "USP Pro"
-msgstr "USP Pro"
+msgstr "يو إس بي برو"
 
 #: library/plugin-display.php:794
 msgid "USP provides three shortcodes to control access and restrict content."
@@ -1694,9 +1694,9 @@ msgstr "مرحباً، "
 
 #: library/plugin-display.php:127
 msgid "With this option, you can copy the plugin&rsquo;s default templates:"
-msgstr "باستخدام هذا الخيار، يمكنك نسخ القوالب الافتراضية للمكون الإضافي:"
+msgstr "باستخدام هذا الخيار، يمكنك نسخ قوالب البرنامج الإضافي الافتراضية:"
 
-#: user-submitted-posts.php:88
+#: user-submitted-posts.php:127
 msgid "WordPress Admin Area"
 msgstr "منطقة إدارة ووردبريس"
 
@@ -1732,7 +1732,7 @@ msgstr "دعمكم الكريم يُمكّن من مواصلة تطوير هذه
 
 #: library/support-panel.php:86
 msgid "Your generous support helps future development of"
-msgstr "دعمكم السخي يساعد في تطوير المستقبل"
+msgstr "يساعد دعمكم السخي في تطوير المستقبل"
 
 #: views/submission-form-alt.php:46 views/submission-form-alt.php:47
 #: views/submission-form.php:31 views/submission-form.php:32

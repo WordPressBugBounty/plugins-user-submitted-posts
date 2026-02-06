@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-07 12:33+0000\n"
+"POT-Creation-Date: 2025-11-22 16:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -18,32 +18,32 @@ msgstr ""
 msgid " approved posts"
 msgstr ""
 
-#: user-submitted-posts.php:1720
+#: user-submitted-posts.php:1760
 msgid " file"
 msgstr ""
 
-#: user-submitted-posts.php:1717
+#: user-submitted-posts.php:1757
 msgid " file required"
 msgstr ""
 
-#: user-submitted-posts.php:1719
+#: user-submitted-posts.php:1759
 msgid " files"
 msgstr ""
 
-#: user-submitted-posts.php:1716
+#: user-submitted-posts.php:1756
 msgid " files required"
 msgstr ""
 
-#: user-submitted-posts.php:86
+#: user-submitted-posts.php:125
 msgid " or higher, and has been deactivated! "
 msgstr ""
 
-#: user-submitted-posts.php:1722 user-submitted-posts.php:1723 
-#: user-submitted-posts.php:1724 user-submitted-posts.php:1725
+#: user-submitted-posts.php:1762 user-submitted-posts.php:1763 
+#: user-submitted-posts.php:1764 user-submitted-posts.php:1765
 msgid " pixels"
 msgstr ""
 
-#: user-submitted-posts.php:1762 user-submitted-posts.php:1763
+#: user-submitted-posts.php:1802 user-submitted-posts.php:1803
 msgid " required"
 msgstr ""
 
@@ -101,7 +101,7 @@ msgstr ""
 msgid "After post content"
 msgstr ""
 
-#: user-submitted-posts.php:1733
+#: user-submitted-posts.php:1773
 msgid "An error occurred. Please go back and try again."
 msgstr ""
 
@@ -137,7 +137,7 @@ msgid "Assigned Author"
 msgstr ""
 
 #: library/plugin-settings.php:1267
-msgid "at checkout. Sale ends 6/25/2025."
+msgid "at checkout. Sale ends 1/11/2026."
 msgstr ""
 
 #: library/plugin-display.php:770 library/plugin-display.php:774
@@ -287,7 +287,7 @@ msgstr ""
 msgid "Congratulations, you&rsquo;re logged in."
 msgstr ""
 
-#: user-submitted-posts.php:1750 user-submitted-posts.php:1751
+#: user-submitted-posts.php:1790 user-submitted-posts.php:1791
 msgid "Correct captcha required"
 msgstr ""
 
@@ -301,7 +301,7 @@ msgstr ""
 msgid "Custom Checkbox"
 msgstr ""
 
-#: user-submitted-posts.php:1730
+#: user-submitted-posts.php:1770
 msgid "Custom checkbox required"
 msgstr ""
 
@@ -309,7 +309,7 @@ msgstr ""
 msgid "Custom Content"
 msgstr ""
 
-#: user-submitted-posts.php:1727 library/core-functions.php:306 
+#: user-submitted-posts.php:1767 library/core-functions.php:306 
 #: library/plugin-display.php:373 library/plugin-settings.php:392 
 #: library/plugin-settings.php:960
 msgid "Custom Field 1"
@@ -323,7 +323,7 @@ msgstr ""
 msgid "Custom Field 1 Markup"
 msgstr ""
 
-#: user-submitted-posts.php:1728 library/core-functions.php:255 
+#: user-submitted-posts.php:1768 library/core-functions.php:255 
 #: library/plugin-display.php:401 library/plugin-settings.php:397 
 #: library/plugin-settings.php:963
 msgid "Custom Field 2"
@@ -497,7 +497,7 @@ msgstr ""
 msgid "Draft"
 msgstr ""
 
-#: user-submitted-posts.php:1775
+#: user-submitted-posts.php:1815
 msgid "Duplicate post title. Please try again."
 msgstr ""
 
@@ -634,7 +634,7 @@ msgstr ""
 msgid "Error message displayed if user does not check the box"
 msgstr ""
 
-#: user-submitted-posts.php:1785
+#: user-submitted-posts.php:1825
 msgid "Error: "
 msgstr ""
 
@@ -642,15 +642,19 @@ msgstr ""
 msgid "Example"
 msgstr ""
 
+#: library/plugin-settings.php:1262
+msgid "Fall Sale!"
+msgstr ""
+
 #: library/plugin-display.php:540
 msgid "Featured Image"
 msgstr ""
 
-#: user-submitted-posts.php:1768
+#: user-submitted-posts.php:1808
 msgid "File not uploaded. Please check the file and try again."
 msgstr ""
 
-#: user-submitted-posts.php:1761
+#: user-submitted-posts.php:1801
 msgid "File type not allowed (please upload images only)"
 msgstr ""
 
@@ -784,7 +788,7 @@ msgstr ""
 msgid "Image Display"
 msgstr ""
 
-#: user-submitted-posts.php:1760
+#: user-submitted-posts.php:1800
 msgid "Image height exceeds maximum"
 msgstr ""
 
@@ -796,7 +800,7 @@ msgstr ""
 msgid "Image Uploads"
 msgstr ""
 
-#: user-submitted-posts.php:1758
+#: user-submitted-posts.php:1798
 msgid "Image width exceeds maximum"
 msgstr ""
 
@@ -820,7 +824,7 @@ msgstr ""
 msgid "Include required JavaScript files (recommended)"
 msgstr ""
 
-#: library/enqueue-scripts.php:166
+#: library/enqueue-scripts.php:168
 msgid "Incorrect response."
 msgstr ""
 
@@ -852,7 +856,7 @@ msgstr ""
 msgid "list of USP CSS selectors"
 msgstr ""
 
-#: user-submitted-posts.php:1842
+#: user-submitted-posts.php:1882
 msgid "log in"
 msgstr ""
 
@@ -939,7 +943,7 @@ msgstr ""
 msgid "Maximum number of images"
 msgstr ""
 
-#: user-submitted-posts.php:1756
+#: user-submitted-posts.php:1796
 msgid "Maximum number of images exceeded "
 msgstr ""
 
@@ -974,7 +978,7 @@ msgstr ""
 msgid "Minimum image height"
 msgstr ""
 
-#: user-submitted-posts.php:1759
+#: user-submitted-posts.php:1799
 msgid "Minimum image height not met"
 msgstr ""
 
@@ -982,7 +986,7 @@ msgstr ""
 msgid "Minimum image width"
 msgstr ""
 
-#: user-submitted-posts.php:1757
+#: user-submitted-posts.php:1797
 msgid "Minimum image width not met"
 msgstr ""
 
@@ -994,7 +998,7 @@ msgstr ""
 msgid "Minimum number of images for each submitted post"
 msgstr ""
 
-#: user-submitted-posts.php:1755
+#: user-submitted-posts.php:1795
 msgid "Minimum number of images not met"
 msgstr ""
 
@@ -1022,7 +1026,7 @@ msgstr ""
 msgid "Name Markup"
 msgstr ""
 
-#: user-submitted-posts.php:1754
+#: user-submitted-posts.php:1794
 msgid "Non-empty value for hidden field"
 msgstr ""
 
@@ -1095,11 +1099,11 @@ msgstr ""
 msgid "Perishable Press Books"
 msgstr ""
 
-#: user-submitted-posts.php:1841 library/plugin-display.php:35
+#: user-submitted-posts.php:1881 library/plugin-display.php:35
 msgid "Please"
 msgstr ""
 
-#: user-submitted-posts.php:1753
+#: user-submitted-posts.php:1793
 msgid "Please check your email and try again"
 msgstr ""
 
@@ -1111,7 +1115,7 @@ msgstr ""
 msgid "Please Donate"
 msgstr ""
 
-#: user-submitted-posts.php:87
+#: user-submitted-posts.php:126
 msgid "Please return to the"
 msgstr ""
 
@@ -1153,7 +1157,7 @@ msgstr ""
 msgid "Post Category"
 msgstr ""
 
-#: user-submitted-posts.php:1748
+#: user-submitted-posts.php:1788
 msgid "Post category required"
 msgstr ""
 
@@ -1163,11 +1167,11 @@ msgstr ""
 msgid "Post Content"
 msgstr ""
 
-#: user-submitted-posts.php:1749
+#: user-submitted-posts.php:1789
 msgid "Post content required"
 msgstr ""
 
-#: user-submitted-posts.php:1774
+#: user-submitted-posts.php:1814
 msgid "Post not created. Please contact the site administrator for help."
 msgstr ""
 
@@ -1186,7 +1190,7 @@ msgstr ""
 msgid "Post Tags"
 msgstr ""
 
-#: user-submitted-posts.php:1747
+#: user-submitted-posts.php:1787
 msgid "Post tags required"
 msgstr ""
 
@@ -1196,7 +1200,7 @@ msgstr ""
 msgid "Post Title"
 msgstr ""
 
-#: user-submitted-posts.php:1745
+#: user-submitted-posts.php:1785
 msgid "Post title required"
 msgstr ""
 
@@ -1304,7 +1308,7 @@ msgstr ""
 msgid "Require users to be logged in to WordPress to view/submit the form"
 msgstr ""
 
-#: user-submitted-posts.php:85
+#: user-submitted-posts.php:124
 msgid "requires WordPress "
 msgstr ""
 
@@ -1328,7 +1332,7 @@ msgstr ""
 msgid "Restore Defaults"
 msgstr ""
 
-#: user-submitted-posts.php:1811
+#: user-submitted-posts.php:1851
 msgid "Return to form"
 msgstr ""
 
@@ -1368,7 +1372,7 @@ msgstr ""
 msgid "Show categories"
 msgstr ""
 
-#: user-submitted-posts.php:717
+#: user-submitted-posts.php:756
 msgid "Show USP Posts"
 msgstr ""
 
@@ -1394,10 +1398,6 @@ msgstr ""
 msgid "Specify the user that should be assigned as author for submitted posts"
 msgstr ""
 
-#: library/plugin-settings.php:1262
-msgid "Spring Sale!"
-msgstr ""
-
 #: library/plugin-display.php:303
 msgid ""
 "Subject line for email alerts. Leave blank to use default subject line. You "
@@ -1412,19 +1412,19 @@ msgstr ""
 msgid "Submitted Posts"
 msgstr ""
 
-#: user-submitted-posts.php:660
+#: user-submitted-posts.php:699
 msgid "Submitter Email: "
 msgstr ""
 
-#: user-submitted-posts.php:662
+#: user-submitted-posts.php:701
 msgid "Submitter IP: "
 msgstr ""
 
-#: user-submitted-posts.php:659
+#: user-submitted-posts.php:698
 msgid "Submitter Name: "
 msgstr ""
 
-#: user-submitted-posts.php:661
+#: user-submitted-posts.php:700
 msgid "Submitter URL: "
 msgstr ""
 
@@ -1449,7 +1449,7 @@ msgid "tag"
 msgstr ""
 
 #: library/plugin-settings.php:1263
-msgid "Take 30% OFF any of our"
+msgid "Take 25% OFF any of our"
 msgstr ""
 
 #: library/plugin-display.php:151
@@ -1483,7 +1483,7 @@ msgid ""
 "status."
 msgstr ""
 
-#: user-submitted-posts.php:1772
+#: user-submitted-posts.php:1812
 msgid "The file(s) could not be uploaded"
 msgstr ""
 
@@ -1576,11 +1576,11 @@ msgid ""
 "the form"
 msgstr ""
 
-#: user-submitted-posts.php:1843
+#: user-submitted-posts.php:1883
 msgid "to submit content!"
 msgstr ""
 
-#: user-submitted-posts.php:89
+#: user-submitted-posts.php:128
 msgid "to upgrade WordPress and try again."
 msgstr ""
 
@@ -1693,11 +1693,11 @@ msgstr ""
 msgid "User Email"
 msgstr ""
 
-#: user-submitted-posts.php:1752
+#: user-submitted-posts.php:1792
 msgid "User email required"
 msgstr ""
 
-#: user-submitted-posts.php:1743
+#: user-submitted-posts.php:1783
 msgid "User login required"
 msgstr ""
 
@@ -1705,7 +1705,7 @@ msgstr ""
 msgid "User Name"
 msgstr ""
 
-#: user-submitted-posts.php:1744
+#: user-submitted-posts.php:1784
 msgid "User name required"
 msgstr ""
 
@@ -1713,11 +1713,11 @@ msgstr ""
 msgid "User Settings"
 msgstr ""
 
-#: user-submitted-posts.php:165
+#: user-submitted-posts.php:204
 msgid "User Submitted Post"
 msgstr ""
 
-#: user-submitted-posts.php:629
+#: user-submitted-posts.php:668
 msgid "User Submitted Post Info"
 msgstr ""
 
@@ -1730,7 +1730,7 @@ msgstr ""
 msgid "User URL"
 msgstr ""
 
-#: user-submitted-posts.php:1746
+#: user-submitted-posts.php:1786
 msgid "User URL required"
 msgstr ""
 
@@ -1742,7 +1742,7 @@ msgstr ""
 msgid "Username or Email"
 msgstr ""
 
-#: user-submitted-posts.php:718 library/plugin-display.php:59
+#: user-submitted-posts.php:757 library/plugin-display.php:59
 msgid "USP"
 msgstr ""
 
@@ -1798,7 +1798,7 @@ msgstr ""
 msgid "With this option, you can copy the plugin&rsquo;s default templates:"
 msgstr ""
 
-#: user-submitted-posts.php:88
+#: user-submitted-posts.php:127
 msgid "WordPress Admin Area"
 msgstr ""
 

@@ -9,9 +9,9 @@ Author URI: https://plugin-planet.com/
 Donate link: https://monzillamedia.com/donate.html
 Contributors: specialk
 Requires at least: 4.7
-Tested up to: 6.8
-Stable tag: 20250329
-Version:    20250329
+Tested up to: 6.9
+Stable tag: 20260113
+Version:    20260113
 Requires PHP: 5.6.20
 Text Domain: usp
 Domain Path: /languages
@@ -204,7 +204,37 @@ __Note:__ most of the default translations are made via Google Translate. So the
 
 __USP Pro__ now available at [Plugin Planet](https://plugin-planet.com/usp-pro/)!
 
-Pro version includes many, many more features and settings, with unlimited custom forms, infinite custom fields, multimedia file uploads, and much more. [Check it out &raquo;](https://plugin-planet.com/usp-pro/)
+Pro version includes many more features and settings, with unlimited custom forms, infinite custom fields, multimedia file uploads, and much more. Pro features include:
+
+* Unlimited forms
+* Post-Submit forms
+* User-registration forms
+* Contact forms
+* COMBO forms (e.g., forms that submit posts AND register users)
+* Unlimited form fields
+* Unlimited custom fields
+* Ready-to-go demo forms
+* All field types, including textarea, checkboxes, radio, select, file(s), plus input types like text, password, url, search, email, month, time, color, date, range, number, and more
+* Add your own custom script and style
+* Supports unlimited Custom Post Types
+* Supports custom taxonomy fields
+* Supports Post Formats
+* Supports Custom Post Status
+* Custom email alerts for each form
+* Advanced shortcodes
+* Advanced template tags
+* Unlimited file uploads
+* Custom error messages
+* Custom redirects
+* Fine-grain user access control
+* Built-in user statistics
+* Advanced shortcode to display submitted posts on front end
+* Free extensions to add more functionality
+* Advanced security features
+
+..plus everything the free version can do and more!
+
+👉🏻 Learn more and [get USP Pro &raquo;](https://plugin-planet.com/usp-pro/)
 
 
 ### ✨ Privacy ###
@@ -560,7 +590,9 @@ To restore default plugin options, either uninstall/reinstall the plugin, or vis
 
 ### Uninstalling ###
 
-User Submitted Posts cleans up after itself. All plugin settings will be removed from your database when the plugin is uninstalled via the Plugins screen. Submitted posts are NOT removed if you deactivate the plugin, reset default options, or uninstall the plugins; that is, _all submitted posts must be removed manually_.
+This plugin cleans up after itself. All plugin settings will be removed from the WordPress database when the plugin is uninstalled via the Plugins screen.
+
+__Note:__ This plugin never deletes any posts. When uninstalled or reset, the plugin removes/restores the settings only. _All submitted posts and related meta data must be removed manually_.
 
 
 ### Pro Version ###
@@ -579,11 +611,9 @@ If you like USP, please take a moment to [give a 5-star rating](https://wordpres
 
 == Upgrade Notice ==
 
-To upgrade User Submitted Posts, remove the old version and replace with the new version. Or just click "Update" from the Plugins screen and let WordPress do it for you automatically.
+Visit the WordPress Plugins screen, locate the plugin, and click "Update" :)
 
-__Important!__ The `/custom/` directory is deprecated. If you are using a custom form template, please move it to `/wp-content/your-theme/usp/`. For more information, check out the "Custom Submission Form" section under [Installation](https://wordpress.org/plugins/user-submitted-posts/#installation).
-
-__Note:__ uninstalling the plugin from the WP Plugins screen results in the removal of all settings from the WP database. Submitted posts are NOT removed if you deactivate the plugin, reset default options, or uninstall the plugins; that is, all submitted posts (and any attached meta data) must be removed manually.
+__Note:__ Deleting this plugin via the WordPress Plugins screen will remove all of its settings from the WordPress database. Submitted posts are NOT removed if you deactivate the plugin, reset default options, or uninstall the plugin. All submitted posts (and any attached meta data) must be removed manually.
 
 
 
@@ -804,7 +834,7 @@ I develop and maintain this free plugin with love for the WordPress community. T
 
 And/or purchase one of my premium WordPress plugins:
 
-* [BBQ Pro](https://plugin-planet.com/bbq-pro/) - Super fast WordPress firewall
+* [BBQ Pro](https://plugin-planet.com/bbq-pro/) - Blazing fast WordPress firewall
 * [Blackhole Pro](https://plugin-planet.com/blackhole-pro/) - Automatically block bad bots
 * [Banhammer Pro](https://plugin-planet.com/banhammer-pro/) - Monitor traffic and ban the bad guys
 * [GA Google Analytics Pro](https://plugin-planet.com/ga-google-analytics-pro/) - Connect WordPress to Google Analytics
@@ -823,18 +853,10 @@ Links, tweets and likes also appreciated. Thanks! :)
 If you like USP, please take a moment to [give a 5-star rating](https://wordpress.org/support/plugin/user-submitted-posts/reviews/?rate=5#new-post). It helps to keep development and support going strong. Thank you!
 
 
-**20250329**
+**20260113**
 
-* Improves challenge response with Ajax ([Thanks](https://wordpress.org/support/topic/challenge-response-appears-in-html/) [@todditron](https://wordpress.org/support/users/todditron/))
-* Fixes bug with challenge response matching
-* Adds Cloudflare Turnstile (Invisible widget)
-* Removes `usp_i18n_init()` function
-* Adds uninstall option `user-submitted-posts-dismiss-notice`
-* Improves display of shortcodes on settings page
-* Bumps minimum required WP version
-* Updates plugin settings page
-* Generates new language template
-* Tests on WordPress 6.8
+* Improves sanitization of access control shortcodes
+* Tests on WordPress 6.9
 
 
 Full changelog @ [https://plugin-planet.com/wp/changelog/user-submitted-posts.txt](https://plugin-planet.com/wp/changelog/user-submitted-posts.txt)

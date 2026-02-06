@@ -104,6 +104,8 @@ function usp_enqueueResources() {
 		wp_enqueue_script('usp_parsley', $plugin_url .'/resources/jquery.parsley.min.js', array('jquery'), USP_VERSION);
 		wp_enqueue_script('usp_core',    $plugin_url .'/resources/jquery.usp.core.js',    $deps,           USP_VERSION);
 		
+		do_action('usp_enqueue_after', $plugin_url, $deps);
+		
 		usp_inline_script();
 		
 	}
