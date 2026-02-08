@@ -301,14 +301,14 @@ function usp_render_form() {
 										<th scope="row"><label class="description" for="usp_options[email_alert_subject]"><?php esc_html_e('Email Alert Subject', 'usp'); ?></label></th>
 										<td><input type="text" size="45" name="usp_options[email_alert_subject]" value="<?php if (isset($usp_options['email_alert_subject'])) echo esc_attr($usp_options['email_alert_subject']); ?>" />
 										<div class="mm-item-caption"><?php esc_html_e('Subject line for email alerts. Leave blank to use default subject line. You may include any of the following variables:', 'usp'); ?> 
-										<code>%%post_title%%</code>, <code>%%post_content%%</code>, <code>%%post_author%%</code>, <code>%%post_date%%</code>, <code>%%blog_name%%</code>, <code>%%blog_url%%</code>, <code>%%post_url%%</code>, <code>%%admin_url%%</code>, 
+										<code>%%post_title%%</code>, <code>%%post_content%%</code>, <code>%%post_cats%%</code>, <code>%%post_author%%</code>, <code>%%post_date%%</code>, <code>%%blog_name%%</code>, <code>%%blog_url%%</code>, <code>%%post_url%%</code>, <code>%%admin_url%%</code>, 
 										<code>%%edit_link%%</code>, <code>%%delete_link%%</code>, <code>%%user_email%%</code>, <code>%%user_url%%</code>, <code>%%custom_field%%</code>, <code>%%custom_field_2%%</code></div></td>
 									</tr>
 									<tr>
 										<th scope="row"><label class="description" for="usp_options[email_alert_message]"><?php esc_html_e('Email Alert Message', 'usp'); ?></label></th>
 										<td><textarea class="textarea" rows="3" cols="50" name="usp_options[email_alert_message]"><?php if (isset($usp_options['email_alert_message'])) echo esc_textarea($usp_options['email_alert_message']); ?></textarea> 
 										<div class="mm-item-caption"><?php esc_html_e('Message for email alerts. Leave blank to use default message. You may include any of the following variables:', 'usp'); ?> 
-										<code>%%post_title%%</code>, <code>%%post_content%%</code>, <code>%%post_author%%</code>, <code>%%post_date%%</code>, <code>%%blog_name%%</code>, <code>%%blog_url%%</code>, <code>%%post_url%%</code>, <code>%%admin_url%%</code>, 
+										<code>%%post_title%%</code>, <code>%%post_content%%</code>, <code>%%post_cats%%</code>, <code>%%post_author%%</code>, <code>%%post_date%%</code>, <code>%%blog_name%%</code>, <code>%%blog_url%%</code>, <code>%%post_url%%</code>, <code>%%admin_url%%</code>, 
 										<code>%%edit_link%%</code>, <code>%%delete_link%%</code>, <code>%%user_email%%</code>, <code>%%user_url%%</code>, <code>%%custom_field%%</code>, <code>%%custom_field_2%%</code></div></td>
 									</tr>
 									<tr>

@@ -1259,12 +1259,10 @@ function usp_admin_notice() {
 			
 			<div class="notice notice-success notice-lh">
 				<p>
-					<strong><?php esc_html_e('Fall Sale!', 'usp'); ?></strong> 
-					<?php esc_html_e('Take 25% OFF any of our', 'usp'); ?> 
-					<a target="_blank" rel="noopener noreferrer" href="https://plugin-planet.com/"><?php esc_html_e('Pro WordPress plugins', 'usp'); ?></a> 
-					<?php esc_html_e('and', 'usp'); ?> 
-					<a target="_blank" rel="noopener noreferrer" href="https://books.perishablepress.com/"><?php esc_html_e('books', 'usp'); ?></a>. 
-					<?php esc_html_e('Apply code', 'usp'); ?> <code>FALL2025</code> <?php esc_html_e('at checkout. Sale ends 1/11/2026.', 'usp'); ?> 
+					<strong><?php esc_html_e('⭐ SAVE 30% on USP Pro!', 'usp'); ?></strong> 
+					<a target="_blank" rel="noopener noreferrer" href="https://plugin-planet.com/usp-pro/"><?php esc_html_e('Build unlimited front-end forms', 'usp'); ?></a>. 
+					<?php esc_html_e('Lifetime licenses available.', 'usp'); ?> 
+					<?php esc_html_e('Apply code', 'usp'); ?> <code>USPPRO</code> <?php esc_html_e('at checkout. Sale ends 3/28/2026.', 'usp'); ?> 
 					<?php echo usp_dismiss_notice_link(); ?>
 				</p>
 			</div>
@@ -1344,7 +1342,7 @@ function usp_dismiss_notice_link() {
 
 function usp_check_date_expired() {
 	
-	$expires = apply_filters('usp_check_date_expired', '2026-01-11');
+	$expires = apply_filters('usp_check_date_expired', '2026-03-28');
 	
 	return (new DateTime() > new DateTime($expires)) ? true : false;
 	

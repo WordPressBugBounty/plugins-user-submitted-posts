@@ -10,15 +10,13 @@
 	Contributors: specialk
 	Requires at least: 4.7
 	Tested up to: 6.9
-	Stable tag: 20260113
-	Version:    20260113
+	Stable tag: 20260207
+	Version:    20260207
 	Requires PHP: 5.6.20
 	Text Domain: usp
 	Domain Path: /languages
 	License: GPL v2 or later
-*/
-
-/*
+	
 	This program is free software; you can redistribute it and/or
 	modify it under the terms of the GNU General Public License
 	as published by the Free Software Foundation; either version 
@@ -32,13 +30,13 @@
 	You should have received a copy of the GNU General Public License
 	with this program. If not, visit: https://www.gnu.org/licenses/
 	
-	Copyright 2025 Monzilla Media. All rights reserved.
+	Copyright 2011-2026 Monzilla Media. All rights reserved.
 */
 
 if (!defined('ABSPATH')) die();
 
 if (!defined('USP_WP_VERSION')) define('USP_WP_VERSION', '4.7');
-if (!defined('USP_VERSION'))    define('USP_VERSION', '20260113');
+if (!defined('USP_VERSION'))    define('USP_VERSION', '20260207');
 if (!defined('USP_PLUGIN'))     define('USP_PLUGIN', 'User Submitted Posts');
 if (!defined('USP_FILE'))       define('USP_FILE', plugin_basename(__FILE__));
 if (!defined('USP_PATH'))       define('USP_PATH', plugin_dir_path(__FILE__));
@@ -296,23 +294,35 @@ function usp_get_comment_status() {
 
 function usp_get_submitted_category() {
 	
+	global $usp_options;
+	
+	$allowed_cats = isset($usp_options['categories']) ? array_map('intval', $usp_options['categories']) : array();
+	
 	$category = isset($_POST['user-submitted-category']) ? $_POST['user-submitted-category'] : '';
 	
 	if (is_array($category)) {
 		
 		$cats = array();
 		
-		foreach ($category as $cat) $cats[] = sanitize_text_field($cat);
+		foreach ($category as $cat) $cats[] = intval($cat);
+		
+		$cats = array_intersect($cats, $allowed_cats);
 		
 	} else {
 		
 		if (strpos($category, ',') !== false) {
 			
-			$cats = array_map('trim', explode(',', $category));
+			$cats = array_map('intval', array_map('trim', explode(',', $category)));
 			
 		} else {
 			
-			$cats = sanitize_text_field($category);
+			$cats = intval($category);
+			
+			if (!in_array($cats, $allowed_cats)) {
+				
+				$cats = isset($allowed_cats[0]) ? $allowed_cats[0] : '';
+				
+			}
 			
 		}
 		
@@ -1553,6 +1563,22 @@ function usp_validateEmail($email) {
 	
 }
 
+function usp_post_cats($post_id) {
+	
+	$cats = '';
+	
+	foreach((get_the_category($post_id)) as $category) { 
+		
+		$cats .= $category->cat_name .', ';
+		
+	}
+	
+	$cats = trim($cats, ', ');
+	
+	return $cats;
+	
+}
+
 function usp_send_mail_alert($post_id, $title, $content, $author, $email, $url, $custom, $custom_2, $post_date) {
 	
 	global $usp_options;
@@ -1562,6 +1588,7 @@ function usp_send_mail_alert($post_id, $title, $content, $author, $email, $url, 
 		$blog_url     = get_bloginfo('url');        // %%blog_url%%
 		$blog_name    = get_bloginfo('name');       // %%blog_name%%
 		$post_url     = get_permalink($post_id);    // %%post_url%%
+		$post_cats    = usp_post_cats($post_id);    // %%post_cats%%
 		$admin_url    = admin_url();                // %%admin_url%%
 		$post_title   = $title;                     // %%post_title%%
 		$post_content = $content;                   // %%post_content%%
@@ -1574,20 +1601,21 @@ function usp_send_mail_alert($post_id, $title, $content, $author, $email, $url, 
 		
 		$patterns = array();
 		
-		$patterns[0]  = "/%%blog_url%%/";
-		$patterns[1]  = "/%%blog_name%%/";
-		$patterns[2]  = "/%%post_url%%/";
-		$patterns[3]  = "/%%admin_url%%/";
-		$patterns[4]  = "/%%post_title%%/";
-		$patterns[5]  = "/%%post_content%%/";
-		$patterns[6]  = "/%%post_author%%/";
-		$patterns[7]  = "/%%user_email%%/";
-		$patterns[8]  = "/%%user_url%%/";
-		$patterns[9]  = "/%%edit_link%%/";
-		$patterns[10] = "/%%custom_field%%/";
-		$patterns[11] = "/%%custom_field_2%%/";
-		$patterns[12] = "/%%delete_link%%/";
-		$patterns[13] = "/%%post_date%%/";
+		$patterns[0]  = "%%blog_url%%";
+		$patterns[1]  = "%%blog_name%%";
+		$patterns[2]  = "%%post_url%%";
+		$patterns[3]  = "%%admin_url%%";
+		$patterns[4]  = "%%post_title%%";
+		$patterns[5]  = "%%post_content%%";
+		$patterns[6]  = "%%post_author%%";
+		$patterns[7]  = "%%user_email%%";
+		$patterns[8]  = "%%user_url%%";
+		$patterns[9]  = "%%edit_link%%";
+		$patterns[10] = "%%custom_field%%";
+		$patterns[11] = "%%custom_field_2%%";
+		$patterns[12] = "%%delete_link%%";
+		$patterns[13] = "%%post_date%%";
+		$patterns[14] = "%%post_cats%%";
 		
 		$replacements = array();
 		
@@ -1605,17 +1633,26 @@ function usp_send_mail_alert($post_id, $title, $content, $author, $email, $url, 
 		$replacements[11] = $custom_2;
 		$replacements[12] = $delete_link;
 		$replacements[13] = $post_date;
+		$replacements[14] = $post_cats;
 		
 		//
 		
 		$subject_default = $blog_name .': New user-submitted post!';
 		$subject = (isset($usp_options['email_alert_subject']) && !empty($usp_options['email_alert_subject'])) ? $usp_options['email_alert_subject'] : $subject_default;
-		$subject = preg_replace($patterns, $replacements, $subject);
+		for($i = 0; $i < count($patterns); $i++) {
+			$pattern = isset($patterns[$i]) ? $patterns[$i] : '';
+			$replace = isset($replacements[$i]) ? $replacements[$i] : '';
+			$subject = str_replace($pattern, $replace, $subject);
+		}
 		$subject = apply_filters('usp_mail_subject', $subject);
 		
 		$message_default = 'Hello, there is a new user-submitted post:'. "\r\n\n" . 'Title: '. $post_title . "\r\n\n" .'Visit Admin Area: '. $admin_url;
 		$message = (isset($usp_options['email_alert_message']) && !empty($usp_options['email_alert_message'])) ? $usp_options['email_alert_message'] : $message_default;
-		$message = preg_replace($patterns, $replacements, $message);
+		for($i = 0; $i < count($patterns); $i++) {
+			$pattern = isset($patterns[$i]) ? $patterns[$i] : '';
+			$replace = isset($replacements[$i]) ? $replacements[$i] : '';
+			$message = str_replace($pattern, $replace, $message);
+		}
 		$message = apply_filters('usp_mail_message', $message);
 		
 		$html = isset($usp_options['usp_email_html']) ? $usp_options['usp_email_html'] : false;
