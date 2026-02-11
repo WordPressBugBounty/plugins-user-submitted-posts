@@ -25,16 +25,16 @@ Enable visitors to submit posts and images from the front-end of your site. Many
 
 **🏆 The #1 Plugin for user-generated content**
 
-> 🚀 Enable visitors to submit posts from the front end of your site
-
 User Submitted Posts (USP) provides a front-end form that enables visitors to submit posts and upload images. Just add the following shortcode to any Post, Page, or Widget:
 
 [user-submitted-posts]
 
 That's all there is to it! Your site now can accept user generated content. Everything is super easy to customize via Plugin Settings page.
 
+> 🚀 Enable visitors to submit posts from the front end of your site
 
-**Form Fields**
+
+### ✨ Form Fields ###
 
 The submission form may include any/all of the following fields:
 
@@ -53,12 +53,6 @@ The submission form may include any/all of the following fields:
 * Cloudflare Turnstile (Invisible)
 * Post Images
 * Agree to Terms
-
-Each of these fields may be set as required, optional, or disabled. You can set the Post Status of submitted posts as "Pending", "Draft", "Publish Immediately", or publish after a specific number of approved posts. 
-
-USP enables users to upload any number of images when submitting a post. You can customize the min/max width, height, and number of submitted images.
-
-USP also includes a Login/Register Form, and three shortcodes to control access and restrict content (more information below).
 
 > 🚀 The first and best plugin for user-submitted content
 
@@ -215,7 +209,7 @@ Or, to display the form anywhere in your theme, add the template tag:
 
 	<?php if (function_exists('user_submitted_posts')) user_submitted_posts(); ?>
 
-__Important:__ When copy/pasting the shortcode, use the plain-text editor or block. Using the Visual/RTE Editor may introduce unwanted artifacts when copy/pasting from a web page. Specifically, if you copy the above shortcode and paste it directly into a visual editor or block, the shortcode will be wrapped in code tags. And when the shortcode is wrapped in code tags, the form will display very poorly on the front end.
+__Important:__ When copy/pasting the shortcode, __use the plain-text editor__ or block. Using the Visual/RTE Editor may introduce unwanted artifacts when copy/pasting from a web page. Specifically, if you copy the above shortcode and paste it directly into a visual editor or block, the shortcode may be wrapped in code tags. And when the shortcode is wrapped in code tags, the form will display very poorly on the front end.
 
 
 ### Customize the form ###
@@ -527,7 +521,7 @@ USP Pro includes many more awesome features and settings, with unlimited custom 
 
 * [Learn more and get USP Pro &raquo;](https://plugin-planet.com/usp-pro/)
 * [Watch the Quick Start video &raquo;](https://plugin-planet.com/usp-pro-quick-start/)
-* [Read what users are saying &raquo;](https://plugin-planet.com/testimonials/)
+* [Read what users are saying &raquo;](https://plugin-planet.com/testimonials/#usp-pro)
 
 
 ### Like the plugin? ###
