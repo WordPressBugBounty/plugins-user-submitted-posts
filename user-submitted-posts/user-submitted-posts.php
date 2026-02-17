@@ -10,8 +10,8 @@
 	Contributors: specialk
 	Requires at least: 4.7
 	Tested up to: 6.9
-	Stable tag: 20260207
-	Version:    20260207
+	Stable tag: 20260217
+	Version:    20260217
 	Requires PHP: 5.6.20
 	Text Domain: usp
 	Domain Path: /languages
@@ -36,7 +36,7 @@
 if (!defined('ABSPATH')) die();
 
 if (!defined('USP_WP_VERSION')) define('USP_WP_VERSION', '4.7');
-if (!defined('USP_VERSION'))    define('USP_VERSION', '20260207');
+if (!defined('USP_VERSION'))    define('USP_VERSION', '20260217');
 if (!defined('USP_PLUGIN'))     define('USP_PLUGIN', 'User Submitted Posts');
 if (!defined('USP_FILE'))       define('USP_FILE', plugin_basename(__FILE__));
 if (!defined('USP_PATH'))       define('USP_PATH', plugin_dir_path(__FILE__));
@@ -313,6 +313,8 @@ function usp_get_submitted_category() {
 		if (strpos($category, ',') !== false) {
 			
 			$cats = array_map('intval', array_map('trim', explode(',', $category)));
+			
+			$cats = array_intersect($cats, $allowed_cats);
 			
 		} else {
 			
