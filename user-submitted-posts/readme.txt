@@ -9,9 +9,9 @@ Author URI: https://plugin-planet.com/
 Donate link: https://monzillamedia.com/donate.html
 Contributors: specialk
 Requires at least: 4.7
-Tested up to: 6.9
-Stable tag: 20260217
-Version:    20260217
+Tested up to: 7.0
+Stable tag: 20260407
+Version:    20260407
 Requires PHP: 5.6.20
 Text Domain: usp
 Domain Path: /languages
@@ -766,20 +766,10 @@ If you like USP, please take a moment to [give a 5-star rating](https://wordpres
 > 🚀 Unlock powerful features and build unlimited forms with [USP Pro &raquo;](https://plugin-planet.com/usp-pro/)
 
 
-**20260217**
+**20260407**
 
-* Further improves security for category field
-* Tests on WordPress 6.9 + 7.0 (nightly)
-
-**20260207**
-
-* Adds `%%post_cats%%` to email alerts
-* Improves security for category field
-* Fixes bug with numbers in email alerts
-* Updates plugin settings page
-* Improves readme.txt documentation
-* Tests on PHP 8.4 and 8.5
-* Tests on WordPress 6.9 + 7.0 (nightly)
+* Improves sanitization of custom checkbox field
+* Tests on WordPress 7.0
 
 
 Full changelog @ [https://plugin-planet.com/wp/changelog/user-submitted-posts.txt](https://plugin-planet.com/wp/changelog/user-submitted-posts.txt)

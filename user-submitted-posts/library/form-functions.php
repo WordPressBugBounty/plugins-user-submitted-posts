@@ -46,7 +46,7 @@ function usp_display_custom_checkbox() {
 		
 		$output .= '<fieldset class="usp-checkbox">';
 		$output .= '<input id="user-submitted-checkbox" name="'. esc_attr($name) .'" type="checkbox" value=""'. $required_markup .'> ';
-		$output .= '<label for="user-submitted-checkbox">'. $text .'</label>';
+		$output .= '<label for="user-submitted-checkbox">'. esc_html($text) .'</label>';
 		$output .= '</fieldset>';
 		
 	}
