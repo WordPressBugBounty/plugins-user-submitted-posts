@@ -10,8 +10,8 @@ Donate link: https://monzillamedia.com/donate.html
 Contributors: specialk
 Requires at least: 4.7
 Tested up to: 7.0
-Stable tag: 20260407
-Version:    20260407
+Stable tag: 20260422
+Version:    20260422
 Requires PHP: 5.6.20
 Text Domain: usp
 Domain Path: /languages
@@ -750,6 +750,7 @@ And/or purchase one of my premium WordPress plugins:
 * [Banhammer Pro](https://plugin-planet.com/banhammer-pro/) - Monitor traffic and ban the bad guys
 * [GA Google Analytics Pro](https://plugin-planet.com/ga-google-analytics-pro/) - Connect WordPress to Google Analytics
 * [Head Meta Pro](https://plugin-planet.com/head-meta-pro/) - Ultimate Meta Tags for WordPress
+* [REST Pro Tools](https://plugin-planet.com/rest-pro-tools/) - Awesome tools for managing the WP REST API
 * [Simple Ajax Chat Pro](https://plugin-planet.com/simple-ajax-chat-pro/) - Unlimited chat rooms
 * [USP Pro](https://plugin-planet.com/usp-pro/) - Unlimited front-end forms
 
@@ -766,9 +767,12 @@ If you like USP, please take a moment to [give a 5-star rating](https://wordpres
 > 🚀 Unlock powerful features and build unlimited forms with [USP Pro &raquo;](https://plugin-planet.com/usp-pro/)
 
 
-**20260407**
+**20260422**
 
-* Improves sanitization of custom checkbox field
+* Fixes bug with reset options
+* Adds allowed tags to sanitize checkbox output
+* Updates plugin settings page
+* Improves readme.txt documentation
 * Tests on WordPress 7.0
 
 

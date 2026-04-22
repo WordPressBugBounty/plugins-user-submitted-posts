@@ -10,8 +10,8 @@
 	Contributors: specialk
 	Requires at least: 4.7
 	Tested up to: 7.0
-	Stable tag: 20260407
-	Version:    20260407
+	Stable tag: 20260422
+	Version:    20260422
 	Requires PHP: 5.6.20
 	Text Domain: usp
 	Domain Path: /languages
@@ -36,7 +36,7 @@
 if (!defined('ABSPATH')) die();
 
 if (!defined('USP_WP_VERSION')) define('USP_WP_VERSION', '4.7');
-if (!defined('USP_VERSION'))    define('USP_VERSION', '20260407');
+if (!defined('USP_VERSION'))    define('USP_VERSION', '20260422');
 if (!defined('USP_PLUGIN'))     define('USP_PLUGIN', 'User Submitted Posts');
 if (!defined('USP_FILE'))       define('USP_FILE', plugin_basename(__FILE__));
 if (!defined('USP_PATH'))       define('USP_PATH', plugin_dir_path(__FILE__));
@@ -120,8 +120,8 @@ function usp_require_wp_version() {
 				
 				$msg  = '<strong>'. USP_PLUGIN .'</strong> ';
 				$msg .= esc_html__('requires WordPress ', 'usp') . USP_WP_VERSION;
-				$msg .= esc_html__(' or higher, and has been deactivated! ', 'usp');
-				$msg .= esc_html__('Please return to the', 'usp') .' <a href="'. admin_url() .'">';
+				$msg .= esc_html__(' or higher, and has been deactivated. ', 'usp');
+				$msg .= esc_html__('Please return to the', 'usp') .' <a href="'. admin_url('plugins.php') .'">';
 				$msg .= esc_html__('WordPress Admin Area', 'usp') .'</a> ';
 				$msg .= esc_html__('to upgrade WordPress and try again.', 'usp');
 				

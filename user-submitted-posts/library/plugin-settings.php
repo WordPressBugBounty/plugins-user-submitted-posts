@@ -35,9 +35,9 @@ function usp_plugin_action_links($links, $file) {
 	if ($file === USP_FILE) {
 		
 		$pro_href  = 'https://plugin-planet.com/usp-pro/';
-		$pro_title = esc_attr__('Get USP Pro for unlimited forms!', 'usp');
-		$pro_text  = esc_html__('Go Pro', 'usp');
-		$pro_style = 'font-weight:bold;';
+		$pro_title = esc_attr__('Get USP Pro for unlimited forms', 'usp');
+		$pro_text  = esc_html__('Go&nbsp;Pro', 'usp');
+		$pro_style  = 'padding:2px 4px;font-weight:bold;border:1px solid #00CCCC;border-radius:2px;background-color:#fff;';
 		
 		$pro = '<a target="_blank" rel="noopener noreferrer" href="'. $pro_href .'" title="'. $pro_title .'" style="'. $pro_style .'">'. $pro_text .'</a>';
 		
@@ -56,11 +56,11 @@ function add_usp_links($links, $file) {
 	
 	if ($file === USP_FILE) {
 		
-		$home_href  = 'https://perishablepress.com/user-submitted-posts/';
-		$home_title = esc_attr__('Plugin Homepage', 'usp');
-		$home_text  = esc_html__('Homepage', 'usp');
+		$home_href  = 'https://plugin-planet.com/usp-pro/';
+		$home_title = esc_attr__('Get USP Pro for unlimited forms', 'usp');
+		$home_text  = esc_html__('Go&nbsp;Pro', 'usp');
 		
-		$links[] = '<a target="_blank" rel="noopener noreferrer" href="'. $home_href .'" title="'. $home_title .'">'. $home_text .'</a>';
+		$links[] = '<strong><a target="_blank" rel="noopener noreferrer" href="'. $home_href .'" title="'. $home_title .'">'. $home_text .'</a></strong>';
 		
 		$rate_href  = 'https://wordpress.org/support/plugin/user-submitted-posts/reviews/?rate=5#new-post';
 		$rate_title = esc_attr__('Give USP a 5-star rating at WordPress.org', 'usp');
@@ -986,6 +986,7 @@ function usp_add_defaults() {
 function usp_delete_plugin_options() {
 	
 	delete_option('usp_options');
+	delete_option('user-submitted-posts-dismiss-notice');
 	
 }
 
@@ -1259,10 +1260,12 @@ function usp_admin_notice() {
 			
 			<div class="notice notice-success notice-lh">
 				<p>
-					<strong><?php esc_html_e('⭐ SAVE 30% on USP Pro!', 'usp'); ?></strong> 
-					<a target="_blank" rel="noopener noreferrer" href="https://plugin-planet.com/usp-pro/"><?php esc_html_e('Build unlimited front-end forms', 'usp'); ?></a>. 
-					<?php esc_html_e('Lifetime licenses available.', 'usp'); ?> 
-					<?php esc_html_e('Apply code', 'usp'); ?> <code>USPPRO</code> <?php esc_html_e('at checkout. Sale ends 3/28/2026.', 'usp'); ?> 
+					<strong><?php esc_html_e('🌼 Spring Sale!', 'usp'); ?></strong> 
+					<?php esc_html_e('Take 30% OFF any of our', 'usp'); ?> 
+					<a target="_blank" rel="noopener noreferrer" href="https://plugin-planet.com/"><?php esc_html_e('Pro WordPress plugins', 'usp'); ?></a> 
+					<?php esc_html_e('and', 'usp'); ?> 
+					<a target="_blank" rel="noopener noreferrer" href="https://books.perishablepress.com/"><?php esc_html_e('books', 'usp'); ?></a>. 
+					<?php esc_html_e('Apply code', 'usp'); ?> <code>SPRING30</code> <?php esc_html_e('at checkout. Sale ends 6/28/2026.', 'usp'); ?> 
 					<?php echo usp_dismiss_notice_link(); ?>
 				</p>
 			</div>
@@ -1342,7 +1345,7 @@ function usp_dismiss_notice_link() {
 
 function usp_check_date_expired() {
 	
-	$expires = apply_filters('usp_check_date_expired', '2026-03-28');
+	$expires = apply_filters('usp_check_date_expired', '2026-06-28');
 	
 	return (new DateTime() > new DateTime($expires)) ? true : false;
 	
