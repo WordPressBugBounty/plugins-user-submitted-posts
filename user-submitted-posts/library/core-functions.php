@@ -80,42 +80,42 @@ function usp_replace_image_vars($markup, $title, $thumb, $medium, $large, $full,
 	$patterns[10] = "/%%url%%/";
 	
 	$replacements = array();
-	$replacements[0] = $title;
-	$replacements[1] = $thumb[0];
-	$replacements[2] = $medium[0];
-	$replacements[3] = $large[0];
-	$replacements[4] = $full[0];
-	$replacements[5] = $custom[0];
+	$replacements[0] = esc_attr($title);
+	$replacements[1] = esc_url($thumb[0]);
+	$replacements[2] = esc_url($medium[0]);
+	$replacements[3] = esc_url($large[0]);
+	$replacements[4] = esc_url($full[0]);
+	$replacements[5] = esc_url($custom[0]);
 	
 	if (stripos($markup, '%%thumb%%')) {
 		
-		$replacements[6] = $thumb[1];
-		$replacements[7] = $thumb[2];
+		$replacements[6] = esc_attr($thumb[1]);
+		$replacements[7] = esc_attr($thumb[2]);
 		
 	} elseif (stripos($markup, '%%medium%%')) {
 		
-		$replacements[6] = $medium[1];
-		$replacements[7] = $medium[2];
+		$replacements[6] = esc_attr($medium[1]);
+		$replacements[7] = esc_attr($medium[2]);
 		
 	} elseif (stripos($markup, '%%large%%')) {
 		
-		$replacements[6] = $large[1];
-		$replacements[7] = $large[2];
+		$replacements[6] = esc_attr($large[1]);
+		$replacements[7] = esc_attr($large[2]);
 		
 	} elseif (stripos($markup, '%%full%%')) {
 		
-		$replacements[6] = $full[1];
-		$replacements[7] = $full[2];
+		$replacements[6] = esc_attr($full[1]);
+		$replacements[7] = esc_attr($full[2]);
 		
 	} elseif (stripos($markup, '%%custom%%')) {
 		
-		$replacements[6] = $custom[1];
-		$replacements[7] = $custom[2];
+		$replacements[6] = esc_attr($custom[1]);
+		$replacements[7] = esc_attr($custom[2]);
 	}
 	
-	$replacements[8]  = $parent_title;
-	$replacements[9]  = $author;
-	$replacements[10] = $url;
+	$replacements[8]  = esc_attr($parent_title);
+	$replacements[9]  = esc_attr($author);
+	$replacements[10] = esc_url($url);
 	
 	$image = preg_replace($patterns, $replacements, $markup);
 	
@@ -146,9 +146,9 @@ function usp_auto_display_email($content) {
 			$patterns[2] = "/%%title%%/";
 			
 			$replacements = array();
-			$replacements[0] = $author;
-			$replacements[1] = $email;
-			$replacements[2] = $title;
+			$replacements[0] = esc_attr($author);
+			$replacements[1] = esc_attr($email);
+			$replacements[2] = esc_attr($title);
 			
 			$markup = preg_replace($patterns, $replacements, $markup);
 			
@@ -184,7 +184,7 @@ function usp_auto_display_name($content) {
 			$patterns[0] = "/%%author%%/";
 			
 			$replacements = array();
-			$replacements[0] = $author;
+			$replacements[0] = esc_attr($author);
 			
 			$markup = preg_replace($patterns, $replacements, $markup);
 			
@@ -223,9 +223,9 @@ function usp_auto_display_url($content) {
 			$patterns[2] = "/%%title%%/";
 			
 			$replacements = array();
-			$replacements[0] = $author;
-			$replacements[1] = $url;
-			$replacements[2] = $title;
+			$replacements[0] = esc_attr($author);
+			$replacements[1] = esc_url($url);
+			$replacements[2] = esc_attr($title);
 			
 			$markup = preg_replace($patterns, $replacements, $markup);
 			
@@ -272,11 +272,11 @@ function usp_auto_display_custom_2($content) {
 			$patterns[4] = "/%%title%%/";
 			
 			$replacements = array();
-			$replacements[0] = wp_kses_post($author);
-			$replacements[1] = wp_kses_post($label);
-			$replacements[2] = wp_kses_post($name);
-			$replacements[3] = wp_kses_post($value);
-			$replacements[4] = wp_kses_post($title);
+			$replacements[0] = esc_attr(wp_kses_post($author));
+			$replacements[1] = esc_attr(wp_kses_post($label));
+			$replacements[2] = esc_attr(wp_kses_post($name));
+			$replacements[3] = esc_attr(wp_kses_post($value));
+			$replacements[4] = esc_attr(wp_kses_post($title));
 			
 			$markup = preg_replace($patterns, $replacements, $markup);
 			
@@ -323,11 +323,11 @@ function usp_auto_display_custom($content) {
 			$patterns[4] = "/%%title%%/";
 			
 			$replacements = array();
-			$replacements[0] = wp_kses_post($author);
-			$replacements[1] = wp_kses_post($label);
-			$replacements[2] = wp_kses_post($name);
-			$replacements[3] = wp_kses_post($value);
-			$replacements[4] = wp_kses_post($title);
+			$replacements[0] = esc_attr(wp_kses_post($author));
+			$replacements[1] = esc_attr(wp_kses_post($label));
+			$replacements[2] = esc_attr(wp_kses_post($name));
+			$replacements[3] = esc_attr(wp_kses_post($value));
+			$replacements[4] = esc_attr(wp_kses_post($title));
 			
 			$markup = preg_replace($patterns, $replacements, $markup);
 			

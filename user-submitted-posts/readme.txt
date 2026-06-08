@@ -10,8 +10,8 @@ Donate link: https://monzillamedia.com/donate.html
 Contributors: specialk
 Requires at least: 4.7
 Tested up to: 7.0
-Stable tag: 20260422
-Version:    20260422
+Stable tag: 20260608
+Version:    20260608
 Requires PHP: 5.6.20
 Text Domain: usp
 Domain Path: /languages
@@ -766,6 +766,11 @@ If you like USP, please take a moment to [give a 5-star rating](https://wordpres
 
 > 🚀 Unlock powerful features and build unlimited forms with [USP Pro &raquo;](https://plugin-planet.com/usp-pro/)
 
+
+**20260608**
+
+* Improves security of display shortcodes
+* Tests on WordPress 7.0
 
 **20260422**
 
