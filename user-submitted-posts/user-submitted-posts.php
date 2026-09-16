@@ -10,8 +10,8 @@
 	Contributors: specialk
 	Requires at least: 4.7
 	Tested up to: 7.1
-	Stable tag: 20260810
-	Version:    20260810
+	Stable tag: 20260916
+	Version:    20260916
 	Requires PHP: 5.6.20
 	Text Domain: usp
 	Domain Path: /languages
@@ -36,7 +36,7 @@
 if (!defined('ABSPATH')) die();
 
 if (!defined('USP_WP_VERSION')) define('USP_WP_VERSION', '4.7');
-if (!defined('USP_VERSION'))    define('USP_VERSION', '20260810');
+if (!defined('USP_VERSION'))    define('USP_VERSION', '20260916');
 if (!defined('USP_PLUGIN'))     define('USP_PLUGIN', 'User Submitted Posts');
 if (!defined('USP_FILE'))       define('USP_FILE', plugin_basename(__FILE__));
 if (!defined('USP_PATH'))       define('USP_PATH', plugin_dir_path(__FILE__));
@@ -696,10 +696,10 @@ function usp_meta_box_callback($post) {
 			
 			echo '<ul style="margin-left:24px;list-style:square outside;">';
 			
-			if (!empty($name))  echo '<li>'. esc_html__('Submitter Name: ', 'usp')  . $name  .'</li>';
-			if (!empty($email)) echo '<li>'. esc_html__('Submitter Email: ', 'usp') . $email .'</li>';
-			if (!empty($url))   echo '<li>'. esc_html__('Submitter URL: ', 'usp')   . $url   .'</li>';
-			if (!empty($ip) && !$usp_options['disable_ip_tracking']) echo '<li>'. esc_html__('Submitter IP: ', 'usp') . $ip .'</li>';
+			if (!empty($name))  echo '<li>'. esc_html__('Submitter Name: ', 'usp')  . esc_html($name)  .'</li>';
+			if (!empty($email)) echo '<li>'. esc_html__('Submitter Email: ', 'usp') . esc_html($email) .'</li>';
+			if (!empty($url))   echo '<li>'. esc_html__('Submitter URL: ', 'usp')   . esc_html($url)   .'</li>';
+			if (!empty($ip) && !$usp_options['disable_ip_tracking']) echo '<li>'. esc_html__('Submitter IP: ', 'usp') . esc_html($ip) .'</li>';
 			
 			echo '</ul>';
 			
