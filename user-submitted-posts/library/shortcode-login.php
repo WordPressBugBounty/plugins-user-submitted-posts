@@ -73,21 +73,23 @@ function usp_login_form() {
 			$('.tab_content').hide();
 			$('.tabs_login li:first').addClass('active_tab').show();
 			$('.tab_content:first').show();
-			$('ul.tabs_login li').click(function() {
+			$('ul.tabs_login li a').click(function() {
 				$('ul.tabs_login li').removeClass('active_tab');
-				$(this).addClass('active_tab');
+				$(this).parent().addClass('active_tab');
 				$('.tab_content').hide();
-				var activeTab = $(this).find('a').attr('href');
-				$(activeTab).show();
+				var tab = $(this).data('tab');
+				if (tab == '1' || tab == '2' || tab == '3') {
+					$('.tab'+ tab +'_login').show();
+				}
 				return false;
 			});
 		});
 	</script>
 	<div id="usp-login" class="usp-login">
 		<ul class="tabs_login">
-			<li class="tabs_login_1 active_tab"><a href="#tab1_login"><?php esc_html_e('Login', 'usp'); ?></a></li>
-			<li class="tabs_login_2"><a href="#tab2_login"><?php esc_html_e('Register', 'usp'); ?></a></li>
-			<li class="tabs_login_3"><a href="#tab3_login"><?php esc_html_e('Forgot?', 'usp'); ?></a></li>
+			<li class="tabs_login_1 active_tab"><a href="#tab1_login" data-tab="1"><?php esc_html_e('Login', 'usp'); ?></a></li>
+			<li class="tabs_login_2"><a href="#tab2_login" data-tab="2"><?php esc_html_e('Register', 'usp'); ?></a></li>
+			<li class="tabs_login_3"><a href="#tab3_login" data-tab="3"><?php esc_html_e('Forgot?', 'usp'); ?></a></li>
 		</ul>
 		<div class="tab_container">
 			<div id="tab1_login" class="tab1_login tab_content">
